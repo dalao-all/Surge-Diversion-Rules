@@ -4,6 +4,8 @@
 
 # Surge-Diversion-Rules
 
+<p align="center"><a href="./index.html"><b>Open single-language description page (EN / 中文)</b></a></p>
+
 Technical notes on **Surge policy / rule design** by Xiaomai (discussion and study only).
 
 > **Disclaimer / 声明**
@@ -49,13 +51,16 @@ These names are **labels in a sample profile**, not recommendations to buy or us
 
 ![Surge rule map preview](assets/rule-map-preview.png)
 
-> GitHub README cannot run JavaScript. For the interactive study map, open [`index.html`](./index.html) locally (EN/中文 UI, default EN).
+> GitHub README cannot run JavaScript.
+> - Single-language description page: [`index.html`](./index.html) (centered title + EN/中文 switch; only one language shown).
+> - Interactive rule map: [`rule-map.html`](./rule-map.html).
 
 ### Files (examples)
 
 | File | Role |
 |------|------|
-| `index.html` / `rule-map.html` | Interactive map of the sample rule graph |
+| [`index.html`](./index.html) | Description page (one language at a time) |
+| [`rule-map.html`](./rule-map.html) | Interactive map of the sample rule graph |
 | `Surge-Xiaomai.conf` | Sample Surge profile (placeholders only) |
 | `Surge-Xiaomai-AdBlock.sgmodule` | Sample ad-related module |
 | `assets/rule-map-preview.png` | README preview image |
@@ -65,7 +70,7 @@ These names are **labels in a sample profile**, not recommendations to buy or us
 1. Replace `你的订阅` on `policy-path` with a subscription **you already own** and are allowed to use.
 2. Replace `your-subscribe-host.example` with **your** subscribe host for DIRECT, if needed.
 3. Import into Surge only if that use is lawful for you.
-4. Open `index.html` locally to inspect match order.
+4. Open `index.html` for the description UI, or `rule-map.html` for the interactive graph.
 
 ### Agent prompts (optional helpers)
 
@@ -75,7 +80,7 @@ For rewriting **your own** placeholders—not for obtaining access from anyone.
 
 ```text
 Customize this sample Surge profile for my own already-owned subscription.
-Files: Surge-Xiaomai.conf, Surge-Xiaomai-AdBlock.sgmodule, index.html.
+Files: Surge-Xiaomai.conf, Surge-Xiaomai-AdBlock.sgmodule, rule-map.html.
 1) Replace 你的订阅 with MY_OWN_SUBSCRIPTION_URL
 2) Replace your-subscribe-host.example with MY_OWN_HOST
 3) Do not change policy logic unless I ask
@@ -129,13 +134,16 @@ Different clients use different config dialects. Any conversion here means **for
 
 ![Surge 规则图预览](assets/rule-map-preview.png)
 
-> GitHub 描述页不能运行脚本。完整交互图请本地打开 [`index.html`](./index.html)（EN/中文，默认英文）。
+> GitHub 描述页不能运行脚本。
+> - 单语言描述页：[`index.html`](./index.html)（标题居中 + EN/中文切换，一次只显示一种语言）
+> - 交互规则图：[`rule-map.html`](./rule-map.html)
 
 ### 文件（样例）
 
 | 文件 | 作用 |
 |------|------|
-| `index.html` / `rule-map.html` | 样例规则拓扑交互图 |
+| [`index.html`](./index.html) | 描述页（同一时间只显示一种语言） |
+| [`rule-map.html`](./rule-map.html) | 样例规则拓扑交互图 |
 | `Surge-Xiaomai.conf` | Surge 配置样例（仅占位符） |
 | `Surge-Xiaomai-AdBlock.sgmodule` | 去广告相关模块样例 |
 | `assets/rule-map-preview.png` | 本页预览图 |
@@ -145,7 +153,7 @@ Different clients use different config dialects. Any conversion here means **for
 1. 将 `policy-path` 的 `你的订阅` 换成**你自己已有、且有权使用**的订阅。
 2. 按需将 `your-subscribe-host.example` 换成你的订阅域名。
 3. 仅在你自身合法合规的前提下导入 Surge。
-4. 本地打开 `index.html` 查看匹配顺序。
+4. 打开 `index.html` 看描述页，或打开 `rule-map.html` 看交互图。
 
 ### Agent 提示词（可选）
 
@@ -155,7 +163,7 @@ Different clients use different config dialects. Any conversion here means **for
 
 ```text
 请把该 Surge 规则样例改成我自己已有订阅可用的配置。
-文件：Surge-Xiaomai.conf、Surge-Xiaomai-AdBlock.sgmodule、index.html。
+文件：Surge-Xiaomai.conf、Surge-Xiaomai-AdBlock.sgmodule、rule-map.html。
 1) 「你的订阅」→ 我自己的订阅 URL
 2) your-subscribe-host.example → 我自己的域名
 3) 不改策略逻辑，除非我另说
