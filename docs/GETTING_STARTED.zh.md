@@ -124,3 +124,9 @@ RULE-SET,patches/ai-critical.list,"🤖 AI住宅",update-interval=86400
 - 兴趣如何判定：`docs/INTEREST_MODEL.md`
 - 机器人规格：`docs/BOT_REQUIREMENTS.md`
 - App → 策略矩阵：`docs/APP_POLICY_MATRIX.md`
+
+
+## GitHub Actions 启用说明
+
+当前 GitHub OAuth 令牌缺少 `workflow` 权限，无法直接写入 `.github/workflows/`。
+请在合并本 PR 后，把 `docs/github-actions/mesl-interest-bot.yml.example` **复制为** `.github/workflows/mesl-interest-bot.yml` 并提交（或在网页上 Create new file）。然后在仓库 Settings → Actions 启用 Workflows。

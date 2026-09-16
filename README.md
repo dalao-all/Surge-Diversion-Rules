@@ -28,7 +28,7 @@ docs/APP_POLICY_MATRIX.md
 scripts/daily_patch_bot.py
 scripts/export_interest_seed.py
 scripts/regression_cases.json
-.github/workflows/mesl-interest-bot.yml  # 09:00 & 21:00 Asia/Shanghai
+docs/github-actions/mesl-interest-bot.yml.example  # 09:00 & 21:00 Asia/Shanghai
 CHANGELOG-V6.0.md
 ```
 

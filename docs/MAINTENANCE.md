@@ -14,7 +14,7 @@
 
 ## GitHub Actions 时区
 
-仓库工作流 `.github/workflows/mesl-interest-bot.yml`：
+仓库工作流 `docs/github-actions/mesl-interest-bot.yml.example`：
 
 ```yaml
 on:
