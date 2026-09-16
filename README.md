@@ -1,38 +1,36 @@
-# Surge Diversion Rules（仅规则集）
+# Surge Diversion Rules（MESL）
 
-本仓库**只存放**可被 Surge `RULE-SET` / `DOMAIN-SET` 引用的规则列表与维护脚本。  
-**不存放**完整 Surge 配置、订阅链接或 AdBlock 模块（那些只留在你自己的设备上）。
+公开仓库：**规则集 + 去敏感分享配置**。别人可以 fork / 直接用分享版；**不含任何订阅密钥**。
 
-## 给 Surge 用的地址（合并进 main 后）
+仓库地址：https://github.com/dalao-all/Surge-Diversion-Rules
 
-把主配置里的补丁引用写成（示例）：
+## 别人怎么用（分享版）
 
-```text
-RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ai-critical.list,"🤖 AI住宅",update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/finance-critical.list,"🪙 数字资产",update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/finance-bybit-eu.list,"🇩🇪 Bybit 欧洲",update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/finance-bybit-global.list,"💳 Bybit 全球",update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ads-patch.list,REJECT,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/direct-patch.list,DIRECT,update-interval=86400
-```
+1. 下载 [`profiles/MESL-Surge-V6.0.share.conf`](profiles/MESL-Surge-V6.0.share.conf)
+2. 下载 [`profiles/MESL-AdBlock-V6.0.sgmodule`](profiles/MESL-AdBlock-V6.0.sgmodule)
+3. 用文本编辑器打开 conf，把  
+   `https://subscription.example.invalid/REPLACE_WITH_YOUR_SUBSCRIPTION`  
+   换成**自己的** Surge 订阅链接
+4. 导入 Surge，并安装模块
+
+规则与去广告脚本均指向本仓库：
+
+- `mirrors/skk/` — 自有镜像（原 SKK 列表）
+- `mirrors/scripts/` — 自有镜像（AdBlock 脚本）
+- `patches/` — 关键例外补丁（AI / 金融等）
 
 ## 目录
 
-- `patches/` — 自有小型规则集与兴趣种子（由上游增量筛选维护）
-- `scripts/` — 兴趣更新机器人
-- `docs/` — 维护说明（给维护者看）
-- `mirrors/` — SKK 等上游规则集原样镜像（`mirrors/skk/`；见 SOURCE_MAP）
+| 路径 | 说明 |
+|------|------|
+| `profiles/*.share.conf` / `*.sgmodule` | 去敏感分享配置（可公开） |
+| `mirrors/` | 自有规则/脚本镜像 |
+| `patches/` | 小型补丁集 |
+| `docs/` / `scripts/` | 维护说明与同步工具 |
 
+## 更新
 
-## mirrors/skk 已就绪
+维护者会定期把上游变更同步进 `mirrors/` / `patches/`，并保持分享版 conf 与之一致。  
+**带真实订阅的私用配置永不提交本仓库。**
 
-`mirrors/skk/` 已镜像 MESL Surge V6.0 所引用的全部 SKK（`ruleset.skk.moe`）RULE-SET / DOMAIN-SET 列表，内容与现网一致。  
-映射见 `mirrors/SOURCE_MAP.json`；说明见 `mirrors/README.md`。
-
-**第二步才会改配置引用**（把 `https://ruleset.skk.moe/...` 换成本仓库 raw URL）。当前配置与 patches 引用无需因本目录而改动。
-
-## 更新方式
-
-上游（如 SKK）有相关新增时，由维护机器人或助手**直接更新** `patches/` 并推送到 `main`，不要求仓库主人每天审 PR。
-
-> 技术交流用途。不是代理服务，不提供节点。
+> 仅供技术交流与个人学习。不是代理服务，不提供节点。
