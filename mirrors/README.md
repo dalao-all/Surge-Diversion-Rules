@@ -12,3 +12,8 @@
 路径保持 SKK 的 `List/domainset|non_ip|ip/...` 相对结构，与上游一一对应。
 
 > STEP 1（本目录就绪）只做镜像；**第二步才会改用户配置里的 URL**。
+
+## blackmatrix7（历史远程，V6.0 已内联）
+
+旧版 Surge-Xiaomai 曾 RULE-SET 引用 OKX/Binance/PayPal/YouTube/YouTubeMusic 五份 list。V5.2+ 改为本地内联，V6.0 私用配置不再远程引用。此处仍保留镜像，便于对照与防上游失效。
+路径：`mirrors/blackmatrix7/*.list`
