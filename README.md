@@ -1,190 +1,67 @@
-<p align="right">
-  <a href="#english"><b>English</b></a> · <a href="#中文">中文</a>
-</p>
+# MESL Surge V6.0
 
-# Surge-Diversion-Rules
+日期：2026-09-16（Asia/Shanghai）
 
-<p align="center"><a href="./index.html"><b>Open single-language description page (EN / 中文)</b></a></p>
+脱敏分享副本：订阅为占位地址，**必须自行替换**才能加载节点。
 
-Technical notes on **Surge policy / rule design** by Xiaomai (discussion and study only).
+> **免责声明**：本仓库仅供技术交流与个人网络调试学习，**不是**代理服务、机场推广或任何形式的商业代理产品。请遵守当地法律法规与服务条款；风险自负。
 
-> **Disclaimer / 声明**
->
-> This repository is for **rule-setting discussion and technical exchange only**.
-> It is **not** sharing of proxy access, **not** promotion of any VPN/airport/service, and **not** an offer to provide connectivity.
-> No live subscription URLs, nodes, or accounts are included. Placeholders such as `你的订阅` must be filled with **your own** lawful resources.
-> You are responsible for complying with GitHub terms and the laws where you live. This is not legal advice.
->
-> 本仓库仅用于**规则设定交流与技术讨论**。
-> **不是**分享可用代理接入，**不是**推广任何 VPN/机场/服务，**也不是**向他人提供连接。
-> 不含真实订阅链接、节点或账号。占位符需自行替换为**你有权使用**的资源。
-> 请自行遵守 GitHub 条款及所在地法律法规。本文不构成法律意见。
+## 目录
 
-**Rule-flow idea (technical):** DNS/leak controls and ad rejects first → finance / AI identity policies → domestic DIRECT → streaming and social policy groups → FINAL fallback.
-
----
-
-<a id="english"></a>
-## English *(default)*
-
-### Purpose
-
-Discuss how a Surge profile can structure **policy groups** and **match order** (ads, finance, AI, domestic DIRECT, streaming, etc.).
-Artifacts here are **configuration examples for study**, not a packaged service.
-
-### Routing logic (short)
-
-Rules match **top to bottom**:
-
-1. **Protect and clean** — DoH/DoT / STUN related rejects; ad/tracker rejects with allowlists.
-2. **Finance-related policies** — example splits by region policy groups (EU / TW / UK / PayPal labels).
-3. **AI and identity-related policies** — example grouping for AI product domains and shared challenge/telemetry hosts.
-4. **TikTok-related policy** — example Smart group filtered by node name patterns.
-5. **Domestic and LAN** — domestic apps / Apple CN-CDN / NTP / China IP / GEOIP → DIRECT.
-6. **Streaming-related policies** — example sets for YouTube / Netflix / regional stream lists.
-7. **General international policies** — example sets for chat / GitHub / global lists.
-8. **FINAL** — fallback policy (`dns-failed` aware).
-
-These names are **labels in a sample profile**, not recommendations to buy or use any provider.
-
-### Rule map (preview)
-
-![Surge rule map preview](assets/rule-map-preview.png)
-
-> GitHub README cannot run JavaScript.
-> - Single-language description page: [`index.html`](./index.html) (centered title + EN/中文 switch; only one language shown).
-> - Interactive rule map: [`rule-map.html`](./rule-map.html).
-
-### Files (examples)
-
-| File | Role |
-|------|------|
-| [`index.html`](./index.html) | Description page (one language at a time) |
-| [`rule-map.html`](./rule-map.html) | Interactive map of the sample rule graph |
-| `Surge-Xiaomai.conf` | Sample Surge profile (placeholders only) |
-| `Surge-Xiaomai-AdBlock.sgmodule` | Sample ad-related module |
-| `assets/rule-map-preview.png` | README preview image |
-
-### Personalizing the sample (your own resources)
-
-1. Replace `你的订阅` on `policy-path` with a subscription **you already own** and are allowed to use.
-2. Replace `your-subscribe-host.example` with **your** subscribe host for DIRECT, if needed.
-3. Import into Surge only if that use is lawful for you.
-4. Open `index.html` for the description UI, or `rule-map.html` for the interactive graph.
-
-### Agent prompts (optional helpers)
-
-For rewriting **your own** placeholders—not for obtaining access from anyone.
-
-#### A) Chat-driven
-
-```text
-Customize this sample Surge profile for my own already-owned subscription.
-Files: Surge-Xiaomai.conf, Surge-Xiaomai-AdBlock.sgmodule, rule-map.html.
-1) Replace 你的订阅 with MY_OWN_SUBSCRIPTION_URL
-2) Replace your-subscribe-host.example with MY_OWN_HOST
-3) Do not change policy logic unless I ask
-4) Output the full modified files. Do not invent nodes or provide access.
+```
+profiles/MESL-Surge-V6.0.conf          # 主配置（脱敏订阅 + patches RULE-SET）
+profiles/MESL-AdBlock-V6.0.sgmodule    # 日常去广告模块（MITM/脚本范围同 V5.3，仅升版）
+patches/                               # 自有可审计 list（公开库可进；不整包上游）
+  ai-critical.list
+  finance-critical.list
+  finance-bybit-eu.list / finance-bybit-global.list
+  ads-patch.list / direct-patch.list
+  manifest.json / selectors.yaml / upstream_watch.yaml
+  app_catalog.yaml                     # App 兴趣目录（含财务第 2 页）
+  interest_seed.json                   # V6.0 正式兴趣种子
+  interest_seed_from_apps.json         # 溯源草案（可选）
+docs/GETTING_STARTED.zh.md             # 小白向安装指南
+docs/BOT_REQUIREMENTS.md
+docs/INTEREST_MODEL.md
+docs/MAINTENANCE.md
+docs/APP_POLICY_MATRIX.md
+scripts/daily_patch_bot.py
+scripts/export_interest_seed.py
+scripts/regression_cases.json
+.github/workflows/mesl-interest-bot.yml  # 09:00 & 21:00 Asia/Shanghai
+CHANGELOG-V6.0.md
 ```
 
-#### B) Write files into a local folder
+## 相对 V5.3 的变更摘要
 
-```text
-Open this sample repo.
-Replace policy-path=你的订阅 with my own URL.
-Replace your-subscribe-host.example with my own host.
-Write ./dist/Surge-Xiaomai.personalized.conf and copy the sgmodule to ./dist/
-Summarize placeholder replacements only. Do not commit/push unless I ask.
+1. **RULE-SET URL** 全部指向 `https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/<file>`（`update-interval=86400`）；注释说明也可改本地相对路径。
+2. **财务第 2 页**写入 `app_catalog`：欧易 OKX、Bybit、Bybit EU、UU Wallet、Plasma One、Bitget Wallet、PayPal、Authenticator（按 Google Authenticator 假设）、Wise。
+3. **正式 `interest_seed.json`**：合并 apps + 财务第 2 页 + critical domains；`interest_seed_from_apps.json` 保留为溯源。
+4. **GitHub Actions** 兴趣机器人：UTC `0 1,13 * * *` = Asia/Shanghai 09:00 / 21:00；`workflow_dispatch` 可手动；用 `GITHUB_TOKEN` 开 PR，无候选则 no-op 成功。
+5. **新手文档** `docs/GETTING_STARTED.zh.md`；README 中文为主。
+6. **AdBlock** 仅版本升 V6.0，**不扩大** MITM/脚本。
+7. 保留 V5.3 正确行为：轻 MITM、patches 在 SKK reject 前、`tobapplog`、无死后 pangle 放行、AppsFlyer 金融在 list、脱敏订阅。
+
+未引入 AllInOne / Loyalsoldier / 第二套通用广告或分流底座。**禁止**整包拷贝 SKK / Loyalsoldier / AllInOne 进仓库。
+
+## 快速开始
+
+请读 **[docs/GETTING_STARTED.zh.md](docs/GETTING_STARTED.zh.md)**。摘要：
+
+1. 导入 `profiles/MESL-Surge-V6.0.conf`，把 `policy-path` 占位换成你的真实订阅（**禁止**把真实 token 提交进公开库）。
+2. 安装模块 `profiles/MESL-AdBlock-V6.0.sgmodule`；信任 Surge CA（仅在需要模块解密时）。
+3. 确认 6 个 patches RULE-SET 可更新（或改本地 `RULE-SET,patches/xxx.list,...`）。
+4. 日常**不要**开全局 MITM /「MITM 全部主机名」；保持「捕获流量」关闭。
+5. 可选：打开仓库 Actions，启用 `mesl-interest-bot`。
+
+## 维护（兴趣驱动）
+
+每天 **Asia/Shanghai 09:00 / 21:00**（Actions cron：`0 1,13 * * *` UTC）拉取已引用频繁上游 → diff 新增 → seed/selectors 筛选 → 自有 list 候选 + PR。
+
+```bash
+python3 scripts/daily_patch_bot.py --mode pr --skip-fetch
+python3 scripts/daily_patch_bot.py --mode pr --fetch-upstream
+python3 scripts/export_interest_seed.py -o patches/interest_seed.draft.json
 ```
 
-### Notes on other clients (e.g. Shadowrocket)
-
-Different clients use different config dialects. Any conversion here means **format study** of match rules you already have rights to use—not providing a proxy service.
-
-- Client subscription fields only accept **your** provider URL.
-- Smart / MITM / Script features in Surge may not map 1:1; expect dropped modules.
-- Optional Agent ask: Translate DOMAIN/IP/GEOIP/FINAL from this sample into another client rule syntax; list dropped features; do not add nodes.
-
----
-
-<a id="中文"></a>
-## 中文
-
-### 用途说明
-
-本仓库用于讨论 Surge **策略组与规则匹配顺序**（去广告、业务策略、国内直连、流媒体策略等）的**规则设定交流与技术学习**。
-内容是**配置样例**，不是代理服务、不是机场推广、也不是向他人提供可用连接。
-
-### 分流逻辑（简要）
-
-规则**自上而下**匹配：
-
-1. **防护与清理** — 与 DoH/DoT、STUN 等相关的拒绝；广告/追踪拒绝（含白名单取舍）。
-2. **金融相关策略** — 样例中按地区策略组划分（欧/台/英/PayPal 等标签）。
-3. **AI 与身份相关策略** — 样例中对 AI 域名与共用验证/遥测主机的归组方式。
-4. **TikTok 相关策略** — 样例 Smart 组与节点名过滤写法。
-5. **国内与局域网** — 国内应用 / Apple 国内 CDN / NTP / 国内 IP / GEOIP → 直连。
-6. **流媒体相关策略** — YouTube / Netflix 及分区列表等样例。
-7. **一般国际策略** — 通讯 / GitHub / 全球列表等样例。
-8. **FINAL** — 兜底策略（含 `dns-failed`）。
-
-以上名称仅为**样例标签**，不构成对任何服务商的推荐或推广。
-
-### 规则图（预览）
-
-![Surge 规则图预览](assets/rule-map-preview.png)
-
-> GitHub 描述页不能运行脚本。
-> - 单语言描述页：[`index.html`](./index.html)（标题居中 + EN/中文切换，一次只显示一种语言）
-> - 交互规则图：[`rule-map.html`](./rule-map.html)
-
-### 文件（样例）
-
-| 文件 | 作用 |
-|------|------|
-| [`index.html`](./index.html) | 描述页（同一时间只显示一种语言） |
-| [`rule-map.html`](./rule-map.html) | 样例规则拓扑交互图 |
-| `Surge-Xiaomai.conf` | Surge 配置样例（仅占位符） |
-| `Surge-Xiaomai-AdBlock.sgmodule` | 去广告相关模块样例 |
-| `assets/rule-map-preview.png` | 本页预览图 |
-
-### 自行替换占位符（仅限你有权使用的资源）
-
-1. 将 `policy-path` 的 `你的订阅` 换成**你自己已有、且有权使用**的订阅。
-2. 按需将 `your-subscribe-host.example` 换成你的订阅域名。
-3. 仅在你自身合法合规的前提下导入 Surge。
-4. 打开 `index.html` 看描述页，或打开 `rule-map.html` 看交互图。
-
-### Agent 提示词（可选）
-
-用于改写**你自己的**占位符，不是让任何人提供接入。
-
-#### A) 对话式
-
-```text
-请把该 Surge 规则样例改成我自己已有订阅可用的配置。
-文件：Surge-Xiaomai.conf、Surge-Xiaomai-AdBlock.sgmodule、rule-map.html。
-1) 「你的订阅」→ 我自己的订阅 URL
-2) your-subscribe-host.example → 我自己的域名
-3) 不改策略逻辑，除非我另说
-4) 输出完整文件。不要编造节点，不要提供任何代理服务。
-```
-
-#### B) 直接写出结果文件
-
-```text
-打开本样例仓库。
-用我自己的订阅 URL 替换 policy-path=你的订阅。
-用我自己的域名替换 your-subscribe-host.example。
-写出 ./dist/Surge-Xiaomai.personalized.conf，并复制 sgmodule 到 ./dist/
-只汇报占位符替换摘要。未经允许不要 commit/push。
-```
-
-### 关于其他客户端（如 Shadowrocket）
-
-不同客户端配置方言不同。所谓转换仅指**规则写法学习/格式对照**，不是提供代理或推广任何服务。
-
-- 订阅字段只能填**你自己**的来源。
-- Surge 的 Smart / MITM / 脚本等可能无法一一对应，需接受功能删减。
-- 可选请 Agent：把样例中的 DOMAIN/IP/GEOIP/FINAL 转成另一客户端规则语法，列出无法对应的部分；不要添加节点。
-
+详情：[docs/MAINTENANCE.md](docs/MAINTENANCE.md) · [docs/INTEREST_MODEL.md](docs/INTEREST_MODEL.md) · [docs/BOT_REQUIREMENTS.md](docs/BOT_REQUIREMENTS.md)
