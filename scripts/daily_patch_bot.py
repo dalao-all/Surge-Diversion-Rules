@@ -742,7 +742,7 @@ def build_pr_body(
 def maybe_open_github_pr(pr_body: Dict[str, Any], candidates: List[Dict[str, Any]], blocked: bool) -> Dict[str, Any]:
     """若设置 GITHUB_TOKEN 且有候选，尝试开 PR；无候选则 no-op 成功。
 
-    Actions 中由 workflow 调用本脚本 --mode pr --fetch-upstream。
+    Actions 中由 workflow 调用本脚本 --mode apply --fetch-upstream（直接更新 patches，主人不审 PR）。
     无候选 / 门禁失败时不强制失败（门禁失败仍由 main 返回 EXIT_GATE）。
     """
     result: Dict[str, Any] = {"attempted": False, "created": False, "noop": False, "detail": ""}
