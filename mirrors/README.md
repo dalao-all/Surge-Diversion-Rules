@@ -17,3 +17,7 @@
 
 旧版 Surge-Xiaomai 曾 RULE-SET 引用 OKX/Binance/PayPal/YouTube/YouTubeMusic 五份 list。V5.2+ 改为本地内联，V6.0 私用配置不再远程引用。此处仍保留镜像，便于对照与防上游失效。
 路径：`mirrors/blackmatrix7/*.list`
+
+## scripts（AdBlock 模块脚本）
+
+V6.0 模块曾引用 fmz200/wool_scripts 与 kokoryh/Script。已镜像到 `mirrors/scripts/`，私用模块应改指向本仓库 raw。
