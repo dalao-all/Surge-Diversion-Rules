@@ -1,6 +1,6 @@
 中文 | [English](https://github.com/dalao-all/Surge-Diversion-Rules-EN)
 
-# MESL Surge V6.0 — 分流规则
+# 你的订阅 Surge V6.0 — 分流规则
 
 我维护的 **Surge 策略 / 规则集**公开仓库：自有镜像、小型补丁、去敏感分享配置与规则可视化。  
 **本项目不含任何订阅密钥或节点。** 仅供技术交流与个人学习；不是代理服务，也不提供接入。
@@ -14,12 +14,12 @@
 
 ## 安装（分享版）
 
-1. 下载我提供的 [`profiles/MESL-Surge-V6.0.share.conf`](profiles/MESL-Surge-V6.0.share.conf)
-2. 下载 [`profiles/MESL-AdBlock-V6.0.sgmodule`](profiles/MESL-AdBlock-V6.0.sgmodule)
+1. 下载我提供的 [`profiles/Your-Subscription-Surge-V6.0.share.conf`](profiles/Your-Subscription-Surge-V6.0.share.conf)
+2. 下载 [`profiles/Your-Subscription-AdBlock-V6.0.sgmodule`](profiles/Your-Subscription-AdBlock-V6.0.sgmodule)
 3. 用文本编辑器打开 conf，把  
    `https://subscription.example.invalid/REPLACE_WITH_YOUR_SUBSCRIPTION`  
    换成你自己有权使用的 Surge 订阅链接；按需把 `your-subscribe-host.example` 换成你的订阅域名
-4. 导入 Surge，并安装模块；手动更新「📦 MESL节点」
+4. 导入 Surge，并安装模块；手动更新「📦 你的订阅」
 
 规则与去广告脚本均指向本仓库：
 
