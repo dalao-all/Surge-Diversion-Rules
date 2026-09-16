@@ -21,6 +21,15 @@ RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/
 - `patches/` — 自有小型规则集与兴趣种子（由上游增量筛选维护）
 - `scripts/` — 兴趣更新机器人
 - `docs/` — 维护说明（给维护者看）
+- `mirrors/` — SKK 等上游规则集原样镜像（`mirrors/skk/`；见 SOURCE_MAP）
+
+
+## mirrors/skk 已就绪
+
+`mirrors/skk/` 已镜像 MESL Surge V6.0 所引用的全部 SKK（`ruleset.skk.moe`）RULE-SET / DOMAIN-SET 列表，内容与现网一致。  
+映射见 `mirrors/SOURCE_MAP.json`；说明见 `mirrors/README.md`。
+
+**第二步才会改配置引用**（把 `https://ruleset.skk.moe/...` 换成本仓库 raw URL）。当前配置与 patches 引用无需因本目录而改动。
 
 ## 更新方式
 
