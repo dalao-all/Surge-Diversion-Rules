@@ -38,5 +38,5 @@ jobs:
         run: |
           set -euo pipefail
           echo "Timezone note: cron 0 1,13 * * * UTC = 09:00 & 21:00 Asia/Shanghai"
-          python3 scripts/daily_patch_bot.py --mode pr --fetch-upstream
+          python3 scripts/daily_patch_bot.py --mode apply --fetch-upstream
           echo "Bot finished (no candidates => no-op success)"

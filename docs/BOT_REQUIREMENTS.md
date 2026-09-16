@@ -24,7 +24,7 @@
 
 1. 每天 **09:00** 与 **21:00**（Asia/Shanghai）仅拉取 `upstream_watch.yaml` → `frequent` 上游，diff **新增行**。
 2. 只吸收与 **已安装 App（catalog 中 `surge_interest=true`）** 或 **已启用策略组** 相关的增量，写入自有 curated lists（`patches/*.list` 草案）。
-3. 默认以 **PR 合并** 发布；高置信自动合并仅 Phase3 可选且默认关闭。
+3. 默认 **直接推送到 main 更新 patches**（主人不审 PR）；仅在冲突/异常时停止并通知；高置信自动合并仅 Phase3 可选且默认关闭。
 4. 判定链路：App catalog → vendor / keyword / suffix 种子 → 映射上游文件类别 → 兴趣过滤（见 INTEREST_MODEL P1–P5）。
 
 ---
