@@ -21,3 +21,8 @@
 ## scripts（AdBlock 模块脚本）
 
 V6.0 模块曾引用 fmz200/wool_scripts 与 kokoryh/Script。已镜像到 `mirrors/scripts/`，私用模块应改指向本仓库 raw。
+
+
+## mirrors/owned (V6.1 Option A)
+
+Curated reject* copy with `patches/tombstones.yaml` applied. Runtime conf should reference `mirrors/owned/List/...` for reject*; `mirrors/skk` stays cache-only for those files. Rebuild: `python3 scripts/apply_tombstones_owned.py`.

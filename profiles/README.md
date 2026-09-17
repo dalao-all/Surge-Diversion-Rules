@@ -1,5 +1,11 @@
 # profiles（分享版）
 
+**Canonical (V6.1):** [`Surge-v6.1.conf`](Surge-v6.1.conf) — 公开脱敏；reject* → `mirrors/owned`；订阅占位。
+
+旧版 `Your-Subscription-Surge-V6.0.share.conf` 保留并指向 V6.1（避免断链）。
+
+# profiles（分享版）
+
 我在本目录只放**可公开**的去敏感配置：
 
 - `Your-Subscription-Surge-V6.0.share.conf` — 主配置；订阅为占位，规则指向本仓库 `mirrors/` 与 `patches/`

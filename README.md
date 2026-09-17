@@ -1,6 +1,6 @@
 中文 | [English](https://github.com/dalao-all/Surge-Diversion-Rules-EN)
 
-# 你的订阅 Surge V6.0 — 分流规则
+# 你的订阅 Surge V6.1 — 分流规则
 
 我维护的 **Surge 策略 / 规则集**公开仓库：自有镜像、小型补丁、去敏感分享配置与规则可视化。  
 **本项目不含任何订阅密钥或节点。** 仅供技术交流与个人学习；不是代理服务，也不提供接入。
@@ -14,7 +14,7 @@
 
 ## 安装（分享版）
 
-1. 下载我提供的 [`profiles/Your-Subscription-Surge-V6.0.share.conf`](profiles/Your-Subscription-Surge-V6.0.share.conf)
+1. 下载我提供的 [`profiles/Surge-v6.1.conf`](profiles/Surge-v6.1.conf)
 2. 下载 [`profiles/Your-Subscription-AdBlock-V6.0.sgmodule`](profiles/Your-Subscription-AdBlock-V6.0.sgmodule)
 3. 用文本编辑器打开 conf，把  
    `https://subscription.example.invalid/REPLACE_WITH_YOUR_SUBSCRIPTION`  
@@ -25,7 +25,8 @@
 
 | 路径 | 我放什么 |
 |------|----------|
-| `mirrors/skk/` | SKK 公开列表的自有镜像 |
+| `mirrors/skk/` | SKK 公开列表镜像（缓存 / diff；reject* 运行时不直用） |
+| `mirrors/owned/` | V6.1 Option A：tombstone 过滤后的 reject*（运行时） |
 | `mirrors/scripts/` | AdBlock 脚本自有镜像 |
 | `mirrors/blackmatrix7/` | 历史远程 list 镜像（对照用） |
 | `patches/` | 关键例外补丁（AI / 金融 / DIRECT / ads） |
