@@ -1,3 +1,6 @@
+# —— 上游状态（你的订阅，2026-10-02 核验）——
+# 来源：自维护（防广告误杀 DIRECT 例外） ｜ 有效条目：19（不含注释/空行）
+# 复核周期建议：自维护表随问题反馈更新；快照表定期重拉上游。
 # Your Subscription / 你的订阅 V6.1 direct-patch.list
 # 用途：防广告集误杀的 DIRECT 例外（在 SKK reject* 之前由主配置 RULE-SET 引用）。
 # 策略由主配置 RULE-SET 行指定 → DIRECT
