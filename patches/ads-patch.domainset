@@ -1,5 +1,5 @@
 # ads-patch.domainset ｜ ads-patch.list 的 DOMAIN-SET 形态（同源同内容）
-# 来源：Thelongdarkorg/ad-rules-merged（Adblock Plus，2026-10-11 快照，34039 条）机械转换
+# 来源：Thelongdarkorg/ad-rules-merged（Adblock Plus，2026-10-12 快照，34039 条）机械转换
 # 生成日期：2026-10-12 ｜ 条目：20922（纯域名）
 # 用法：DOMAIN-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ads-patch.domainset,REJECT,update-interval=43200
 # 注意：二选一，不要同时引用 .list 和 .domainset。

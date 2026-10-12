@@ -1,10 +1,10 @@
 # —— 上游状态（你的订阅，2026-10-12 核验）——
-# 来源：快照（Thelongdarkorg/ad-rules-merged，2026-10-11，非实时同步） ｜ 有效条目：20922（不含注释/空行）
+# 来源：快照（Thelongdarkorg/ad-rules-merged，2026-10-12，非实时同步） ｜ 有效条目：20922（不含注释/空行）
 # 复核周期建议：自维护表随问题反馈更新；快照表每周自动同步上游。
 # Your Subscription / 你的订阅 V6.1 patches/ads-patch.list
 # Self-maintained ad splash-screen patch: Surge-format conversion of 浮风拦截规则 (Thelongdarkorg/ad-rules-merged)
 # Source snapshot: https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt
-# Snapshot date: 2026-10-11 (upstream Expires: 12h; this file is a snapshot mirror, re-sync weekly)
+# Snapshot date: 2026-10-12 (upstream Expires: 12h; this file is a snapshot mirror, re-sync weekly)
 # Conversion: host-level rules (||host^) and hosts-format lines (0.0.0.0 /
 #   127.0.0.1 host) -> DOMAIN-SUFFIX,REJECT; path-specific rules (||host/path)
 #   are discarded (Surge cannot match paths; whole-host blocking would break
