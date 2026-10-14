@@ -1,6 +1,6 @@
 # ads-supplement.list ｜ 开屏/应用内广告交叉补充表
 # 来源：AWAvenue Ads Rule（TG-Twilight，人工逐条甄别，v1.7.8，2026-09-21）＋ Blockads（thNylHx/Tools，RuCu6/Keywos/fmz200 等维护，2026-09-06）
-# 生成日期：2026-10-02 ｜ 条目：229（域名）＋1（IP）
+# 生成日期：2026-10-02 ｜ 条目：228（域名）＋1（IP）
 # 口径：两源人工精选规则 − ads-patch.list 已有（17,414）− direct-patch/ai-critical DIRECT − Apple 相关 − 保守排除（核心功能风险，见构建记录）
 # 保守排除清单：snowflake/tdid.m.qq.com、httpdns.bilivideo.com（配置 1.1 节 DIRECT 例外）；tpns.qq.com（推送）；mapi.m.jd.com（京东主 API）；
 #   webcast/vcs/gecko/minigame/zijieapi 系、effect/vas/open/mcs/i/is.snssdk.com（字节功能不确定）；l.qq.com；hudong.alicdn.com、hybrid.miniapp.taobao.com；
@@ -9,8 +9,6 @@
 # 位置建议：1.3 节 ads-patch.list 之后、SKK 广告底座之前。
 # —— 广告平台拦截（Blockads）
 DOMAIN-SUFFIX,17admob.com,REJECT
-# —— 百度贴吧（Blockads）
-DOMAIN-SUFFIX,180.76.76.200,REJECT
 # —— 广告平台拦截（Blockads）
 DOMAIN-SUFFIX,66mobi.com,REJECT
 DOMAIN-SUFFIX,a0.app.xiaomi.com,REJECT
