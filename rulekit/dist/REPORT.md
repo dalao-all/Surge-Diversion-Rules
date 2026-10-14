@@ -1,6 +1,6 @@
-# rulekit 构建报告 2026-10-14 03:59 UTC
+# rulekit 构建报告 2026-10-14 04:31 UTC
 
-## ads → ads.domainset（REJECT）：153329 条
+## ads → ads.domainset（REJECT）：153326 条
 - https://ruleset.skk.moe/List/domainset/reject.conf: 140602
 - mc:bytedance@ads: 44
 - mc:tencent@ads: 71
@@ -56,12 +56,12 @@
 - bm:GoogleFCM: 41
 ## uk → apps-uk.list（🇬🇧 英国专属）：2 条
 - mc:giffgaff: 2
-## global → apps-global.list（🌍 国际网络）：126 条，让给更高优先级 3 条
+## global → apps-global.list（🌍 国际网络）：130 条，让给更高优先级 3 条
 - bm:Twitter: 33
 - bm:Whatsapp: 17
 - bm:Telegram: 40
 - bm:Discord: 29
-- custom/global-extra.list: 13
+- custom/global-extra.list: 17
 ## cn → apps-cn.list（DIRECT）：6270 条，让给更高优先级 51 条
 - bm:AliPay: 20
 - bm:UnionPay: 16
@@ -108,7 +108,7 @@
 - bm:Alibaba_Domain: 1263
 - bm:Tencent_Domain: 2498
 
-白名单从拒绝表删除 133 条；ABP 例外 2614 条
+白名单从拒绝表删除 136 条；ABP 例外 2614 条
 前置放行：pre-cn.list 49 条，pre-tiktok.list 2 条，pre-ai.list 1 条
 自动推断策略的放行主机：aisite.wejianzhan.com→cn，alps.51y5.net→cn，app.huabao.360.cn→cn，assets.giocdn.com→cn，audiopay.pcdn.xmcdn.com→cn，audiopaydl.pcdn.xmcdn.com→cn，channel.shouji.sogou.com→cn，d.bmcx.com→cn，dianfeijisuanqi.bmcx.com→cn，f.bmcx.com→cn，get.shouji.sogou.com→cn，input.shouji.sogou.com→cn，ip.rtbasia.com→cn，laohuangli.bmcx.com→cn，lf3-card-system.searchpstatp.com→cn，lf3-search.searchpstatp.com→cn，localads.chengzijianzhan.cn→cn，mac.bmcx.com→cn，map.bmcx.com→cn，mm1.365dmp.com→cn，mm3.365dmp.com→cn，mvconf.f.360.cn→cn，openap-alps.51y5.net→cn，s.mvconf.f.360.cn→cn，saomiao.bmcx.com→cn，scan.call.f.360.cn→cn，shenfenzheng.bmcx.com→cn，shouji.bmcx.com→cn，wannianrili.bmcx.com→cn，www.bmcx.com→cn
 

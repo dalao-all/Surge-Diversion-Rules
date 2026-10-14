@@ -1,4 +1,4 @@
-# ads-extra.list | 策略 REJECT | 10 条 | 生成 2026-10-14 03:59 | rulekit
+# ads-extra.list | 策略 REJECT | 10 条 | 生成 2026-10-14 04:31 | rulekit
 DOMAIN-KEYWORD,-ad.sm.cn
 DOMAIN-KEYWORD,-ad.video.yximgs.com
 DOMAIN-KEYWORD,-ad.wtzw.com

@@ -1,4 +1,4 @@
-# apps-global.list | 策略 🌍 国际网络 | 126 条 | 生成 2026-10-14 03:59 | rulekit
+# apps-global.list | 策略 🌍 国际网络 | 130 条 | 生成 2026-10-14 04:31 | rulekit
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
@@ -125,3 +125,7 @@ DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,sendgrid.net
 DOMAIN-SUFFIX,list-manage.com
+DOMAIN-SUFFIX,awstrack.me
+DOMAIN-SUFFIX,mandrillapp.com
+DOMAIN-SUFFIX,app.link
+DOMAIN-SUFFIX,bnc.lt

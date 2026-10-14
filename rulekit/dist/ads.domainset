@@ -1,4 +1,4 @@
-# ads.domainset | 策略 REJECT | 153329 条 | 生成 2026-10-14 03:59 | rulekit
+# ads.domainset | 策略 REJECT | 153326 条 | 生成 2026-10-14 04:31 | rulekit
 .24.eu
 .51.la
 .ad.gt
@@ -145941,7 +145941,6 @@ rtlog3-applog-hl.fqnovel.com
 .app.jiuzhilan.com
 .app.juwang.com
 .app.launchdarkly.com
-.app.link
 .app.log.nf.migu.cn
 .app.lz55.cn
 .app.moji001.com
@@ -146346,7 +146345,6 @@ rtlog3-applog-hl.fqnovel.com
 .bmp.ali213.net
 .bmp1.ali213.net
 .bmw2ep.paomifen.cn
-.bnc.lt
 .bnrs.ilm.ee
 .bob.crazyshit.com
 .bob4892.com
@@ -149868,7 +149866,6 @@ rtlog3-applog-hl.fqnovel.com
 .malacca.inveno.com
 .mall-dsp2.qinlinkeji.com
 .mallapi2.qinlinkeji.com
-.mandrillapp.com
 .mao.1f866.com
 .maomaotang.com
 .maomixiaoshuo.com
