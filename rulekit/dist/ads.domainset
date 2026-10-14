@@ -1,4 +1,4 @@
-# ads.domainset | 策略 REJECT | 153319 条 | 生成 2026-10-14 02:14 | rulekit
+# ads.domainset | 策略 REJECT | 153333 条 | 生成 2026-10-14 03:12 | rulekit
 .24.eu
 .51.la
 .ad.gt
@@ -118961,7 +118961,6 @@ win1710.ipv6.microsoft.com
 .alt.proskillsbasketball.com
 .alvaro.sanarconcaballos.org
 .alxc.addlv.smt.docomo.ne.jp
-amap-aos-info-nogw.amap.com
 .ambasador.montessorikurz.cz
 .an.worldbaseballclassic.com
 .analytic.simplyhealth.co.uk
@@ -140572,7 +140571,6 @@ rtlog3-applog-hl.fqnovel.com
 .1117liangtiao2022.xyz
 .11jianzhan.com
 .1205qitiao2022.xyz
-.121.43.235.135
 .1224.zg-babyroo.com
 .12551-1311572332.cos.ap-shanghai.myqcloud.com
 .1267a.xyz
@@ -140581,7 +140579,6 @@ rtlog3-applog-hl.fqnovel.com
 .1379a.xyz
 .1381a.xyz
 .13hangpifa.com
-.154.22.214.2
 .155zn.com
 .1640831964042.se-life.cn
 .187388.com
@@ -140598,7 +140595,6 @@ rtlog3-applog-hl.fqnovel.com
 .2022facaiabc9.xyz
 .208622.top
 .21qma3vs.com
-.23.231.151.252
 .23dhj4q.com
 .23jgiy.com
 .24klm.cn
@@ -144066,8 +144062,6 @@ rtlog3-applog-hl.fqnovel.com
 .exinariuminix.info
 .chabadokor.com
 .truthfulsensor.com
-.5.61.55.143
-.37.1.213.100
 .go2click.online
 .tfcdn.jingmiuyyds.com
 .umengcloud.com
@@ -145552,7 +145546,6 @@ rtlog3-applog-hl.fqnovel.com
 .adsdk.dmzj.com
 .adsdk.idmzj.com
 .adsdk.state.duoku.com
-.adsdk.whjzjx.cn
 .adsdkapi.dxys.pro
 .adsence.sogou.com
 .adsense.7723.com
@@ -153313,3 +153306,29 @@ rtlog3-applog-hl.fqnovel.com
 .zzz7.52896368.com
 .zzztl.com
 .zzzzz4.52896368.com
+.activity.inads.cn
+.cdn.inads.cn
+.ad-monitor.huya.com
+.fmiphone-apple.com
+.huaweicdncmnet.inter.iqiyi.com
+.itjcqlp.icu
+.lalabaos1026.top
+.landing.gdtimg.com
+.luggagetumbledapple.com
+.pinner-imgserver.byted.org
+.public-bjy-rs-kce-node1466.idchb1az2.hb1.kwaidc.com
+.sc.laoqj.top
+.ads-jssdk.vivo.com.cn
+.v.smtcdns.com
+.vdn5-1.vzuu.com
+.vdn6.vzuu.com
+.view-apple.com
+.xiaoshuo.km.com
+.amap-aos-info-nogw.amap.com
+.whjzjx.cn
+.ads.log.kafka.top
+.sb.adtidy.com
+.oneseeker.top
+.mgw.mpaas.cn-hangzhou.aliyuncs.com
+.wallpaper-1258344696.file.myqcloud.com
+.nadvideo.baidu.com
