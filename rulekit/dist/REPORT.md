@@ -1,6 +1,6 @@
-# rulekit 构建报告 2026-10-14 03:12 UTC
+# rulekit 构建报告 2026-10-14 03:32 UTC
 
-## ads → ads.domainset（REJECT）：153333 条
+## ads → ads.domainset（REJECT）：153332 条
 - https://ruleset.skk.moe/List/domainset/reject.conf: 140602
 - mc:bytedance@ads: 44
 - mc:tencent@ads: 71

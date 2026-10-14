@@ -1,4 +1,4 @@
-# ads.domainset | 策略 REJECT | 153333 条 | 生成 2026-10-14 03:12 | rulekit
+# ads.domainset | 策略 REJECT | 153332 条 | 生成 2026-10-14 03:32 | rulekit
 .24.eu
 .51.la
 .ad.gt
@@ -139948,7 +139948,6 @@ rtlog3-applog-hl.fqnovel.com
 .bingads.com
 .zhangyuyidong.cn
 .17admob.com
-.180.76.76.200
 .66mobi.com
 .a0.app.xiaomi.com
 .abtest3-misc.zijieapi.com
