@@ -1,0 +1,63 @@
+# 放到仓库 .github/workflows/rulekit.yml；rulekit/ 整个目录放在仓库根下
+name: rulekit daily build
+
+on:
+  schedule:
+    - cron: "30 21 * * *"     # 每天北京时间 05:30（上游 blackmatrix7 / SKK / MetaCubeX 凌晨都已更新完）
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "跳过变化量保护（确认上游大改正常后再用）"
+        type: boolean
+        default: false
+  push:
+    paths:
+      - "rulekit/sources.toml"
+      - "rulekit/allow.list"
+      - "rulekit/probes.toml"
+      - "rulekit/custom/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rulekit
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build
+        working-directory: rulekit
+        env:
+          FORCE: ${{ inputs.force && '1' || '0' }}
+        run: python3 build.py
+
+      # 构建失败时 dist/ 不变；把失败报告作为产物留存，GitHub 会给你发失败邮件
+      - name: Upload failed report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rulekit-failed-report
+          path: rulekit/dist/REPORT.failed.md
+          if-no-files-found: ignore
+
+      - name: Commit
+        run: |
+          git config user.name  "rulekit-bot"
+          git config user.email "rulekit-bot@users.noreply.github.com"
+          git add rulekit/dist rulekit/cache
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "rulekit: $(date -u -d '+8 hour' '+%Y-%m-%d %H:%M') CST 自动更新"
+            git push
+          fi
