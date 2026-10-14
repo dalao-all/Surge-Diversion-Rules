@@ -3,14 +3,15 @@
 rulekit：把你用的 App 对应的上游规则（广告 + 功能）每天抓下来，合并成按 Surge 策略划分的自有规则集。
 
   python3 build.py            # 构建到 dist/，失败时退出码非 0、不覆盖 dist/
-  FORCE=1 python3 build.py    # 跳过「变化量保护」（确认上游大改是正常的之后用）
+  FORCE=1 python3 build.py    # 跳过「变化量保护」与「缓存过期检查」（确认上游大改是正常的之后用）
 
 设计要点
   1. 按策略合并输出（ads / ai / tiktok / stream / google / uk / global / cn），不是一 App 一文件：
      Surge 一个 RULE-SET 只能挂一个策略，159 个文件只会增加下载失败点。
   2. 跨输出去重有固定优先级：allow > ads > ai > tiktok > stream > google > uk > global > cn。
   3. ABP 源的 @@ 例外不再丢：父域被拦、子域被放行时，子域写进 pre-<输出>.list，放在广告表之前。
-  4. 三道保险：上游缩水用缓存 / 输出变化量超阈值不发布 / probes.toml 回归测试不过不发布。
+  4. 三道保险：上游异常用 7 天内缓存（缓存过期则构建失败告警，不悄悄用旧数据）/
+     输出变化量超阈值不发布 / probes.toml 回归测试不过不发布。
 """
 import hashlib, json, os, re, sys, time, tomllib, urllib.request
 from collections import defaultdict, OrderedDict
@@ -29,6 +30,12 @@ com.cn net.cn org.cn gov.cn edu.cn co.uk org.uk co.jp ne.jp com.hk com.tw com.sg
 github.io githubusercontent.com cloudfront.net amazonaws.com akamaized.net azureedge.net
 in-addr.arpa ip6.arpa arpa local lan""".split())
 HOST_RE = re.compile(r"^[a-z0-9*]([a-z0-9\-*]*[a-z0-9*])?(\.[a-z0-9*]([a-z0-9\-*]*[a-z0-9*])?)*$")
+IPV4_RE = re.compile(r"^\d{1,3}(\.\d{1,3}){3}$")
+# 上游缓存最长有效期：超过 7 天的缓存不再兜底，上游改名/下线时直接让构建失败告警，
+# 而不是悄悄沿用旧数据（blackmatrix7 改目录名那次的教训）
+CACHE_MAX_AGE = 7 * 86400
+def cache_fresh(cp):
+    return os.path.exists(cp) and (time.time() - os.path.getmtime(cp)) < CACHE_MAX_AGE
 
 log_lines = []
 def log(*a):
@@ -59,8 +66,12 @@ def fetch(src, shrink):
             err = e; time.sleep(2 * (i + 1))
     if text is None:
         if cached is None: raise SystemExit(f"[致命] 抓取失败且无缓存：{src} ({err})")
+        if not cache_fresh(cp) and os.environ.get("FORCE") != "1":
+            raise SystemExit(f"[致命] 抓取失败且缓存已过期（>7 天）：{src} ({err})；确认上游正常变更后可用 force 重跑")
         log(f"  [警告] 抓取失败，用缓存：{src} ({err})"); return cached
     if cached and len(text) < len(cached) * (1 - shrink):
+        if not cache_fresh(cp) and os.environ.get("FORCE") != "1":
+            raise SystemExit(f"[致命] 上游疑似缩水且缓存已过期（>7 天）：{src}；确认正常后可用 force 重跑")
         log(f"  [警告] 上游缩水 {len(cached)}→{len(text)} 字节，疑似异常，用缓存：{src}"); return cached
     os.makedirs(CACHE, exist_ok=True); open(cp, "w", encoding="utf-8").write(text)
     return text
@@ -82,6 +93,8 @@ def parse(text):
             if l.startswith("+."): t, v = "DOMAIN-SUFFIX", l[2:]
             elif l.startswith("."): t, v = "DOMAIN-SUFFIX", l[1:]
             else: t, v = "DOMAIN", l
+            if IPV4_RE.match(v):                           # 纯 IPv4（如浮风 ||IP^）：转 CIDR，走 -extra 表
+                out.append(("IP-CIDR", v + "/32")); continue
         else:
             p = [x.strip() for x in l.split(",")]
             t, v = p[0].upper(), p[1]
@@ -103,6 +116,8 @@ def parse_abp(text):
         m = re.match(r"^(@@)?\|\|([a-z0-9.\-]+)\^(\$(important|all|document|third-party|~third-party))?$", l)
         if not m: continue
         host = m.group(2)
+        if IPV4_RE.match(host):                             # ||1.2.3.4^ 这类：转 CIDR，不写进 domainset
+            (allow if m.group(1) else block).append(("IP-CIDR", host + "/32")); continue
         if not valid_domain(host, "DOMAIN-SUFFIX"): continue
         (allow if m.group(1) else block).append(("DOMAIN-SUFFIX", host))
     # hosts 格式（0.0.0.0 x）一律不收：10-12 事故根源
@@ -236,7 +251,10 @@ def main():
     # 报告
     rep = [f"# rulekit 构建报告 {time.strftime('%Y-%m-%d %H:%M %Z')}", ""]
     for key in ORDER:
-        rep.append(f"## {key} → {outs[key]['file']}（{outs[key]['policy']}）：{len(data[key])} 条"
+        o = outs[key]
+        # domainset 主表只写入域名类条目：报告显示实际写入数，关键词/IP 在 -extra 表另有表头
+        n_written = sum(1 for t, _ in data[key] if o["kind"] != "domainset" or t in DOMAIN_TYPES)
+        rep.append(f"## {key} → {o['file']}（{o['policy']}）：{n_written} 条"
                    + (f"，让给更高优先级 {moved[key]} 条" if moved[key] else ""))
         for s, n in per_src[key].items(): rep.append(f"- {s}: {n}")
     rep += ["", f"白名单从拒绝表删除 {removed_by_allow} 条；ABP 例外 {len(abp_allow)} 条",
@@ -253,10 +271,11 @@ def main():
     os.makedirs(DIST, exist_ok=True)
     stamp = time.strftime("%Y-%m-%d %H:%M")
     def write(name, policy, rules, kind):
-        lines = [f"# {name} | 策略 {policy} | {len(rules)} 条 | 生成 {stamp} | rulekit"]
-        for t, v in rules:
+        main = [rv for rv in rules if kind != "domainset" or rv[0] in DOMAIN_TYPES]
+        lines = [f"# {name} | 策略 {policy} | {len(main)} 条 | 生成 {stamp} | rulekit"]
+        for t, v in main:
             if kind == "domainset":
-                if t in DOMAIN_TYPES: lines.append(("." if t == "DOMAIN-SUFFIX" else "") + v)
+                lines.append(("." if t == "DOMAIN-SUFFIX" else "") + v)
             else:
                 lines.append(f"{t},{v}" + (",no-resolve" if t.startswith("IP-") else ""))
         open(os.path.join(DIST, name), "w", encoding="utf-8").write("\n".join(lines) + "\n")
