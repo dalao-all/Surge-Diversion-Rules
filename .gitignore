@@ -1,8 +1,2 @@
-patches/cache/*
-!patches/cache/.gitkeep
-patches/candidates/*
-!patches/candidates/.gitkeep
-scripts/__pycache__/
-scripts/last_bot_report.json
-*.pyc
-.DS_Store
+patches/cache/*, !patches/cache/.gitkeep, patches/candidates/*, !patches/candidates/.gitkeep, scripts/__pycache__/, scripts/last_bot_report.json, *.pyc, .DS_Store
+rulekit/cache/
