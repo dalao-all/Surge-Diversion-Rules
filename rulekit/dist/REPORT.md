@@ -1,4 +1,4 @@
-# rulekit 构建报告 2026-10-14 03:56 UTC
+# rulekit 构建报告 2026-10-14 03:59 UTC
 
 ## ads → ads.domainset（REJECT）：153329 条
 - https://ruleset.skk.moe/List/domainset/reject.conf: 140602
@@ -56,12 +56,12 @@
 - bm:GoogleFCM: 41
 ## uk → apps-uk.list（🇬🇧 英国专属）：2 条
 - mc:giffgaff: 2
-## global → apps-global.list（🌍 国际网络）：124 条，让给更高优先级 3 条
+## global → apps-global.list（🌍 国际网络）：126 条，让给更高优先级 3 条
 - bm:Twitter: 33
 - bm:Whatsapp: 17
 - bm:Telegram: 40
 - bm:Discord: 29
-- custom/global-extra.list: 11
+- custom/global-extra.list: 13
 ## cn → apps-cn.list（DIRECT）：6270 条，让给更高优先级 51 条
 - bm:AliPay: 20
 - bm:UnionPay: 16
