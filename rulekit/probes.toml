@@ -48,6 +48,8 @@
 "api2.cursor.sh" = "ai"
 "statsigapi.net" = "ai"
 "graph.facebook.com" = "ai"
+"u1234.ct.sendgrid.net" = "global"
+"test.list-manage.com" = "global"
 "i.instagram.com" = "ai"
 "www.tiktok.com" = "tiktok"
 "www.youtube.com" = "stream"
