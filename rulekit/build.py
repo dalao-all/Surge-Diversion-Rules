@@ -103,6 +103,8 @@ def parse(text):
             if t == "HOST-KEYWORD": t = "DOMAIN-KEYWORD"
             if t not in KEEP: continue                      # PROCESS-NAME / URL-REGEX / AND … 丢弃
             if t.startswith("DOMAIN"): v = v.lower()
+            if t in DOMAIN_TYPES and IPV4_RE.match(v):     # DOMAIN-SUFFIX,1.2.3.4 这类：转 CIDR
+                out.append(("IP-CIDR", v + "/32")); continue
         if t in DOMAIN_TYPES and not valid_domain(v, t): continue
         if t == "DOMAIN-KEYWORD" and (re.fullmatch(r"[\d.]+", v) or len(v) < 4): continue  # WeChat 的 IP 前缀"关键词"等
         if t == "DOMAIN" and ("5ukk4w" in v or v.endswith("skk.moe")): continue  # SKK 占位条目
@@ -182,7 +184,8 @@ def main():
     curated = {v for _, v, _ in allow}
     ign = cfg["outputs"]["ads"].get("ignore_exceptions", [])
     abp_allow = [(t, v) for t, v in dict.fromkeys(abp_allow)
-                 if not nm.hit(v) and v not in curated and not any(v == e or v.endswith("." + e) for e in ign)]
+                 if t == "DOMAIN-SUFFIX"   # IP 例外不进域名白名单（目前上游没有，真有了再单独处理）
+                 and not nm.hit(v) and v not in curated and not any(v == e or v.endswith("." + e) for e in ign)]
     allow += [("DOMAIN", v, "abp") for _, v in abp_allow]
 
     # 1) 拒绝表：删掉与白名单相同或位于白名单后缀之下的条目
