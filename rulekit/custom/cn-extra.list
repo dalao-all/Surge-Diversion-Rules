@@ -1,0 +1,38 @@
+# 国内 App：blackmatrix7 / v2fly 都没有收录的，按官方主域手工补（*.cn 已被 DOMAIN-SUFFIX,cn 覆盖，不重复写）
+# 标注"待抓包"的是根据公开信息推断，建议用 Surge 最近请求核实一次
+DOMAIN-SUFFIX,cib.com           # 兴业银行（主要用 cib.com.cn）
+DOMAIN-SUFFIX,scrcu.com         # 四川农信  待抓包
+DOMAIN-SUFFIX,sqkb.com          # 省钱快报  待抓包
+DOMAIN-SUFFIX,maoyan.com        # 猫眼
+DOMAIN-SUFFIX,umetrip.com       # 航旅纵横
+DOMAIN-SUFFIX,hellobike.com     # 哈啰
+DOMAIN-SUFFIX,ninebot.com       # 九号出行
+DOMAIN-SUFFIX,zhipin.com        # BOSS直聘
+DOMAIN-SUFFIX,zhaopin.com       # 智联招聘
+DOMAIN-SUFFIX,youdao.com        # 网易有道
+DOMAIN-SUFFIX,ydstatic.com      # 网易有道静态资源
+DOMAIN-SUFFIX,flydigi.com       # 飞智游戏厅
+DOMAIN-SUFFIX,doubao.com        # 豆包
+DOMAIN-SUFFIX,volces.com        # 火山引擎（豆包/抖音云服务，浮风表整域拦截过）
+DOMAIN-SUFFIX,volccdn.com       # 火山引擎 CDN  待抓包
+DOMAIN-SUFFIX,qianwen.com       # 千问
+DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,ima.qq.com        # 腾讯 ima
+DOMAIN-SUFFIX,trae.com.cn       # TRAE 国内
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,tableau.com       # Tableau：你选择直连
+DOMAIN-SUFFIX,tableausoftware.com
+DOMAIN-SUFFIX,tableaucdn.com
+DOMAIN-SUFFIX,sfdcstatic.com
+DOMAIN-SUFFIX,tableauusercontent.com
