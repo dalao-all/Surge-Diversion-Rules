@@ -1,4 +1,4 @@
-# rulekit 构建报告 2026-10-14 03:32 UTC
+# rulekit 构建报告 2026-10-14 03:33 UTC
 
 ## ads → ads.domainset（REJECT）：153332 条
 - https://ruleset.skk.moe/List/domainset/reject.conf: 140602
@@ -23,7 +23,7 @@
 - mc:youtube@ads: 1
 - mc:microsoft@ads: 7
 - https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list: 965
-- https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ads-supplement.list: 230
+- https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ads-supplement.list: 229
 - https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt: 17700
 ## ai → apps-ai.list（🤖 AI住宅）：747 条，让给更高优先级 7 条
 - bm:OpenAI: 35
