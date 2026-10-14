@@ -1,0 +1,78 @@
+# ================================================================
+# 前置放行（永远不许被广告表拦截的业务主机）
+# 格式：Surge 规则 + 可选第三列「输出名」(cn/ai/global/…)；不写就按后面的 App 表自动推断。
+# 构建时：① 拒绝表里与这里相同或更细的条目会被删掉；② 父域仍被拦的，这些主机写进 pre-*.list 放在广告表前面。
+# 来源：1.3.6 的 1.1 节例外 + direct-patch + 历次抓包/审计确认的误杀
+# ================================================================
+# —— 哔哩哔哩
+DOMAIN,app.bilibili.com,cn
+DOMAIN,api.bilibili.com,cn
+DOMAIN,httpdns.bilivideo.com,cn
+DOMAIN,grpc.biliapi.net,cn
+DOMAIN,api.biliapi.net,cn
+DOMAIN,chat.bilibili.com,cn
+DOMAIN,club.bilibili.com,cn
+# —— 腾讯 / 微信 / 王者
+DOMAIN,vweixinthumb.tc.qq.com,cn
+DOMAIN,tdid.m.qq.com,cn
+DOMAIN,snowflake.qq.com,cn
+DOMAIN-SUFFIX,mdt.qq.com,cn
+DOMAIN,wxs.qq.com,cn
+# —— 爱奇艺
+DOMAIN,policy.video.iqiyi.com,cn
+DOMAIN,api.iqiyi.com,cn
+DOMAIN-SUFFIX,iqiyipic.com,cn
+DOMAIN-SUFFIX,ppsimg.com,cn
+# —— 阿里 / 京东 / 高德 / 携程
+DOMAIN,guide-acs.m.taobao.com,cn
+DOMAIN,acs.m.taobao.com,cn
+DOMAIN,amdc.m.taobao.com,cn
+DOMAIN,terms.alicdn.com,cn
+DOMAIN,api.m.jd.com,cn
+DOMAIN,img.360buyimg.com,cn
+DOMAIN,apiinit.amap.com,cn
+DOMAIN,page.amap.com,cn
+DOMAIN,pages.c-ctrip.com,cn
+DOMAIN,docs.c-ctrip.com,cn
+# —— 字节（抖音商城 / 西瓜图片 / 火山引擎）
+DOMAIN,haohuo.jinritemai.com,cn
+DOMAIN,p3-sign.bdxiguaimg.com,cn
+DOMAIN,p26-sign.bdxiguaimg.com,cn
+DOMAIN,lf6-mgsdk-sign.dailygn.com,cn
+DOMAIN,lf9-mgsdk-sign.dailygn.com,cn
+DOMAIN-SUFFIX,volces.com,cn
+# —— 快手
+DOMAIN,s1.kskwai.com,cn
+DOMAIN,w1.kskwai.com,cn
+DOMAIN,w2.kskwai.com,cn
+# —— 推送（极光：大量国内 App 的消息推送）
+DOMAIN,tsis.jpush.cn,cn
+DOMAIN,api.jpush.cn,cn
+# —— Apple
+DOMAIN-SUFFIX,apps.apple.com,cn
+DOMAIN-SUFFIX,safebrowsing.apple,global
+DOMAIN,ca.iadsdk.apple.com,cn
+# —— 国外功能型（你的决定 / 常见 App 必需）
+DOMAIN-SUFFIX,statsig.com,ai
+DOMAIN-SUFFIX,statsigapi.net,ai
+DOMAIN,graph.facebook.com,ai
+DOMAIN,graph.instagram.com,ai
+DOMAIN,firebaseinstallations.googleapis.com,google
+DOMAIN,firebaseremoteconfig.googleapis.com,google
+DOMAIN,update.googleapis.com,google
+DOMAIN,roovza.launches.appsflyersdk.com,tiktok
+DOMAIN,roovza.cdn-settings.appsflyersdk.com,tiktok
+# —— 证书吊销检查（被拦会让部分 HTTPS 首连变慢）
+DOMAIN-SUFFIX,ocsp.digicert.com,global
+DOMAIN-SUFFIX,ocsp.godaddy.com,global
+DOMAIN-SUFFIX,ocsp.sectigo.com,global
+# —— 浮风根域拦截过激的补丁（2026-10-14 合并浮风时加）
+DOMAIN,connect.facebook.net,ai
+DOMAIN,platform.instagram.com,ai
+DOMAIN-SUFFIX,ipinfo.io,ai
+DOMAIN-SUFFIX,ttwebview.com,tiktok
+DOMAIN-SUFFIX,wixstatic.com,global
+DOMAIN,cdn.jwplayer.com,global
+DOMAIN-SUFFIX,oschina.net,cn
+DOMAIN-SUFFIX,youzanyun.com,cn
+DOMAIN-SUFFIX,cnnic.cn,cn

@@ -1,0 +1,136 @@
+# ================================================================
+# rulekit 源清单：按「你的 App 清单」→「上游每日更新规则」映射
+# 输出按 Surge 策略合并（一个 RULE-SET 只能有一个策略），每个文件内保留来源注释。
+# 优先级（同一域名出现在多个输出时，只保留在优先级最高的那个）：
+#   allow(前置放行) > ads(拒绝) > ai > tiktok > stream > google > uk > global > cn
+# 简写：
+#   bm:Name        = blackmatrix7/ios_rule_script rule/Surge/Name/Name.list
+#   mc:name        = MetaCubeX/meta-rules-dat（v2fly geosite 每日编译）classical/name.list
+#   其余写完整 URL
+# ================================================================
+
+[settings]
+# 单个输出相对上一版变化超过这个比例 → 构建失败、不提交（防止 10-12 那种一夜多出 3,550 条）
+max_change_ratio = 0.10
+# 变化条数低于这个值时不触发比例保护（小文件抖动）
+min_change_abs = 300
+# 上游文件比缓存的上一版缩水超过这个比例 → 视为上游异常，改用缓存
+max_source_shrink = 0.5
+# 推断放行主机策略时，用 SKK 国内域名表判断"这是国内站"
+cn_classifier = "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+
+# ---------------- 广告 / 追踪拒绝 ----------------
+[outputs.ads]
+file = "ads.domainset"
+kind = "domainset"
+policy = "REJECT"
+sources = [
+  # 底座：Sukka 专为 Surge 维护，上游已做白名单预处理，每日更新，误杀率在测试的 6 个源里最低
+  "https://ruleset.skk.moe/List/domainset/reject.conf",
+  # 你用到的公司的「@ads」子集（v2fly 社区人工标注，条目少但精准）
+  "mc:bytedance@ads", "mc:tencent@ads", "mc:tencent-tme@ads", "mc:alibaba@ads", "mc:amap@ads",
+  "mc:eleme@ads", "mc:jd@ads", "mc:kuaishou@ads", "mc:iqiyi@ads", "mc:sina@ads", "mc:netease@ads",
+  "mc:xiaomi@ads", "mc:huawei@ads", "mc:umeng@ads", "mc:google@ads", "mc:facebook@ads",
+  "mc:tiktok@ads", "mc:x@ads", "mc:youtube@ads", "mc:microsoft@ads",
+  # 国内 App SDK 开屏/联盟广告（AWAvenue 秋风，人工维护）
+  "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
+  # 你自己的开屏补充（仓库里已有）
+  "https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ads-supplement.list",
+]
+# ABP 格式源：会同时提取 @@ 例外，自动生成前置放行（修掉"转换丢例外"这个老问题）
+# 浮风有一批根域拦截过激（facebook.net / firebase / statsig / OCSP / wixstatic …），
+# 已在 allow.list 里放行；探针测试兜底，误杀不会被发布。
+abp_sources = [
+  # 浮风（ffdns 同源）：与 SKK 只重叠约 20%，开屏广告覆盖互补。上游 @@ 例外会自动提取成前置放行。
+  "https://raw.githubusercontent.com/Thelongdarkorg/ad-rules-merged/main/merged.txt",
+]
+# 上游 @@ 例外里，这些你明确要拒绝的不放行（纯上报遥测）
+ignore_exceptions = ["sentry.io", "datadoghq.com", "segment.com", "posthog.com", "bugsnag.com", "usefathom.com"]
+# 不收进拒绝表的条目（v2fly 标注偏激或你已决定保留功能的）
+exclude = [
+  "statsig.com", "statsigapi.net", "featureassets.org",   # 你的决定：Statsig 是功能开关
+  "graph.instagram.com", "graph-fallback.instagram.com",  # meta@ads 收录，IG App 会用到
+  "app-measurement.com",                                   # 仅追踪，但部分 App 拒绝后会疯狂重试；交给 SKK 判断
+]
+
+# ---------------- 国外 AI / 高敏 ----------------
+[outputs.ai]
+file = "apps-ai.list"
+kind = "list"
+policy = "🤖 AI住宅"
+sources = [
+  "bm:OpenAI", "bm:Claude", "bm:Gemini", "bm:Copilot",
+  "mc:openai", "mc:anthropic", "mc:xai", "mc:cursor",
+  "https://ruleset.skk.moe/List/non_ip/ai.conf",
+  "https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ai-critical.list",
+  "https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/ai-extended.list",
+  # 你现在把 Meta、Stripe、Notion 也放在 AI 出口
+  "bm:Facebook", "bm:Instagram", "bm:Stripe",
+  "custom/ai-extra.list",
+]
+exclude = [
+  "api.github.com",               # SKK ai.conf 收录，你决定走国际网络
+  # blackmatrix7 Facebook.list 把 WhatsApp 也算进 Meta；你让 WhatsApp 走国际网络
+  "whatsapp.com", "whatsapp.net", "wa.me", "whatsapp.biz", "whatsapp.cc", "whatsapp.info",
+  "whatsapp.org", "whatsapp.tv", "whatsappbrand.com",
+]
+
+[outputs.tiktok]
+file = "apps-tiktok.list"
+kind = "list"
+policy = "🎵 TikTok"
+sources = ["bm:TikTok", "mc:tiktok", "custom/tiktok-extra.list"]
+# blackmatrix7 TikTok.list 含 snssdk.com（抖音/头条国内 API）——你在 V1.3.2 修过的同一个坑，这里永久排除
+exclude = ["snssdk.com"]
+
+[outputs.stream]
+file = "apps-stream.list"
+kind = "list"
+policy = "🎬 流媒体"
+sources = ["bm:YouTube", "bm:Netflix", "bm:Viki"]
+
+[outputs.google]
+file = "apps-google.list"
+kind = "list"
+policy = "🤖 AI住宅"          # 你现在的选择；想省住宅流量可在配置里改成 🌍 国际网络
+sources = ["bm:Google", "bm:GoogleSearch", "bm:GoogleDrive", "bm:GoogleFCM"]
+
+[outputs.uk]
+file = "apps-uk.list"
+kind = "list"
+policy = "🇬🇧 英国专属"
+sources = ["mc:giffgaff"]
+
+[outputs.global]
+file = "apps-global.list"
+kind = "list"
+policy = "🌍 国际网络"
+sources = ["bm:Twitter", "bm:Whatsapp", "bm:Telegram", "bm:Discord", "custom/global-extra.list"]
+
+# ---------------- 国内 App（直连） ----------------
+[outputs.cn]
+file = "apps-cn.list"
+kind = "list"
+policy = "DIRECT"
+sources = [
+  # 银行与支付
+  "bm:AliPay", "bm:UnionPay", "bm:ICBC", "bm:CCB", "bm:CMB", "mc:citic",
+  # 通讯
+  "bm:WeChat", "bm:DingTalk", "bm:Tencent",
+  # 娱乐
+  "bm:DouYin", "bm:KuaiShou", "bm:XiaoHongShu", "bm:BiliBili", "bm:Weibo", "bm:NetEaseMusic",
+  "bm:TencentVideo", "bm:iQIYI", "bm:ByteDance", "bm:Coolapk",
+  # 购物
+  "bm:Alibaba", "bm:JingDong", "bm:Pinduoduo", "bm:XianYu", "bm:MeiTuan", "bm:Eleme",
+  "bm:ZhuanZhuan", "mc:dewu",
+  # 地图 / 出行 / 汽车
+  "bm:GaoDe", "bm:12306", "bm:XieCheng", "mc:dongchedi", "bm:Geely",
+  # 国内 AI
+  "mc:deepseek",
+  # 生活 / 工作
+  "bm:ChinaMobile", "bm:XiaoMi", "bm:Huawei", "bm:NetEase",
+  "mc:liepin", "mc:qcc", "mc:lianjia", "mc:intsig",
+  "custom/cn-extra.list",
+]
+# blackmatrix7 的大集合把域名拆在 _Domain 文件里
+extra_files = ["bm:Alibaba_Domain", "bm:Tencent_Domain"]
