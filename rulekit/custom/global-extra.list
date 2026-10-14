@@ -13,3 +13,7 @@ DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,sendgrid.net # 邮件跳转（SendGrid，浮风整域误伤）
 DOMAIN-SUFFIX,list-manage.com # 邮件跳转（Mailchimp，浮风整域误伤）
+DOMAIN-SUFFIX,awstrack.me # Amazon SES 点击跳转（邮件按钮，配置内联 REJECT 已删）
+DOMAIN-SUFFIX,mandrillapp.com # Mailchimp 事务邮件点击跳转（浮风整域误伤）
+DOMAIN-SUFFIX,app.link # Branch 分享短链（浮风整域误伤；api/cdn.branch.io 继续拦）
+DOMAIN-SUFFIX,bnc.lt # Branch 分享短链（浮风整域误伤）
