@@ -76,3 +76,7 @@ DOMAIN,cdn.jwplayer.com,global
 DOMAIN-SUFFIX,oschina.net,cn
 DOMAIN-SUFFIX,youzanyun.com,cn
 DOMAIN-SUFFIX,cnnic.cn,cn
+# —— 邮件跳转/风控域名误伤补丁（2026-10-14 第三轮审计）
+DOMAIN-SUFFIX,sendgrid.net,global
+DOMAIN-SUFFIX,list-manage.com,global
+DOMAIN-SUFFIX,fengkongcloud.com,cn
