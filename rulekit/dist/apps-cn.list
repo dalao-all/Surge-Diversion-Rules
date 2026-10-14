@@ -1,4 +1,4 @@
-# apps-cn.list | 策略 DIRECT | 6269 条 | 生成 2026-10-14 03:33 | rulekit
+# apps-cn.list | 策略 DIRECT | 6270 条 | 生成 2026-10-14 03:56 | rulekit
 DOMAIN-SUFFIX,alipay-corp.com
 DOMAIN-SUFFIX,alipay-eco.com
 DOMAIN-SUFFIX,alipay-inc.com
@@ -966,6 +966,7 @@ DOMAIN-SUFFIX,zswyprkq.com
 DOMAIN-SUFFIX,zvryuq7xg31x5g.com
 DOMAIN-SUFFIX,zwaztizp.com
 DOMAIN-SUFFIX,zygvqivs.com
+DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,xiaohongshu.com

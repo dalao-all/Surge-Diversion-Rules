@@ -1,4 +1,4 @@
-# ads.domainset | 策略 REJECT | 153332 条 | 生成 2026-10-14 03:33 | rulekit
+# ads.domainset | 策略 REJECT | 153329 条 | 生成 2026-10-14 03:56 | rulekit
 .24.eu
 .51.la
 .ad.gt
@@ -42135,7 +42135,6 @@ events.jianshu.io
 .feeds.videosz.com
 .feignedfaucet.com
 .feignedlyrism.cfd
-.fengkongcloud.com
 .fents.primary.com
 .feowerdamping.com
 .fetch.gethuan.com
@@ -149344,7 +149343,6 @@ rtlog3-applog-hl.fqnovel.com
 .linrol.cn
 .linyao.dxsdb.com
 .lishuanghao.com
-.list-manage.com
 .listenother.com
 .listlog.baofeng.net
 .liuliguo.com
@@ -151391,7 +151389,6 @@ rtlog3-applog-hl.fqnovel.com
 .segmentify.com
 .sell1.etlong.com
 .sen.xh1.cn
-.sendgrid.net
 .sensorsdata.cmcc-cs.cn
 .sensorsdata.ruguoapp.com
 .sentiance.com
