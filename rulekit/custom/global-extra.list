@@ -11,3 +11,5 @@ DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN-SUFFIX,sendgrid.net # 邮件跳转（SendGrid，浮风整域误伤）
+DOMAIN-SUFFIX,list-manage.com # 邮件跳转（Mailchimp，浮风整域误伤）
