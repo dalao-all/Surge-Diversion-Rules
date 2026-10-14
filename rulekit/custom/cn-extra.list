@@ -36,3 +36,4 @@ DOMAIN-SUFFIX,tableausoftware.com
 DOMAIN-SUFFIX,tableaucdn.com
 DOMAIN-SUFFIX,sfdcstatic.com
 DOMAIN-SUFFIX,tableauusercontent.com
+DOMAIN-SUFFIX,fengkongcloud.com # 数美风控（App 登录/滑块验证，SKK reject 误伤）
