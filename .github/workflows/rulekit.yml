@@ -12,6 +12,7 @@ on:
         default: false
   push:
     paths:
+      - "rulekit/build.py"
       - "rulekit/sources.toml"
       - "rulekit/allow.list"
       - "rulekit/probes.toml"
@@ -19,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # actions/cache 读写上游缓存用
 
 concurrency:
   group: rulekit
@@ -34,6 +36,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # 上游抓取缓存存在 actions/cache，不进 git（仓库不膨胀）；
+      # key 带 run_id：每次恢复上一次的、跑完存一份新的
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: rulekit/cache
+          key: rulekit-cache-${{ github.run_id }}
+          restore-keys: |
+            rulekit-cache-
 
       - name: Build
         working-directory: rulekit
@@ -54,10 +66,15 @@ jobs:
         run: |
           git config user.name  "rulekit-bot"
           git config user.email "rulekit-bot@users.noreply.github.com"
-          git add rulekit/dist rulekit/cache
+          # 一次性：之前误提交进 git 的 rulekit/cache 不再跟踪（工作区文件保留）
+          git rm -r -q --cached rulekit/cache/ 2>/dev/null || true
+          # 只提交 dist：cache 由上面的 actions/cache 管
+          git add rulekit/dist
           if git diff --cached --quiet; then
             echo "无变化"
           else
             git commit -m "rulekit: $(date -u -d '+8 hour' '+%Y-%m-%d %H:%M') CST 自动更新"
+            # 先 rebase 再 push：避免手动 push 撞上 Action 运行时被拒
+            git pull --rebase origin main
             git push
           fi
