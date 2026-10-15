@@ -35,8 +35,15 @@ class MirrorTests(unittest.TestCase):
    (root/'dist/v4/SHA256SUMS').write_text('')
    (root/'rulekit_v4/README.md').write_text('Chinese not mirrored')
    (root/'profiles/surge-V3.0.0.conf').write_text('[Proxy]\n\n[Rule]\n')
-   for name in ('generate_repository_status.py','sync_from_canonical.py','audit_repository.py'):(root/'scripts'/name).write_text('# safe')
+   for name in ('generate_repository_status.py','sync_from_canonical.py','audit_repository.py','test_sync.py'):(root/'scripts'/name).write_text('# safe')
    (root/'.github/workflows/private.yml').write_text('should not copy')
    payload=mirror.manifest(root)
    self.assertNotIn('rulekit_v4/README.md',payload);self.assertFalse(any(x.startswith('.github') for x in payload))
+ def test_canonical_symlink_cannot_escape_the_pinned_repository(self):
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d)/'repo';root.mkdir();outside=Path(d)/'outside';outside.write_text('private')
+   for folder in ('rulekit_v4','dist/v4','profiles','scripts'):(root/folder).mkdir(parents=True,exist_ok=True)
+   (root/'dist/v4/SHA256SUMS').write_text('')
+   (root/'profiles/surge-V3.0.0.conf').symlink_to(outside)
+   with self.assertRaisesRegex(mirror.SyncError,'symlink'):mirror.manifest(root)
 if __name__=='__main__':unittest.main()

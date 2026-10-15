@@ -39,8 +39,10 @@ def manifest(source):
             if not p.is_file() or p.name=='README.md' or '.cache' in p.parts or '__pycache__' in p.parts:continue
             result[str(p.relative_to(source))]=p.read_bytes()
     for name in ('profiles/surge-V3.0.0.conf','profiles/Surge-v4.template.conf'):
+        if (source/'profiles/surge-V3.0.0.conf').is_symlink(): raise SyncError('Canonical profile symlink rejected')
         result[name]=english_profile((source/'profiles/surge-V3.0.0.conf').read_text()).encode()
-    for name in ('scripts/generate_repository_status.py','scripts/sync_from_canonical.py','scripts/audit_repository.py'):
+    for name in ('scripts/generate_repository_status.py','scripts/sync_from_canonical.py','scripts/audit_repository.py','scripts/test_sync.py'):
+        if (source/name).is_symlink(): raise SyncError('Canonical script symlink rejected')
         result[name]=(source/name).read_bytes()
     if not result or 'dist/v4/SHA256SUMS' not in result:raise SyncError('Canonical release is incomplete')
     return result
@@ -74,6 +76,7 @@ def sync(source,root,evidence,commit,check_only=False):
             p=stage/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data)
         # Code in this staging tree is the same owner's pinned reviewed engine, never fetched from arbitrary URLs.
         subprocess.run([os.sys.executable,'-m','unittest','discover','-s','rulekit_v4','-p','test_*.py','-q'],cwd=stage,check=True)
+        subprocess.run([os.sys.executable,'-m','unittest','discover','-s','scripts','-p','test_sync.py','-q'],cwd=stage,check=True)
         subprocess.run([os.sys.executable,'rulekit_v4/validate_release.py'],cwd=stage,check=True)
         subprocess.run([os.sys.executable,'scripts/generate_repository_status.py'],cwd=stage,check=True)
         evidence=dict(evidence,canonical_repository=CANONICAL,canonical_commit=commit,files={k:hashlib.sha256(v).hexdigest() for k,v in sorted(payload.items())})

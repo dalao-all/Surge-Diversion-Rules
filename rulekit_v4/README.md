@@ -53,4 +53,4 @@ python3 rulekit_v4/validate_release.py
 
 ## 审计修复
 
-原164项之外，按本轮要求新增PayPal、Wise、Binance、OKX（INT029—INT032），共164项。金融固定select，Google账户默认跟随AI实际出口。233条微信数字关键词改为精确/24，属于有意纠正匹配范围。旧allow.list的67条例外逐项迁移并作为构建门禁。ads.domainset用于新版，ads.list继续兼容旧版。详见docs/REVIEW_FIXES.zh.md。
+原160项之外，按本轮要求新增PayPal、Wise、Binance、OKX（INT029—INT032），共164项。金融固定select，Google账户默认跟随AI实际出口。233条微信数字关键词改为精确/24，属于有意纠正匹配范围。旧allow.list的67条例外逐项迁移并作为构建门禁。ads.domainset用于新版，ads.list继续兼容旧版。详见docs/REVIEW_FIXES.zh.md。

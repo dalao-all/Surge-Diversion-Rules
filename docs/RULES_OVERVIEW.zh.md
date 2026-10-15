@@ -23,6 +23,6 @@ apps.json登记164项（原160＋本轮新增4金融）、114来源、28依赖�
 
 旧allow.list的67条业务例外逐条迁移并验证。保护历史单调保留，广告表物理剔除与新旧保护范围相交项。233条WeChat数字关键词按明确/24纠正，原行、原因、输出类别保存在provenance.ndjson.gz。输出修正不改上游原规则集合的差分基线。
 
-report.json记录201静态探针、各表数量、旧例外迁移和源修正；sources.lock.json固定源commit/hash；source-rules.json保留解析后的源语义；SHA256SUMS覆盖23个兼容RULE-SET导出与广告DOMAIN-SET。57项引擎/健康回归和8项同步回归仍不能代替手机业务验收。
+report.json记录201静态探针、各表数量、旧例外迁移和源修正；sources.lock.json固定源commit/hash；source-rules.json保留解析后的源语义；SHA256SUMS覆盖23个兼容RULE-SET导出与广告DOMAIN-SET。57项引擎/健康回归和9项同步回归仍不能代替手机业务验收。
 
 旧v6.x、rulekit、mirrors、patches、modules保留历史兼容，旧自动写入改手动，不再是当前安装入口。新增出口国家、节点命名或DNS仍可能需要改主配置。
