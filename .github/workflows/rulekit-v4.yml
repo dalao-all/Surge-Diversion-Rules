@@ -1,0 +1,55 @@
+name: Surge v4 verified daily update
+on:
+  schedule:
+    - cron: '37 21 * * *' # Beijing 05:37; GitHub schedules can be delayed
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['rulekit_v4/**', 'profiles/Surge-v4.template.conf', '.github/workflows/rulekit-v4.yml']
+  pull_request:
+    paths: ['rulekit_v4/**', 'profiles/Surge-v4.template.conf', '.github/workflows/rulekit-v4.yml']
+permissions:
+  contents: read
+concurrency:
+  group: surge-v4-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Parser and failure isolation regression tests
+        run: python -m unittest discover -s rulekit_v4 -p test_build.py -v
+      - name: Fetch pinned sources, compile and check business probes
+        run: python rulekit_v4/build.py
+      - name: Validate complete release and public profile
+        run: python rulekit_v4/validate_release.py
+      - name: Publish only if input commit is still current
+        if: github.event_name != 'pull_request'
+        env:
+          INPUT_SHA: ${{ github.sha }}
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$INPUT_SHA" ]; then
+            echo 'Repository changed during build. Refusing stale publish; rerun on new HEAD.'
+            exit 1
+          fi
+          git add dist/v4
+          if git diff --cached --quiet; then
+            echo 'All validated outputs unchanged.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name 'surge-v4-bot'
+          git config user.email 'surge-v4-bot@users.noreply.github.com'
+          git commit -m 'rules(v4): publish validated upstream changes'
+          git push origin HEAD:main
+          echo 'Published validated rules; refresh external resources in Surge.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Failure summary
+        if: failure()
+        run: echo 'Update failed. No generated changes were pushed; the previous published release remains available. Inspect the failed step and rerun after correcting its cause.' >> "$GITHUB_STEP_SUMMARY"

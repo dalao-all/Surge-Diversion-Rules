@@ -7,3 +7,9 @@ scripts/last_bot_report.json
 *.pyc
 .DS_Store
 rulekit/cache/
+
+# v4 network cache and local validation data
+rulekit_v4/.cache/
+__pycache__/
+*.previous/
+.v4-stage-*/

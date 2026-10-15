@@ -1,3 +1,5 @@
+> **Surge v4**：当前重构版维护说明见 [rulekit_v4/README.md](rulekit_v4/README.md)。私有可用配置由本次本地交付提供；仓库 [公开模板](profiles/Surge-v4.template.conf) 不含节点凭据。规则产物在 [dist/v4](dist/v4)。旧版本资料保留如下。
+
 中文 | [English](https://github.com/dalao-all/Surge-Diversion-Rules-EN)
 
 # 你的订阅 Surge V6.1 — 分流规则

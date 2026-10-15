@@ -1,0 +1,7 @@
+# Surge Rulekit v4 | protect-google | policy supplied by main profile
+DOMAIN,drive.google.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,firebaseremoteconfig.googleapis.com
+DOMAIN,mail.google.com
+DOMAIN,maps.googleapis.com
+DOMAIN,update.googleapis.com

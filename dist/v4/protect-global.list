@@ -1,0 +1,13 @@
+# Surge Rulekit v4 | protect-global | policy supplied by main profile
+DOMAIN,api.telegram.org
+DOMAIN,connect.facebook.net
+DOMAIN,dejavocab.com
+DOMAIN,discord.com
+DOMAIN,graph-fallback.instagram.com
+DOMAIN,graph.facebook.com
+DOMAIN,graph.instagram.com
+DOMAIN,i.instagram.com
+DOMAIN,sync.obsidian.md
+DOMAIN,token.safebrowsing.apple
+DOMAIN,web.whatsapp.com
+DOMAIN,www.sanas.ai

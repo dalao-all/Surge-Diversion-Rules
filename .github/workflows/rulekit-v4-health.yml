@@ -1,0 +1,35 @@
+name: Surge v4 update health
+on:
+  schedule:
+    - cron: '17 13 * * *' # Beijing 21:17, independent check time
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/rulekit-v4-health.yml']
+permissions:
+  actions: read
+  contents: read
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Require successful rule validation within 36 hours
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import datetime, json, os, urllib.request
+          url = 'https://api.github.com/repos/' + os.environ['REPOSITORY'] + '/actions/workflows/rulekit-v4.yml/runs?branch=main&status=success&per_page=10'
+          req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+          runs = json.load(urllib.request.urlopen(req))['workflow_runs']
+          runs = [r for r in runs if r['event'] != 'pull_request']
+          if not runs:
+              raise SystemExit('No successful v4 update yet. Check the build workflow.')
+          stamp = datetime.datetime.fromisoformat(runs[0]['updated_at'].replace('Z', '+00:00'))
+          age = (datetime.datetime.now(datetime.timezone.utc) - stamp).total_seconds() / 3600
+          print(f'Last successful v4 validation: {age:.1f} hours ago; {runs[0]["html_url"]}')
+          if age > 36:
+              raise SystemExit('Rule update is stale (>36 hours); previous rules remain available.')
+          PY

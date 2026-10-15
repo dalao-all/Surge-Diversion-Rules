@@ -1,0 +1,4 @@
+# Surge Rulekit v4 | protect-stream | policy supplied by main profile
+DOMAIN,www.netflix.com
+DOMAIN,www.youtube.com
+DOMAIN,youtubei.googleapis.com
