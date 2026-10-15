@@ -1,7 +1,4 @@
 # Surge Rulekit v4 | ads | policy supplied by main profile
-DOMAIN,1500020991.vodplayer.wxamedia.com
-DOMAIN,1500022744.vodplayer.wxamedia.com
-DOMAIN,1500026601.vodplayer.wxamedia.com
 DOMAIN,1oavsblobprodcus350.blob.core.windows.net
 DOMAIN,2016.sina.cn
 DOMAIN,37bvsblobprodcus311.blob.core.windows.net
@@ -17,18 +14,11 @@ DOMAIN,a.imput.net
 DOMAIN,a.tool.lu
 DOMAIN,a0.app.xiaomi.com
 DOMAIN,a460.cell.phone.ringtone.samsung.sms13.de
-DOMAIN,aaid.umeng.com
-DOMAIN,abtest-ch.snssdk.com
-DOMAIN,abtest.alibaba.com
 DOMAIN,abyss.cyapi.cn
-DOMAIN,ac.dun.163yun.com
 DOMAIN,ac3.msn.com
-DOMAIN,acfeedbackws.icloud.com
 DOMAIN,ackee.tangly1024.com
 DOMAIN,acr0.samsungcloudsolution.com
 DOMAIN,acs.56.com
-DOMAIN,acstatic-dun.126.net
-DOMAIN,activeqq.3g.qq.com
 DOMAIN,ad-analysis.pconline.com.cn
 DOMAIN,ad-api.4pyun.com
 DOMAIN,ad-cache.dopool.com
@@ -353,7 +343,6 @@ DOMAIN,alltbcsp2p.baidu.com
 DOMAIN,alog.umeng.com
 DOMAIN,alogus.umeng.com
 DOMAIN,als.baidu.com
-DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,amdc-sibling.alipay.com.cn
 DOMAIN,amdc.m.youku.com
 DOMAIN,amdcopen.m.taobao.com
@@ -391,7 +380,6 @@ DOMAIN,androidgo.duapp.com
 DOMAIN,andrqd.play.aiseet.atianqi.com
 DOMAIN,ap.dongdianqiu.com
 DOMAIN,ap.dongqiudi.com
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,api-access.pangolin-sdk-toutiao-b.com
@@ -477,7 +465,6 @@ DOMAIN,audid.umeng.com
 DOMAIN,audio-ak-spotify-com.akamaized.net
 DOMAIN,automation.vuejs.org
 DOMAIN,avn.innity.com
-DOMAIN,awaken.amap.com
 DOMAIN,awsusor0-cdn.fds-ssl.api.xiaomi.com
 DOMAIN,b.smartvideo.youku.com
 DOMAIN,b1-data.ads.heytapmobi.com
@@ -512,7 +499,6 @@ DOMAIN,bj-td-menta-01-callback.advlion.com
 DOMAIN,bj.ad.track.66mobi.com
 DOMAIN,bksoup.v.qq.com
 DOMAIN,bolt.jebe.renren.com
-DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,brandadsstatic.vivo.com.cn
 DOMAIN,broker.litlyx.com
 DOMAIN,browser.events.data.msn.cn
@@ -525,7 +511,6 @@ DOMAIN,btrace.video.qq.com
 DOMAIN,bu2.duba.com
 DOMAIN,business-api.tiktok.com
 DOMAIN,business.inveno.com
-DOMAIN,c-nfa.jd.com
 DOMAIN,c.bidtoolads.com
 DOMAIN,c.bing.com
 DOMAIN,c.etoolads.cn
@@ -548,7 +533,6 @@ DOMAIN,catalog.fjwhcbsh.com
 DOMAIN,cb.l.qq.com
 DOMAIN,cbjs.baidu.com
 DOMAIN,cc.map.qq.com
-DOMAIN,ccc-x.jd.com
 DOMAIN,ccs.umeng.com
 DOMAIN,cdn-ad.wtzw.com
 DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
@@ -570,7 +554,6 @@ DOMAIN,cdn.ynuf.aliapp.org
 DOMAIN,ceuswatcab01.blob.core.windows.net
 DOMAIN,ceuswatcab02.blob.core.windows.net
 DOMAIN,cfg.imtt.qq.com
-DOMAIN,chat1.jd.com
 DOMAIN,check.engine.miui.com
 DOMAIN,chiq-cloud.com
 DOMAIN,choice.microsoft.com
@@ -593,10 +576,8 @@ DOMAIN,click4.chinaliftoff.io
 DOMAIN,clientlogusf.music.163.com
 DOMAIN,clkservice.mail.youdao.com
 DOMAIN,clkservice2.dict.youdao.com
-DOMAIN,cloan.amap.com
 DOMAIN,clog.miguvideo.com
 DOMAIN,cloooud.com
-DOMAIN,cm.bilibili.com
 DOMAIN,cm.dmp.sina.cn
 DOMAIN,cm.ipinyou.com
 DOMAIN,cm.l.qq.com
@@ -680,7 +661,6 @@ DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,data.mistat.rus.xiaomi.com
 DOMAIN,data.mistat.xiaomi.com
 DOMAIN,data.securykit.com
-DOMAIN,datacollection.uve.weibo.com
 DOMAIN,datain.longfor.com
 DOMAIN,datareport.fkw.com
 DOMAIN,dc.sigmob.cn
@@ -706,11 +686,9 @@ DOMAIN,dlogs.bwton.com
 DOMAIN,dm.toutiao.com
 DOMAIN,dmapp.youku.com
 DOMAIN,dns.iqiyi.com
-DOMAIN,dns.jd.com
 DOMAIN,dns.m.sm.cn
 DOMAIN,dns.qiyipic.iqiyi.com
 DOMAIN,dns.wechat.com
-DOMAIN,dns.weibo.cn
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,dns.ximalaya.com
@@ -724,9 +702,7 @@ DOMAIN,doubleclick-cn.net
 DOMAIN,download.changhong.upgrade2.huan.tv
 DOMAIN,download.wan.sohu.com
 DOMAIN,downloadxml.changhong.upgrade2.huan.tv
-DOMAIN,dp.im.weibo.cn
 DOMAIN,dp3.qq.com
-DOMAIN,dpmtpush.dianping.com
 DOMAIN,dr.netease.im
 DOMAIN,drd.hauchi.com.tw
 DOMAIN,dsa-mfp.fengshows.cn
@@ -799,7 +775,6 @@ DOMAIN,flurry.com
 DOMAIN,fms.ipinyou.com
 DOMAIN,foundation.mozilla.org
 DOMAIN,fraud-detection.engine.miui.com
-DOMAIN,free-aos-cdn-image.amap.com
 DOMAIN,front-perf.imoim.net
 DOMAIN,frontend-perf-service.e.kuaishou.com
 DOMAIN,frontier-aweme-hl.snssdk.com
@@ -820,8 +795,6 @@ DOMAIN,ga.utilapi.bid
 DOMAIN,galaxy.bjcathay.com
 DOMAIN,game.loveota.com
 DOMAIN,game.sec.miui.com
-DOMAIN,game.weibo.cn
-DOMAIN,game.weibo.com
 DOMAIN,game.wostore.cn
 DOMAIN,gas.data.pplive.com
 DOMAIN,gdfp.gifshow.com
@@ -859,8 +832,6 @@ DOMAIN,gtm.oasisfeng.com
 DOMAIN,guanggaoad.youku.com
 DOMAIN,gvideo.qpic.cn
 DOMAIN,gw.365you.com
-DOMAIN,gw5.push.mcp.weibo.cn
-DOMAIN,gw6.push.mcp.weibo.cn
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,h-adashx.ut.youku.com
 DOMAIN,h-adashx4yt.ut.taobao.com
@@ -908,7 +879,6 @@ DOMAIN,httpdns.danuoyi.tbcache.com
 DOMAIN,httpdns.huaweicloud.com
 DOMAIN,httpdns.kg.qq.com
 DOMAIN,httpdns.kwd.inkuai.com
-DOMAIN,httpdns.meituan.com
 DOMAIN,httpdns.music.163.com
 DOMAIN,httpdns.n.shifen.com
 DOMAIN,httpdns.ocloud.heytapmobi.com
@@ -921,15 +891,11 @@ DOMAIN,httpdns.volcengineapi.com
 DOMAIN,httpdns.yunxindns.com
 DOMAIN,httpdns.zybang.com
 DOMAIN,httpdns1.cc.cdnhwc5.com
-DOMAIN,httpdnsmultiapi.meituan.com
-DOMAIN,httpdnsmultiapivip.meituan.com
-DOMAIN,httpdnsvip.meituan.com
 DOMAIN,httpsdns.baidu.com
 DOMAIN,hugelog.fcbox.com
 DOMAIN,huichuan-mc.sm.cn
 DOMAIN,huichuan.sm.cn
 DOMAIN,huodong.ios.shouji.360.cn
-DOMAIN,huodong.weibo.cn
 DOMAIN,hw-ot-ad.a.yximgs.com
 DOMAIN,hw-p2p-pull.video-voip.com
 DOMAIN,hw-p2p.pull.yximgs.com
@@ -1003,7 +969,6 @@ DOMAIN,is.snssdk.com
 DOMAIN,ivy.pchouse.com.cn
 DOMAIN,ixav-cse.avlyun.com
 DOMAIN,iyfbodn.com
-DOMAIN,janapi.jd.com
 DOMAIN,jiguang.cn
 DOMAIN,jobs.date-fns.org
 DOMAIN,jp.ad.gameley.com
@@ -1018,12 +983,10 @@ DOMAIN,jswebcollects.kugou.com
 DOMAIN,justice.fontaine.lol
 DOMAIN,jzt.jd.com
 DOMAIN,kde.qq.com
-DOMAIN,kepler.jd.com
 DOMAIN,kgmobilestat.kugou.com
 DOMAIN,kgmobilestatbak.kugou.com
 DOMAIN,kl.67it.com
 DOMAIN,klink.volceapplog.com
-DOMAIN,knicks.jd.com
 DOMAIN,kpstaticbj.wx.ckjr001.com
 DOMAIN,ks-p2p-v2.pull.yximgs.com
 DOMAIN,ks-p2p.pull.yximgs.com
@@ -1128,7 +1091,6 @@ DOMAIN,m.shenshiads.com
 DOMAIN,m.simba.taobao.com
 DOMAIN,m1.ad.10010.com
 DOMAIN,mamasearchad.cloudvideocdn.taobao.com
-DOMAIN,mapi.m.jd.com
 DOMAIN,marketing-aibox.v.mitvos.com
 DOMAIN,marketplacestats.service.spaceship.com
 DOMAIN,masdk.3g.qq.com
@@ -1210,7 +1172,6 @@ DOMAIN,msmetrics-test.ws.sonos.com
 DOMAIN,mssdk.zijieapi.com
 DOMAIN,mssp.baidu.com
 DOMAIN,mtj.baidu.com
-DOMAIN,mtrace.amap.com
 DOMAIN,mtrace.play.cp81.ott.cibntv.net
 DOMAIN,mvconf.lato.cloud.360safe.com
 DOMAIN,mvconf.uk.cloud.360safe.com
@@ -1263,7 +1224,6 @@ DOMAIN,oppo.yidianzixun.com
 DOMAIN,optimus-ads-ykx.amap.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,orange-dc.youku.com
-DOMAIN,orbit.jd.com
 DOMAIN,ort-stsdk.vivo.com.cn
 DOMAIN,osb-krsvc.samsungqbe.com
 DOMAIN,osb-ussvc.samsungqbe.com
@@ -1489,7 +1449,6 @@ DOMAIN,sdk.zhangyuyidong.cn
 DOMAIN,sdk.zsdfm.com
 DOMAIN,sdkapi.cloooud.com
 DOMAIN,sdkapp.mobile.sina.cn
-DOMAIN,sdkapp.uve.weibo.com
 DOMAIN,sdkauth.hpplay.cn
 DOMAIN,sdkclick.mobile.sina.cn
 DOMAIN,sdkconf.avlyun.com
@@ -1546,7 +1505,6 @@ DOMAIN,so.sina.cn
 DOMAIN,sofire.baidu.com
 DOMAIN,soft.data.weather.360.cn
 DOMAIN,soul-ad.soulapp.cn
-DOMAIN,soup.v.qq.com
 DOMAIN,splash.yy.com
 DOMAIN,splashimgbssdl.yun.kugou.com
 DOMAIN,splashimgretrybssdl.cloud.kugou.com
@@ -1768,11 +1726,9 @@ DOMAIN,update.avlyun.sec.miui.com
 DOMAIN,update.lejiao.tv
 DOMAIN,update0.aiclk.com
 DOMAIN,upgrade-update.hismarttv.com
-DOMAIN,uranus.jd.com
 DOMAIN,us.l.qq.com
 DOMAIN,usage-ping.brave.com
 DOMAIN,user.ground.news
-DOMAIN,userimg.qunar.com
 DOMAIN,usr-api.aiclk.com
 DOMAIN,utoken.umeng.com
 DOMAIN,uuidapi.yunos.com
@@ -2165,9 +2121,6 @@ DOMAIN-SUFFIX,147c1e0584.com
 DOMAIN-SUFFIX,148a0hqnen.com
 DOMAIN-SUFFIX,14i8trbbx4.com
 DOMAIN-SUFFIX,14k4.com
-DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com
-DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com
-DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,151xrobgqz.com
 DOMAIN-SUFFIX,152media.cloud
 DOMAIN-SUFFIX,1548164934.rsc.cdn77.org
@@ -19800,7 +19753,6 @@ DOMAIN-SUFFIX,ccaru.crossoversymmetry.com
 DOMAIN-SUFFIX,ccbsr.awarehousefull.com
 DOMAIN-SUFFIX,ccbuk.judithandcharles.com
 DOMAIN-SUFFIX,ccbyxcypy.com
-DOMAIN-SUFFIX,ccc-x.jd.com
 DOMAIN-SUFFIX,ccc.aqualink.tokyo
 DOMAIN-SUFFIX,ccc.portymultimedialne.pl
 DOMAIN-SUFFIX,ccc9c93083.com
@@ -20521,7 +20473,6 @@ DOMAIN-SUFFIX,chat.clearbalanceguide.com
 DOMAIN-SUFFIX,chat.compassshield.com
 DOMAIN-SUFFIX,chat.forddirectdealers.com
 DOMAIN-SUFFIX,chat.securelifepath.com
-DOMAIN-SUFFIX,chat1.jd.com
 DOMAIN-SUFFIX,chatgpt4.gymmembersnow.co
 DOMAIN-SUFFIX,chatonsdebat.com
 DOMAIN-SUFFIX,chauckee.net
@@ -31462,7 +31413,6 @@ DOMAIN-SUFFIX,datacollect-dev.cisco.com
 DOMAIN-SUFFIX,datacollect.cisco.com
 DOMAIN-SUFFIX,datacollection.adelaideuni.edu.au
 DOMAIN-SUFFIX,datacollection.sharmusic.com
-DOMAIN-SUFFIX,datacollection.uve.weibo.com
 DOMAIN-SUFFIX,datacygnal.io
 DOMAIN-SUFFIX,datadog-log.clovergames.io
 DOMAIN-SUFFIX,datadog-service.mvfglobal.com
@@ -58238,8 +58188,6 @@ DOMAIN-SUFFIX,judek.jenny-bird.ca
 DOMAIN-SUFFIX,judicial4.com
 DOMAIN-SUFFIX,judicious85.top
 DOMAIN-SUFFIX,judiciousbarnacle.com
-DOMAIN-SUFFIX,juejin.cn
-DOMAIN-SUFFIX,juejin.im
 DOMAIN-SUFFIX,juemd.parikart.com
 DOMAIN-SUFFIX,jufhxk.audienhearing.com
 DOMAIN-SUFFIX,jugerfowells.com
@@ -59418,7 +59366,6 @@ DOMAIN-SUFFIX,kngkxk.around101.com
 DOMAIN-SUFFIX,kngnfobo.wyldaway.de
 DOMAIN-SUFFIX,knhccb.revivalanimal.com
 DOMAIN-SUFFIX,knibdwdnrpupa.site
-DOMAIN-SUFFIX,knicks.jd.com
 DOMAIN-SUFFIX,knie8wmsk.com
 DOMAIN-SUFFIX,knifetreasury.com
 DOMAIN-SUFFIX,knight.therapidmind.com
@@ -69766,7 +69713,6 @@ DOMAIN-SUFFIX,maper.info
 DOMAIN-SUFFIX,mapi.datarudder.com
 DOMAIN-SUFFIX,mapi.juniorneves.com.br
 DOMAIN-SUFFIX,mapi.keilaneves.com.br
-DOMAIN-SUFFIX,mapi.m.jd.com
 DOMAIN-SUFFIX,mapixl.com
 DOMAIN-SUFFIX,mapp.biryanibykilo.com
 DOMAIN-SUFFIX,mapp.ewm.co.uk
@@ -87035,7 +86981,6 @@ DOMAIN-SUFFIX,push-sdk.net
 DOMAIN-SUFFIX,push-sense.com
 DOMAIN-SUFFIX,push.bvsrv.com
 DOMAIN-SUFFIX,push.house
-DOMAIN-SUFFIX,push.mcp.weibo.cn
 DOMAIN-SUFFIX,push.qq.com
 DOMAIN-SUFFIX,push.yieldradius.io
 DOMAIN-SUFFIX,push.zhanzhang.baidu.com
@@ -132610,7 +132555,6 @@ DOMAIN-SUFFIX,uormn.cellitas.com
 DOMAIN-SUFFIX,uotfiotf.com
 DOMAIN-SUFFIX,uotgsvuyfczoe.online
 DOMAIN-SUFFIX,uoupnsykwtbzn.space
-DOMAIN-SUFFIX,up-hl.3g.qq.com
 DOMAIN-SUFFIX,up.intoaction.ca
 DOMAIN-SUFFIX,up.intoactionrecovery.us
 DOMAIN-SUFFIX,up.ousabq.tech
@@ -132739,7 +132683,6 @@ DOMAIN-SUFFIX,ur.gcion.com
 DOMAIN-SUFFIX,ur.trackingjourney.com
 DOMAIN-SUFFIX,uraejopnlc.com
 DOMAIN-SUFFIX,uramylypcuzwt.online
-DOMAIN-SUFFIX,uranus.jd.com
 DOMAIN-SUFFIX,uranus.sogou.com
 DOMAIN-SUFFIX,urbanemop.com
 DOMAIN-SUFFIX,urbanfungose.com

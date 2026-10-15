@@ -1,7 +1,4 @@
 # Pure-domain ad set; exact host or leading-dot suffix. ads.list remains a compatibility export.
-1500020991.vodplayer.wxamedia.com
-1500022744.vodplayer.wxamedia.com
-1500026601.vodplayer.wxamedia.com
 1oavsblobprodcus350.blob.core.windows.net
 2016.sina.cn
 37bvsblobprodcus311.blob.core.windows.net
@@ -17,18 +14,11 @@ a.imput.net
 a.tool.lu
 a0.app.xiaomi.com
 a460.cell.phone.ringtone.samsung.sms13.de
-aaid.umeng.com
-abtest-ch.snssdk.com
-abtest.alibaba.com
 abyss.cyapi.cn
-ac.dun.163yun.com
 ac3.msn.com
-acfeedbackws.icloud.com
 ackee.tangly1024.com
 acr0.samsungcloudsolution.com
 acs.56.com
-acstatic-dun.126.net
-activeqq.3g.qq.com
 ad-analysis.pconline.com.cn
 ad-api.4pyun.com
 ad-cache.dopool.com
@@ -353,7 +343,6 @@ alltbcsp2p.baidu.com
 alog.umeng.com
 alogus.umeng.com
 als.baidu.com
-amap-aos-info-nogw.amap.com
 amdc-sibling.alipay.com.cn
 amdc.m.youku.com
 amdcopen.m.taobao.com
@@ -391,7 +380,6 @@ androidgo.duapp.com
 andrqd.play.aiseet.atianqi.com
 ap.dongdianqiu.com
 ap.dongqiudi.com
-apd-pcdnwxlogin.teg.tencent-cloud.net
 apd-pcdnwxnat.teg.tencent-cloud.net
 apd-pcdnwxstat.teg.tencent-cloud.net
 api-access.pangolin-sdk-toutiao-b.com
@@ -477,7 +465,6 @@ audid.umeng.com
 audio-ak-spotify-com.akamaized.net
 automation.vuejs.org
 avn.innity.com
-awaken.amap.com
 awsusor0-cdn.fds-ssl.api.xiaomi.com
 b.smartvideo.youku.com
 b1-data.ads.heytapmobi.com
@@ -512,7 +499,6 @@ bj-td-menta-01-callback.advlion.com
 bj.ad.track.66mobi.com
 bksoup.v.qq.com
 bolt.jebe.renren.com
-bootpreload.uve.weibo.com
 brandadsstatic.vivo.com.cn
 broker.litlyx.com
 browser.events.data.msn.cn
@@ -525,7 +511,6 @@ btrace.video.qq.com
 bu2.duba.com
 business-api.tiktok.com
 business.inveno.com
-c-nfa.jd.com
 c.bidtoolads.com
 c.bing.com
 c.etoolads.cn
@@ -548,7 +533,6 @@ catalog.fjwhcbsh.com
 cb.l.qq.com
 cbjs.baidu.com
 cc.map.qq.com
-ccc-x.jd.com
 ccs.umeng.com
 cdn-ad.wtzw.com
 cdn-ads.oss-cn-shanghai.aliyuncs.com
@@ -570,7 +554,6 @@ cdn.ynuf.aliapp.org
 ceuswatcab01.blob.core.windows.net
 ceuswatcab02.blob.core.windows.net
 cfg.imtt.qq.com
-chat1.jd.com
 check.engine.miui.com
 chiq-cloud.com
 choice.microsoft.com
@@ -593,10 +576,8 @@ click4.chinaliftoff.io
 clientlogusf.music.163.com
 clkservice.mail.youdao.com
 clkservice2.dict.youdao.com
-cloan.amap.com
 clog.miguvideo.com
 cloooud.com
-cm.bilibili.com
 cm.dmp.sina.cn
 cm.ipinyou.com
 cm.l.qq.com
@@ -680,7 +661,6 @@ data.mistat.india.xiaomi.com
 data.mistat.rus.xiaomi.com
 data.mistat.xiaomi.com
 data.securykit.com
-datacollection.uve.weibo.com
 datain.longfor.com
 datareport.fkw.com
 dc.sigmob.cn
@@ -706,11 +686,9 @@ dlogs.bwton.com
 dm.toutiao.com
 dmapp.youku.com
 dns.iqiyi.com
-dns.jd.com
 dns.m.sm.cn
 dns.qiyipic.iqiyi.com
 dns.wechat.com
-dns.weibo.cn
 dns.weixin.qq.com
 dns.weixin.qq.com.cn
 dns.ximalaya.com
@@ -724,9 +702,7 @@ doubleclick-cn.net
 download.changhong.upgrade2.huan.tv
 download.wan.sohu.com
 downloadxml.changhong.upgrade2.huan.tv
-dp.im.weibo.cn
 dp3.qq.com
-dpmtpush.dianping.com
 dr.netease.im
 drd.hauchi.com.tw
 dsa-mfp.fengshows.cn
@@ -799,7 +775,6 @@ flurry.com
 fms.ipinyou.com
 foundation.mozilla.org
 fraud-detection.engine.miui.com
-free-aos-cdn-image.amap.com
 front-perf.imoim.net
 frontend-perf-service.e.kuaishou.com
 frontier-aweme-hl.snssdk.com
@@ -820,8 +795,6 @@ ga.utilapi.bid
 galaxy.bjcathay.com
 game.loveota.com
 game.sec.miui.com
-game.weibo.cn
-game.weibo.com
 game.wostore.cn
 gas.data.pplive.com
 gdfp.gifshow.com
@@ -859,8 +832,6 @@ gtm.oasisfeng.com
 guanggaoad.youku.com
 gvideo.qpic.cn
 gw.365you.com
-gw5.push.mcp.weibo.cn
-gw6.push.mcp.weibo.cn
 h-adashx.ut.taobao.com
 h-adashx.ut.youku.com
 h-adashx4yt.ut.taobao.com
@@ -908,7 +879,6 @@ httpdns.danuoyi.tbcache.com
 httpdns.huaweicloud.com
 httpdns.kg.qq.com
 httpdns.kwd.inkuai.com
-httpdns.meituan.com
 httpdns.music.163.com
 httpdns.n.shifen.com
 httpdns.ocloud.heytapmobi.com
@@ -921,15 +891,11 @@ httpdns.volcengineapi.com
 httpdns.yunxindns.com
 httpdns.zybang.com
 httpdns1.cc.cdnhwc5.com
-httpdnsmultiapi.meituan.com
-httpdnsmultiapivip.meituan.com
-httpdnsvip.meituan.com
 httpsdns.baidu.com
 hugelog.fcbox.com
 huichuan-mc.sm.cn
 huichuan.sm.cn
 huodong.ios.shouji.360.cn
-huodong.weibo.cn
 hw-ot-ad.a.yximgs.com
 hw-p2p-pull.video-voip.com
 hw-p2p.pull.yximgs.com
@@ -1003,7 +969,6 @@ is.snssdk.com
 ivy.pchouse.com.cn
 ixav-cse.avlyun.com
 iyfbodn.com
-janapi.jd.com
 jiguang.cn
 jobs.date-fns.org
 jp.ad.gameley.com
@@ -1018,12 +983,10 @@ jswebcollects.kugou.com
 justice.fontaine.lol
 jzt.jd.com
 kde.qq.com
-kepler.jd.com
 kgmobilestat.kugou.com
 kgmobilestatbak.kugou.com
 kl.67it.com
 klink.volceapplog.com
-knicks.jd.com
 kpstaticbj.wx.ckjr001.com
 ks-p2p-v2.pull.yximgs.com
 ks-p2p.pull.yximgs.com
@@ -1128,7 +1091,6 @@ m.shenshiads.com
 m.simba.taobao.com
 m1.ad.10010.com
 mamasearchad.cloudvideocdn.taobao.com
-mapi.m.jd.com
 marketing-aibox.v.mitvos.com
 marketplacestats.service.spaceship.com
 masdk.3g.qq.com
@@ -1210,7 +1172,6 @@ msmetrics-test.ws.sonos.com
 mssdk.zijieapi.com
 mssp.baidu.com
 mtj.baidu.com
-mtrace.amap.com
 mtrace.play.cp81.ott.cibntv.net
 mvconf.lato.cloud.360safe.com
 mvconf.uk.cloud.360safe.com
@@ -1263,7 +1224,6 @@ oppo.yidianzixun.com
 optimus-ads-ykx.amap.com
 optimus-ads.amap.com
 orange-dc.youku.com
-orbit.jd.com
 ort-stsdk.vivo.com.cn
 osb-krsvc.samsungqbe.com
 osb-ussvc.samsungqbe.com
@@ -1489,7 +1449,6 @@ sdk.zhangyuyidong.cn
 sdk.zsdfm.com
 sdkapi.cloooud.com
 sdkapp.mobile.sina.cn
-sdkapp.uve.weibo.com
 sdkauth.hpplay.cn
 sdkclick.mobile.sina.cn
 sdkconf.avlyun.com
@@ -1546,7 +1505,6 @@ so.sina.cn
 sofire.baidu.com
 soft.data.weather.360.cn
 soul-ad.soulapp.cn
-soup.v.qq.com
 splash.yy.com
 splashimgbssdl.yun.kugou.com
 splashimgretrybssdl.cloud.kugou.com
@@ -1768,11 +1726,9 @@ update.avlyun.sec.miui.com
 update.lejiao.tv
 update0.aiclk.com
 upgrade-update.hismarttv.com
-uranus.jd.com
 us.l.qq.com
 usage-ping.brave.com
 user.ground.news
-userimg.qunar.com
 usr-api.aiclk.com
 utoken.umeng.com
 uuidapi.yunos.com
@@ -2165,9 +2121,6 @@ zxid-m.mobileservice.cn
 .148a0hqnen.com
 .14i8trbbx4.com
 .14k4.com
-.1500020991.vodplayer.wxamedia.com
-.1500022744.vodplayer.wxamedia.com
-.1500026601.vodplayer.wxamedia.com
 .151xrobgqz.com
 .152media.cloud
 .1548164934.rsc.cdn77.org
@@ -19800,7 +19753,6 @@ zxid-m.mobileservice.cn
 .ccbsr.awarehousefull.com
 .ccbuk.judithandcharles.com
 .ccbyxcypy.com
-.ccc-x.jd.com
 .ccc.aqualink.tokyo
 .ccc.portymultimedialne.pl
 .ccc9c93083.com
@@ -20521,7 +20473,6 @@ zxid-m.mobileservice.cn
 .chat.compassshield.com
 .chat.forddirectdealers.com
 .chat.securelifepath.com
-.chat1.jd.com
 .chatgpt4.gymmembersnow.co
 .chatonsdebat.com
 .chauckee.net
@@ -31462,7 +31413,6 @@ zxid-m.mobileservice.cn
 .datacollect.cisco.com
 .datacollection.adelaideuni.edu.au
 .datacollection.sharmusic.com
-.datacollection.uve.weibo.com
 .datacygnal.io
 .datadog-log.clovergames.io
 .datadog-service.mvfglobal.com
@@ -58238,8 +58188,6 @@ zxid-m.mobileservice.cn
 .judicial4.com
 .judicious85.top
 .judiciousbarnacle.com
-.juejin.cn
-.juejin.im
 .juemd.parikart.com
 .jufhxk.audienhearing.com
 .jugerfowells.com
@@ -59418,7 +59366,6 @@ zxid-m.mobileservice.cn
 .kngnfobo.wyldaway.de
 .knhccb.revivalanimal.com
 .knibdwdnrpupa.site
-.knicks.jd.com
 .knie8wmsk.com
 .knifetreasury.com
 .knight.therapidmind.com
@@ -69766,7 +69713,6 @@ zxid-m.mobileservice.cn
 .mapi.datarudder.com
 .mapi.juniorneves.com.br
 .mapi.keilaneves.com.br
-.mapi.m.jd.com
 .mapixl.com
 .mapp.biryanibykilo.com
 .mapp.ewm.co.uk
@@ -87035,7 +86981,6 @@ zxid-m.mobileservice.cn
 .push-sense.com
 .push.bvsrv.com
 .push.house
-.push.mcp.weibo.cn
 .push.qq.com
 .push.yieldradius.io
 .push.zhanzhang.baidu.com
@@ -132610,7 +132555,6 @@ zxid-m.mobileservice.cn
 .uotfiotf.com
 .uotgsvuyfczoe.online
 .uoupnsykwtbzn.space
-.up-hl.3g.qq.com
 .up.intoaction.ca
 .up.intoactionrecovery.us
 .up.ousabq.tech
@@ -132739,7 +132683,6 @@ zxid-m.mobileservice.cn
 .ur.trackingjourney.com
 .uraejopnlc.com
 .uramylypcuzwt.online
-.uranus.jd.com
 .uranus.sogou.com
 .urbanemop.com
 .urbanfungose.com

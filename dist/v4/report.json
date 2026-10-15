@@ -1,7 +1,7 @@
 {
   "compiler_version": "4.1.1",
   "counts": {
-    "ads": 141064,
+    "ads": 141007,
     "ai": 66,
     "binance": 12,
     "cn": 6642,
@@ -11,7 +11,7 @@
     "paypal": 246,
     "protect-ai": 19,
     "protect-binance": 2,
-    "protect-cn": 109,
+    "protect-cn": 157,
     "protect-global": 31,
     "protect-google": 8,
     "protect-okx": 2,
@@ -6249,8 +6249,56 @@
   ],
   "removed_ads": [
     {
+      "protection": "DOMAIN,1500020991.vodplayer.wxamedia.com",
+      "rule": "DOMAIN,1500020991.vodplayer.wxamedia.com"
+    },
+    {
+      "protection": "DOMAIN,1500022744.vodplayer.wxamedia.com",
+      "rule": "DOMAIN,1500022744.vodplayer.wxamedia.com"
+    },
+    {
+      "protection": "DOMAIN,1500026601.vodplayer.wxamedia.com",
+      "rule": "DOMAIN,1500026601.vodplayer.wxamedia.com"
+    },
+    {
+      "protection": "DOMAIN,aaid.umeng.com",
+      "rule": "DOMAIN,aaid.umeng.com"
+    },
+    {
+      "protection": "DOMAIN,abtest-ch.snssdk.com",
+      "rule": "DOMAIN,abtest-ch.snssdk.com"
+    },
+    {
+      "protection": "DOMAIN,abtest.alibaba.com",
+      "rule": "DOMAIN,abtest.alibaba.com"
+    },
+    {
+      "protection": "DOMAIN,ac.dun.163yun.com",
+      "rule": "DOMAIN,ac.dun.163yun.com"
+    },
+    {
+      "protection": "DOMAIN,acfeedbackws.icloud.com",
+      "rule": "DOMAIN,acfeedbackws.icloud.com"
+    },
+    {
+      "protection": "DOMAIN,acstatic-dun.126.net",
+      "rule": "DOMAIN,acstatic-dun.126.net"
+    },
+    {
+      "protection": "DOMAIN,activeqq.3g.qq.com",
+      "rule": "DOMAIN,activeqq.3g.qq.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,advertising.apple.com"
+    },
+    {
+      "protection": "DOMAIN,amap-aos-info-nogw.amap.com",
+      "rule": "DOMAIN,amap-aos-info-nogw.amap.com"
+    },
+    {
+      "protection": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
+      "rule": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -6261,20 +6309,108 @@
       "rule": "DOMAIN,api.statsig.com"
     },
     {
+      "protection": "DOMAIN,awaken.amap.com",
+      "rule": "DOMAIN,awaken.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,books-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN,bootpreload.uve.weibo.com",
+      "rule": "DOMAIN,bootpreload.uve.weibo.com"
+    },
+    {
+      "protection": "DOMAIN,c-nfa.jd.com",
+      "rule": "DOMAIN,c-nfa.jd.com"
+    },
+    {
+      "protection": "DOMAIN,ccc-x.jd.com",
+      "rule": "DOMAIN,ccc-x.jd.com"
+    },
+    {
+      "protection": "DOMAIN,chat1.jd.com",
+      "rule": "DOMAIN,chat1.jd.com"
+    },
+    {
+      "protection": "DOMAIN,cloan.amap.com",
+      "rule": "DOMAIN,cloan.amap.com"
+    },
+    {
+      "protection": "DOMAIN,cm.bilibili.com",
+      "rule": "DOMAIN,cm.bilibili.com"
+    },
+    {
+      "protection": "DOMAIN,datacollection.uve.weibo.com",
+      "rule": "DOMAIN,datacollection.uve.weibo.com"
+    },
+    {
+      "protection": "DOMAIN,dns.jd.com",
+      "rule": "DOMAIN,dns.jd.com"
+    },
+    {
+      "protection": "DOMAIN,dns.weibo.cn",
+      "rule": "DOMAIN,dns.weibo.cn"
+    },
+    {
+      "protection": "DOMAIN,dp.im.weibo.cn",
+      "rule": "DOMAIN,dp.im.weibo.cn"
+    },
+    {
+      "protection": "DOMAIN,dpmtpush.dianping.com",
+      "rule": "DOMAIN,dpmtpush.dianping.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,events-analytics.apple.com"
     },
     {
+      "protection": "DOMAIN,free-aos-cdn-image.amap.com",
+      "rule": "DOMAIN,free-aos-cdn-image.amap.com"
+    },
+    {
+      "protection": "DOMAIN,game.weibo.cn",
+      "rule": "DOMAIN,game.weibo.cn"
+    },
+    {
+      "protection": "DOMAIN,game.weibo.com",
+      "rule": "DOMAIN,game.weibo.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,onetrust.com",
       "rule": "DOMAIN,geolocation.onetrust.com"
     },
     {
+      "protection": "DOMAIN,gw5.push.mcp.weibo.cn",
+      "rule": "DOMAIN,gw5.push.mcp.weibo.cn"
+    },
+    {
+      "protection": "DOMAIN,gw6.push.mcp.weibo.cn",
+      "rule": "DOMAIN,gw6.push.mcp.weibo.cn"
+    },
+    {
+      "protection": "DOMAIN,httpdns.meituan.com",
+      "rule": "DOMAIN,httpdns.meituan.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,volces.com",
       "rule": "DOMAIN,httpdns.volces.com"
+    },
+    {
+      "protection": "DOMAIN,httpdnsmultiapi.meituan.com",
+      "rule": "DOMAIN,httpdnsmultiapi.meituan.com"
+    },
+    {
+      "protection": "DOMAIN,httpdnsmultiapivip.meituan.com",
+      "rule": "DOMAIN,httpdnsmultiapivip.meituan.com"
+    },
+    {
+      "protection": "DOMAIN,httpdnsvip.meituan.com",
+      "rule": "DOMAIN,httpdnsvip.meituan.com"
+    },
+    {
+      "protection": "DOMAIN,huodong.weibo.cn",
+      "rule": "DOMAIN,huodong.weibo.cn"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -6293,8 +6429,24 @@
       "rule": "DOMAIN,iadsdk.apple.com"
     },
     {
+      "protection": "DOMAIN,janapi.jd.com",
+      "rule": "DOMAIN,janapi.jd.com"
+    },
+    {
+      "protection": "DOMAIN,kepler.jd.com",
+      "rule": "DOMAIN,kepler.jd.com"
+    },
+    {
+      "protection": "DOMAIN,knicks.jd.com",
+      "rule": "DOMAIN,knicks.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,launch.apple.com"
+    },
+    {
+      "protection": "DOMAIN,mapi.m.jd.com",
+      "rule": "DOMAIN,mapi.m.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,mzstatic.com",
@@ -6305,8 +6457,16 @@
       "rule": "DOMAIN,mssdk.volces.com"
     },
     {
+      "protection": "DOMAIN,mtrace.amap.com",
+      "rule": "DOMAIN,mtrace.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,notes-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN,orbit.jd.com",
+      "rule": "DOMAIN,orbit.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,mdt.qq.com",
@@ -6325,12 +6485,20 @@
       "rule": "DOMAIN,proxy.advp.apple.com"
     },
     {
+      "protection": "DOMAIN,sdkapp.uve.weibo.com",
+      "rule": "DOMAIN,sdkapp.uve.weibo.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,securemetrics.apple.com"
     },
     {
       "protection": "DOMAIN,snowflake.qq.com",
       "rule": "DOMAIN,snowflake.qq.com"
+    },
+    {
+      "protection": "DOMAIN,soup.v.qq.com",
+      "rule": "DOMAIN,soup.v.qq.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,statsigapi.net",
@@ -6345,12 +6513,32 @@
       "rule": "DOMAIN,tdid.m.qq.com"
     },
     {
+      "protection": "DOMAIN,uranus.jd.com",
+      "rule": "DOMAIN,uranus.jd.com"
+    },
+    {
+      "protection": "DOMAIN,userimg.qunar.com",
+      "rule": "DOMAIN,userimg.qunar.com"
+    },
+    {
       "protection": "DOMAIN,w1.kskwai.com",
       "rule": "DOMAIN,w1.kskwai.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,weather-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN,1500020991.vodplayer.wxamedia.com",
+      "rule": "DOMAIN-SUFFIX,1500020991.vodplayer.wxamedia.com"
+    },
+    {
+      "protection": "DOMAIN,1500022744.vodplayer.wxamedia.com",
+      "rule": "DOMAIN-SUFFIX,1500022744.vodplayer.wxamedia.com"
+    },
+    {
+      "protection": "DOMAIN,1500026601.vodplayer.wxamedia.com",
+      "rule": "DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
@@ -6381,6 +6569,14 @@
       "rule": "DOMAIN-SUFFIX,apmplus.volces.com"
     },
     {
+      "protection": "DOMAIN,ccc-x.jd.com",
+      "rule": "DOMAIN-SUFFIX,ccc-x.jd.com"
+    },
+    {
+      "protection": "DOMAIN,chat1.jd.com",
+      "rule": "DOMAIN-SUFFIX,chat1.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,paypal.com",
       "rule": "DOMAIN-SUFFIX,data.account.paypal.com"
     },
@@ -6403,6 +6599,10 @@
     {
       "protection": "DOMAIN-SUFFIX,paypal.com",
       "rule": "DOMAIN-SUFFIX,data.zettleby.paypal.com"
+    },
+    {
+      "protection": "DOMAIN,datacollection.uve.weibo.com",
+      "rule": "DOMAIN-SUFFIX,datacollection.uve.weibo.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -6461,12 +6661,28 @@
       "rule": "DOMAIN-SUFFIX,jpush.cn"
     },
     {
+      "protection": "DOMAIN,juejin.cn",
+      "rule": "DOMAIN-SUFFIX,juejin.cn"
+    },
+    {
+      "protection": "DOMAIN,juejin.im",
+      "rule": "DOMAIN-SUFFIX,juejin.im"
+    },
+    {
+      "protection": "DOMAIN,knicks.jd.com",
+      "rule": "DOMAIN-SUFFIX,knicks.jd.com"
+    },
+    {
       "protection": "DOMAIN,s1.kskwai.com",
       "rule": "DOMAIN-SUFFIX,kskwai.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,iqiyipic.com",
       "rule": "DOMAIN-SUFFIX,m.iqiyipic.com"
+    },
+    {
+      "protection": "DOMAIN,mapi.m.jd.com",
+      "rule": "DOMAIN-SUFFIX,mapi.m.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,mdt.qq.com",
@@ -6489,7 +6705,7 @@
       "rule": "DOMAIN-SUFFIX,news-app-events.apple.com"
     },
     {
-      "protection": "DOMAIN-SUFFIX,apple.com",
+      "protection": "DOMAIN,news-events.apple.com",
       "rule": "DOMAIN-SUFFIX,news-events.apple.com"
     },
     {
@@ -6503,6 +6719,10 @@
     {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
       "rule": "DOMAIN-SUFFIX,pixel.ipinfo.io"
+    },
+    {
+      "protection": "DOMAIN,gw5.push.mcp.weibo.cn",
+      "rule": "DOMAIN-SUFFIX,push.mcp.weibo.cn"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -6527,6 +6747,14 @@
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,supportmetrics.apple.com"
+    },
+    {
+      "protection": "DOMAIN,up-hl.3g.qq.com",
+      "rule": "DOMAIN-SUFFIX,up-hl.3g.qq.com"
+    },
+    {
+      "protection": "DOMAIN,uranus.jd.com",
+      "rule": "DOMAIN-SUFFIX,uranus.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
