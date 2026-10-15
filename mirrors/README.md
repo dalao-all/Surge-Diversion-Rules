@@ -1,28 +1,12 @@
-# mirrors/
+# mirrors：历史镜像与兼容路径
 
-本目录存放从上游公开规则源**原样镜像**的列表，便于后续把 Surge 配置里的远程 URL 改为本仓库 `raw.githubusercontent.com` 地址。
+> **历史兼容目录，不是 Surge V3.0.0 的规则发布入口。** 当前配置见 [`profiles/surge-V3.0.0.conf`](../profiles/surge-V3.0.0.conf)，规则位于 [`dist/v4/`](../dist/v4/)，维护见[维护手册](../docs/MAINTENANCE.md)。本目录旧路径不保证每日更新。
 
-## mirrors/skk
+保留这些文件是为避免旧配置断链并提供历史对照；不要把“路径还存在”理解为内容仍与上游现网一致。
 
-- **来源**：`https://ruleset.skk.moe/List/...`（Sukka / SKK 公开规则集）
-- **用途**：供 MESL Surge 等配置在第二步把 `ruleset.skk.moe` 引用改为自有 raw URL
-- **同步**：由维护例程负责；内容应与现网 SKK 列表一致，不在此目录做语义改写
-- **映射**：见同目录 `SOURCE_MAP.json`（`upstream_url` → `repo_relative_path` / sha256 / bytes / fetched_at）
+- `skk/`：历史 SKK 列表缓存与来源映射，保持 `List/domainset|non_ip|ip/...` 结构；旧 SOURCE_MAP 记录的是当时的获取信息。
+- [`owned/`](owned/README.md)：旧 v6.x 的兴趣精简 reject 与 tombstones 产物。它不是完整上游，也不是当前广告表。
+- `blackmatrix7/`：旧配置使用过的列表镜像，供历史核对。
+- `scripts/`：旧 AdBlock 模块引用的脚本镜像。当前版本不要求安装该模块。
 
-路径保持 SKK 的 `List/domainset|non_ip|ip/...` 相对结构，与上游一一对应。
-
-> STEP 1（本目录就绪）只做镜像；**第二步才会改主配置里的 URL**。
-
-## blackmatrix7（历史远程，V6.0 已内联）
-
-旧版 Surge-Xiaomai 曾 RULE-SET 引用 OKX/Binance/PayPal/YouTube/YouTubeMusic 五份 list。V5.2+ 改为本地内联，V6.0 私用配置不再远程引用。此处仍保留镜像，便于对照与防上游失效。
-路径：`mirrors/blackmatrix7/*.list`
-
-## scripts（AdBlock 模块脚本）
-
-V6.0 模块曾引用 fmz200/wool_scripts 与 kokoryh/Script。已镜像到 `mirrors/scripts/`，私用模块应改指向本仓库 raw。
-
-
-## mirrors/owned (V6.1 Option A)
-
-Curated reject* copy with `patches/tombstones.yaml` applied. Runtime conf should reference `mirrors/owned/List/...` for reject*; `mirrors/skk` stays cache-only for those files. Rebuild: `python3 scripts/apply_tombstones_owned.py`.
+当前引擎从 `rulekit_v4/sources.json` 获取登记来源，经验证后生成 `dist/v4/`。旧目录和脚本继续保留兼容，历史维护作业改为按需手动运行；不要误将旧脚本输出覆盖当前目录。旧配置使用者应检查实际引用路径和各自的更新结果。

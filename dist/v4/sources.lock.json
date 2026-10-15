@@ -1,5 +1,5 @@
 {
-  "compiler_version": "4.0.0",
+  "compiler_version": "4.1.0",
   "includes": {
     "https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/qixin": {
       "path": "data/qixin",
@@ -339,6 +339,22 @@
       "sha256": "8537129301d5e4040d9f2b2255217458a16c96eef850ec22367352c512bc3988",
       "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/BiliBili/BiliBili.list"
+    },
+    "bm:rule/Surge/Binance/Binance.list": {
+      "license": {
+        "local_file": "licenses/blackmatrix7__ios_rule_script.LICENSE",
+        "redistribution_allowed": true,
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "spdx": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
+        "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE"
+      },
+      "rules": 12,
+      "semantic_sha256": "07a9430d8c0112cbf0c83f2bc357b9c833ef41eb9c92c82e8ca65fd22bca57be",
+      "sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4",
+      "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Binance/Binance.list"
     },
     "bm:rule/Surge/ByteDance/ByteDance.list": {
       "license": {
@@ -782,11 +798,27 @@
         "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
         "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE"
       },
-      "rules": 1156,
-      "semantic_sha256": "e773ea772c43d90e79749fd7352582d5aa78525f440a8f9b6f5b0364524b5acd",
+      "rules": 1153,
+      "semantic_sha256": "9d7f27b319e9965bdaac610abc3eaf12c109bd8dc1904a3ae3b0578ad8425601",
       "sha256": "aa03f015949e8f6f981d90a7d8b1acf7e88472ee48601632bd964b0bb740f8aa",
       "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Netflix/Netflix.list"
+    },
+    "bm:rule/Surge/OKX/OKX.list": {
+      "license": {
+        "local_file": "licenses/blackmatrix7__ios_rule_script.LICENSE",
+        "redistribution_allowed": true,
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "spdx": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
+        "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE"
+      },
+      "rules": 3,
+      "semantic_sha256": "0ba3b98448f5a8268f1ba6bfacf942dbf7dbb2ab97beb102e91a9d89de8c15dc",
+      "sha256": "eee1945a601da063462eb0cb2784601513a180bf5ab78377904e4689573bfc65",
+      "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/OKX/OKX.list"
     },
     "bm:rule/Surge/OpenAI/OpenAI.list": {
       "license": {
@@ -803,6 +835,22 @@
       "sha256": "6f4047cdbf6953cf5d9b38c4ccd6da7bc6f1acb91b7a87134f25d5b8f5d2408b",
       "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/OpenAI/OpenAI.list"
+    },
+    "bm:rule/Surge/PayPal/PayPal.list": {
+      "license": {
+        "local_file": "licenses/blackmatrix7__ios_rule_script.LICENSE",
+        "redistribution_allowed": true,
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "spdx": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
+        "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE"
+      },
+      "rules": 246,
+      "semantic_sha256": "9aaf8cd845066c2871a15e01c2886b000a2d00eee25ffce05c9a1fe037490af0",
+      "sha256": "4ffb6f94d2f1eff835c24b533c3d1d6e0c5a4cfbc32740fa9c32315ae218fd18",
+      "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/PayPal/PayPal.list"
     },
     "bm:rule/Surge/Pinduoduo/Pinduoduo.list": {
       "license": {
@@ -846,8 +894,8 @@
         "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
         "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE"
       },
-      "rules": 7,
-      "semantic_sha256": "6216ae4e99f3384eaa62e21973dc6f5c92a93c69aeeb0500f9dc0108cc2796d3",
+      "rules": 6,
+      "semantic_sha256": "3130afc275ea36955403b0a1ef46e3c41b76c5a1c6fab14b2978e9f733e35a37",
       "sha256": "d0f9a3b0befdfd209bf752b86e561094f7bb7e81d96e1df86c2ba585535ba755",
       "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Speedtest/Speedtest.list"
@@ -958,8 +1006,8 @@
         "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
         "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE"
       },
-      "rules": 8,
-      "semantic_sha256": "7bad62c8fadaba54a939ee891bebff20d21a650aea52d133a5ca852d4efecbb6",
+      "rules": 7,
+      "semantic_sha256": "04e712a94a65c35016677565167a5be0718355d76d2b411468c6fbb3ffd1ceb3",
       "sha256": "9522270d1be05efe8338d594e0dcb01da9161ec25be655a557fc7e22bb5b6048",
       "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Viki/Viki.list"
@@ -1130,6 +1178,12 @@
       "sha256": "61b6afa10770a276181ce4bbf935a302ec258962e48d34850e08155cc8dd37aa",
       "upstream_commit": "fb8392a7c463d0a80b9c93aa2f29619350f32ee4",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb8392a7c463d0a80b9c93aa2f29619350f32ee4/List/domainset/reject.conf"
+    },
+    "user-telemetry-reject": {
+      "rules": 6,
+      "semantic_sha256": "a05dd4936195432902da140da1d4a2f7ea30312dfc3bc90d9355e5f9586f0962",
+      "sha256": "ed6118156eba6094fda8e12019aa5d23d9b3ed01742d19186adc16ec6e4430a0",
+      "url": "local:custom/user-telemetry.list"
     },
     "v2:data/apple-podcasts": {
       "license": {
@@ -1370,6 +1424,22 @@
       "sha256": "e01ecfc0733f87a3b0a179f6a14e25e679b5d826226cd07da2702f06e451b228",
       "upstream_commit": "c6adacf29cc4fb05e04651fcf03e00989ef9f797",
       "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/walmart"
+    },
+    "v2:data/wise": {
+      "license": {
+        "local_file": "licenses/v2fly__domain-list-community.LICENSE",
+        "redistribution_allowed": true,
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
+        "spdx": "MIT",
+        "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/LICENSE",
+        "verified_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/LICENSE"
+      },
+      "rules": 2,
+      "semantic_sha256": "036b7e97d695d07669cd07a5f288976ca8c71fae7db13767d4c60a6b3b54fb96",
+      "sha256": "54282167db7a892eac8447d905a62d7c3ba557e2bcbc5fc6823c7242f85e78f0",
+      "upstream_commit": "c6adacf29cc4fb05e04651fcf03e00989ef9f797",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/wise"
     },
     "v2:data/xai": {
       "license": {

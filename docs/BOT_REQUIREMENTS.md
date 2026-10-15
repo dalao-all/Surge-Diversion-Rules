@@ -1,3 +1,11 @@
+# 历史资料：旧兴趣机器人规格
+
+> **本文下方全文为历史归档，不是当前安装、日程或维护操作说明。** 旧 patches/interest_seed 驱动的设计规格和阶段计划；其中 09:00/21:00、直接推补丁与旧出口映射不再代表当前工作流。
+>
+> 当前正式版本为 [surge-V3.0.0.conf](../profiles/surge-V3.0.0.conf)，请从[项目首页](../README.md)、[维护手册](../docs/MAINTENANCE.md)和[当前引擎说明](../rulekit_v4/README.md)开始。旧 v6.x、rulekit/mirrors/patches/scripts 继续保留兼容，历史路径不保证每日更新；历史定时计划已不作为当前自动维护入口。
+
+---
+
 # 机器人规则更新要求（App 清单兴趣源）
 
 规格级文档。时区：**Asia/Shanghai**。  

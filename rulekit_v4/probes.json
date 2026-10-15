@@ -2185,7 +2185,7 @@
     {
       "id": "P0146",
       "domain": "accounts.google.com",
-      "expected_category": "ai",
+      "expected_category": "google",
       "app_ids": [
         "INT001",
         "INT002",
@@ -2201,7 +2201,7 @@
     {
       "id": "P0147",
       "domain": "oauth2.googleapis.com",
-      "expected_category": "ai",
+      "expected_category": "google",
       "app_ids": [
         "INT001",
         "INT002",
@@ -2504,6 +2504,369 @@
       "purpose": "国内邮箱不得被Google gmail关键词误匹配",
       "evidence": [
         "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-169",
+      "domain": "paypal.com",
+      "expected_category": "paypal",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-170",
+      "domain": "paypalobjects.com",
+      "expected_category": "paypal",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-171",
+      "domain": "paypal.me",
+      "expected_category": "paypal",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-172",
+      "domain": "wise.com",
+      "expected_category": "wise",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-173",
+      "domain": "transferwise.com",
+      "expected_category": "wise",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-174",
+      "domain": "binance.com",
+      "expected_category": "binance",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-175",
+      "domain": "bnbstatic.com",
+      "expected_category": "binance",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-176",
+      "domain": "okx.com",
+      "expected_category": "okx",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-177",
+      "domain": "okex.com",
+      "expected_category": "okx",
+      "app_ids": [],
+      "purpose": "金融固定选择策略首条命中",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-178",
+      "domain": "statsig.anthropic.com",
+      "expected_category": "ai",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-179",
+      "domain": "aistudio.google.com",
+      "expected_category": "ai",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-180",
+      "domain": "www.apple.com",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-181",
+      "domain": "apple.com",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-182",
+      "domain": "swcdn.apple.com",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-183",
+      "domain": "testflight.apple.com",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-184",
+      "domain": "developer.apple.com",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-185",
+      "domain": "fp-it.fengkongcloud.com",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-186",
+      "domain": "www.substack.com",
+      "expected_category": "global",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-187",
+      "domain": "msedge.net",
+      "expected_category": "global",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-188",
+      "domain": "www.fosshub.com",
+      "expected_category": "global",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-189",
+      "domain": "openinstall.io",
+      "expected_category": "cn",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-190",
+      "domain": "cookielaw.org",
+      "expected_category": "global",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-191",
+      "domain": "onetrust.com",
+      "expected_category": "global",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-192",
+      "domain": "twemoji.maxcdn.com",
+      "expected_category": "global",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-193",
+      "domain": "api2.amplitude.com",
+      "expected_category": "ads",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-194",
+      "domain": "www.googletagmanager.com",
+      "expected_category": "ads",
+      "app_ids": [],
+      "purpose": "用户反馈的实际路由回归",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-195",
+      "domain": "bilibili.tv",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-196",
+      "domain": "biliintl.co",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-197",
+      "domain": "biliintl.com",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-198",
+      "domain": "p-bstarstatic.akamaized.net",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-199",
+      "domain": "p.bstarstatic.com",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-200",
+      "domain": "upos-bstar-mirrorakam.akamaized.net",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "device_verified": false
+    },
+    {
+      "id": "feedback-201",
+      "domain": "upos-bstar1-mirrorakam.akamaized.net",
+      "expected_category": "stream",
+      "app_ids": [],
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
       ],
       "device_verified": false
     }

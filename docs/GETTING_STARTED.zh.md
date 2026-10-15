@@ -1,68 +1,44 @@
-# 你的订阅 Surge V6.0 — 入门
+# Surge V3.0.0 入门
 
-时区：下文「每天 09:00 / 21:00」指 **Asia/Shanghai（UTC+8）**。  
-GitHub Actions cron（UTC）：`0 1,13 * * *` = 北京时间 09:00 / 21:00。
+[返回首页](../README.md) · [应用矩阵](APP_POLICY_MATRIX.md) · [规则说明](RULES_OVERVIEW.zh.md)
 
-> 免责声明：本配置仅供技术交流与个人学习调试，不是代理服务。请遵守当地法律与各平台条款。
+## 1. 下载正式配置
 
-## 你需要准备什么
+下载 [`profiles/surge-V3.0.0.conf`](../profiles/surge-V3.0.0.conf)。此文件不提供节点，`[Proxy]` 为空，`ipv6 = false`。内部 `dist/v4/` 路径是引擎产物命名；旧 `Surge-v4.template.conf` 是兼容别名。
 
-1. 已安装 **Surge iOS / Mac**
-2. 一份你自己有权使用的 **Surge 专用节点订阅**
-3. （可选）GitHub 账号，用于 fork 本项目或开启 Actions
+建议先保留现有 Surge 配置副本，再用新文件导入独立配置。公开模板和静态检查不构成已在你的设备上验收。
 
-## 安装步骤
+## 2. 在本地填写节点
 
-### 1. 导入主配置
+把自己有权使用的 Surge 节点填入 `[Proxy]`，并逐一核对 `[Proxy Group]` 中引用的节点名称和过滤条件。配置仍有原住宅优先等名称引用（例如 `🇺🇸 美国 12 家宽`）；名称引用必须与你实际导入的节点一致。也可自行配置经过验证的节点来源，但仓库不提供订阅地址或令牌。
 
-下载并导入我提供的 [`profiles/Your-Subscription-Surge-V6.0.share.conf`](../profiles/Your-Subscription-Surge-V6.0.share.conf)。
+确认 AI / TikTok 的美国住宅 fallback、英国住宅及同国机房 fallback、流媒体 Smart 和普通国际 Smart 都能选到预期节点。空 `[Proxy]` 不会自动生成住宅出口；节点标签也不能证明 IP 类型或服务可用性。
 
-### 2. 替换订阅占位（必须）
+真实节点、密码、订阅 token 与私有配置只保存在本地或自己的私有位置，不要上传公开仓库。
 
-主配置中有：
+## 3. 配置检查与资源更新
 
-```text
-📦 你的订阅 = select, policy-path=https://subscription.example.invalid/REPLACE_WITH_YOUR_SUBSCRIPTION, update-interval=-1
-```
+在 Surge 运行配置检查，处理未定义节点或组引用错误，再更新外部资源。当前配置只需要 `dist/v4/` 的 23 个 RULE-SET 资源：7 个保护表、1 个广告表、11 个应用分类表。即使某个保护表暂时为空，也保留其固定 URL。
 
-把占位 URL **整段**换成你自己的订阅。按需把 `your-subscribe-host.example` 换成你的订阅域名。
+列表使用 `update-interval=86400`。服务端发布成功与手机已下载新资源是两个步骤；排障时可手动更新，并确认资源状态、下载时间与命中记录。首次更新失败时不能假定设备已有缓存。
 
-**安全：**
+当前方案不需要另装旧 AdBlock sgmodule，不需要信任 MITM CA；不使用 MITM、URL rewrite 或 pre-matching。
 
-- **禁止**把含真实 token 的配置提交到公开 GitHub
-- 我公开仓库里的主配置始终保持脱敏占位
-- fork 后请用本地覆盖或私有位置保存真实订阅，不要把 token 推进 PR
+## 4. 在自己的设备上验收
 
-改完后在 Surge 手动「更新」`📦 你的订阅`，确认节点列表非空。
+先检查常用国内应用、AI、TikTok、Google、流媒体和英国服务。逐项确认启动、登录与主要业务，再在 Surge 请求记录中核对首条命中规则、策略组与实际节点。涉及通话、付款等功能需单独实际确认。
 
-### 3. 安装去广告模块
+Google账户默认跟随AI出口，global使用普通国际Smart，ai / TikTok 使用美国住宅优先 fallback，uk 使用英国住宅优先和英国机房备选，cn 使用 DIRECT。浏览器按访问的目标站点分流，不能据此断言浏览器或某应用所有流量都走同一出口。
 
-启用 [`profiles/Your-Subscription-AdBlock-V6.0.sgmodule`](../profiles/Your-Subscription-AdBlock-V6.0.sgmodule)。  
-模块覆盖 B站/酷安开屏、淘宝/京东/小红书/高德等**精确**去广告；**不会**扩大到「MITM 全部主机」。
+当前 164 项清单仍有未解决与本地工具项；全部覆盖状态见[矩阵](APP_POLICY_MATRIX.md)。201 个真实域名探针验证的是静态路由，不是手机业务或出口连通性。
 
-### 4. 信任 CA（仅在需要模块解密时）
+## 5. 遇到误拦或出口不符
 
-日常不要开「捕获流量」或「MITM 全部主机名」。排障时再临时打开。
+记录失败时间、域名、首条命中规则、策略组及所选节点，提供去除凭据后的信息。正常业务被广告表拦截时，维护者应按[维护手册](MAINTENANCE.md)补充有证据的最小保护项和探针后重建。
 
-### 5. 确认 patches RULE-SET
+只更新远程规则可以改变已绑定类别内的域名归属，不能增加国家出口、凭空获得节点或改变本地策略组定义。需要不同国家或新的策略组时，必须修改本地配置并重新验收。
 
-主配置在 SKK 广告拒绝规则**之前**引用 6 个自有 list（默认 raw → 本仓库 `patches/`，`update-interval=86400`）。  
-也可改成本地相对路径，例如：`RULE-SET,patches/ai-critical.list,"🤖 AI住宅",update-interval=86400`。
+旧版 v6.x 配置、模块和 `mirrors/patches/scripts` 保留兼容用途，不保证每日更新；请不要把旧兴趣机器人安装步骤套用到本版本。
 
-在 Surge 做「配置检查」，确认无红色错误。
 
-### 6. 可选：GitHub Actions
-
-启用 `your-subscription-interest-bot`（见 `docs/github-actions/` 示例）：每天北京时间 09:00 / 21:00 跑兴趣驱动补丁候选。合并前请人工审阅。
-
-## 日常注意
-
-| 建议 | 原因 |
-|------|------|
-| 不要开全局 MITM | 本方案是轻 MITM |
-| 不要日常常开「捕获流量」 | 费电、易踩证书坑 |
-| 不要提交真实订阅 token | 泄露等于节点被盗用 |
-| 不要整包拷贝上游大 list 进仓 | 本项目只维护自有小型 patches |
-| pangle 广告域不要手写放行 | 应交交广告集拒绝 |
-
-更多：[`RULES_OVERVIEW.zh.md`](RULES_OVERVIEW.zh.md) · [`MAINTENANCE.md`](MAINTENANCE.md) · [`INTEREST_MODEL.md`](INTEREST_MODEL.md) · [`APP_POLICY_MATRIX.md`](APP_POLICY_MATRIX.md)
+金融固定select：PayPal默认 `🇺🇸 美国 12 家宽`；Wise、Binance、OKX默认 `🇨🇳 台湾 07 家宽`。请保留原节点名称或修改对应组成员。Google账户组默认选择 `🤖 AI住宅` 策略对象，登录与普通Google业务随同一出口决策；若手动改选，将改变这种一致性。详见 [审计修复](REVIEW_FIXES.zh.md)。

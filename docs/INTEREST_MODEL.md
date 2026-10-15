@@ -1,3 +1,11 @@
+# 历史资料：旧兴趣判定模型
+
+> **本文下方全文为历史归档，不是当前安装、日程或维护操作说明。** 旧兴趣筛选算法与 owned/tombstones 设计资料；不是当前 rulekit_v4 的来源清单、编译门禁或每日更新时间。
+>
+> 当前正式版本为 [surge-V3.0.0.conf](../profiles/surge-V3.0.0.conf)，请从[项目首页](../README.md)、[维护手册](../docs/MAINTENANCE.md)和[当前引擎说明](../rulekit_v4/README.md)开始。旧 v6.x、rulekit/mirrors/patches/scripts 继续保留兼容，历史路径不保证每日更新；历史定时计划已不作为当前自动维护入口。
+
+---
+
 # 兴趣判定模型（Interest Model）
 
 > ## 当前种子来源（2026-09-16）

@@ -1,23 +1,14 @@
+# Legacy compatibility workflow: manual only; current automation uses the v4 engine.
 # 放到仓库 .github/workflows/rulekit.yml；rulekit/ 整个目录放在仓库根下
 name: rulekit daily build
 
 on:
-  schedule:
-    - cron: "30 21 * * *"     # 每天北京时间 05:30（上游 blackmatrix7 / SKK / MetaCubeX 凌晨都已更新完）
   workflow_dispatch:
     inputs:
       force:
         description: "跳过变化量保护（确认上游大改正常后再用）"
         type: boolean
         default: false
-  push:
-    paths:
-      - "rulekit/build.py"
-      - "rulekit/sources.toml"
-      - "rulekit/allow.list"
-      - "rulekit/probes.toml"
-      - "rulekit/custom/**"
-
 permissions:
   contents: write
   actions: write   # actions/cache 读写上游缓存用

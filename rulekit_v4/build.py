@@ -11,8 +11,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 HERE = ROOT / 'rulekit_v4'
-CATEGORIES = ('ai', 'tiktok', 'stream', 'google', 'uk', 'global', 'cn')
-VERSION = '4.0.0'
+CATEGORIES = ('paypal','wise','binance','okx','ai', 'tiktok', 'stream', 'google', 'uk', 'global', 'cn')
+VERSION = '4.1.0'
 class BuildError(Exception): pass
 
 def sha(data):
@@ -218,6 +218,23 @@ def guard(old, new, label):
     if (removed and len(removed)==len(old)) or len(removed)>max(3,len(old)*0.25) or len(added)>max(50,len(old)*0.5):
         raise BuildError(f'Change guard: {label}: old={len(old)} new={len(new)} +{len(added)} -{len(removed)}; inspect upstream, then explicitly revise the baseline in a reviewed commit')
 
+def output_rule(source, rule):
+    category='ads' if source.get('role')=='ads' else source.get('category')
+    note=None
+    kind,value=rule.split(',')[:2]
+    if source.get('numeric_ip_keywords_to_cidr') and kind=='DOMAIN-KEYWORD' and re.match(r'^\d',value):
+        if not re.fullmatch(r'(?:\d{1,3}\.){3}',value): raise BuildError('Unreviewed numeric IP keyword shape: '+rule)
+        corrected=normal_rule('IP-CIDR',value+'0/24',('no-resolve',))
+        note={'original_rule':rule,'output_rule':corrected,'reason':'Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion'}
+        rule=corrected
+    override=source.get('output_rule_overrides',{}).get(rule)
+    if override:
+        category=override.get('category',category)
+        if override.get('rule'):
+            parts=override['rule'].split(',');rule=normal_rule(parts[0],parts[1],parts[2:])
+        note={'original_rule':rule,'output_rule':rule,'reason':override['reason'],'output_category':category}
+    return category,rule,note
+
 def active_sources(config, apps):
     active={a['id'] for a in apps['apps'] if a.get('enabled',True)}
     deps=set(d for a in apps['apps'] if a['id'] in active for d in a.get('dependency_ids',[]))
@@ -252,6 +269,7 @@ def compile_rules(offline=False, output=None):
     if not sources: raise BuildError('No active sources')
     if len(sources) != len({s['id'] for s in sources}): raise BuildError('Duplicate source ID')
     fetch=Fetcher(offline); parser=Parser(fetch); psl=PSL((HERE/'data/public_suffix_list.dat').read_text())
+    corrections=[]
     tables={k:set() for k in (*CATEGORIES,*('protect-'+c for c in CATEGORIES),'ads')}; provenance={}; lock={}; source_rules={}
     previous=readjson(destination/'source-rules.json',{})
     bootstrap=readjson(HERE/'bootstrap.json',{}) if not previous else {}
@@ -275,7 +293,10 @@ def compile_rules(offline=False, output=None):
         category='ads' if s.get('role')=='ads' else s.get('category')
         if category not in tables: raise BuildError(f'Invalid category {category}')
         for rule,origin in records:
-            tables[category].add(rule); provenance.setdefault(category+'|'+rule,[]).append(origin)
+            outcat,outrule,note=output_rule(s,rule)
+            if outcat not in tables: raise BuildError('Invalid transformed category')
+            if note: corrections.append(dict(note,source=s['id']));origin=dict(origin,correction=note)
+            tables[outcat].add(outrule); provenance.setdefault(outcat+'|'+outrule,[]).append(origin)
     # Local reviewed lists are manifest entries, never a filesystem glob that silently adds apps.
     for s in sources:
         if s.get('url') or s.get('repo'): continue
@@ -287,7 +308,9 @@ def compile_rules(offline=False, output=None):
         source_rules[s['id']]=rules; lock[s['id']]={'url':'local:'+s['path'],'sha256':sha(text),'semantic_sha256':sha('\n'.join(rules)),'rules':len(rules)}
         cat=s['category']
         for rule,origin in records:
-            tables[cat].add(rule); provenance.setdefault(cat+'|'+rule,[]).append(origin)
+            outcat,outrule,note=output_rule(s,rule)
+            if note: corrections.append(dict(note,source=s['id']));origin=dict(origin,correction=note)
+            tables[outcat].add(outrule); provenance.setdefault(outcat+'|'+outrule,[]).append(origin)
     protections=readjson(HERE/'protection.json',{'rules':[]})['rules']
     protected=[]
     for p in protections:
@@ -317,6 +340,10 @@ def compile_rules(offline=False, output=None):
         got,rule=route(tables,p['domain']); expected=p['expected_category']
         ok=got==expected
         results.append(dict(p,actual_category=got,matched_rule=rule,passed=ok))
+    migration=readjson(HERE/'migration-audit.json',{'migration':[]})['migration']
+    for old in migration:
+        witness=old['rule'].split(',')[1];actual,matched=route(tables,witness)
+        if actual!=old['current_category']: raise BuildError('Legacy allow migration regression: '+old['rule']+' expected '+old['current_category']+' got '+str(actual))
     failed=[r for r in results if not r['passed']]
     if failed: raise BuildError('Probe regression: '+json.dumps(failed,ensure_ascii=False))
     # Record concrete cross-category overlaps. More-specific earlier categories are intentional.
@@ -337,13 +364,14 @@ def compile_rules(offline=False, output=None):
                 if winner:
                     shadow_witnesses.append({'witness':value,'winner_category':prevcat,'winner_rule':winner,'shadowed_category':cat,'shadowed_rule':r});break
         earlier.append((cat,tables[cat]))
-    report={'compiler_version':VERSION,'enabled_apps':len(active),'sources':len(sources),'counts':{k:len(v) for k,v in tables.items()},'probes':results,'removed_ads':removed_ads,'parser_omissions':parser.omissions,'exact_cross_category_overlaps':conflicts,'cross_category_shadow_witnesses':shadow_witnesses,'limits':['Static domain/IP checks, not iPhone business or node reachability validation','v2 regex and non-domain process rules explicitly excluded; see parser_omissions','Pattern overlap checks are conservative witnesses, not a proof of all wildcard languages','No online stale-cache fallback: any source acquisition failure keeps last published release']}
+    report={'compiler_version':VERSION,'enabled_apps':len(active),'sources':len(sources),'counts':{k:len(v) for k,v in tables.items()},'probes':results,'removed_ads':removed_ads,'parser_omissions':parser.omissions,'legacy_allow_migration_checks':len(migration),'output_corrections':corrections,'exact_cross_category_overlaps':conflicts,'cross_category_shadow_witnesses':shadow_witnesses,'limits':['Static domain/IP checks, not iPhone business or node reachability validation','v2 regex and non-domain process rules explicitly excluded; see parser_omissions','Pattern overlap checks are conservative witnesses, not a proof of all wildcard languages','No online stale-cache fallback: any source acquisition failure keeps last published release']}
     # Only fully validated output reaches staging. Replace complete dir, restore on rename error.
     destination.parent.mkdir(parents=True,exist_ok=True)
     staging=Path(tempfile.mkdtemp(prefix='.v4-stage-',dir=destination.parent))
     try:
         for cat,rules in tables.items():
             (staging/(cat+'.list')).write_text('# Surge Rulekit v4 | '+cat+' | policy supplied by main profile\n'+'\n'.join(rules)+'\n')
+        (staging/'ads.domainset').write_text('# Pure-domain ad set; exact host or leading-dot suffix. ads.list remains a compatibility export.\n'+'\n'.join(('.' if r.startswith('DOMAIN-SUFFIX,') else '')+r.split(',')[1] for r in tables['ads'])+'\n')
         (staging/'sources.lock.json').write_text(jsontext({'compiler_version':VERSION,'sources':lock,'includes':parser.children,'psl_sha256':sha((HERE/'data/public_suffix_list.dat').read_bytes())}))
         (staging/'source-rules.json').write_text(jsontext(source_rules))
         (staging/'protected-history.json').write_text(jsontext(sorted(historical)))
@@ -353,7 +381,7 @@ def compile_rules(offline=False, output=None):
             for key,origins in sorted(provenance.items()):
                 cat,rule=key.split('|',1)
                 f.write((json.dumps({'category':cat,'rule':rule,'published':rule in table_sets[cat],'origins':origins},ensure_ascii=False,separators=(',',':'))+'\n').encode())
-        (staging/'SHA256SUMS').write_text(''.join(sha(p.read_bytes())+'  '+p.name+'\n' for p in sorted(staging.glob('*.list'))))
+        (staging/'SHA256SUMS').write_text(''.join(sha(p.read_bytes())+'  '+p.name+'\n' for p in sorted([*staging.glob('*.list'),staging/'ads.domainset'])))
         fetch.commit_cache()
         backup=destination.with_name(destination.name+'.previous')
         if backup.exists(): shutil.rmtree(backup)

@@ -6959,7 +6959,7 @@
       },
       "enabled": true,
       "category": "google",
-      "policy": "global",
+      "policy": "🔐 Google账户",
       "source_ids": [],
       "dependency_ids": [
         "google-shared"
@@ -7004,7 +7004,7 @@
       },
       "enabled": true,
       "category": "google",
-      "policy": "global",
+      "policy": "🔐 Google账户",
       "source_ids": [],
       "dependency_ids": [
         "google-shared"
@@ -7051,7 +7051,7 @@
       },
       "enabled": true,
       "category": "google",
-      "policy": "global",
+      "policy": "🔐 Google账户",
       "source_ids": [],
       "dependency_ids": [
         "google-shared"
@@ -7097,7 +7097,7 @@
       },
       "enabled": true,
       "category": "google",
-      "policy": "global",
+      "policy": "🔐 Google账户",
       "source_ids": [
         "bm:rule/Surge/GoogleDrive/GoogleDrive.list"
       ],
@@ -7142,7 +7142,7 @@
       },
       "enabled": true,
       "category": "google",
-      "policy": "global",
+      "policy": "🔐 Google账户",
       "source_ids": [],
       "dependency_ids": [
         "google-shared"
@@ -7465,6 +7465,122 @@
       "notes": [
         "两仓目录未见独立的同名应用规则；不能据此推断应用没有网络或被 China/Global 全覆盖。保留未知。",
         "源存在不等于APP全覆盖；所有行尚无本次手机验收。"
+      ]
+    },
+    {
+      "id": "INT029",
+      "order": 161,
+      "original_number": "29",
+      "name": "PayPal",
+      "identity": {
+        "developer": null,
+        "verification": "user-added financial service; upstream candidate"
+      },
+      "enabled": true,
+      "category": "paypal",
+      "policy": "💳 PayPal 美国",
+      "source_ids": [
+        "bm:rule/Surge/PayPal/PayPal.list"
+      ],
+      "dependency_ids": [],
+      "coverage": {
+        "status": "independent-candidate",
+        "complete": false,
+        "device_validated": false,
+        "evidence": [
+          "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        ],
+        "known_probe_domains": []
+      },
+      "notes": [
+        "本轮用户明确新增；不包含在原160项清单内。节点标签不证明实际国家，固定出口不保证平台账户资格。"
+      ]
+    },
+    {
+      "id": "INT030",
+      "order": 162,
+      "original_number": "30",
+      "name": "Wise",
+      "identity": {
+        "developer": null,
+        "verification": "user-added financial service; upstream candidate"
+      },
+      "enabled": true,
+      "category": "wise",
+      "policy": "💸 Wise 台湾",
+      "source_ids": [
+        "v2:data/wise"
+      ],
+      "dependency_ids": [],
+      "coverage": {
+        "status": "independent-candidate",
+        "complete": false,
+        "device_validated": false,
+        "evidence": [
+          "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/wise"
+        ],
+        "known_probe_domains": []
+      },
+      "notes": [
+        "本轮用户明确新增；不包含在原160项清单内。节点标签不证明实际国家，固定出口不保证平台账户资格。"
+      ]
+    },
+    {
+      "id": "INT031",
+      "order": 163,
+      "original_number": "31",
+      "name": "Binance",
+      "identity": {
+        "developer": null,
+        "verification": "user-added financial service; upstream candidate"
+      },
+      "enabled": true,
+      "category": "binance",
+      "policy": "🪙 Binance 台湾",
+      "source_ids": [
+        "bm:rule/Surge/Binance/Binance.list"
+      ],
+      "dependency_ids": [],
+      "coverage": {
+        "status": "independent-candidate",
+        "complete": false,
+        "device_validated": false,
+        "evidence": [
+          "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Binance/Binance.list"
+        ],
+        "known_probe_domains": []
+      },
+      "notes": [
+        "本轮用户明确新增；不包含在原160项清单内。节点标签不证明实际国家，固定出口不保证平台账户资格。"
+      ]
+    },
+    {
+      "id": "INT032",
+      "order": 164,
+      "original_number": "32",
+      "name": "OKX",
+      "identity": {
+        "developer": null,
+        "verification": "user-added financial service; upstream candidate"
+      },
+      "enabled": true,
+      "category": "okx",
+      "policy": "🪙 OKX 台湾",
+      "source_ids": [
+        "bm:rule/Surge/OKX/OKX.list"
+      ],
+      "dependency_ids": [],
+      "coverage": {
+        "status": "independent-candidate",
+        "complete": false,
+        "device_validated": false,
+        "evidence": [
+          "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OKX/OKX.list"
+        ],
+        "known_probe_domains": []
+      },
+      "notes": [
+        "本轮用户明确新增；不包含在原160项清单内。节点标签不证明实际国家，固定出口不保证平台账户资格。"
       ]
     }
   ],

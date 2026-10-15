@@ -1,21 +1,29 @@
 {
-  "compiler_version": "4.0.0",
+  "compiler_version": "4.1.0",
   "counts": {
-    "ads": 141122,
+    "ads": 141064,
     "ai": 66,
-    "cn": 6650,
+    "binance": 12,
+    "cn": 6642,
     "global": 693,
     "google": 697,
+    "okx": 3,
+    "paypal": 246,
     "protect-ai": 19,
-    "protect-cn": 83,
-    "protect-global": 12,
-    "protect-google": 6,
-    "protect-stream": 3,
-    "protect-tiktok": 1,
+    "protect-binance": 2,
+    "protect-cn": 109,
+    "protect-global": 31,
+    "protect-google": 8,
+    "protect-okx": 2,
+    "protect-paypal": 3,
+    "protect-stream": 10,
+    "protect-tiktok": 4,
     "protect-uk": 1,
-    "stream": 1347,
+    "protect-wise": 2,
+    "stream": 1350,
     "tiktok": 30,
-    "uk": 2
+    "uk": 2,
+    "wise": 2
   },
   "cross_category_shadow_witnesses": [
     {
@@ -89,7 +97,7 @@
       "witness": "discordapp.page.link"
     }
   ],
-  "enabled_apps": 160,
+  "enabled_apps": 164,
   "exact_cross_category_overlaps": [
     {
       "rule": "DOMAIN-SUFFIX,deepmind.com",
@@ -117,11 +125,1461 @@
       "winner": "ai"
     }
   ],
+  "legacy_allow_migration_checks": 67,
   "limits": [
     "Static domain/IP checks, not iPhone business or node reachability validation",
     "v2 regex and non-domain process rules explicitly excluded; see parser_omissions",
     "Pattern overlap checks are conservative witnesses, not a proof of all wildcard languages",
     "No online stale-cache fallback: any source acquisition failure keeps last published release"
+  ],
+  "output_corrections": [
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.226.129.",
+      "output_rule": "IP-CIDR,101.226.129.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.226.211.",
+      "output_rule": "IP-CIDR,101.226.211.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.226.222.",
+      "output_rule": "IP-CIDR,101.226.222.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.226.226.",
+      "output_rule": "IP-CIDR,101.226.226.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.227.162.",
+      "output_rule": "IP-CIDR,101.227.162.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.32.104.",
+      "output_rule": "IP-CIDR,101.32.104.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.32.118.",
+      "output_rule": "IP-CIDR,101.32.118.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.32.133.",
+      "output_rule": "IP-CIDR,101.32.133.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.33.110.",
+      "output_rule": "IP-CIDR,101.33.110.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.89.15.",
+      "output_rule": "IP-CIDR,101.89.15.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.89.38.",
+      "output_rule": "IP-CIDR,101.89.38.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.89.50.",
+      "output_rule": "IP-CIDR,101.89.50.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.91.22.",
+      "output_rule": "IP-CIDR,101.91.22.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.91.34.",
+      "output_rule": "IP-CIDR,101.91.34.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.91.37.",
+      "output_rule": "IP-CIDR,101.91.37.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.91.5.",
+      "output_rule": "IP-CIDR,101.91.5.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.91.69.",
+      "output_rule": "IP-CIDR,101.91.69.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,101.91.71.",
+      "output_rule": "IP-CIDR,101.91.71.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,106.225.231.",
+      "output_rule": "IP-CIDR,106.225.231.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,109.244.169.",
+      "output_rule": "IP-CIDR,109.244.169.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,110.52.193.",
+      "output_rule": "IP-CIDR,110.52.193.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,110.53.246.",
+      "output_rule": "IP-CIDR,110.53.246.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,111.0.26.",
+      "output_rule": "IP-CIDR,111.0.26.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,111.30.164.",
+      "output_rule": "IP-CIDR,111.30.164.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,111.45.68.",
+      "output_rule": "IP-CIDR,111.45.68.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,111.45.69.",
+      "output_rule": "IP-CIDR,111.45.69.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,111.45.70.",
+      "output_rule": "IP-CIDR,111.45.70.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.53.25.",
+      "output_rule": "IP-CIDR,112.53.25.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.53.36.",
+      "output_rule": "IP-CIDR,112.53.36.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.60.0.",
+      "output_rule": "IP-CIDR,112.60.0.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.60.13.",
+      "output_rule": "IP-CIDR,112.60.13.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.60.14.",
+      "output_rule": "IP-CIDR,112.60.14.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.60.8.",
+      "output_rule": "IP-CIDR,112.60.8.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.65.193.",
+      "output_rule": "IP-CIDR,112.65.193.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,112.90.43.",
+      "output_rule": "IP-CIDR,112.90.43.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.105.154.",
+      "output_rule": "IP-CIDR,113.105.154.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.105.165.",
+      "output_rule": "IP-CIDR,113.105.165.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.105.166.",
+      "output_rule": "IP-CIDR,113.105.166.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.154.",
+      "output_rule": "IP-CIDR,113.96.154.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.156.",
+      "output_rule": "IP-CIDR,113.96.156.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.16.",
+      "output_rule": "IP-CIDR,113.96.16.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.18.",
+      "output_rule": "IP-CIDR,113.96.18.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.202.",
+      "output_rule": "IP-CIDR,113.96.202.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.208.",
+      "output_rule": "IP-CIDR,113.96.208.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.209.",
+      "output_rule": "IP-CIDR,113.96.209.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.210.",
+      "output_rule": "IP-CIDR,113.96.210.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.232.",
+      "output_rule": "IP-CIDR,113.96.232.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.233.",
+      "output_rule": "IP-CIDR,113.96.233.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.237.",
+      "output_rule": "IP-CIDR,113.96.237.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.83.",
+      "output_rule": "IP-CIDR,113.96.83.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,113.96.98.",
+      "output_rule": "IP-CIDR,113.96.98.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,115.231.229.",
+      "output_rule": "IP-CIDR,115.231.229.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,115.238.197.",
+      "output_rule": "IP-CIDR,115.238.197.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,116.128.133.",
+      "output_rule": "IP-CIDR,116.128.133.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,116.128.163.",
+      "output_rule": "IP-CIDR,116.128.163.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,116.128.171.",
+      "output_rule": "IP-CIDR,116.128.171.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,116.253.60.",
+      "output_rule": "IP-CIDR,116.253.60.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,116.253.61.",
+      "output_rule": "IP-CIDR,116.253.61.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,117.135.133.",
+      "output_rule": "IP-CIDR,117.135.133.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,117.184.242.",
+      "output_rule": "IP-CIDR,117.184.242.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,117.187.243.",
+      "output_rule": "IP-CIDR,117.187.243.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,117.41.224.",
+      "output_rule": "IP-CIDR,117.41.224.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,119.147.190.",
+      "output_rule": "IP-CIDR,119.147.190.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,119.147.227.",
+      "output_rule": "IP-CIDR,119.147.227.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,119.147.83.",
+      "output_rule": "IP-CIDR,119.147.83.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,119.188.155.",
+      "output_rule": "IP-CIDR,119.188.155.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,119.39.81.",
+      "output_rule": "IP-CIDR,119.39.81.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.204.0.",
+      "output_rule": "IP-CIDR,120.204.0.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.204.10.",
+      "output_rule": "IP-CIDR,120.204.10.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.221.179.",
+      "output_rule": "IP-CIDR,120.221.179.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.232.27.",
+      "output_rule": "IP-CIDR,120.232.27.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.232.33.",
+      "output_rule": "IP-CIDR,120.232.33.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.232.65.",
+      "output_rule": "IP-CIDR,120.232.65.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.232.68.",
+      "output_rule": "IP-CIDR,120.232.68.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.233.36.",
+      "output_rule": "IP-CIDR,120.233.36.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.237.199.",
+      "output_rule": "IP-CIDR,120.237.199.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.149.",
+      "output_rule": "IP-CIDR,120.241.149.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.150.",
+      "output_rule": "IP-CIDR,120.241.150.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.17.",
+      "output_rule": "IP-CIDR,120.241.17.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.186.",
+      "output_rule": "IP-CIDR,120.241.186.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.189.",
+      "output_rule": "IP-CIDR,120.241.189.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.190.",
+      "output_rule": "IP-CIDR,120.241.190.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.21.",
+      "output_rule": "IP-CIDR,120.241.21.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.25.",
+      "output_rule": "IP-CIDR,120.241.25.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,120.241.92.",
+      "output_rule": "IP-CIDR,120.241.92.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,121.12.115.",
+      "output_rule": "IP-CIDR,121.12.115.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,121.14.142.",
+      "output_rule": "IP-CIDR,121.14.142.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,121.14.98.",
+      "output_rule": "IP-CIDR,121.14.98.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,121.51.124.",
+      "output_rule": "IP-CIDR,121.51.124.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,121.51.130.",
+      "output_rule": "IP-CIDR,121.51.130.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,122.225.36.",
+      "output_rule": "IP-CIDR,122.225.36.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,122.246.25.",
+      "output_rule": "IP-CIDR,122.246.25.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,123.150.208.",
+      "output_rule": "IP-CIDR,123.150.208.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,123.150.76.",
+      "output_rule": "IP-CIDR,123.150.76.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,123.151.190.",
+      "output_rule": "IP-CIDR,123.151.190.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,123.161.61.",
+      "output_rule": "IP-CIDR,123.161.61.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,123.184.36.",
+      "output_rule": "IP-CIDR,123.184.36.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,124.232.162.",
+      "output_rule": "IP-CIDR,124.232.162.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,129.226.107.",
+      "output_rule": "IP-CIDR,129.226.107.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,129.226.3.",
+      "output_rule": "IP-CIDR,129.226.3.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.17.41.",
+      "output_rule": "IP-CIDR,14.17.41.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.17.73.",
+      "output_rule": "IP-CIDR,14.17.73.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.18.175.",
+      "output_rule": "IP-CIDR,14.18.175.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.18.178.",
+      "output_rule": "IP-CIDR,14.18.178.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.18.180.",
+      "output_rule": "IP-CIDR,14.18.180.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.18.200.",
+      "output_rule": "IP-CIDR,14.18.200.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.18.245.",
+      "output_rule": "IP-CIDR,14.18.245.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.215.138.",
+      "output_rule": "IP-CIDR,14.215.138.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.215.158.",
+      "output_rule": "IP-CIDR,14.215.158.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.215.166.",
+      "output_rule": "IP-CIDR,14.215.166.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.215.167.",
+      "output_rule": "IP-CIDR,14.215.167.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.215.85.",
+      "output_rule": "IP-CIDR,14.215.85.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.22.0.",
+      "output_rule": "IP-CIDR,14.22.0.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.22.33.",
+      "output_rule": "IP-CIDR,14.22.33.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.22.4.",
+      "output_rule": "IP-CIDR,14.22.4.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.22.5.",
+      "output_rule": "IP-CIDR,14.22.5.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.29.100.",
+      "output_rule": "IP-CIDR,14.29.100.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,14.29.101.",
+      "output_rule": "IP-CIDR,14.29.101.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,140.207.119.",
+      "output_rule": "IP-CIDR,140.207.119.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,150.109.90.",
+      "output_rule": "IP-CIDR,150.109.90.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.148.33.",
+      "output_rule": "IP-CIDR,157.148.33.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.148.42.",
+      "output_rule": "IP-CIDR,157.148.42.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.148.45.",
+      "output_rule": "IP-CIDR,157.148.45.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.148.51.",
+      "output_rule": "IP-CIDR,157.148.51.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.148.55.",
+      "output_rule": "IP-CIDR,157.148.55.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.135.",
+      "output_rule": "IP-CIDR,157.255.135.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.173.",
+      "output_rule": "IP-CIDR,157.255.173.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.174.",
+      "output_rule": "IP-CIDR,157.255.174.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.192.",
+      "output_rule": "IP-CIDR,157.255.192.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.243.",
+      "output_rule": "IP-CIDR,157.255.243.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.244.",
+      "output_rule": "IP-CIDR,157.255.244.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,157.255.245.",
+      "output_rule": "IP-CIDR,157.255.245.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,163.177.81.",
+      "output_rule": "IP-CIDR,163.177.81.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,163.177.89.",
+      "output_rule": "IP-CIDR,163.177.89.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,163.177.90.",
+      "output_rule": "IP-CIDR,163.177.90.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,175.27.0.",
+      "output_rule": "IP-CIDR,175.27.0.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,175.6.13.",
+      "output_rule": "IP-CIDR,175.6.13.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.111.199.",
+      "output_rule": "IP-CIDR,180.111.199.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.163.15.",
+      "output_rule": "IP-CIDR,180.163.15.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.163.25.",
+      "output_rule": "IP-CIDR,180.163.25.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.163.26.",
+      "output_rule": "IP-CIDR,180.163.26.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.96.0.",
+      "output_rule": "IP-CIDR,180.96.0.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.96.2.",
+      "output_rule": "IP-CIDR,180.96.2.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,180.97.8.",
+      "output_rule": "IP-CIDR,180.97.8.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,182.254.78.",
+      "output_rule": "IP-CIDR,182.254.78.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,182.254.92.",
+      "output_rule": "IP-CIDR,182.254.92.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.131.56.",
+      "output_rule": "IP-CIDR,183.131.56.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.131.57.",
+      "output_rule": "IP-CIDR,183.131.57.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.192.169.",
+      "output_rule": "IP-CIDR,183.192.169.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.194.238.",
+      "output_rule": "IP-CIDR,183.194.238.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.195.236.",
+      "output_rule": "IP-CIDR,183.195.236.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.232.175.",
+      "output_rule": "IP-CIDR,183.232.175.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.232.246.",
+      "output_rule": "IP-CIDR,183.232.246.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.232.94.",
+      "output_rule": "IP-CIDR,183.232.94.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.232.95.",
+      "output_rule": "IP-CIDR,183.232.95.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.232.96.",
+      "output_rule": "IP-CIDR,183.232.96.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.240.115.",
+      "output_rule": "IP-CIDR,183.240.115.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.240.118.",
+      "output_rule": "IP-CIDR,183.240.118.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.240.48.",
+      "output_rule": "IP-CIDR,183.240.48.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.240.56.",
+      "output_rule": "IP-CIDR,183.240.56.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.240.80.",
+      "output_rule": "IP-CIDR,183.240.80.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.240.81.",
+      "output_rule": "IP-CIDR,183.240.81.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.3.224.",
+      "output_rule": "IP-CIDR,183.3.224.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.3.226.",
+      "output_rule": "IP-CIDR,183.3.226.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.3.233.",
+      "output_rule": "IP-CIDR,183.3.233.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.3.234.",
+      "output_rule": "IP-CIDR,183.3.234.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.3.235.",
+      "output_rule": "IP-CIDR,183.3.235.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.47.101.",
+      "output_rule": "IP-CIDR,183.47.101.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.47.115.",
+      "output_rule": "IP-CIDR,183.47.115.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.47.117.",
+      "output_rule": "IP-CIDR,183.47.117.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.47.97.",
+      "output_rule": "IP-CIDR,183.47.97.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.60.131.",
+      "output_rule": "IP-CIDR,183.60.131.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.60.155.",
+      "output_rule": "IP-CIDR,183.60.155.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,183.61.13.",
+      "output_rule": "IP-CIDR,183.61.13.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,203.205.232.",
+      "output_rule": "IP-CIDR,203.205.232.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,203.205.234.",
+      "output_rule": "IP-CIDR,203.205.234.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,203.205.235.",
+      "output_rule": "IP-CIDR,203.205.235.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,203.205.253.",
+      "output_rule": "IP-CIDR,203.205.253.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,203.205.254.",
+      "output_rule": "IP-CIDR,203.205.254.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,211.95.137.",
+      "output_rule": "IP-CIDR,211.95.137.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,211.95.138.",
+      "output_rule": "IP-CIDR,211.95.138.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,218.68.88.",
+      "output_rule": "IP-CIDR,218.68.88.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,218.68.90.",
+      "output_rule": "IP-CIDR,218.68.90.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,219.135.59.",
+      "output_rule": "IP-CIDR,219.135.59.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,220.194.91.",
+      "output_rule": "IP-CIDR,220.194.91.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,220.194.93.",
+      "output_rule": "IP-CIDR,220.194.93.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,220.196.144.",
+      "output_rule": "IP-CIDR,220.196.144.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,220.249.243.",
+      "output_rule": "IP-CIDR,220.249.243.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,221.181.97.",
+      "output_rule": "IP-CIDR,221.181.97.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,221.181.99.",
+      "output_rule": "IP-CIDR,221.181.99.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,223.166.152.",
+      "output_rule": "IP-CIDR,223.166.152.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,27.19.222.",
+      "output_rule": "IP-CIDR,27.19.222.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,36.136.108.",
+      "output_rule": "IP-CIDR,36.136.108.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,36.152.4.",
+      "output_rule": "IP-CIDR,36.152.4.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,36.155.202.",
+      "output_rule": "IP-CIDR,36.155.202.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,36.158.189.",
+      "output_rule": "IP-CIDR,36.158.189.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,36.158.242.",
+      "output_rule": "IP-CIDR,36.158.242.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,36.250.230.",
+      "output_rule": "IP-CIDR,36.250.230.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,42.187.131.",
+      "output_rule": "IP-CIDR,42.187.131.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,42.187.182.",
+      "output_rule": "IP-CIDR,42.187.182.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,42.187.184.",
+      "output_rule": "IP-CIDR,42.187.184.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,42.202.141.",
+      "output_rule": "IP-CIDR,42.202.141.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,43.156.222.",
+      "output_rule": "IP-CIDR,43.156.222.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,43.156.86.",
+      "output_rule": "IP-CIDR,43.156.86.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.144.193.",
+      "output_rule": "IP-CIDR,58.144.193.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.144.248.",
+      "output_rule": "IP-CIDR,58.144.248.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.247.204.",
+      "output_rule": "IP-CIDR,58.247.204.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.247.205.",
+      "output_rule": "IP-CIDR,58.247.205.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.250.136.",
+      "output_rule": "IP-CIDR,58.250.136.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.251.100.",
+      "output_rule": "IP-CIDR,58.251.100.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.251.111.",
+      "output_rule": "IP-CIDR,58.251.111.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.251.117.",
+      "output_rule": "IP-CIDR,58.251.117.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.251.80.",
+      "output_rule": "IP-CIDR,58.251.80.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.251.81.",
+      "output_rule": "IP-CIDR,58.251.81.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.251.82.",
+      "output_rule": "IP-CIDR,58.251.82.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,58.49.138.",
+      "output_rule": "IP-CIDR,58.49.138.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,59.36.89.",
+      "output_rule": "IP-CIDR,59.36.89.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,59.36.97.",
+      "output_rule": "IP-CIDR,59.36.97.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,59.37.96.",
+      "output_rule": "IP-CIDR,59.37.96.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,59.37.97.",
+      "output_rule": "IP-CIDR,59.37.97.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,60.13.97.",
+      "output_rule": "IP-CIDR,60.13.97.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.151.165.",
+      "output_rule": "IP-CIDR,61.151.165.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.151.167.",
+      "output_rule": "IP-CIDR,61.151.167.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.151.168.",
+      "output_rule": "IP-CIDR,61.151.168.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.151.183.",
+      "output_rule": "IP-CIDR,61.151.183.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.151.206.",
+      "output_rule": "IP-CIDR,61.151.206.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.151.207.",
+      "output_rule": "IP-CIDR,61.151.207.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.190.114.",
+      "output_rule": "IP-CIDR,61.190.114.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.191.60.",
+      "output_rule": "IP-CIDR,61.191.60.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.241.31.",
+      "output_rule": "IP-CIDR,61.241.31.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.241.44.",
+      "output_rule": "IP-CIDR,61.241.44.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.241.47.",
+      "output_rule": "IP-CIDR,61.241.47.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN-KEYWORD,61.241.49.",
+      "output_rule": "IP-CIDR,61.241.49.0/24,no-resolve",
+      "reason": "Intentional policy correction: three-octet substring becomes the exact intended /24; not a semantics-equivalent conversion",
+      "source": "bm:rule/Surge/WeChat/WeChat.list"
+    },
+    {
+      "original_rule": "DOMAIN,p-bstarstatic.akamaized.net",
+      "output_category": "stream",
+      "output_rule": "DOMAIN,p-bstarstatic.akamaized.net",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    },
+    {
+      "original_rule": "DOMAIN,p.bstarstatic.com",
+      "output_category": "stream",
+      "output_rule": "DOMAIN,p.bstarstatic.com",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    },
+    {
+      "original_rule": "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+      "output_category": "stream",
+      "output_rule": "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    },
+    {
+      "original_rule": "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+      "output_category": "stream",
+      "output_rule": "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    },
+    {
+      "original_rule": "DOMAIN-SUFFIX,bilibili.tv",
+      "output_category": "stream",
+      "output_rule": "DOMAIN-SUFFIX,bilibili.tv",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    },
+    {
+      "original_rule": "DOMAIN-SUFFIX,biliintl.co",
+      "output_category": "stream",
+      "output_rule": "DOMAIN-SUFFIX,biliintl.co",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    },
+    {
+      "original_rule": "DOMAIN-SUFFIX,biliintl.com",
+      "output_category": "stream",
+      "output_rule": "DOMAIN-SUFFIX,biliintl.com",
+      "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选",
+      "source": "bm:rule/Surge/BiliBili/BiliBili.list"
+    }
   ],
   "parser_omissions": [
     {
@@ -411,8 +1869,22 @@
       "line": 9,
       "purpose": "app",
       "raw": "DOMAIN-SUFFIX,fast.com",
-      "reason": "fast.com属于Netflix/流媒体既有服务，由INT012表负责；Ookla测速不覆盖此域。",
+      "reason": "fast.com属于Netflix/流媒体既有服务，由INT012表负责；Ookla测速不覆盖此域。 任意含speedtest站点不应强制直连；只保留明确Ookla域名。",
       "rule": "DOMAIN-SUFFIX,fast.com",
+      "source": "bm:rule/Surge/Speedtest/Speedtest.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Speedtest/Speedtest.list"
+    },
+    {
+      "app_ids": [
+        "CN131"
+      ],
+      "confidence": "upstream classification; not packet-capture verified",
+      "dependency_ids": [],
+      "line": 16,
+      "purpose": "app",
+      "raw": "DOMAIN-KEYWORD,speedtest",
+      "reason": "fast.com属于Netflix/流媒体既有服务，由INT012表负责；Ookla测速不覆盖此域。 任意含speedtest站点不应强制直连；只保留明确Ookla域名。",
+      "rule": "DOMAIN-KEYWORD,speedtest",
       "source": "bm:rule/Surge/Speedtest/Speedtest.list",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Speedtest/Speedtest.list"
     },
@@ -506,6 +1978,62 @@
       "reason": "non-domain app/process identity not portable to iOS domain routing",
       "source": "bm:rule/Surge/Netflix/Netflix.list",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Netflix/Netflix.list"
+    },
+    {
+      "app_ids": [
+        "INT012"
+      ],
+      "confidence": "upstream classification; not packet-capture verified",
+      "dependency_ids": [],
+      "line": 16,
+      "purpose": "app",
+      "raw": "DOMAIN-SUFFIX,cookielaw.org",
+      "reason": " 用户审计：公共同意管理服务与整个AWS区域不是Netflix专属；不得绑定流媒体。",
+      "rule": "DOMAIN-SUFFIX,cookielaw.org",
+      "source": "bm:rule/Surge/Netflix/Netflix.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Netflix/Netflix.list"
+    },
+    {
+      "app_ids": [
+        "INT012"
+      ],
+      "confidence": "upstream classification; not packet-capture verified",
+      "dependency_ids": [],
+      "line": 44,
+      "purpose": "app",
+      "raw": "DOMAIN-SUFFIX,onetrust.com",
+      "reason": " 用户审计：公共同意管理服务与整个AWS区域不是Netflix专属；不得绑定流媒体。",
+      "rule": "DOMAIN-SUFFIX,onetrust.com",
+      "source": "bm:rule/Surge/Netflix/Netflix.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Netflix/Netflix.list"
+    },
+    {
+      "app_ids": [
+        "INT012"
+      ],
+      "confidence": "upstream classification; not packet-capture verified",
+      "dependency_ids": [],
+      "line": 45,
+      "purpose": "app",
+      "raw": "DOMAIN-SUFFIX,us-west-2.amazonaws.com",
+      "reason": " 用户审计：公共同意管理服务与整个AWS区域不是Netflix专属；不得绑定流媒体。",
+      "rule": "DOMAIN-SUFFIX,us-west-2.amazonaws.com",
+      "source": "bm:rule/Surge/Netflix/Netflix.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Netflix/Netflix.list"
+    },
+    {
+      "app_ids": [
+        "INT013"
+      ],
+      "confidence": "upstream classification; not packet-capture verified",
+      "dependency_ids": [],
+      "line": 9,
+      "purpose": "app",
+      "raw": "DOMAIN-SUFFIX,twemoji.maxcdn.com",
+      "reason": " 公共表情CDN不是Viki专属，移普通国际服务。",
+      "rule": "DOMAIN-SUFFIX,twemoji.maxcdn.com",
+      "source": "bm:rule/Surge/Viki/Viki.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/Viki/Viki.list"
     },
     {
       "line": 54,
@@ -1097,6 +2625,27 @@
       "rule": "DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com",
       "source": "awa:Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
       "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/99b020c21853cbed56b90456399dad6bde842309/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
+    },
+    {
+      "line": 256,
+      "raw": "USER-AGENT,PayPal*",
+      "reason": "non-domain app/process identity not portable to iOS domain routing",
+      "source": "bm:rule/Surge/PayPal/PayPal.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/PayPal/PayPal.list"
+    },
+    {
+      "app_ids": [
+        "INT029"
+      ],
+      "confidence": "upstream classification; not packet-capture verified",
+      "dependency_ids": [],
+      "line": 255,
+      "purpose": "app",
+      "raw": "DOMAIN-KEYWORD,paypal",
+      "reason": "以明确业务后缀替代paypal任意子串匹配",
+      "rule": "DOMAIN-KEYWORD,paypal",
+      "source": "bm:rule/Surge/PayPal/PayPal.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Surge/PayPal/PayPal.list"
     }
   ],
   "probes": [
@@ -1507,7 +3056,7 @@
       "evidence_kind": "business-candidate",
       "expected_category": "cn",
       "id": "P0023",
-      "matched_rule": "DOMAIN-SUFFIX,music.apple.com",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；未在手机运行启动/登录/业务验证"
     },
@@ -1653,7 +3202,7 @@
       "evidence_kind": "business-candidate",
       "expected_category": "cn",
       "id": "P0031",
-      "matched_rule": "DOMAIN,amp-api.podcasts.apple.com",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；未在手机运行启动/登录/业务验证"
     },
@@ -1671,7 +3220,7 @@
       "evidence_kind": "business-candidate",
       "expected_category": "cn",
       "id": "P0032",
-      "matched_rule": "DOMAIN-SUFFIX,itunes.apple.com",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；未在手机运行启动/登录/业务验证"
     },
@@ -2490,7 +4039,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0077",
-      "matched_rule": "DOMAIN-SUFFIX,apps.apple.com",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -2545,7 +4094,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0080",
-      "matched_rule": "DOMAIN,amp-api.fitness.apple.com",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -3127,7 +4676,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0112",
-      "matched_rule": "DOMAIN-SUFFIX,itunes.apple.com",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -3716,7 +5265,7 @@
       "purpose": "ChatGPT文件域候选；上传功能需手机验证"
     },
     {
-      "actual_category": "ai",
+      "actual_category": "google",
       "app_ids": [
         "INT001",
         "INT002",
@@ -3728,14 +5277,14 @@
         "对应上游源与protection.json"
       ],
       "evidence_kind": "explicit-business-candidate",
-      "expected_category": "ai",
+      "expected_category": "google",
       "id": "P0146",
       "matched_rule": "DOMAIN,accounts.google.com",
       "passed": true,
       "purpose": "Google AI登录精确账号入口"
     },
     {
-      "actual_category": "ai",
+      "actual_category": "google",
       "app_ids": [
         "INT001",
         "INT002",
@@ -3747,7 +5296,7 @@
         "对应上游源与protection.json"
       ],
       "evidence_kind": "explicit-business-candidate",
-      "expected_category": "ai",
+      "expected_category": "google",
       "id": "P0147",
       "matched_rule": "DOMAIN,oauth2.googleapis.com",
       "passed": true,
@@ -4108,49 +5657,763 @@
       "matched_rule": "DOMAIN-SUFFIX,qingmail.com",
       "passed": true,
       "purpose": "国内邮箱不得被Google gmail关键词误匹配"
+    },
+    {
+      "actual_category": "paypal",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "paypal.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "paypal",
+      "id": "feedback-169",
+      "matched_rule": "DOMAIN-SUFFIX,paypal.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "paypal",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "paypalobjects.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "paypal",
+      "id": "feedback-170",
+      "matched_rule": "DOMAIN-SUFFIX,paypalobjects.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "paypal",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "paypal.me",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "paypal",
+      "id": "feedback-171",
+      "matched_rule": "DOMAIN-SUFFIX,paypal.me",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "wise",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "wise.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "wise",
+      "id": "feedback-172",
+      "matched_rule": "DOMAIN-SUFFIX,wise.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "wise",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "transferwise.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "wise",
+      "id": "feedback-173",
+      "matched_rule": "DOMAIN-SUFFIX,transferwise.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "binance",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "binance.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "binance",
+      "id": "feedback-174",
+      "matched_rule": "DOMAIN-SUFFIX,binance.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "binance",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "bnbstatic.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "binance",
+      "id": "feedback-175",
+      "matched_rule": "DOMAIN-SUFFIX,bnbstatic.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "okx",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "okx.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "okx",
+      "id": "feedback-176",
+      "matched_rule": "DOMAIN-SUFFIX,okx.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "okx",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "okex.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "okx",
+      "id": "feedback-177",
+      "matched_rule": "DOMAIN-SUFFIX,okex.com",
+      "passed": true,
+      "purpose": "金融固定选择策略首条命中"
+    },
+    {
+      "actual_category": "ai",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "statsig.anthropic.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "ai",
+      "id": "feedback-178",
+      "matched_rule": "DOMAIN,statsig.anthropic.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "ai",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "aistudio.google.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "ai",
+      "id": "feedback-179",
+      "matched_rule": "DOMAIN,aistudio.google.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "www.apple.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-180",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "apple.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-181",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "swcdn.apple.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-182",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "testflight.apple.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-183",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "developer.apple.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-184",
+      "matched_rule": "DOMAIN-SUFFIX,apple.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "fp-it.fengkongcloud.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-185",
+      "matched_rule": "DOMAIN-SUFFIX,fengkongcloud.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "global",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "www.substack.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "global",
+      "id": "feedback-186",
+      "matched_rule": "DOMAIN-SUFFIX,substack.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "global",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "msedge.net",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "global",
+      "id": "feedback-187",
+      "matched_rule": "DOMAIN-SUFFIX,msedge.net",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "global",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "www.fosshub.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "global",
+      "id": "feedback-188",
+      "matched_rule": "DOMAIN-SUFFIX,fosshub.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "cn",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "openinstall.io",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "cn",
+      "id": "feedback-189",
+      "matched_rule": "DOMAIN-SUFFIX,openinstall.io",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "global",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "cookielaw.org",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "global",
+      "id": "feedback-190",
+      "matched_rule": "DOMAIN-SUFFIX,cookielaw.org",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "global",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "onetrust.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "global",
+      "id": "feedback-191",
+      "matched_rule": "DOMAIN-SUFFIX,onetrust.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "global",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "twemoji.maxcdn.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "global",
+      "id": "feedback-192",
+      "matched_rule": "DOMAIN,twemoji.maxcdn.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "ads",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "api2.amplitude.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "ads",
+      "id": "feedback-193",
+      "matched_rule": "DOMAIN,api2.amplitude.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "ads",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "www.googletagmanager.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "ads",
+      "id": "feedback-194",
+      "matched_rule": "DOMAIN-SUFFIX,googletagmanager.com",
+      "passed": true,
+      "purpose": "用户反馈的实际路由回归"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "bilibili.tv",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-195",
+      "matched_rule": "DOMAIN-SUFFIX,bilibili.tv",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "biliintl.co",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-196",
+      "matched_rule": "DOMAIN-SUFFIX,biliintl.co",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "biliintl.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-197",
+      "matched_rule": "DOMAIN-SUFFIX,biliintl.com",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "p-bstarstatic.akamaized.net",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-198",
+      "matched_rule": "DOMAIN,p-bstarstatic.akamaized.net",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "p.bstarstatic.com",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-199",
+      "matched_rule": "DOMAIN,p.bstarstatic.com",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "upos-bstar-mirrorakam.akamaized.net",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-200",
+      "matched_rule": "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
+    },
+    {
+      "actual_category": "stream",
+      "app_ids": [],
+      "device_verified": false,
+      "domain": "upos-bstar1-mirrorakam.akamaized.net",
+      "evidence": [
+        "User supplied audit; checked against canonical source provenance and legacy configuration"
+      ],
+      "expected_category": "stream",
+      "id": "feedback-201",
+      "matched_rule": "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+      "passed": true,
+      "purpose": "国际B站网站/CDN不得被国内规则遮蔽"
     }
   ],
   "removed_ads": [
     {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,advertising.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,api-adservices.apple.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,statsig.com",
       "rule": "DOMAIN,api.statsig.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,books-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,events-analytics.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,onetrust.com",
+      "rule": "DOMAIN,geolocation.onetrust.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,volces.com",
+      "rule": "DOMAIN,httpdns.volces.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,iad.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,iadcontent.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,iadmoo.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,iadsdk.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,launch.apple.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,mzstatic.com",
       "rule": "DOMAIN,metrics.mzstatic.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,volces.com",
+      "rule": "DOMAIN,mssdk.volces.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,notes-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mdt.qq.com",
+      "rule": "DOMAIN,oth.eve.mdt.qq.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mdt.qq.com",
+      "rule": "DOMAIN,oth.str.mdt.qq.com"
+    },
+    {
       "protection": "DOMAIN,policy.video.iqiyi.com",
       "rule": "DOMAIN,policy.video.iqiyi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,proxy.advp.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,securemetrics.apple.com"
+    },
+    {
+      "protection": "DOMAIN,snowflake.qq.com",
+      "rule": "DOMAIN,snowflake.qq.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,statsigapi.net",
       "rule": "DOMAIN,statsigapi.net"
     },
     {
+      "protection": "DOMAIN-SUFFIX,volces.com",
+      "rule": "DOMAIN,tab.volces.com"
+    },
+    {
+      "protection": "DOMAIN,tdid.m.qq.com",
+      "rule": "DOMAIN,tdid.m.qq.com"
+    },
+    {
+      "protection": "DOMAIN,w1.kskwai.com",
+      "rule": "DOMAIN,w1.kskwai.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN,weather-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,ipinfo.io",
+      "rule": "DOMAIN-SUFFIX,a.ipinfo.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,advertising.apple.com"
+    },
+    {
       "protection": "DOMAIN,amdc.m.taobao.com",
       "rule": "DOMAIN-SUFFIX,amdc.m.taobao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,api-adservices.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,volces.com",
+      "rule": "DOMAIN-SUFFIX,apmplus.ap-southeast-1.volces.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,volces.com",
+      "rule": "DOMAIN-SUFFIX,apmplus.volces.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,data.account.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,data.fastlane-email.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,data.messaging.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,data.news.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,data.newsletter.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,data.zettleby.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,drupalmetrics.ppg.apple.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,statsigapi.net",
       "rule": "DOMAIN-SUFFIX,events.statsigapi.net"
     },
     {
+      "protection": "DOMAIN-SUFFIX,fengkongcloud.com",
+      "rule": "DOMAIN-SUFFIX,fengkongcloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,fosshub.com",
+      "rule": "DOMAIN-SUFFIX,fosshub.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,volces.com",
+      "rule": "DOMAIN-SUFFIX,gator.volces.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,graffiti-tags.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,wise.com",
+      "rule": "DOMAIN-SUFFIX,gtm.wise.com"
+    },
+    {
       "protection": "DOMAIN,httpdns.bilivideo.com",
       "rule": "DOMAIN-SUFFIX,httpdns.bilivideo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,i.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,iad.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,iadcontent.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,iadmoo.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,iadworkbench.apple.com"
+    },
+    {
+      "protection": "DOMAIN,api.jpush.cn",
+      "rule": "DOMAIN-SUFFIX,jpush.cn"
     },
     {
       "protection": "DOMAIN,s1.kskwai.com",
       "rule": "DOMAIN-SUFFIX,kskwai.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,iqiyipic.com",
+      "rule": "DOMAIN-SUFFIX,m.iqiyipic.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mdt.qq.com",
+      "rule": "DOMAIN-SUFFIX,mdt.qq.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,metrics.apple.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,mzstatic.com",
       "rule": "DOMAIN-SUFFIX,metrics.mzstatic.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,msedge.net",
+      "rule": "DOMAIN-SUFFIX,msedge.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,news-app-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,news-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,news-sports-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,openinstall.io",
+      "rule": "DOMAIN-SUFFIX,openinstall.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,ipinfo.io",
+      "rule": "DOMAIN-SUFFIX,pixel.ipinfo.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,securemvt.apple.com"
+    },
+    {
+      "protection": "DOMAIN,snowflake.qq.com",
+      "rule": "DOMAIN-SUFFIX,snowflake.qq.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,paypal.com",
+      "rule": "DOMAIN-SUFFIX,stats.paypal.com"
+    },
+    {
+      "protection": "DOMAIN,statsig.anthropic.com",
+      "rule": "DOMAIN-SUFFIX,statsig.anthropic.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,substack.com",
+      "rule": "DOMAIN-SUFFIX,substack.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,apple.com",
+      "rule": "DOMAIN-SUFFIX,supportmetrics.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,ipinfo.io",
+      "rule": "DOMAIN-SUFFIX,v.ipinfo.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,oschina.net",
+      "rule": "DOMAIN-SUFFIX,visit.oschina.net"
     },
     {
       "protection": "DOMAIN,wxs.qq.com",
       "rule": "DOMAIN-SUFFIX,wxs.qq.com"
     }
   ],
-  "sources": 109
+  "sources": 114
 }

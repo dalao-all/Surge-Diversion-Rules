@@ -1,3 +1,11 @@
+# 历史资料：旧 rulekit 审计与迁移研究
+
+> **本文下方全文为历史归档，不是当前安装、日程或维护操作说明。** 旧 1.3.6/159 项及 rulekit 研究快照，所列数量、测试、广告源比较、金融策略和待拍板项均是当时结论，不是当前发布说明。
+>
+> 当前正式版本为 [surge-V3.0.0.conf](../profiles/surge-V3.0.0.conf)，请从[项目首页](../README.md)、[维护手册](../docs/MAINTENANCE.md)和[当前引擎说明](../rulekit_v4/README.md)开始。旧 v6.x、rulekit/mirrors/patches/scripts 继续保留兼容，历史路径不保证每日更新；历史定时计划已不作为当前自动维护入口。
+
+---
+
 ---
 title: Surge 分流规则深度审计与「按 App 自建规则集」方案
 subtitle: 基于 Surge-1.3.6-final 与 APP 排序清单（159 个）· 2026-10-14

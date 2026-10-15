@@ -1,15 +1,13 @@
-# profiles（分享版）
+# 公开配置
 
-**Canonical (V6.1):** [`Surge-v6.1.conf`](Surge-v6.1.conf) — 公开脱敏；reject* → `mirrors/owned`；订阅占位。
+**正式下载：[`surge-V3.0.0.conf`](surge-V3.0.0.conf)** · [入门](../docs/GETTING_STARTED.zh.md) · [规则说明](../docs/RULES_OVERVIEW.zh.md)
 
-旧版 `Your-Subscription-Surge-V6.0.share.conf` 保留并指向 V6.1（避免断链）。
+正式配置 `[Proxy]` 为空、`ipv6 = false`，不含真实节点或订阅凭据。用户需要在本地填入节点，并核对策略组中保留的住宅优先等节点名称引用。空节点配置无法提供代理出口。
 
-# profiles（分享版）
+AI / TikTok 使用美国住宅优先 fallback，英国使用英国住宅优先和同国机房备选，Google账户默认跟随AI出口，global使用普通国际Smart，国内 DIRECT。实际节点与出口需要用户验收。
 
-我在本目录只放**可公开**的去敏感配置：
+23 个运行时资源统一引用 `dist/v4/`；v4 是内部引擎路径，用户版本为 V3.0.0。`Surge-v4.template.conf` 保留为同内容兼容别名，建议新安装使用正式文件名。
 
-- `Your-Subscription-Surge-V6.0.share.conf` — 主配置；订阅为占位，规则指向本仓库 `mirrors/` 与 `patches/`
-- `Your-Subscription-AdBlock-V6.0.sgmodule` — 日常去广告模块；脚本指向本仓库 `mirrors/scripts/`
+当前方案不需要额外 AdBlock 模块，不使用 MITM、URL rewrite 或 pre-matching。旧 `Surge-v6.x.conf`、`Your-Subscription-*.conf` 与 `*.sgmodule` 留作历史兼容，不再主推，也不保证其旧规则路径每日更新。旧模块说明不适用于当前版本。
 
-安装时请自行替换 `policy-path` 占位与 `your-subscribe-host.example`。  
-**带真实订阅 token 的私用配置我不放进本目录、也不进公开仓库。**
+不要将填入真实节点、密码或订阅令牌后的本地配置提交公开仓库。

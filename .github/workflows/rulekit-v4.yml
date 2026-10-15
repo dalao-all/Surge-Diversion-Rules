@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['rulekit_v4/**', 'profiles/Surge-v4.template.conf', '.github/workflows/rulekit-v4.yml']
+    paths: ['rulekit_v4/**', 'profiles/Surge-v4.template.conf', 'profiles/surge-V3.0.0.conf', 'scripts/generate_repository_status.py', '.github/workflows/rulekit-v4.yml']
   pull_request:
-    paths: ['rulekit_v4/**', 'profiles/Surge-v4.template.conf', '.github/workflows/rulekit-v4.yml']
+    paths: ['rulekit_v4/**', 'profiles/Surge-v4.template.conf', 'profiles/surge-V3.0.0.conf', 'scripts/generate_repository_status.py', '.github/workflows/rulekit-v4.yml']
 permissions:
   contents: read
 concurrency:
@@ -25,11 +25,17 @@ jobs:
         with:
           python-version: '3.12'
       - name: Parser and failure isolation regression tests
-        run: python -m unittest discover -s rulekit_v4 -p test_build.py -v
+        run: python -m unittest discover -s rulekit_v4 -p 'test_*.py' -v
+      - name: Mirror synchronization regression tests
+        run: python -m unittest discover -s scripts -p test_sync.py -q
       - name: Fetch pinned sources, compile and check business probes
         run: python rulekit_v4/build.py
       - name: Validate complete release and public profile
         run: python rulekit_v4/validate_release.py
+      - name: Generate accurate website status
+        run: python scripts/generate_repository_status.py
+      - name: Audit active documentation and website
+        run: python scripts/audit_repository.py
       - name: Publish only if input commit is still current
         if: github.event_name != 'pull_request'
         env:
@@ -40,7 +46,7 @@ jobs:
             echo 'Repository changed during build. Refusing stale publish; rerun on new HEAD.'
             exit 1
           fi
-          git add dist/v4
+          git add dist/v4 repository-status.json docs/APP_POLICY_MATRIX.md
           if git diff --cached --quiet; then
             echo 'All validated outputs unchanged.' >> "$GITHUB_STEP_SUMMARY"
             exit 0

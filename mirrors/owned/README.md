@@ -1,3 +1,11 @@
+# 历史资料：旧 owned 精简 reject 说明
+
+> **本文下方全文为历史归档，不是当前安装、日程或维护操作说明。** 旧 v6.x 兴趣精简与 tombstones 兼容目录；下方121项范围、上游用法和重建命令只描述历史方案，不代表当前160项清单与广告产物。
+>
+> 当前正式版本为 [surge-V3.0.0.conf](../../profiles/surge-V3.0.0.conf)，请从[项目首页](../../README.md)、[维护手册](../../docs/MAINTENANCE.md)和[当前引擎说明](../../rulekit_v4/README.md)开始。旧 v6.x、rulekit/mirrors/patches/scripts 继续保留兼容，历史路径不保证每日更新；历史定时计划已不作为当前自动维护入口。
+
+---
+
 # mirrors/owned — V6.1 自建精简 reject（Option A）
 
 运行时 Surge 的 `reject*` DOMAIN-SET / RULE-SET 指向此处（`mirrors/owned/List/...`），**不是**完整 SKK。

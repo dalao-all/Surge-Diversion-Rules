@@ -1521,7 +1521,8 @@
         "sha256": "01e55617280a7b03db13397fcd2fe4bb3be559f728145fb1fbb054036d75d0bc",
         "active_line_count": 332,
         "etag": "\"0b3be77ee8cdb97b03c13bd4adf9a08136f9b0e88132de3a364ffb5a2124af36\""
-      }
+      },
+      "numeric_ip_keywords_to_cidr": true
     },
     {
       "id": "bm:rule/Surge/DingTalk/DingTalk.list",
@@ -1722,6 +1723,36 @@
         "sha256": "8537129301d5e4040d9f2b2255217458a16c96eef850ec22367352c512bc3988",
         "active_line_count": 133,
         "etag": "\"3bfa0a3324a1375514754027fd97e8dc5cfdc436993b1a9bc00f63db97c32810\""
+      },
+      "output_rule_overrides": {
+        "DOMAIN-SUFFIX,bilibili.tv": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        },
+        "DOMAIN-SUFFIX,biliintl.co": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        },
+        "DOMAIN-SUFFIX,biliintl.com": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        },
+        "DOMAIN,p-bstarstatic.akamaized.net": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        },
+        "DOMAIN,p.bstarstatic.com": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        },
+        "DOMAIN,upos-bstar-mirrorakam.akamaized.net": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        },
+        "DOMAIN,upos-bstar1-mirrorakam.akamaized.net": {
+          "category": "stream",
+          "reason": "B站国际业务与国际视频CDN，恢复旧版流媒体分类；biliintl.co为同源国际服务候选"
+        }
       }
     },
     {
@@ -3342,9 +3373,10 @@
         "etag": "\"7b28f4628c36a6122243bd5b90b5df253a82c53f500216e9cb3a3ebe492e7927\""
       },
       "exclude_rules": [
+        "DOMAIN-KEYWORD,speedtest",
         "DOMAIN-SUFFIX,fast.com"
       ],
-      "exclude_reason": "fast.com属于Netflix/流媒体既有服务，由INT012表负责；Ookla测速不覆盖此域。"
+      "exclude_reason": "fast.com属于Netflix/流媒体既有服务，由INT012表负责；Ookla测速不覆盖此域。 任意含speedtest站点不应强制直连；只保留明确Ookla域名。"
     },
     {
       "id": "v2:data/colorfulclouds",
@@ -3792,7 +3824,13 @@
         "sha256": "aa03f015949e8f6f981d90a7d8b1acf7e88472ee48601632bd964b0bb740f8aa",
         "active_line_count": 1158,
         "etag": "\"8b851c62860c5ee22400f6d54a63f950a4172df8abc1f8878dae04818bc322cb\""
-      }
+      },
+      "exclude_rules": [
+        "DOMAIN-SUFFIX,cookielaw.org",
+        "DOMAIN-SUFFIX,onetrust.com",
+        "DOMAIN-SUFFIX,us-west-2.amazonaws.com"
+      ],
+      "exclude_reason": " 用户审计：公共同意管理服务与整个AWS区域不是Netflix专属；不得绑定流媒体。"
     },
     {
       "id": "bm:rule/Surge/Viki/Viki.list",
@@ -3832,7 +3870,11 @@
         "sha256": "9522270d1be05efe8338d594e0dcb01da9161ec25be655a557fc7e22bb5b6048",
         "active_line_count": 8,
         "etag": "\"087c768df92ca73831579541263ce2fafe6268822764ab971894b7cfa9a620a4\""
-      }
+      },
+      "exclude_rules": [
+        "DOMAIN-SUFFIX,twemoji.maxcdn.com"
+      ],
+      "exclude_reason": " 公共表情CDN不是Viki专属，移普通国际服务。"
     },
     {
       "id": "bm:rule/Surge/Whatsapp/Whatsapp.list",
@@ -4681,6 +4723,162 @@
         "active_line_count": 1,
         "local_file_verified": true
       }
+    },
+    {
+      "id": "bm:rule/Surge/PayPal/PayPal.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list",
+      "format": "surge",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Surge/PayPal/PayPal.list",
+      "role": "app",
+      "category": "paypal",
+      "required": true,
+      "enabled": true,
+      "app_ids": [
+        "INT029"
+      ],
+      "dependency_ids": [],
+      "exclude_tags": [],
+      "license": {
+        "spdx": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "redistribution_allowed": true,
+        "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "local_file": "licenses/blackmatrix7__ios_rule_script.LICENSE"
+      },
+      "unsupported_rule_policy": {
+        "USER-AGENT": "iOS域名规则层不可靠支持应用UA匹配，排除并在构建报告保留原行与理由",
+        "PROCESS-NAME": "iOS域名规则层不采用桌面进程名，排除并在构建报告保留原行与理由"
+      },
+      "coverage_claim": "公开社区候选；不是手机观测或完整流量保证",
+      "exclude_rules": [
+        "DOMAIN-KEYWORD,paypal"
+      ],
+      "exclude_reason": "以明确业务后缀替代paypal任意子串匹配"
+    },
+    {
+      "id": "v2:data/wise",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/wise",
+      "format": "v2fly",
+      "repo": "v2fly/domain-list-community",
+      "ref": "master",
+      "path": "data/wise",
+      "role": "app",
+      "category": "wise",
+      "required": true,
+      "enabled": true,
+      "app_ids": [
+        "INT030"
+      ],
+      "dependency_ids": [],
+      "exclude_tags": [
+        "ads"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/LICENSE",
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "redistribution_allowed": true,
+        "verified_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/LICENSE",
+        "sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
+        "local_file": "licenses/v2fly__domain-list-community.LICENSE"
+      },
+      "unsupported_rule_policy": {
+        "USER-AGENT": "iOS域名规则层不可靠支持应用UA匹配，排除并在构建报告保留原行与理由",
+        "PROCESS-NAME": "iOS域名规则层不采用桌面进程名，排除并在构建报告保留原行与理由"
+      },
+      "coverage_claim": "公开社区候选；不是手机观测或完整流量保证"
+    },
+    {
+      "id": "bm:rule/Surge/Binance/Binance.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Binance/Binance.list",
+      "format": "surge",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Surge/Binance/Binance.list",
+      "role": "app",
+      "category": "binance",
+      "required": true,
+      "enabled": true,
+      "app_ids": [
+        "INT031"
+      ],
+      "dependency_ids": [],
+      "exclude_tags": [],
+      "license": {
+        "spdx": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "redistribution_allowed": true,
+        "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "local_file": "licenses/blackmatrix7__ios_rule_script.LICENSE"
+      },
+      "unsupported_rule_policy": {
+        "USER-AGENT": "iOS域名规则层不可靠支持应用UA匹配，排除并在构建报告保留原行与理由",
+        "PROCESS-NAME": "iOS域名规则层不采用桌面进程名，排除并在构建报告保留原行与理由"
+      },
+      "coverage_claim": "公开社区候选；不是手机观测或完整流量保证"
+    },
+    {
+      "id": "bm:rule/Surge/OKX/OKX.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OKX/OKX.list",
+      "format": "surge",
+      "repo": "blackmatrix7/ios_rule_script",
+      "ref": "master",
+      "path": "rule/Surge/OKX/OKX.list",
+      "role": "app",
+      "category": "okx",
+      "required": true,
+      "enabled": true,
+      "app_ids": [
+        "INT032"
+      ],
+      "dependency_ids": [],
+      "exclude_tags": [],
+      "license": {
+        "spdx": "GPL-2.0-only",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/LICENSE",
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "redistribution_allowed": true,
+        "verified_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/LICENSE",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "local_file": "licenses/blackmatrix7__ios_rule_script.LICENSE"
+      },
+      "unsupported_rule_policy": {
+        "USER-AGENT": "iOS域名规则层不可靠支持应用UA匹配，排除并在构建报告保留原行与理由",
+        "PROCESS-NAME": "iOS域名规则层不采用桌面进程名，排除并在构建报告保留原行与理由"
+      },
+      "coverage_claim": "公开社区候选；不是手机观测或完整流量保证"
+    },
+    {
+      "id": "user-telemetry-reject",
+      "url": null,
+      "format": "surge",
+      "repo": null,
+      "ref": null,
+      "path": "custom/user-telemetry.list",
+      "role": "ads",
+      "category": "ads",
+      "required": true,
+      "enabled": true,
+      "app_ids": [],
+      "dependency_ids": [],
+      "exclude_tags": [],
+      "license": {
+        "spdx": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "redistribution_note": "本项目人工规则声明为CC0；公开官方域名事实的引用链接留在文件注释。",
+        "redistribution_allowed": true,
+        "local_file": "licenses/CC0-1.0.LICENSE"
+      },
+      "evidence": [
+        "Legacy ads-supplement/module and explicit user audit"
+      ],
+      "coverage_claim": "已知域名候选；网页/隐私域不证明应用API覆盖"
     }
   ],
   "default_ads": "仅SKK保守域名表+AWA原生；无ABP大合集，无重复MetaCubeX编译镜像",

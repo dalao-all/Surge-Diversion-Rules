@@ -1994,7 +1994,7 @@
     {
       "type": "DOMAIN",
       "value": "accounts.google.com",
-      "category": "ai",
+      "category": "google",
       "app_ids": [
         "INT001",
         "INT002",
@@ -2003,7 +2003,7 @@
         "INT005",
         "INT006"
       ],
-      "reason": "AI登录共享账号精确端点保持稳定出口；Google正文与CDN仍global",
+      "reason": "账户登录与Google日常业务统一使用Google账户组，默认跟随AI当前出口",
       "evidence": [
         "https://developers.google.com/identity/protocols/oauth2",
         "既有AI登录专项策略例外"
@@ -2013,7 +2013,7 @@
     {
       "type": "DOMAIN",
       "value": "oauth2.googleapis.com",
-      "category": "ai",
+      "category": "google",
       "app_ids": [
         "INT001",
         "INT002",
@@ -2022,7 +2022,7 @@
         "INT005",
         "INT006"
       ],
-      "reason": "AI登录共享账号精确端点保持稳定出口；Google正文与CDN仍global",
+      "reason": "账户登录与Google日常业务统一使用Google账户组，默认跟随AI当前出口",
       "evidence": [
         "https://developers.google.com/identity/protocols/oauth2",
         "既有AI登录专项策略例外"
@@ -2230,6 +2230,695 @@
         "https://open.goofish.com/doc/api/advanced/share.html"
       ],
       "confidence": "official-business-host-candidate; not phone validated"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "chat.bilibili.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:13"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "club.bilibili.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:14"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "tdid.m.qq.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:17"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "snowflake.qq.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:18"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mdt.qq.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:19"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "iqiyipic.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:24"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ppsimg.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:25"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "terms.alicdn.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:30"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "docs.c-ctrip.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:36"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "p3-sign.bdxiguaimg.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:39"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "p26-sign.bdxiguaimg.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:40"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "lf6-mgsdk-sign.dailygn.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:41"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "lf9-mgsdk-sign.dailygn.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:42"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "volces.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:43"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "w1.kskwai.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:46"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "w2.kskwai.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:47"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "tsis.jpush.cn",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:49"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.jpush.cn",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:50"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "safebrowsing.apple",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:53"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "ca.iadsdk.apple.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:54"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "roovza.launches.appsflyersdk.com",
+      "category": "tiktok",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:63"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "roovza.cdn-settings.appsflyersdk.com",
+      "category": "tiktok",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:64"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ocsp.digicert.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:66"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ocsp.godaddy.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:67"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ocsp.sectigo.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:68"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "platform.instagram.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:71"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ipinfo.io",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:72"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ttwebview.com",
+      "category": "tiktok",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:73"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wixstatic.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:74"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cdn.jwplayer.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:75"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "oschina.net",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:76"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "youzanyun.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:77"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cnnic.cn",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:78"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sendgrid.net",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:80"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "list-manage.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:81"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fengkongcloud.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:82"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mandrillapp.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:83"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "app.link",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:84"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bnc.lt",
+      "category": "global",
+      "app_ids": [],
+      "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
+      "evidence": [
+        "rulekit/allow.list:85"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "apple.com",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "Apple主站、更新、TestFlight和开发者服务在DNS解析前直接匹配",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "apple.cn",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "Apple中国主域明确直连",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "statsig.anthropic.com",
+      "category": "ai",
+      "app_ids": [],
+      "reason": "恢复旧ai-critical.list中Anthropic功能开关精确保护；不是statsig.com子域",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "aistudio.google.com",
+      "category": "ai",
+      "app_ids": [],
+      "reason": "AI Studio精确住宅例外先于google.com",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "substack.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "移除写作/订阅服务的整域误拦",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "msedge.net",
+      "category": "global",
+      "app_ids": [],
+      "reason": "移除Microsoft Edge通用服务/CDN整域误拦",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fosshub.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "软件下载站不应整域归广告",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "openinstall.io",
+      "category": "cn",
+      "app_ids": [],
+      "reason": "安装与唤醒链路不应整域归广告",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cookielaw.org",
+      "category": "global",
+      "app_ids": [],
+      "reason": "公共Cookie同意服务不绑定流媒体",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "onetrust.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "公共同意管理服务不绑定流媒体",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "twemoji.maxcdn.com",
+      "category": "global",
+      "app_ids": [],
+      "reason": "共享表情图片CDN使用普通国际出口",
+      "evidence": [
+        "User audit",
+        "Legacy configuration/source provenance verified"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilibili.tv",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "biliintl.co",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "biliintl.com",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "p-bstarstatic.akamaized.net",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "p.bstarstatic.com",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "upos-bstar-mirrorakam.akamaized.net",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN",
+      "value": "upos-bstar1-mirrorakam.akamaized.net",
+      "category": "stream",
+      "app_ids": [],
+      "reason": "B站国际站与国际CDN优先于国内BiliBili集合",
+      "evidence": [
+        "Old Surge-V3.0.2.conf and BM BiliBili source"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "paypal.com",
+      "category": "paypal",
+      "app_ids": [
+        "INT029"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "paypalobjects.com",
+      "category": "paypal",
+      "app_ids": [
+        "INT029"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "paypal.me",
+      "category": "paypal",
+      "app_ids": [
+        "INT029"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wise.com",
+      "category": "wise",
+      "app_ids": [
+        "INT030"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/wise"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "transferwise.com",
+      "category": "wise",
+      "app_ids": [
+        "INT030"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/wise"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binance.com",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Binance/Binance.list"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bnbstatic.com",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Binance/Binance.list"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okx.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OKX/OKX.list"
+      ]
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okex.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "用户指定金融业务稳定出口；核心认证业务优先于广告",
+      "evidence": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OKX/OKX.list"
+      ]
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

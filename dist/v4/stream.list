@@ -2,7 +2,13 @@
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,netflix.com.edgesuite.net
-DOMAIN-SUFFIX,cookielaw.org
+DOMAIN,p-bstarstatic.akamaized.net
+DOMAIN,p.bstarstatic.com
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliintl.co
+DOMAIN-SUFFIX,biliintl.com
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,flxvpn.net
 DOMAIN-SUFFIX,ggpht.cn
@@ -37,9 +43,6 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxsearch.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-SUFFIX,onetrust.com
-DOMAIN-SUFFIX,twemoji.maxcdn.com
-DOMAIN-SUFFIX,us-west-2.amazonaws.com
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,viki.com
 DOMAIN-SUFFIX,viki.io

@@ -1,185 +1,71 @@
-# 你的订阅 Surge V6.0 维护手册
+# Surge V3.0.0 维护与回滚
 
-> ## 当前种子来源（2026-09-16）
->
-> App 清单（`patches/app_catalog.yaml` / `interest_seed_from_apps.json`）为兴趣主源；请求日志暂缺（SGLog zip 不可作域名种子）。机器人要求见 `docs/BOT_REQUIREMENTS.md`。
+[首页](../README.md) · [当前引擎说明](../rulekit_v4/README.md) · [164 项应用矩阵](APP_POLICY_MATRIX.md)
 
-可执行流程。默认时区：**Asia/Shanghai**。  
-兴趣判定细则见 **[INTEREST_MODEL.md](INTEREST_MODEL.md)**（本文只交代日程、上下游分工与发布门禁）。
+用户配置版本是 `profiles/surge-V3.0.0.conf`；`rulekit_v4/`、`dist/v4/`、工作流中的 v4 是内部引擎路径。以下流程只维护当前方案。旧 `rulekit/`、`mirrors/`、`patches/`、`scripts/` 和 v6.x 模块保留兼容，历史路径不保证每日更新。
 
-机器人默认只开 PR；高置信可配置 auto-merge，禁止无条件覆盖生产。
+## 更新日程与中英文分工
 
----
+全部时间为北京时间（Asia/Shanghai，UTC+8）：
 
+- **05:37**：中文仓库 `.github/workflows/rulekit-v4.yml` 抓取上游、编译、验证并在通过后发布。
+- **06:07**：英文仓库同步中文已经验证的快照，并核对内容与公开配置；不独立抓另一套上游，不依赖跨仓库 PAT。
+- **21:17**：`.github/workflows/rulekit-v4-health.yml` 检查最近 36 小时的成功运行记录。
 
-## GitHub Actions 时区
+GitHub cron 可能延迟；定时任务被禁用、长期无活动或平台故障都可能影响执行。健康检查本身同样依赖 GitHub 调度，不能保证检测平台与作业共同停摆。查看 Actions 运行结论和最近一次产物提交时间，不能仅凭配置了 cron 就声称已每日更新。首次启用或修改工作流时应手动运行更新，再运行健康检查，确认实际结果。
 
-仓库工作流 `docs/github-actions/your-subscription-interest-bot.yml.example`：
+## 日常发布门禁
 
-```yaml
-on:
-  schedule:
-    - cron: "0 1,13 * * *"   # UTC → Asia/Shanghai 09:00 & 21:00
-  workflow_dispatch:
+1. 为每个上游仓库锁定单一 commit，再获取登记的来源与 include 依赖。
+2. 解析并检查域名格式、PSL、来源许可、广告与保护冲突、跨类别重叠及变化量。
+3. 对照最近已发布的 `source-rules.json`，检查新增、删除和同量替换；关键来源获取失败、空表、未知格式或异常变化阻断发布。
+4. 跑编译器回归测试、真实域名静态探针和完整公开发布验证。
+5. 发布前确认输入 commit 仍是 main 最新 HEAD；通过才提交 `dist/v4/`，无变化则不改运行时列表时间戳。
+
+在线更新失败保留上一已发布产物，不用过期缓存假装当天抓取成功。`--offline` 仅用于本地重放已完整验证的缓存，不能证明上游当前可用。英文同步成功也不等于中文当天一定抓到了新规则；应检查其对应中文快照与验证证据。
+
+## 修改应用、来源与分类
+
+- 应用以 `apps.json` 的稳定 ID 维护。新增时记录身份范围、category、source_ids/dependency_ids、覆盖缺口与证据，添加有依据的真实域名探针。
+- 关闭应用可将 `enabled` 设为 false。仅由该应用引用的来源会退出构建；其他应用仍引用的共享依赖应保留。
+- 新来源登记在 `sources.json`，人工补域名放 `custom/*.list` 并登记；未被 manifest 引用的文件不参与编译。来源许可与署名也要同步检查。
+- 集团域、Apple 网络基础、官方网站或隐私页只能按证据范围标注。13 个 unresolved 与 5 个 local-only 不是已覆盖；其他候选行也未经本次手机业务验收。
+- 分类变化需同时核对应用和来源的 category，检查共享域的其他使用者及前后顺序。不要通过扩大集团白名单解决单个应用问题。
+
+现有十一类绑定的出口写在手机配置中。远程规则更新只能把域名归入已有类别；增加国家出口、改变节点池或策略组定义必须修改手机配置。空 `[Proxy]` 需要用户自行填写节点；规则不能生成节点。
+
+## 误拦修复与保护历史
+
+先收集失败域名、首条命中规则、预期业务、所选策略/节点和来源证据。确认为正常业务后，将**精确主机或最小必要后缀**加入 `protection.json` 的正确类别，再向 `probes.json` 添加预期类别。保护并不等于直连，AI、TikTok、Google 等各走对应类别。
+
+编译器既生成前置保护表，也从广告表物理移除与当前及历史保护范围相交的规则。`protected-history.json` 中的历史范围应单调保留；不要随意清空。当前 125 条保护规则是审查快照，之后增减应以实际产物为准。
+
+对必须排除的具体上游规则使用带理由的 `exclude_rules`，检查其报告与溯源。不要把整家云厂商、裸关键词或不相关集团域一并放行。
+
+## 本地验证与产物检查
+
+在仓库根目录执行：
+
+```sh
+python3 -m unittest discover -s rulekit_v4 -p test_build.py -v
+python3 rulekit_v4/build.py
+python3 rulekit_v4/validate_release.py
 ```
 
-换算：UTC 01:00 = CST 09:00；UTC 13:00 = CST 21:00。  
-作业步骤：`actions/checkout` → `python3 scripts/daily_patch_bot.py --mode pr --fetch-upstream` → 使用 `GITHUB_TOKEN` 开 PR；无候选则 no-op 成功退出。
+需要 Python 标准库和 git；首次完整构建需要网络。已有完整缓存时可用 `python3 rulekit_v4/build.py --offline` 重放。检查 `dist/v4/report.json`、`sources.lock.json`、`source-rules.json`、`SHA256SUMS` 与 `provenance.ndjson.gz`，审阅来源、排除项、数量变化和探针实际命中。
 
-正式种子文件：`patches/interest_seed.json`（`interest_seed_from_apps.json` 仅溯源可选）。
+37 项原编译器测试和当前 201 个真实域名探针是静态门禁基线；新增测试后以运行输出为准。静态通过不代表已在手机导入、实际节点可用或全部业务验收通过。正式配置的 23 个资源、`ipv6 = false`、空 `[Proxy]` 与兼容别名也应由发布验证检查。
 
-## 原则
+异常大规模来源迁移需先解释差分，再通过明确审查的提交调整逐源语义基线。不要用跳过语法检查或清空保护历史来绕过门禁。首次发布还需满足 `bootstrap.json` 中的审查语义哈希。
 
-1. **仓库只存自有 list**：`patches/*.list` + `manifest.json` + watch/seed/selectors 配置。不整包复制 SKK / Loyalsoldier / blackmatrix7 AllInOne。
-2. **兴趣驱动增量**：只吸收「与用户种子相关」的上游新增；海量无关联 reject/全球域默认丢弃。
-3. **频繁 vs 固化**：
-   - **频繁更新**（`upstream_watch.yaml` → `frequent`）：每天 **09:00** 与 **21:00**（Asia/Shanghai）拉取 → diff 新增 → 兴趣筛选 → 写入自有 list 候选并推仓库（默认 PR）。
-   - **不怎么更新**（`frozen`）：一次性抓全 → 固化为手动维护 list（或极少更新）；日常 bot 不整包同步。
-4. 自有规则集可多个，但应覆盖当前在用上游职责中的**关键例外**（AI 冲突前置、金融、DIRECT 防误杀、ads 缺口），不是第二套通用底座。
-5. `finance-bybit-eu.list` / `finance-bybit-global.list` 与 `finance-critical.list` 同属 **finance-critical 家族**（因 RULE-SET 整文件一策略而拆分）。
-6. 完整 Surge 配置含订阅令牌，**不进公开库**。
+## 故障与回滚
 
----
+上游或探针失败时，保留上次发布，检查 Actions 日志和来源证据后修复；不要声称失败批次已同步到用户设备。健康检查报警时先确认近期更新作业状态，再手动重试与核对时间；重试成功不抹除首次失败记录。
 
-## 如何提前判定「需要哪些规则」
+需要回滚时，从 Git 历史选最近已验证版本，在**新提交**中恢复相应输入、列表、版本锁、报告与逐源基线，合并当前和旧版的保护历史后重新构建验证，确保不会恢复已经修复的广告误拦。不要直接用旧广告表覆盖新保护历史，也不要 reset --hard 或 force push 覆盖他人提交。
 
-分层判定（摘要；完整算法与例子见 INTEREST_MODEL.md）：
+发布后在 Surge 手动更新外部资源并确认实际下载版本；节点或策略组调整还需重新导入/修改本地配置。按常用应用启动、登录和主要业务做实际验收，保留可回到原配置的本地副本。
 
-1. **种子 interest_seed**：当前以 App 清单（`app_catalog.yaml`，含财务第 2 页）+ 正式 `interest_seed.json` + patches 得到已用域、后缀、关键词、VENDOR、策略组、放行/拒绝兴趣；**HAR/请求日志暂缺**。
-2. **上游面 upstream_watch**：只 watch 主配置真实引用的 SKK 路径清单，不是全站 SKK。
-3. **selectors 优先级**：exact/suffix/parent-suffix → 同 eTLD+1 → 关键词/厂商 → 启用类别弱关联 → 默认 ignore。
-4. **动作**：`auto_pr_high` / `review` / `ignore`；预算上限；冲突则强制审阅。
-5. **tiktokpangle\***：策略是交广告集拒绝 → 进 reject/ads 兴趣，**不是** TikTok 放行；放在 SKK 之后的放行规则意图无效。
+## 历史资料
 
-配置文件：
-
-| 文件 | 作用 |
-|------|------|
-| `patches/upstream_watch.yaml` | 频繁 / 固化上游路径清单 |
-| `docs/BOT_REQUIREMENTS.md` | App 清单兴趣源机器人规格（MUST/非目标/分阶段） |
-| `patches/app_catalog.yaml` | 结构化 App → 策略兴趣目录 |
-| `patches/interest_seed_from_apps.json` | 由 catalog 推导的种子草案（非 HAR） |
-| `patches/interest_seed.json` | **正式**兴趣种子（V6.0）
-| `patches/interest_seed_from_apps.json` | 溯源草案（可选）
-| `patches/interest_seed.example.json` | 极简示例 |
-| `patches/selectors.yaml` | 选择器、预算、映射、auto-merge 开关 |
-
----
-
-## 每日（两次）机器人流程
-
-建议 cron（Asia/Shanghai）：
-
-```cron
-0 9,21 * * * cd /path/to/your-subscription-surge-v6.0 && python3 scripts/daily_patch_bot.py --mode pr --fetch-upstream >> /var/log/your-subscription-patch-bot.log 2>&1
-```
-
-### 1. 拉取频繁上游快照
-
-- 按 `upstream_watch.yaml` 的 `frequent` 列表拉取（`--fetch-upstream`）。
-- 记录内容哈希、ETag/Last-Modified、拉取时间（Asia/Shanghai）。
-- 与 `patches/cache/` 上次快照 diff，得到**新增行**（默认不做整包替换）。
-
-### 2. 规范化
-
-- 域名小写、简易 IDNA、统一规则类型字段。
-- 去掉空行噪声；保留有意义的 `#` 头注释。
-
-### 3. 兴趣筛选（核心）
-
-- 加载 `interest_seed.json`（若无则回退 example + 现有 patches 推导）。
-- 按 `selectors.yaml` 对新增行分级：`auto_pr_high` / `review` / `ignore`。
-- 写出候选到 `patches/candidates/`（不默认改生产 list，除非 `--mode apply` 且门禁通过）。
-
-### 4. 语义去重
-
-- 同策略下：`DOMAIN,x.y` 已被 `DOMAIN-SUFFIX,y` 覆盖 → 删除更窄条目。
-- 跨策略冲突写入报警。
-
-### 5. 冲突门禁（硬）
-
-- 拟进 REJECT/ads 的新增若覆盖业务放行域（AI / TikTok / 金融 / DIRECT）→ **不进** ads 自有集，进审阅。
-- 拟进业务放行但属 `reject_interest`（如 pangle）→ 进审阅或改 ads。
-
-### 6. 固定回归表
-
-对照 `scripts/regression_cases.json`，至少：
-
-- Claude 相关域 → AI
-- Google OAuth → 预期策略（主配置 scope 可跳过 patches 命中检查）
-- TikTok 主域 → TikTok；**pangle 广告域 → REJECT（不放行）**
-- App Store / Apple → DIRECT（SKK apple 段）
-- Bilibili / 酷安关键域 → DIRECT
-- 金融：`toblog` / `tobapplog` / `okex` → 数字资产；Bybit 伴生 → 对应组
-
-### 7. 异常阈值（不发布，只报告）
-
-- 每文件 / 每日 `auto_pr_high` 超过预算
-- 删除回归表关键域
-- 规则量增幅 ≳ 10%
-- 试图「同步整个 reject」类操作 → 直接拒绝
-
-### 8. 发布策略
-
-- **默认 `--mode pr`**：写 report + PR 说明 + candidates；不改远程生产。
-- `--mode apply`：显式；仍建议人工 approve 后原子发布自有 list。
-- `auto_merge_high_confidence`（selectors 配置）：仅对无冲突的 `auto_pr_high` 可配置直接 push；默认关闭。
-- 禁止无条件覆盖生产 raw / CDN。
-
-### 9. 固化上游（非每日）
-
-对 `frozen` 列表：
-
-```bash
-python3 scripts/daily_patch_bot.py --mode pr --fetch-upstream --include-frozen
-# 人工挑选少量例外写入 patches/*.list 后，不再每日全量 diff（或极低频率）
-```
-
-### 10. 明确禁止
-
-- 禁止整包拷贝 SKK / Loyalsoldier / AllInOne 入仓。
-- 禁止把 STUN / iCloud Private Relay 等主配置 pre-matching 段塞进 `ads-patch.list`。
-- 禁止把整个国内直连大段塞进 `direct-patch.list`。
-- 禁止把 tiktokpangle 类域写入任何放行 list。
-
----
-
-## 本地命令示例
-
-```bash
-# 跳过网络：本地门禁 + 回归 + 模拟 PR（CI/离线）
-python3 scripts/daily_patch_bot.py --mode pr --skip-fetch
-
-# 拉取频繁上游并做兴趣 diff（日程 09:00 / 21:00）
-python3 scripts/daily_patch_bot.py --mode pr --fetch-upstream
-
-# 从主配置粗提取种子草案
-python3 scripts/export_interest_seed.py -o patches/interest_seed.draft.json
-
-# 显式 apply（骨架仍拒绝无条件覆盖远程）
-python3 scripts/daily_patch_bot.py --mode apply --fetch-upstream
-```
-
-查看参数：`python3 scripts/daily_patch_bot.py --help`
-
----
-
-## manifest 字段
-
-每条真实规则至少：`id, file, rule, policy, source, evidence_type, first_seen, last_verified, expires, notes`。  
-`evidence_type`：`har` | `official` | `skk-conflict` | `preventive` | `inherited` | `interest-auto`。  
-`ads-patch` 占位条可另加 `status=placeholder`。
-
----
-
-## 主配置注释
-
-主配置业务规则不变；可在 RULE-SET 前置段加注释指向本文与 INTEREST_MODEL.md，便于后人对齐维护模型。
-
-## Option A (V6.1): owned reject + tombstones
-
-- Runtime conf uses **`mirrors/owned/List/...`** for reject* DOMAIN-SET / RULE-SET.
-- **`mirrors/skk`** remains upstream cache for diff / refresh only; do not point runtime reject* at skk if you need durable Alipay fixes.
-- `patches/tombstones.yaml` hosts must **never** be re-added to owned reject; rebuild via `scripts/apply_tombstones_owned.py`.
-- Interest absorb / `daily_patch_bot.py` skips tombstoned hosts.
-- Promoted hosts go to `patches/direct-patch.list` (DIRECT, ahead of owned reject).
+[BOT_REQUIREMENTS.md](BOT_REQUIREMENTS.md)、[INTEREST_MODEL.md](INTEREST_MODEL.md)、[旧 rulekit 审计](../rulekit/README-rulekit.md) 描述旧兴趣模型或迁移研究，顶部已标历史。旧计划中的 09:00/21:00、直接推补丁、金融分区和 MITM 模块不能当作当前执行契约。
