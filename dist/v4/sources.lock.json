@@ -1125,11 +1125,11 @@
         "url": "https://raw.githubusercontent.com/SukkaW/Surge/master/LICENSE",
         "verified_url": "https://raw.githubusercontent.com/SukkaW/Surge/8a4972eb334f3fd9d0c813577d47d04c4c442bf9/LICENSE"
       },
-      "rules": 140263,
-      "semantic_sha256": "b15023d5ea459a391f8e787529ffaa327ccadad4ecdc9c9ea906b9ea46f71c5a",
-      "sha256": "4f0e19219354c8c234b350b70cf0554819b8dbd22577e795eb19cffc934dd911",
-      "upstream_commit": "9f9a27d907aa188563b399c52c7fb062263b2938",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/9f9a27d907aa188563b399c52c7fb062263b2938/List/domainset/reject.conf"
+      "rules": 140358,
+      "semantic_sha256": "a3ef1cb9a23ebd1772bf39db91a3aa11ec27960846781b62bd8272b91c02d63c",
+      "sha256": "61b6afa10770a276181ce4bbf935a302ec258962e48d34850e08155cc8dd37aa",
+      "upstream_commit": "fb8392a7c463d0a80b9c93aa2f29619350f32ee4",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/fb8392a7c463d0a80b9c93aa2f29619350f32ee4/List/domainset/reject.conf"
     },
     "v2:data/apple-podcasts": {
       "license": {
