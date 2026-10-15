@@ -1,6 +1,6 @@
 # 本轮用户审计：解释、修复与后续验收
 
-对外配置为 surge-V3.0.0；内部引擎升级为4.1.0，v4资源路径不变。以下是已核实的问题及本次修复，不把静态命中当作手机业务已验收。
+对外配置为 surge-V3.0.0；内部引擎升级为4.1.1，v4资源路径不变。以下是已核实的问题及本次修复，不把静态命中当作手机业务已验收。
 
 ## 1. 金融固定出口
 
@@ -40,9 +40,13 @@ IPv6保持false，Proxy保持空白。删除无功能使用的replica=false旧�
 
 ## 后续验收顺序
 
-1. 中英文仓库通过同一套编译/迁移/健康检查，确认23个新版外部资源与兼容导出可下载。
+1. 中英文仓库通过同一套编译/迁移/健康检查，确认24个新版外部资源与兼容导出可下载。
 2. 导入新版配置，填入节点并确认金融与Google账户组当前选择；核验真实出口IP和国家标签一致。
 3. 在Wi-Fi、蜂窝分别检查金融登录、国内滑块/B站、国际视频、Google登录与AI Studio。保留失败请求和首条命中日志；不反复登录或切国家试错。
 4. 后续GitHub更新失败保留上一版；健康检查改为更新完成后触发并每日巡检，首次部署不再抢跑。
 
 证据：Surge官方规则语义 https://manual.nssurge.com/rules/domain.html 、RULE-SET https://manual.nssurge.com/rules/ruleset.html 、General https://manual.nssurge.com/profile/general.html；每条源行和转换原因保存在dist/v4/provenance.ndjson.gz及report.json。
+
+## iPhone 排障补充（2026-10-15）
+
+4.1.1 新增 9 个截图广告端点的专用早拦表；它排除当前与历史保护范围，完整广告大表仍用普通 REJECT。主配置 24 个远程资源，导出清单 25 个数据文件，静态探针 210 个。保留 IPv6 禁用、空 Proxy 和用户已确认的组成员顺序。独立 raw 下载成功不等于手机加载恢复；请求密集改善和真实业务仍待 iPhone 验证。证据、机制、边界与本地离线应急说明见 [iPhone 排障记录](IOS_TROUBLESHOOTING.zh.md)。

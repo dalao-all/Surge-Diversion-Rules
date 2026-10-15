@@ -1,10 +1,10 @@
 # surge-V3.0.0 规则维护（内部引擎 v4）
 
-手机端下载 `profiles/surge-V3.0.0.conf`。IPv6 已禁用，`[Proxy]` 按要求留空；填入自己的节点，并确认策略组引用的节点名称对应后使用。对外文件名与内部 v4 引擎/资源路径独立，现有 23 个资源地址继续有效。
+手机端下载 `profiles/surge-V3.0.0.conf`。IPv6 已禁用，`[Proxy]` 按要求留空；填入自己的节点，并确认策略组引用的节点名称对应后使用。对外文件名与内部 v4 引擎/资源路径独立，当前主配置引用 24 个资源地址。
 
 ## 固定的手机配置
 
-23 个自有 RULE-SET：11 个关键业务保护表、1 个 DOMAIN-SET 广告表、11 个应用分类表。按 paypal / wise / binance / okx / ai / tiktok / stream / google / uk / global / cn 的顺序匹配，保护表先于广告表。Google账户默认跟随AI当前出口。空的保护表保留固定 URL，后续可以只更新 GitHub 增加例外。
+24 个自有远程规则资源（23 个 RULE-SET 与 1 个 DOMAIN-SET）：11 个关键业务保护表、1 个早拦表、1 个 DOMAIN-SET 广告表、11 个应用分类表。按 paypal / wise / binance / okx / ai / tiktok / stream / google / uk / global / cn 的顺序匹配，普通保护表先于完整广告表。专用早拦表使用 `REJECT-DROP,pre-matching`，优先于普通白名单，因此生成器必须排除全部当前及历史保护范围，并只保留最终广告表命中的精确域名。Google账户默认跟随AI当前出口。空的保护表保留固定 URL，后续可以只更新 GitHub 增加例外。
 
 ## 新增、删除与修正规则
 
@@ -54,3 +54,5 @@ python3 rulekit_v4/validate_release.py
 ## 审计修复
 
 原160项之外，按本轮要求新增PayPal、Wise、Binance、OKX（INT029—INT032），共164项。金融固定select，Google账户默认跟随AI实际出口。233条微信数字关键词改为精确/24，属于有意纠正匹配范围。旧allow.list的67条例外逐项迁移并作为构建门禁。ads.domainset用于新版，ads.list继续兼容旧版。详见docs/REVIEW_FIXES.zh.md。
+
+[iPhone 请求密集与下载排障](../docs/IOS_TROUBLESHOOTING.zh.md).

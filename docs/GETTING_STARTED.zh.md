@@ -18,11 +18,11 @@
 
 ## 3. 配置检查与资源更新
 
-在 Surge 运行配置检查，处理未定义节点或组引用错误，再更新外部资源。当前配置只需要 `dist/v4/` 的 23 个 RULE-SET 资源：7 个保护表、1 个广告表、11 个应用分类表。即使某个保护表暂时为空，也保留其固定 URL。
+在 Surge 运行配置检查，处理未定义节点或组引用错误，再更新外部资源。当前配置只需要 `dist/v4/` 的 24 个远程规则资源（23 个 RULE-SET 与 1 个 DOMAIN-SET）：11 个保护表、1 个早拦表、1 个广告 DOMAIN-SET、11 个应用分类表。即使某个保护表暂时为空，也保留其固定 URL。
 
 列表使用 `update-interval=86400`。服务端发布成功与手机已下载新资源是两个步骤；排障时可手动更新，并确认资源状态、下载时间与命中记录。首次更新失败时不能假定设备已有缓存。
 
-当前方案不需要另装旧 AdBlock sgmodule，不需要信任 MITM CA；不使用 MITM、URL rewrite 或 pre-matching。
+当前方案不需要另装旧 AdBlock sgmodule，不需要信任 MITM CA；不使用 MITM 或 URL rewrite；仅专用 `ads-storm.list` 使用 pre-matching。
 
 ## 4. 在自己的设备上验收
 
@@ -30,7 +30,7 @@
 
 Google账户默认跟随AI出口，global使用普通国际Smart，ai / TikTok 使用美国住宅优先 fallback，uk 使用英国住宅优先和英国机房备选，cn 使用 DIRECT。浏览器按访问的目标站点分流，不能据此断言浏览器或某应用所有流量都走同一出口。
 
-当前 164 项清单仍有未解决与本地工具项；全部覆盖状态见[矩阵](APP_POLICY_MATRIX.md)。201 个真实域名探针验证的是静态路由，不是手机业务或出口连通性。
+当前 164 项清单仍有未解决与本地工具项；全部覆盖状态见[矩阵](APP_POLICY_MATRIX.md)。210 个真实域名探针验证的是静态路由，不是手机业务或出口连通性。
 
 ## 5. 遇到误拦或出口不符
 
@@ -42,3 +42,5 @@ Google账户默认跟随AI出口，global使用普通国际Smart，ai / TikTok �
 
 
 金融固定select：PayPal默认 `🇺🇸 美国 12 家宽`；Wise、Binance、OKX默认 `🇨🇳 台湾 07 家宽`。请保留原节点名称或修改对应组成员。Google账户组默认选择 `🤖 AI住宅` 策略对象，登录与普通Google业务随同一出口决策；若手动改选，将改变这种一致性。详见 [审计修复](REVIEW_FIXES.zh.md)。
+
+[iPhone 请求密集、空组和资源下载排障](IOS_TROUBLESHOOTING.zh.md).
