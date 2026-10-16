@@ -7,19 +7,19 @@
   "source_count": 124,
   "dependency_count": 28,
   "counts": {
-    "ads": 140887,
+    "ads": 140885,
     "ai": 101,
     "binance": 14,
     "cn": 7186,
     "global": 727,
-    "google": 706,
+    "google": 724,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 80,
     "protect-binance": 13,
     "protect-cn": 998,
-    "protect-global": 57,
-    "protect-google": 8,
+    "protect-global": 80,
+    "protect-google": 39,
     "protect-okx": 19,
     "protect-paypal": 5,
     "protect-stream": 38,
@@ -91,8 +91,8 @@
     {
       "id": "google",
       "policy": "🔐 Google账户",
-      "rule_count": 706,
-      "protected_rule_count": 8
+      "rule_count": 724,
+      "protected_rule_count": 39
     },
     {
       "id": "uk",
@@ -104,7 +104,7 @@
       "id": "global",
       "policy": "🌍 国际网络",
       "rule_count": 727,
-      "protected_rule_count": 57
+      "protected_rule_count": 80
     },
     {
       "id": "cn",
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "0cf49e68c94434a26d6ce761e597d25fbcfb0d1840b2e5191ca5e12f8cc3c369"
+  "semantic_sha256": "49f349f31a0b3291ea0e7906ea783698fc75e3c0141db908e41de5f58048215d"
 }
