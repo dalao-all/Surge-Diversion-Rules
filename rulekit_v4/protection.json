@@ -5769,6 +5769,617 @@
         "官方业务域名核准与社区高频规则集深度交叉审查"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lvjiany.com",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "剪映微剪辑素材库",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "faceu.mobi",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "脸萌剪映贴纸特效引擎",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "faceu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "FaceU 核心业务",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ulikecam.net",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "轻颜剪映特效CDN加速",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "smoba.net",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "王者荣耀sMOBA对战网络底层",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "smoba.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "王者荣耀对战网关与资源下载",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "honorofkings.com",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "王者荣耀全球官方品牌",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hok.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "王者荣耀HOK赛事与活动中心",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kohcamp.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "王者营地战绩与开黑语音API",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "camp.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "王者营地资讯与动态",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lpl.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "LPL职业联赛直播与赛事数据",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wr.pvp.net",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "英雄联盟手游WildRift对战协议",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "riotgames.com",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "拳头游戏账户与资产验证",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "riotcdn.net",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "拳头全球游戏资源CDN",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pvp.net",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "英雄联盟客户端底层通信网络",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wildrift.leagueoflegends.com",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "英雄联盟手游官方资讯",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "maoyan.net",
+      "category": "cn",
+      "app_ids": [
+        "CN029"
+      ],
+      "reason": "猫眼静态资源与CDN",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "myyule.com",
+      "category": "cn",
+      "app_ids": [
+        "CN029"
+      ],
+      "reason": "猫眼娱乐数据库",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wepiao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN029"
+      ],
+      "reason": "猫眼微票儿票务移动端",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gewara.com",
+      "category": "cn",
+      "app_ids": [
+        "CN029"
+      ],
+      "reason": "格瓦拉生活网戏剧演出",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taopiaopiao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "淘票票移动端解析",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "damai.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "大麦网演出赛事主站",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "damaicdn.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "大麦静态资源CDN",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dmcdn.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "大麦选座与出票加速",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "maitix.com",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "大麦麦座票务云系统",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "maitix.net",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "麦座剧场演出门禁验证",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipictures.com",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "阿里影业官网与业务协同",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "piao.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "演出票务系统",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "piaogroup.com",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "大麦票务网络平台",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dianping.net",
+      "category": "cn",
+      "app_ids": [
+        "CN039"
+      ],
+      "reason": "大众点评网络基础设施",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dpurl.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN039"
+      ],
+      "reason": "大众点评分享短链",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dianping.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN039"
+      ],
+      "reason": "大众点评移动客户端分发",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "samsclub.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "山姆会员商店中国备用",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wal-mart.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "沃尔玛中国供应链物流",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "walmartimages.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "山姆与沃尔玛中国图床CDN",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wal-mart.com",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "沃尔玛全球安全中心",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sams.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "山姆极速达与短链",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "1688.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "1688移动端备用解析",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alibank.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "1688诚e赊企业金融采购",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "aliloan.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "阿里巴巴企业网商贷",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alisoft.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "阿里外贸管家与1688工作台",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdcache.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "京东静态资源加速CDN",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdjinrong.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "京东金融移动服务",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdpay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "京东支付收银台",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "300hu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "京东推广与导购短链",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "etao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN046"
+      ],
+      "reason": "一淘移动端业务解析",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "etaocdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN046"
+      ],
+      "reason": "一淘专享返利素材CDN",
+      "evidence": [
+        "官方业务域名核准与高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

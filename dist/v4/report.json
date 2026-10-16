@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 141248,
+    "ads": 141245,
     "ai": 94,
     "binance": 14,
-    "cn": 6830,
+    "cn": 6865,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 255,
+    "protect-cn": 302,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -7784,6 +7784,10 @@
       "rule": "DOMAIN-SUFFIX,analytics-events.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,riotgames.com",
+      "rule": "DOMAIN-SUFFIX,analytics.developer.riotgames.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,api-adservices.apple.com"
     },
@@ -8158,6 +8162,14 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,o2o.api.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,wal-mart.com",
+      "rule": "DOMAIN-SUFFIX,omniture-ssl.wal-mart.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,wal-mart.com",
+      "rule": "DOMAIN-SUFFIX,omniture.wal-mart.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
