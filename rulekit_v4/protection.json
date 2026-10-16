@@ -2658,7 +2658,9 @@
       "type": "DOMAIN",
       "value": "statsig.anthropic.com",
       "category": "ai",
-      "app_ids": [],
+      "app_ids": [
+        "INT002"
+      ],
       "reason": "恢复旧ai-critical.list中Anthropic功能开关精确保护；不是statsig.com子域",
       "evidence": [
         "User audit",
@@ -2669,7 +2671,9 @@
       "type": "DOMAIN",
       "value": "aistudio.google.com",
       "category": "ai",
-      "app_ids": [],
+      "app_ids": [
+        "INT003"
+      ],
       "reason": "AI Studio精确住宅例外先于google.com",
       "evidence": [
         "User audit",
@@ -15432,6 +15436,567 @@
       "reason": "关键业务候选；第7.8组低频系统工具业务保护",
       "evidence": [
         "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "openai.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chatgpt.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chat.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sora.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ai.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chatgpt.livekit.cloud",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "turn.livekit.cloud",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "host.livekit.cloud",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "client-api.arkoselabs.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "chat.openai.com.cdn.cloudflare.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "openai.com.cdn.cloudflare.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "openaiapi-site.azureedge.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "openaicom.imgix.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "openaicomproductionae4b.blob.core.windows.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "production-openaicom-storage.azureedge.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claude.ai",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claude.dev",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "clau.de",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "anthropic.com",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claudemcpclient.com",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cdn.usefathom.com",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "servd-anthropic-website.b-cdn.net",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gemini.google.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bard.google.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "deepmind.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "deepmind.google",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "generativeai.google",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "ai.google.dev",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "makersuite.google.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "alkalimakersuite-pa.clients6.google.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "proactivebackend-pa.googleapis.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "colab.research.google.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "developerprofiles-pa.googleapis.com",
+      "category": "ai",
+      "app_ids": [
+        "INT003"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cursor.com",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cursor.sh",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cursorapi.com",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cursor-cdn.com",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "anysphere.co",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "anysphere.inc",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "repo42.cursor.sh",
+      "category": "ai",
+      "app_ids": [
+        "INT004"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "grok.x.com",
+      "category": "ai",
+      "app_ids": [
+        "INT005",
+        "INT006"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "grokipedia.com",
+      "category": "ai",
+      "app_ids": [
+        "INT005",
+        "INT006"
+      ],
+      "reason": "关键业务候选；第1组国际AI（ChatGPT/Claude/Gemini/Cursor/Grok）全量业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
     }

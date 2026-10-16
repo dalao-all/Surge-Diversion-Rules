@@ -1,15 +1,15 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140947,
-    "ai": 94,
+    "ads": 140945,
+    "ai": 101,
     "binance": 14,
     "cn": 7186,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
-    "protect-ai": 37,
+    "protect-ai": 80,
     "protect-binance": 13,
     "protect-cn": 998,
     "protect-global": 33,
@@ -91,20 +91,6 @@
     },
     {
       "shadowed_category": "cn",
-      "shadowed_rule": "DOMAIN,api.trae.ai",
-      "winner_category": "ai",
-      "winner_rule": "DOMAIN-SUFFIX,trae.ai",
-      "witness": "api.trae.ai"
-    },
-    {
-      "shadowed_category": "cn",
-      "shadowed_rule": "DOMAIN,auth.trae.ai",
-      "winner_category": "ai",
-      "winner_rule": "DOMAIN-SUFFIX,trae.ai",
-      "witness": "auth.trae.ai"
-    },
-    {
-      "shadowed_category": "cn",
       "shadowed_rule": "DOMAIN,ocsp.digicert.com",
       "winner_category": "global",
       "winner_rule": "DOMAIN-SUFFIX,ocsp.digicert.com",
@@ -149,11 +135,6 @@
       "winner": "ai"
     },
     {
-      "rule": "DOMAIN,trae-api-sg.mchost.guru",
-      "shadowed": "cn",
-      "winner": "ai"
-    },
-    {
       "rule": "DOMAIN-SUFFIX,bilibili.tv",
       "shadowed": "cn",
       "winner": "stream"
@@ -162,16 +143,6 @@
       "rule": "DOMAIN-SUFFIX,bytedapm.com",
       "shadowed": "cn",
       "winner": "tiktok"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,marscode.com",
-      "shadowed": "cn",
-      "winner": "ai"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,trae.ai",
-      "shadowed": "cn",
-      "winner": "ai"
     }
   ],
   "legacy_allow_migration_checks": 67,
@@ -1638,23 +1609,23 @@
     },
     {
       "original_rule": "DOMAIN,trae-api-sg.mchost.guru",
-      "output_category": "ai",
+      "output_category": "cn",
       "output_rule": "DOMAIN,trae-api-sg.mchost.guru",
-      "reason": "TRAE international feature of listed CN055, not TikTok; domestic trae.cn unchanged.",
+      "reason": "TRAE gateway endpoint, classified as CN DIRECT.",
       "source": "bm:rule/Surge/TikTok/TikTok.list"
     },
     {
       "original_rule": "DOMAIN-SUFFIX,marscode.com",
-      "output_category": "ai",
+      "output_category": "cn",
       "output_rule": "DOMAIN-SUFFIX,marscode.com",
-      "reason": "TRAE international feature of listed CN055, not TikTok; domestic trae.cn unchanged.",
+      "reason": "MarsCode / TRAE is domestic ByteDance AI IDE, classified as CN DIRECT.",
       "source": "bm:rule/Surge/TikTok/TikTok.list"
     },
     {
       "original_rule": "DOMAIN-SUFFIX,trae.ai",
-      "output_category": "ai",
+      "output_category": "cn",
       "output_rule": "DOMAIN-SUFFIX,trae.ai",
-      "reason": "TRAE international feature of listed CN055, not TikTok; domestic trae.cn unchanged.",
+      "reason": "TRAE is domestic ByteDance AI IDE, classified as CN DIRECT.",
       "source": "bm:rule/Surge/TikTok/TikTok.list"
     }
   ],
@@ -8574,6 +8545,14 @@
     {
       "protection": "DOMAIN-SUFFIX,mi-img.com",
       "rule": "DOMAIN-SUFFIX,browser.mi-img.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,openai.com",
+      "rule": "DOMAIN-SUFFIX,bzr.openai.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,openai.com",
+      "rule": "DOMAIN-SUFFIX,bzrcdn.openai.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,jd.com",
