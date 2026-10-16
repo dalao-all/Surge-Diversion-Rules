@@ -1,7 +1,7 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140876,
+    "ads": 140926,
     "ai": 101,
     "binance": 14,
     "cn": 7188,
@@ -2296,7 +2296,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,data",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2308,7 +2308,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,16-b.it",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2320,7 +2320,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,32-b.it",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2332,7 +2332,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,64-b.it",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2344,7 +2344,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,mypi.co",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2356,7 +2356,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,tcp4.me",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2368,43 +2368,43 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,you2.pl",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 890,
+      "line": 891,
       "purpose": "ads",
       "raw": ".cfolks.pl",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,cfolks.pl",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 937,
+      "line": 938,
       "purpose": "ads",
       "raw": ".dkonto.pl",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,dkonto.pl",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 943,
+      "line": 944,
       "purpose": "ads",
       "raw": ".dnsup.net",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,dnsup.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2416,79 +2416,79 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,hicam.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 1301,
+      "line": 1300,
       "purpose": "ads",
       "raw": ".ntdll.top",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ntdll.top",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 1356,
+      "line": 1355,
       "purpose": "ads",
       "raw": ".ownip.net",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ownip.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 2290,
+      "line": 2289,
       "purpose": "ads",
       "raw": ".dnsking.ch",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,dnsking.ch",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 2980,
+      "line": 2981,
       "purpose": "ads",
       "raw": ".plesk.page",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,plesk.page",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 3508,
+      "line": 3509,
       "purpose": "ads",
       "raw": ".vpndns.net",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,vpndns.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 3547,
+      "line": 3548,
       "purpose": "ads",
       "raw": ".webhop.net",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,webhop.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2500,7 +2500,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,cprapid.com",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2512,7 +2512,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,dynserv.org",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2524,7 +2524,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,forumz.info",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2536,7 +2536,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,freeddns.us",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2548,7 +2548,7 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,now-dns.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2560,211 +2560,211 @@
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,now-dns.org",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 5584,
+      "line": 5585,
       "purpose": "ads",
       "raw": ".square.site",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,square.site",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 8144,
+      "line": 8145,
       "purpose": "ads",
       "raw": ".myiphost.com",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,myiphost.com",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 8832,
+      "line": 8833,
       "purpose": "ads",
       "raw": ".servebbs.net",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,servebbs.net",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 8942,
+      "line": 8943,
       "purpose": "ads",
       "raw": ".soundcast.me",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,soundcast.me",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 9919,
+      "line": 9923,
       "purpose": "ads",
       "raw": ".yolasite.com",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,yolasite.com",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 16368,
+      "line": 16381,
       "purpose": "ads",
       "raw": ".3utilities.com",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,3utilities.com",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 31030,
+      "line": 31037,
       "purpose": "ads",
       "raw": ".webadorsite.com",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,webadorsite.com",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 39260,
+      "line": 39258,
       "purpose": "ads",
       "raw": ".try-snowplow.com",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,try-snowplow.com",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 91575,
+      "line": 91629,
       "purpose": "ads",
       "raw": ".ingress-alpha.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-alpha.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 91576,
+      "line": 91630,
       "purpose": "ads",
       "raw": ".ingress-bonde.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-bonde.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 91577,
+      "line": 91631,
       "purpose": "ads",
       "raw": ".ingress-earth.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-earth.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 91578,
+      "line": 91632,
       "purpose": "ads",
       "raw": ".ingress-haven.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-haven.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 98961,
+      "line": 99013,
       "purpose": "ads",
       "raw": ".ingress-baronn.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-baronn.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 98962,
+      "line": 99014,
       "purpose": "ads",
       "raw": ".ingress-erytho.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-erytho.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 105692,
+      "line": 105737,
       "purpose": "ads",
       "raw": ".ingress-daribow.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-daribow.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 105693,
+      "line": 105738,
       "purpose": "ads",
       "raw": ".ingress-florina.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-florina.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
       "confidence": "upstream classification; not packet-capture verified",
       "dependency_ids": [],
-      "line": 125158,
+      "line": 125201,
       "purpose": "ads",
       "raw": ".ingress-comporellon.ewp.live",
       "reason": "版本化PSL识别当前40个公共/私有多租户后缀。禁止广告层整域封锁独立站点；只排除本次明确列出的规则并保留来源/原行/理由。以后新增公共或多租户后缀仍由编译器阻断，不能按标签自动免检。",
       "rule": "DOMAIN-SUFFIX,ingress-comporellon.ewp.live",
       "source": "skk:List/domainset/reject.conf",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/2c2f1aa86c809cfaf440c89288139c6ef9cd72cf/List/domainset/reject.conf"
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
     },
     {
       "app_ids": [],
@@ -2776,7 +2776,7 @@
       "reason": "关键词匹配不受DNS域名边界限制，无法证明其与当前/历史业务保护集合不相交；明确拒收这4个上游关键词项并记录源行/理由。保留上游全部exact/suffix广告项，不静默丢弃。",
       "rule": "DOMAIN-KEYWORD,-ad.sm.cn",
       "source": "awa:Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
-      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/99b020c21853cbed56b90456399dad6bde842309/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/89273bd1d98a923872018ac901d5367299b29c65/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
     },
     {
       "app_ids": [],
@@ -2788,7 +2788,7 @@
       "reason": "关键词匹配不受DNS域名边界限制，无法证明其与当前/历史业务保护集合不相交；明确拒收这4个上游关键词项并记录源行/理由。保留上游全部exact/suffix广告项，不静默丢弃。",
       "rule": "DOMAIN-KEYWORD,-ad.video.yximgs.com",
       "source": "awa:Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
-      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/99b020c21853cbed56b90456399dad6bde842309/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/89273bd1d98a923872018ac901d5367299b29c65/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
     },
     {
       "app_ids": [],
@@ -2800,7 +2800,7 @@
       "reason": "关键词匹配不受DNS域名边界限制，无法证明其与当前/历史业务保护集合不相交；明确拒收这4个上游关键词项并记录源行/理由。保留上游全部exact/suffix广告项，不静默丢弃。",
       "rule": "DOMAIN-KEYWORD,-ad.wtzw.com",
       "source": "awa:Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
-      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/99b020c21853cbed56b90456399dad6bde842309/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/89273bd1d98a923872018ac901d5367299b29c65/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
     },
     {
       "app_ids": [],
@@ -2812,7 +2812,7 @@
       "reason": "关键词匹配不受DNS域名边界限制，无法证明其与当前/历史业务保护集合不相交；明确拒收这4个上游关键词项并记录源行/理由。保留上游全部exact/suffix广告项，不静默丢弃。",
       "rule": "DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com",
       "source": "awa:Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
-      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/99b020c21853cbed56b90456399dad6bde842309/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/89273bd1d98a923872018ac901d5367299b29c65/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
     },
     {
       "line": 256,
