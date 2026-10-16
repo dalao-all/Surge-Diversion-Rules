@@ -89,7 +89,6 @@ DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
 DOMAIN,adashbc.m.taobao.com
 DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com
-DOMAIN,adashx.ut.amap.com
 DOMAIN,adashx.ut.ele.me
 DOMAIN,adashx.ut.youku.com
 DOMAIN,adashxgc.ut.taobao.com
@@ -629,7 +628,6 @@ DOMAIN,dsp.fcbox.com
 DOMAIN,dsp.simba.taobao.com
 DOMAIN,dsplog-adnet.vivo.com.cn
 DOMAIN,du.163.com
-DOMAIN,dualstack-logs.amap.com
 DOMAIN,durdcn.doglobal.net
 DOMAIN,dw-collect.ksosoft.com
 DOMAIN,dw-online.ksosoft.com
@@ -945,7 +943,6 @@ DOMAIN,log1.cmpassport.com
 DOMAIN,logrcv.aiclk.com
 DOMAIN,logrcv.yunxish.com
 DOMAIN,logs-bigdata.yeehaw.com.cn
-DOMAIN,logs.amap.com
 DOMAIN,logs.chelaile.net.cn
 DOMAIN,logtj.kugou.com
 DOMAIN,logupdate.avlyun.sec.miui.com
@@ -1076,8 +1073,6 @@ DOMAIN,openjmacs.m.taobao.com
 DOMAIN,openpanel.follow.is
 DOMAIN,openrcv.baidu.com
 DOMAIN,oppo.yidianzixun.com
-DOMAIN,optimus-ads-ykx.amap.com
-DOMAIN,optimus-ads.amap.com
 DOMAIN,orange-dc.youku.com
 DOMAIN,ort-stsdk.vivo.com.cn
 DOMAIN,osb-krsvc.samsungqbe.com
@@ -13187,7 +13182,6 @@ DOMAIN-SUFFIX,apricot48.com
 DOMAIN-SUFFIX,apromoweb.com
 DOMAIN-SUFFIX,apronmemorableidentify.com
 DOMAIN-SUFFIX,apsalar.com
-DOMAIN-SUFFIX,apsrgeo.amap.com
 DOMAIN-SUFFIX,apssdc.epoise.com
 DOMAIN-SUFFIX,apssdctest.epoise.com
 DOMAIN-SUFFIX,apteriapithos.com
@@ -20394,7 +20388,6 @@ DOMAIN-SUFFIX,cgczs.murfreesborodogtraining.com
 DOMAIN-SUFFIX,cgfqz.1energyshot.com
 DOMAIN-SUFFIX,cgga.crdbag.com
 DOMAIN-SUFFIX,cghoq.canvasdiscount.com
-DOMAIN-SUFFIX,cgicol.amap.com
 DOMAIN-SUFFIX,cgicounter.oneandone.co.uk
 DOMAIN-SUFFIX,cgicounter.onlinehome.de
 DOMAIN-SUFFIX,cgicounter.puretec.de
@@ -34233,9 +34226,7 @@ DOMAIN-SUFFIX,du1.bbdj.com
 DOMAIN-SUFFIX,du2uh7rq0r0d3.cloudfront.net
 DOMAIN-SUFFIX,du4rq1xqh3i1k.cloudfront.net
 DOMAIN-SUFFIX,dualping.com
-DOMAIN-SUFFIX,dualstack-cgicol.amap.com
 DOMAIN-SUFFIX,dualstack-collection.rong-edge.com
-DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,duanekhalal.cyou
 DOMAIN-SUFFIX,dub-hotac-bluekey.ex.net.easyjet.com
 DOMAIN-SUFFIX,dubai.shadahotels.com
@@ -68234,7 +68225,6 @@ DOMAIN-SUFFIX,logs-sg.rebxgame.com
 DOMAIN-SUFFIX,logs.51cto.com
 DOMAIN-SUFFIX,logs.8thwall.com
 DOMAIN-SUFFIX,logs.adplay.ru
-DOMAIN-SUFFIX,logs.amap.com
 DOMAIN-SUFFIX,logs.animaapp.com
 DOMAIN-SUFFIX,logs.appsource.microsoft.com
 DOMAIN-SUFFIX,logs.betterstack.com
@@ -81866,7 +81856,6 @@ DOMAIN-SUFFIX,ops.sunpowercorp.com
 DOMAIN-SUFFIX,opsd.mskprotect24.de
 DOMAIN-SUFFIX,opskxz.rosettastone.com
 DOMAIN-SUFFIX,opt.delta.com
-DOMAIN-SUFFIX,opt.doubao.com
 DOMAIN-SUFFIX,opt.mocortech.com
 DOMAIN-SUFFIX,opt.worldmarket.com
 DOMAIN-SUFFIX,opt8.co

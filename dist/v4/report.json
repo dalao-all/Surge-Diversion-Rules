@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140977,
+    "ads": 140966,
     "ai": 94,
     "binance": 14,
-    "cn": 6987,
+    "cn": 7033,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 683,
+    "protect-cn": 752,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -88,6 +88,20 @@
       "winner_category": "ai",
       "winner_rule": "DOMAIN,grok.com",
       "witness": "grok.com"
+    },
+    {
+      "shadowed_category": "cn",
+      "shadowed_rule": "DOMAIN,api.trae.ai",
+      "winner_category": "ai",
+      "winner_rule": "DOMAIN-SUFFIX,trae.ai",
+      "witness": "api.trae.ai"
+    },
+    {
+      "shadowed_category": "cn",
+      "shadowed_rule": "DOMAIN,auth.trae.ai",
+      "winner_category": "ai",
+      "winner_rule": "DOMAIN-SUFFIX,trae.ai",
+      "witness": "auth.trae.ai"
     },
     {
       "shadowed_category": "cn",
@@ -7202,6 +7216,10 @@
       "rule": "DOMAIN,ad.zijieapi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN,adashx.ut.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,jd.com",
       "rule": "DOMAIN,addata.jd.com"
     },
@@ -7578,6 +7596,10 @@
       "rule": "DOMAIN,dsp-x.jd.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN,dualstack-logs.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN,e.ad.xiaomi.com"
     },
@@ -7826,6 +7848,10 @@
       "rule": "DOMAIN,logbak.hicloud.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN,logs.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN,logservice.hicloud.com"
     },
@@ -7928,6 +7954,14 @@
     {
       "protection": "DOMAIN-SUFFIX,kuaishouzt.com",
       "rule": "DOMAIN,open.kuaishouzt.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN,optimus-ads-ykx.amap.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN,optimus-ads.amap.com"
     },
     {
       "protection": "DOMAIN,orbit.jd.com",
@@ -8486,6 +8520,10 @@
       "rule": "DOMAIN-SUFFIX,appsec-mobile.meituan.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN-SUFFIX,apsrgeo.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,atlas-emui-drcn.hicloud.com"
     },
@@ -8516,6 +8554,10 @@
     {
       "protection": "DOMAIN,ccc-x.jd.com",
       "rule": "DOMAIN-SUFFIX,ccc-x.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN-SUFFIX,cgicol.amap.com"
     },
     {
       "protection": "DOMAIN,chat1.jd.com",
@@ -8632,6 +8674,14 @@
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,dt.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN-SUFFIX,dualstack-cgicol.amap.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN-SUFFIX,dualstack-logs.amap.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,mi.com",
@@ -8898,6 +8948,10 @@
       "rule": "DOMAIN-SUFFIX,loggw.alipaydns.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,amap.com",
+      "rule": "DOMAIN-SUFFIX,logs.amap.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,logservice-dra.platform.hicloud.com"
     },
@@ -9092,6 +9146,10 @@
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,opsdata.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,doubao.com",
+      "rule": "DOMAIN-SUFFIX,opt.doubao.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",

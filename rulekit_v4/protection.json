@@ -2368,7 +2368,9 @@
       "type": "DOMAIN-SUFFIX",
       "value": "volces.com",
       "category": "cn",
-      "app_ids": [],
+      "app_ids": [
+        "CN052"
+      ],
       "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
       "evidence": [
         "rulekit/allow.list:43"
@@ -11334,6 +11336,903 @@
       "reason": "关键业务候选；第4组购物与电商平台业务保护",
       "evidence": [
         "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "a-map.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "a-map.co",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "a-map.link",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "a-map.vip",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "amap.com",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "amapauto.com",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "anav.com",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "autonavi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gaode.com",
+      "category": "cn",
+      "app_ids": [
+        "CN049"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "apple-mapkit.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe1-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe2-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe3-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe4-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe5-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe6-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe7-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe8-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe1-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe2-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe3-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe4-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe5-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe6-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe7-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gspe8-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp4-cn.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp5-cn.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp10-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp11-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp12-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp13-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gsp-cn-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "sylvan.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "sylvan-ssl.ls.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dispatcher.is.autonavi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN050"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "deepseek.com",
+      "category": "cn",
+      "app_ids": [
+        "CN051"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "deepseeksvc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN051"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "platform.deepseek.com",
+      "category": "cn",
+      "app_ids": [
+        "CN051"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cdn.deepseek.com",
+      "category": "cn",
+      "app_ids": [
+        "CN051"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "doubao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "doubao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "doubaocdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "butterflyai.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "butterfly-static.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "coze.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cozecdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "volcengine.com",
+      "category": "cn",
+      "app_ids": [
+        "CN052"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qianwen.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tongyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tongyi.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tongyiai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "tongyi.aliyun.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "qianwen.aliyun.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dashscope.aliyuncs.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dashscope.cn-beijing.aliyuncs.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dashscope.cn-shanghai.aliyuncs.com",
+      "category": "cn",
+      "app_ids": [
+        "CN053"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "copilot.tencent.com",
+      "category": "cn",
+      "app_ids": [
+        "CN054"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "ima.copilot.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN054"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "ima-api.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN054"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "trae-cdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "traecdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.trae.ai",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "auth.trae.ai",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "marvis.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN056"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "marvis.tencent.com",
+      "category": "cn",
+      "app_ids": [
+        "CN056"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marvisai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN056"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marvisai.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN056"
+      ],
+      "reason": "关键业务候选；第5/6组地图导航与国内AI业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
     }
