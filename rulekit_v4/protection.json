@@ -2286,7 +2286,9 @@
       "type": "DOMAIN-SUFFIX",
       "value": "iqiyipic.com",
       "category": "cn",
-      "app_ids": [],
+      "app_ids": [
+        "CN022"
+      ],
       "reason": "审查迁移旧allow.list关键业务例外，防止广告层回归",
       "evidence": [
         "rulekit/allow.list:24"
@@ -8445,6 +8447,1345 @@
       "reason": "QQ空间用户内容CDN",
       "evidence": [
         "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "douyin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音短视频官方主站与Web端",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "douyincdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音高清视频流媒体分发CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "douyinpic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音静态图文与用户动态封面CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "douyinstatic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音前端静态资源加速",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "douyinvod.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音点播流媒体核心CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "amemv.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音移动端核心API与动态接口",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ixigua.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "西瓜视频与抖音长视频协同平台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "douyinliving.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音直播RTMP与FLV流媒体服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "iesdouyin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音商业化互动与开放平台API",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jinritemai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音电商抖店与商品服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "byteeffectflakes.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音特效滤镜与道具引擎",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bytedapm.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "抖音移动APM性能监控网关",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zijieapi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN014"
+      ],
+      "reason": "字节跳动小程序与生活服务API",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kuaishou.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手官方主站与移动短视频核心",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kuaishouzt.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手中台与创作者服务平台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gifshow.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手核心业务主域与即时通信",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yximgs.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手用户动态封面与短视频图床CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ksapisrv.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手开放平台与移动服务端接口",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kskwai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手短视频分段媒体流分发CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kspkg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手热更新资源包与安装包推送",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kwai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手通用服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kwai.net",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "快手基础设施网络通信",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "acfun.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN015"
+      ],
+      "reason": "AcFun弹幕视频网（快手旗下）",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "aikan-tv.com",
+      "category": "cn",
+      "app_ids": [
+        "CN019"
+      ],
+      "reason": "快手极速版金币任务与短剧播放",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xiaohongshu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN016"
+      ],
+      "reason": "小红书生活社区与笔记主站",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xhscdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN016"
+      ],
+      "reason": "小红书高清图片排版与笔记视频CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xhscdn.net",
+      "category": "cn",
+      "app_ids": [
+        "CN016"
+      ],
+      "reason": "小红书多媒体静态资源加速",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xiaohongshu.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN016"
+      ],
+      "reason": "小红书国内解析备用端点",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xycdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN016"
+      ],
+      "reason": "行吟信息小红书图床分发网络",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "rednet.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN016"
+      ],
+      "reason": "小红书企业号与创作者服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilibili.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "哔哩哔哩弹幕视频网核心主站",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilibili.tv",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站国际化访问与海外番剧解析",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilibili.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站国内官方备案备用",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "biliapi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站开放平台与移动客户端API",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "biliapi.net",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站移动端gRPC核心通信网关",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilivideo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站4K超清分段流媒体播放CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilivideo.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站视频国内加速解析节点",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hdslb.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站视频封面、表情包与动态相册CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bimagic.net",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站动态视频预览与动态切片",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilicdn1.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站多线BGP节点加速CDN 1",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilicdn2.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站多线BGP节点加速CDN 2",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilicdn3.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站多线BGP节点加速CDN 3",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilicdn4.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站多线BGP节点加速CDN 4",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilicdn5.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站多线BGP节点加速CDN 5",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "acg.tv",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站短链接与二次元活动中继",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "acgvideo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站历史超清视频源存储节点",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilibiligame.net",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "B站游戏中心与游戏联运平台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bilibilipay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN017"
+      ],
+      "reason": "哔哩哔哩钱包与大会员支付收银台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weibo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "新浪微博官方主站与移动App",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weibo.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "微博H5移动端与触屏版",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weibocdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "微博短视频与高清图文CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sinaimg.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "新浪微博高清相册与动图图床CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sinajs.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "新浪前端框架与动态脚本CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "t.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "微博官方安全短链解析中枢",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weibo.net",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "微博网络底层调度服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wbimg.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "微博表情包与徽章素材CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weibo.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN018"
+      ],
+      "reason": "微博国内官方备案备用",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "music.163.com",
+      "category": "cn",
+      "app_ids": [
+        "CN020"
+      ],
+      "reason": "网易云音乐主站与曲库API",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "music.126.net",
+      "category": "cn",
+      "app_ids": [
+        "CN020"
+      ],
+      "reason": "网易云音乐无损音频与歌词CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cloudmusic.net",
+      "category": "cn",
+      "app_ids": [
+        "CN020"
+      ],
+      "reason": "网易云音乐多终端同步网络",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "music163.mobi",
+      "category": "cn",
+      "app_ids": [
+        "CN020"
+      ],
+      "reason": "网易云音乐移动端触屏版",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "y.163.com",
+      "category": "cn",
+      "app_ids": [
+        "CN020"
+      ],
+      "reason": "网易云音乐短链接跳转服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "v.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频官方门户与点播平台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "video.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频移动端核心API通道",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "film.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频VIP会员电影专区",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vv.video.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频播放校验与画质鉴权网关",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tc.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频高清切片媒体流CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qqlive.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频QQLive核心直播与点播域",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tenvideo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频移动端短链接",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vmind.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频智能推荐引擎",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wetv.vip",
+      "category": "cn",
+      "app_ids": [
+        "CN021"
+      ],
+      "reason": "腾讯视频WeTV海外及跨区服务",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qy.net",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺移动端长连接网关与播放调度",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺奇艺网核心资产与鉴权",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "iqiyi.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺国内域名解析备用",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pps.tv",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "PPS影音客户端核心通信",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "71.am",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺官方短链接跳转中继",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gitv.tv",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "银河奇异果互联网电视播控平台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cache.video.iqiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺媒体流缓存节点",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "mesh.if.iqiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺微服务网关",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "m.iqiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺移动H5门户",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "vip.iqiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺VIP会员中心",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "act.vip.iqiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺VIP活动权益接口",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "www.iqiyi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN022"
+      ],
+      "reason": "爱奇艺PC与Web门户",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "music.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN023"
+      ],
+      "reason": "Apple Music 音乐目录与电台",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "audio-ssl.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN023"
+      ],
+      "reason": "Apple Music 无损与高解析度音频流CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "aod.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN023"
+      ],
+      "reason": "Apple Music 点播音频资源",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "applemusic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN023"
+      ],
+      "reason": "Apple Music 独立品牌门户",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "podcasts.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN031"
+      ],
+      "reason": "Apple 播客节目目录与订阅管理",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "play.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN031"
+      ],
+      "reason": "Apple 播客节目分段播放加速",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tv.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN032"
+      ],
+      "reason": "Apple TV 影片主页与原创剧集",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mvod.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN032"
+      ],
+      "reason": "Apple TV 4K HDR 视频切片流媒体CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hls.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN032"
+      ],
+      "reason": "Apple TV HLS视频流协议分发",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hls-amt.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN032"
+      ],
+      "reason": "Apple TV 动态多码率视频流",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uts-api.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN032"
+      ],
+      "reason": "Apple TV 统一播放状态与同步API",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "np-edge.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN032"
+      ],
+      "reason": "Apple TV 边缘视频交付节点",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "flydigi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN027"
+      ],
+      "reason": "飞智游戏厅官方主站与外设固件",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "feizhi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN027"
+      ],
+      "reason": "飞智游戏厅外设映射与游戏启动API",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "feizhi.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN027"
+      ],
+      "reason": "飞智移动服务境内解析",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "flydigi.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN027"
+      ],
+      "reason": "飞智电子科技国内备案备用",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "coolapk.com",
+      "category": "cn",
+      "app_ids": [
+        "CN028"
+      ],
+      "reason": "酷安数码社区主站与移动App",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "coolapkmarket.com",
+      "category": "cn",
+      "app_ids": [
+        "CN028"
+      ],
+      "reason": "酷安应用市场应用与APK下载CDN",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "coolapkmarket.net",
+      "category": "cn",
+      "app_ids": [
+        "CN028"
+      ],
+      "reason": "酷安软件源分发网络",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "coolapk.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN028"
+      ],
+      "reason": "酷安国内解析备用端点",
+      "evidence": [
+        "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
     }

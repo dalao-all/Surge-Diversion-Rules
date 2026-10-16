@@ -62,6 +62,7 @@ DOMAIN,account.apple.com
 DOMAIN,acfeedbackws.icloud.com
 DOMAIN,acs.m.taobao.com
 DOMAIN,acstatic-dun.126.net
+DOMAIN,act.vip.iqiyi.com
 DOMAIN,activeqq.3g.qq.com
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,amdc.m.taobao.com
@@ -92,6 +93,7 @@ DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,bpapi.apple.com
 DOMAIN,c-nfa.jd.com
 DOMAIN,ca.iadsdk.apple.com
+DOMAIN,cache.video.iqiyi.com
 DOMAIN,cc.cmbchina.com
 DOMAIN,ccb.com
 DOMAIN,ccc-x.jd.com
@@ -167,7 +169,9 @@ DOMAIN,lf6-mgsdk-sign.dailygn.com
 DOMAIN,lf9-mgsdk-sign.dailygn.com
 DOMAIN,m.ctrip.com
 DOMAIN,m.icbc.com.cn
+DOMAIN,m.iqiyi.com
 DOMAIN,mapi.m.jd.com
+DOMAIN,mesh.if.iqiyi.com
 DOMAIN,mesu.apple.com
 DOMAIN,mmbiz.qpic.cn
 DOMAIN,mobilegw.alipay.com
@@ -221,6 +225,7 @@ DOMAIN,valid.apple.com
 DOMAIN,video-public-1258344701.shiply-cdn.qq.com
 DOMAIN,video-search-1258344701.shiply-cdn.qq.com
 DOMAIN,video-vip-1258344701.shiply-cdn.qq.com
+DOMAIN,vip.iqiyi.com
 DOMAIN,vweixinf.tc.qq.com
 DOMAIN,vweixinthumb.tc.qq.com
 DOMAIN,w1.kskwai.com
@@ -230,6 +235,7 @@ DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
 DOMAIN,www.doubao.com
 DOMAIN,www.goofish.com
+DOMAIN,www.iqiyi.com
 DOMAIN,www.myytx.com
 DOMAIN,www.weisenjoy.com
 DOMAIN,wxs.qq.com
@@ -533,6 +539,7 @@ DOMAIN-SUFFIX,aievsge.com
 DOMAIN-SUFFIX,aigcarena.com
 DOMAIN-SUFFIX,aigclsp.com
 DOMAIN-SUFFIX,aihst8.com
+DOMAIN-SUFFIX,aikan-tv.com
 DOMAIN-SUFFIX,aikgmgre.com
 DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
 DOMAIN-SUFFIX,aiqiyicloud.com
@@ -956,6 +963,7 @@ DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.net
+DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilibiligame.cn
 DOMAIN-SUFFIX,bilibiligame.co
 DOMAIN-SUFFIX,bilibiligame.net
@@ -977,6 +985,7 @@ DOMAIN-SUFFIX,biliplus.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,bimagic.net
 DOMAIN-SUFFIX,binaryai.cn
 DOMAIN-SUFFIX,binaryai.net
 DOMAIN-SUFFIX,binaryai.tech
@@ -1039,10 +1048,12 @@ DOMAIN-SUFFIX,bytedance.org
 DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytedanceoss.net
 DOMAIN-SUFFIX,bytedancevod.com
+DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytedns.net
 DOMAIN-SUFFIX,bytedns1.com
 DOMAIN-SUFFIX,bytedns2.com
 DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,byteeffectflakes.com
 DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytefcdn.com
 DOMAIN-SUFFIX,bytefcdnrd.com
@@ -1310,6 +1321,7 @@ DOMAIN-SUFFIX,cloudluohe.com
 DOMAIN-SUFFIX,cloudluoyang.com
 DOMAIN-SUFFIX,cloudmarket-apigw.com
 DOMAIN-SUFFIX,cloudmeishan.com
+DOMAIN-SUFFIX,cloudmusic.net
 DOMAIN-SUFFIX,cloudnanan.com
 DOMAIN-SUFFIX,cloudnanjing.com
 DOMAIN-SUFFIX,cloudnanning.com
@@ -1426,6 +1438,7 @@ DOMAIN-SUFFIX,comsazms.com
 DOMAIN-SUFFIX,comsenz.com
 DOMAIN-SUFFIX,connect.qq.com
 DOMAIN-SUFFIX,cookicut.com
+DOMAIN-SUFFIX,coolapk.cn
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
 DOMAIN-SUFFIX,coolapkmarket.net
@@ -1926,6 +1939,8 @@ DOMAIN-SUFFIX,feie.work
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishucdn.com
+DOMAIN-SUFFIX,feizhi.cn
+DOMAIN-SUFFIX,feizhi.com
 DOMAIN-SUFFIX,feizhu.cn
 DOMAIN-SUFFIX,feizhu.com
 DOMAIN-SUFFIX,fengkongcloud.com
@@ -1936,6 +1951,7 @@ DOMAIN-SUFFIX,fetionpic.com
 DOMAIN-SUFFIX,feucnp.com
 DOMAIN-SUFFIX,ffbuddy.com
 DOMAIN-SUFFIX,fhzggame.com
+DOMAIN-SUFFIX,film.qq.com
 DOMAIN-SUFFIX,financetcloud.cn
 DOMAIN-SUFFIX,financetcloud.com
 DOMAIN-SUFFIX,fitgroup.com
@@ -1943,6 +1959,7 @@ DOMAIN-SUFFIX,flhimalayandn.com
 DOMAIN-SUFFIX,fliggy.com
 DOMAIN-SUFFIX,fliggy.hk
 DOMAIN-SUFFIX,flydigi.com
+DOMAIN-SUFFIX,flydigi.com.cn
 DOMAIN-SUFFIX,flzhan.cn
 DOMAIN-SUFFIX,flzhan.com
 DOMAIN-SUFFIX,fm.p0y.cn
@@ -3039,6 +3056,7 @@ DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,ipqcrhf.com
 DOMAIN-SUFFIX,ipv6radar.com
 DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,iqiyi.cn
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyi.demo.uwp
 DOMAIN-SUFFIX,iqiyiedge.com
@@ -3664,6 +3682,7 @@ DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,music.163.com.163jiasu.com
 DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,music163.mobi
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,muyewx.com
 DOMAIN-SUFFIX,mvmaster.com
@@ -3790,6 +3809,7 @@ DOMAIN-SUFFIX,novelfmpic.com
 DOMAIN-SUFFIX,novelfmstatic.com
 DOMAIN-SUFFIX,novelfmvod.com
 DOMAIN-SUFFIX,noxnny.com
+DOMAIN-SUFFIX,np-edge.itunes.apple.com
 DOMAIN-SUFFIX,npmmirror.com
 DOMAIN-SUFFIX,nqiief.com
 DOMAIN-SUFFIX,nqmoui.com
@@ -3926,6 +3946,7 @@ DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pipix.com
 DOMAIN-SUFFIX,pixeldance.com
 DOMAIN-SUFFIX,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,play.itunes.apple.com
 DOMAIN-SUFFIX,playbattleaces.com
 DOMAIN-SUFFIX,playdisorder.com
 DOMAIN-SUFFIX,playfab.cn
@@ -4156,6 +4177,7 @@ DOMAIN-SUFFIX,qqimage.net.cn
 DOMAIN-SUFFIX,qqimg.net
 DOMAIN-SUFFIX,qqjapan.com
 DOMAIN-SUFFIX,qqkwsitu.com
+DOMAIN-SUFFIX,qqlive.com
 DOMAIN-SUFFIX,qqmail.com
 DOMAIN-SUFFIX,qqmapyx.com
 DOMAIN-SUFFIX,qqmra.cn
@@ -4270,6 +4292,7 @@ DOMAIN-SUFFIX,realapp.xin
 DOMAIN-SUFFIX,realcybertron.com
 DOMAIN-SUFFIX,realmofswords.com
 DOMAIN-SUFFIX,redfcv.com
+DOMAIN-SUFFIX,rednet.cn
 DOMAIN-SUFFIX,reqgvheo.com
 DOMAIN-SUFFIX,rergdfh.com
 DOMAIN-SUFFIX,rexpos.cn
@@ -4751,6 +4774,7 @@ DOMAIN-SUFFIX,tbmkt.com
 DOMAIN-SUFFIX,tbsandbox.com
 DOMAIN-SUFFIX,tbshare123.com
 DOMAIN-SUFFIX,tburl.in
+DOMAIN-SUFFIX,tc.qq.com
 DOMAIN-SUFFIX,tc471cyhud.com
 DOMAIN-SUFFIX,tcbautomation.cn
 DOMAIN-SUFFIX,tcbe.cn
@@ -5353,6 +5377,7 @@ DOMAIN-SUFFIX,tenovatech.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tenpayglobal.com.cn
 DOMAIN-SUFFIX,tensure.com
+DOMAIN-SUFFIX,tenvideo.com
 DOMAIN-SUFFIX,tenwukong.com
 DOMAIN-SUFFIX,teo-rum.com
 DOMAIN-SUFFIX,teoacc.com
@@ -5838,6 +5863,7 @@ DOMAIN-SUFFIX,usw-tencentclb.com
 DOMAIN-SUFFIX,usw-tencentclb.net
 DOMAIN-SUFFIX,usw-tencentclb.work
 DOMAIN-SUFFIX,utowekcr.com
+DOMAIN-SUFFIX,uts-api.itunes.apple.com
 DOMAIN-SUFFIX,utuqafcr.com
 DOMAIN-SUFFIX,utvmuvpi.com
 DOMAIN-SUFFIX,uu.163.com
@@ -5917,6 +5943,7 @@ DOMAIN-SUFFIX,vlinkapi.com
 DOMAIN-SUFFIX,vmall-hw.com
 DOMAIN-SUFFIX,vmall.com
 DOMAIN-SUFFIX,vmallres.com
+DOMAIN-SUFFIX,vmind.qq.com
 DOMAIN-SUFFIX,vmoso.cn
 DOMAIN-SUFFIX,vod-backup.net
 DOMAIN-SUFFIX,vod-bk-qcloud.com
@@ -5975,6 +6002,7 @@ DOMAIN-SUFFIX,vurl.tech
 DOMAIN-SUFFIX,vurl1.cn
 DOMAIN-SUFFIX,vurl3.vip
 DOMAIN-SUFFIX,vuxmpw.com
+DOMAIN-SUFFIX,vv.video.qq.com
 DOMAIN-SUFFIX,vvhcwpddaa.com
 DOMAIN-SUFFIX,vweixinf.tc.qq.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
@@ -6050,6 +6078,7 @@ DOMAIN-SUFFIX,weiaixiaoshuo.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibo.com.cn
+DOMAIN-SUFFIX,weibo.net
 DOMAIN-SUFFIX,weibo.tv
 DOMAIN-SUFFIX,weibocdn.cn
 DOMAIN-SUFFIX,weibocdn.com
@@ -6215,6 +6244,7 @@ DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,xianjiqun.com
 DOMAIN-SUFFIX,xianyu.mobi
 DOMAIN-SUFFIX,xiaobai.com
+DOMAIN-SUFFIX,xiaohongshu.cn
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xiaoka.tv
 DOMAIN-SUFFIX,xiaomengai.com
@@ -6285,8 +6315,10 @@ DOMAIN-SUFFIX,xvwprdk.com
 DOMAIN-SUFFIX,xwuorvhz.com
 DOMAIN-SUFFIX,xxsy.com
 DOMAIN-SUFFIX,xxsy.net
+DOMAIN-SUFFIX,xycdn.com
 DOMAIN-SUFFIX,xylofh.com
 DOMAIN-SUFFIX,xyzele.com
+DOMAIN-SUFFIX,y.163.com
 DOMAIN-SUFFIX,y2374050fo.com
 DOMAIN-SUFFIX,y4rwk6v8s41kr.com
 DOMAIN-SUFFIX,y66b1pi5re.com
