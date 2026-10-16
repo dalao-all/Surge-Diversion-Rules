@@ -7688,7 +7688,8 @@
       "value": "baitiao.com",
       "category": "cn",
       "app_ids": [
-        "CN010"
+        "CN010",
+        "CN034"
       ],
       "reason": "京东白条先买后付分期业务",
       "evidence": [
@@ -9788,6 +9789,1553 @@
         "中国互联网泛娱乐应用官方备案与多媒体流媒体架构核准"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taobaocdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tbcdn.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taobao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taobao.org",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taobao.net",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taobaotest.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taobaotesting.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "h5.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "trade.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "buy.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cart.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "main.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "login.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "i.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "item.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "detail.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "wapa.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "market.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "s.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "gw.alicdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN033"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "360buyimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "360buy.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "360buy.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "360buy.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "3.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jd.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jd.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jingdong.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdcdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jcloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jcloud-cdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jcloud-oss.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdl.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdl.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "7fresh.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jingxi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "baitiao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "paipai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yhd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yihaodian.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yihaodianimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yixun.com",
+      "category": "cn",
+      "app_ids": [
+        "CN034"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pinduoduo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN035"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yangkeduo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN035"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pddpic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN035"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pinduoduo.net",
+      "category": "cn",
+      "app_ids": [
+        "CN035"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pdd.net",
+      "category": "cn",
+      "app_ids": [
+        "CN035"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "goofish.com",
+      "category": "cn",
+      "app_ids": [
+        "CN036"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xianyu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN036"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "2.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN036"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "2.tb.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN036"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "meituan.com",
+      "category": "cn",
+      "app_ids": [
+        "CN037"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "meituan.net",
+      "category": "cn",
+      "app_ids": [
+        "CN037"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sankuai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN037"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mtyun.com",
+      "category": "cn",
+      "app_ids": [
+        "CN037"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "neixin.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN037"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "meituan.today",
+      "category": "cn",
+      "app_ids": [
+        "CN037"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taote.com",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taote.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "t-subao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "sg.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "flash.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "jhs.m.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "ju.taobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN038"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "freshhema.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemaapi.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemamax.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemaopen.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemaos.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemashare.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marioall.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marioin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mariowap.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "rexpos.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemaapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hemamarket.com",
+      "category": "cn",
+      "app_ids": [
+        "CN040"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewucdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewuapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewu.net",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewu.co",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewu-inc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewuhaowu.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewuhd.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewuhd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dewumall.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "poizon.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "poizon.net",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "poizon.co",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "poizonapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "theduapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "theduapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "duapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "duapp.net",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shizhuang-inc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN042"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhuanzhuan.com",
+      "category": "cn",
+      "app_ids": [
+        "CN043"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhuan-zhuan.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN043"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhuancorp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN043"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhuanspirit.com",
+      "category": "cn",
+      "app_ids": [
+        "CN043"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhuanzhuan.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN043"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zz.com",
+      "category": "cn",
+      "app_ids": [
+        "CN043"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cbu01.alicdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "work.1688.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "page.1688.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "detail.1688.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "open.1688.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "joybuy.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "joyai.jd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "jingfen.jd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN047"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jingfen.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN047"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jingfenapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN047"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jingfen.com",
+      "category": "cn",
+      "app_ids": [
+        "CN047"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sqkb.com",
+      "category": "cn",
+      "app_ids": [
+        "CN048"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sqkb.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN048"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shengqiankuaibao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN048"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sqkbcdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN048"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sqkblive.com",
+      "category": "cn",
+      "app_ids": [
+        "CN048"
+      ],
+      "reason": "关键业务候选；第4组购物与电商平台业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly/ACL4SSR upstream shopping rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 141029,
+    "ads": 140977,
     "ai": 94,
     "binance": 14,
-    "cn": 6937,
+    "cn": 6987,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 564,
+    "protect-cn": 683,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -7202,6 +7202,10 @@
       "rule": "DOMAIN,ad.zijieapi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,addata.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,weibo.com",
       "rule": "DOMAIN,adimg.uve.weibo.com"
     },
@@ -7312,6 +7316,10 @@
     {
       "protection": "DOMAIN-SUFFIX,alipay.com.cn",
       "rule": "DOMAIN,amdc-sibling.alipay.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,duapp.com",
+      "rule": "DOMAIN,androidgo.duapp.com"
     },
     {
       "protection": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
@@ -7474,6 +7482,10 @@
       "rule": "DOMAIN,controller.intl.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,360buy.com",
+      "rule": "DOMAIN,cps.360buy.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,mi.com",
       "rule": "DOMAIN,d.g.mi.com"
     },
@@ -7508,6 +7520,10 @@
     {
       "protection": "DOMAIN-SUFFIX,sinaimg.cn",
       "rule": "DOMAIN,d8.sinaimg.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,meituan.net",
+      "rule": "DOMAIN,data-sdk-uuid-log.d.meituan.net"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -7558,6 +7574,10 @@
       "rule": "DOMAIN,dpmtpush.dianping.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,dsp-x.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN,e.ad.xiaomi.com"
     },
@@ -7592,6 +7612,10 @@
     {
       "protection": "DOMAIN-SUFFIX,kuaishou.com",
       "rule": "DOMAIN,frontend-perf-service.e.kuaishou.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tbcdn.cn",
+      "rule": "DOMAIN,g.tbcdn.cn"
     },
     {
       "protection": "DOMAIN,game.weibo.cn",
@@ -7698,8 +7722,20 @@
       "rule": "DOMAIN,iadsdk.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,im-x.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN,image.box.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,img-x.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,360buyimg.com",
+      "rule": "DOMAIN,img2.360buyimg.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,youdao.com",
@@ -7712,6 +7748,14 @@
     {
       "protection": "DOMAIN,janapi.jd.com",
       "rule": "DOMAIN,janapi.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,jrad.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,jzt.jd.com"
     },
     {
       "protection": "DOMAIN,kepler.jd.com",
@@ -8002,6 +8046,10 @@
       "rule": "DOMAIN,shoes.app-xae.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,skdisplay.jd.com"
+    },
+    {
       "protection": "DOMAIN,snowflake.qq.com",
       "rule": "DOMAIN,snowflake.qq.com"
     },
@@ -8014,12 +8062,24 @@
       "rule": "DOMAIN,splashqqlive.gtimg.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,stat.m.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,statsigapi.net",
       "rule": "DOMAIN,statsigapi.net"
     },
     {
+      "protection": "DOMAIN-SUFFIX,taobaocdn.com",
+      "rule": "DOMAIN,strip.taobaocdn.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,cup.com.cn",
       "rule": "DOMAIN,switch.cup.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,pinduoduo.com",
+      "rule": "DOMAIN,t-dsp.pinduoduo.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -8150,6 +8210,10 @@
       "rule": "DOMAIN,vd1.market.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,pddpic.com",
+      "rule": "DOMAIN,video-dsp.pddpic.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,tc.qq.com",
       "rule": "DOMAIN,video.dispatch.tc.qq.com"
     },
@@ -8180,6 +8244,14 @@
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,weather-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,meituan.com",
+      "rule": "DOMAIN,wmlog.meituan.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,wn.x.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -8216,6 +8288,10 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN,xadx.file.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN,xlog.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xycdn.com",
@@ -8294,6 +8370,10 @@
       "rule": "DOMAIN-SUFFIX,ad1.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,addata.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,mi.com",
       "rule": "DOMAIN-SUFFIX,admin.e.mi.com"
     },
@@ -8308,6 +8388,10 @@
     {
       "protection": "DOMAIN-SUFFIX,xhscdn.com",
       "rule": "DOMAIN-SUFFIX,ads-img-qc.xhscdn.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,ads-union.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xhscdn.com",
@@ -8362,6 +8446,10 @@
       "rule": "DOMAIN-SUFFIX,analytics.developer.riotgames.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,meituan.net",
+      "rule": "DOMAIN-SUFFIX,analytics.meituan.net"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,api-adservices.apple.com"
     },
@@ -8394,8 +8482,16 @@
       "rule": "DOMAIN-SUFFIX,applog.zijieapi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,meituan.com",
+      "rule": "DOMAIN-SUFFIX,appsec-mobile.meituan.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,atlas-emui-drcn.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,3.cn",
+      "rule": "DOMAIN-SUFFIX,atom-log.3.cn"
     },
     {
       "protection": "DOMAIN-SUFFIX,samsclub.com",
@@ -8404,6 +8500,14 @@
     {
       "protection": "DOMAIN-SUFFIX,mi-img.com",
       "rule": "DOMAIN-SUFFIX,browser.mi-img.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,cactus.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,joybuy.com",
+      "rule": "DOMAIN-SUFFIX,cactus.joybuy.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,dianping.com",
@@ -8434,6 +8538,10 @@
       "rule": "DOMAIN-SUFFIX,clientlogsf.music.163.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,joybuy.com",
+      "rule": "DOMAIN-SUFFIX,clk-m.joybuy.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,youdao.com",
       "rule": "DOMAIN-SUFFIX,clkservice.youdao.com"
     },
@@ -8460,6 +8568,10 @@
     {
       "protection": "DOMAIN-SUFFIX,qiyi.com",
       "rule": "DOMAIN-SUFFIX,cupid.qiyi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,meituan.net",
+      "rule": "DOMAIN-SUFFIX,d.meituan.net"
     },
     {
       "protection": "DOMAIN-SUFFIX,paypal.com",
@@ -8508,6 +8620,10 @@
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,dnkeeper.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,meituan.net",
+      "rule": "DOMAIN-SUFFIX,dreport.meituan.net"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -8586,6 +8702,10 @@
       "rule": "DOMAIN-SUFFIX,gdfp.gifshow.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,gia.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,graffiti-tags.apple.com"
     },
@@ -8602,8 +8722,16 @@
       "rule": "DOMAIN-SUFFIX,guid.tpns.sgp.tencent.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,joybuy.com",
+      "rule": "DOMAIN-SUFFIX,h5log.joybuy.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,hd.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,hermes.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -8670,6 +8798,10 @@
       "rule": "DOMAIN-SUFFIX,igame.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,meituan.com",
+      "rule": "DOMAIN-SUFFIX,impdsp.meituan.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,installer.xiaomi.com"
     },
@@ -8698,6 +8830,14 @@
       "rule": "DOMAIN-SUFFIX,kskwai.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,zhuanzhuan.com",
+      "rule": "DOMAIN-SUFFIX,lego-tech.zhuanzhuan.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,zhuanzhuan.com",
+      "rule": "DOMAIN-SUFFIX,lego.zhuanzhuan.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,lg.xiaomi.com"
     },
@@ -8716,6 +8856,10 @@
     {
       "protection": "DOMAIN-SUFFIX,sgsnssdk.com",
       "rule": "DOMAIN-SUFFIX,log-tb.sgsnssdk.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,log.jd.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,tencent.com",
@@ -8790,6 +8934,10 @@
       "rule": "DOMAIN-SUFFIX,mdt.qq.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,mercury.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,samsclub.com",
       "rule": "DOMAIN-SUFFIX,metric.samsclub.com"
     },
@@ -8854,6 +9002,10 @@
       "rule": "DOMAIN-SUFFIX,miui.security.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,mllog.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,msedge.net",
       "rule": "DOMAIN-SUFFIX,msedge.net"
     },
@@ -8896,6 +9048,10 @@
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,news-sports-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,duapp.com",
+      "rule": "DOMAIN-SUFFIX,noxagile.duapp.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -8974,6 +9130,10 @@
       "rule": "DOMAIN-SUFFIX,rcgi.video.qq.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,meituan.com",
+      "rule": "DOMAIN-SUFFIX,report.meituan.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,youdao.com",
       "rule": "DOMAIN-SUFFIX,rlogs.youdao.com"
     },
@@ -9038,6 +9198,14 @@
       "rule": "DOMAIN-SUFFIX,servicesupport.hicloud.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,sgm-w.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,skdisplay.jd.com"
+    },
+    {
       "protection": "DOMAIN,snowflake.qq.com",
       "rule": "DOMAIN-SUFFIX,snowflake.qq.com"
     },
@@ -9098,8 +9266,20 @@
       "rule": "DOMAIN-SUFFIX,sys.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,pinduoduo.com",
+      "rule": "DOMAIN-SUFFIX,t-dsp.pinduoduo.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaohongshu.com",
       "rule": "DOMAIN-SUFFIX,t2.xiaohongshu.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,pinduoduo.com",
+      "rule": "DOMAIN-SUFFIX,ta.pinduoduo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,pinduoduo.com",
+      "rule": "DOMAIN-SUFFIX,th.pinduoduo.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,mi.com",
@@ -9146,8 +9326,16 @@
       "rule": "DOMAIN-SUFFIX,ulogs2.ksapisrv.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,union.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,mi.com",
       "rule": "DOMAIN-SUFFIX,union.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,yihaodian.com",
+      "rule": "DOMAIN-SUFFIX,union.yihaodian.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,youdao.com",
@@ -9170,6 +9358,10 @@
       "rule": "DOMAIN-SUFFIX,vcs.zijieapi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,pddpic.com",
+      "rule": "DOMAIN-SUFFIX,video-dsp.pddpic.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,video.xiaomi.com"
     },
@@ -9186,12 +9378,24 @@
       "rule": "DOMAIN-SUFFIX,web-trace.ksapisrv.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,wl.jd.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,ksapisrv.com",
       "rule": "DOMAIN-SUFFIX,wlog.ksapisrv.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,kuaishou.com",
       "rule": "DOMAIN-SUFFIX,wlog.kuaishou.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,wn.x.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,meituan.net",
+      "rule": "DOMAIN-SUFFIX,wreport.meituan.net"
     },
     {
       "protection": "DOMAIN,wxs.qq.com",
@@ -9204,6 +9408,10 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,xitong.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,jd.com",
+      "rule": "DOMAIN-SUFFIX,xlog.jd.com"
     }
   ],
   "sources": 124,

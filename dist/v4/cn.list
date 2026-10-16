@@ -42,6 +42,8 @@ DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com
 DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com
 DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com
 DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com
+DOMAIN,2.taobao.com
+DOMAIN,2.tb.cn
 DOMAIN,218-91-225-1.ksyungslb.com
 DOMAIN,219-155-150-1.ksyungslb.com
 DOMAIN,222-188-6-1.ksyungslb.com
@@ -91,9 +93,12 @@ DOMAIN,awaken.amap.com
 DOMAIN,aweme.snssdk.com
 DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,bpapi.apple.com
+DOMAIN,buy.taobao.com
 DOMAIN,c-nfa.jd.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,cache.video.iqiyi.com
+DOMAIN,cart.taobao.com
+DOMAIN,cbu01.alicdn.com
 DOMAIN,cc.cmbchina.com
 DOMAIN,ccb.com
 DOMAIN,ccc-x.jd.com
@@ -113,6 +118,8 @@ DOMAIN,crl3.digicert.com
 DOMAIN,crl4.digicert.com
 DOMAIN,cssubmissions.apple.com
 DOMAIN,datacollection.uve.weibo.com
+DOMAIN,detail.1688.com
+DOMAIN,detail.m.taobao.com
 DOMAIN,dldir1.qq.com
 DOMAIN,dns.jd.com
 DOMAIN,dns.weibo.cn
@@ -121,6 +128,7 @@ DOMAIN,dp.im.weibo.cn
 DOMAIN,dpmtpush.dianping.com
 DOMAIN,edith.xiaohongshu.com
 DOMAIN,fba.apple.com
+DOMAIN,flash.m.taobao.com
 DOMAIN,floatingislandapps.com
 DOMAIN,fmfmobile.icloud.com
 DOMAIN,fmipmobile.icloud.com
@@ -137,9 +145,11 @@ DOMAIN,gsa.apple.com
 DOMAIN,gsp-ssl.ls.apple.com
 DOMAIN,guide-acs.m.taobao.com
 DOMAIN,guzzoni.apple.com
+DOMAIN,gw.alicdn.com
 DOMAIN,gw5.push.mcp.weibo.cn
 DOMAIN,gw6.push.mcp.weibo.cn
 DOMAIN,h5.m.goofish.com
+DOMAIN,h5.m.taobao.com
 DOMAIN,haohuo.jinritemai.com
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls-svod.itunes.apple.com
@@ -150,6 +160,7 @@ DOMAIN,httpdnsmultiapi.meituan.com
 DOMAIN,httpdnsmultiapivip.meituan.com
 DOMAIN,httpdnsvip.meituan.com
 DOMAIN,huodong.weibo.cn
+DOMAIN,i.taobao.com
 DOMAIN,iacc.qq.com
 DOMAIN,idmsa.apple.com
 DOMAIN,ima.qq.com
@@ -158,8 +169,13 @@ DOMAIN,img.alicdn.com
 DOMAIN,img1.scrcu.com
 DOMAIN,ins-eeww7kom.ias.tencent-cloud.net
 DOMAIN,ios.video.mpush.qq.com
+DOMAIN,item.taobao.com
 DOMAIN,janapi.jd.com
+DOMAIN,jhs.m.taobao.com
+DOMAIN,jingfen.jd.com
+DOMAIN,joyai.jd.com
 DOMAIN,jr.jd.com
+DOMAIN,ju.taobao.com
 DOMAIN,juejin.cn
 DOMAIN,juejin.im
 DOMAIN,kepler.jd.com
@@ -167,10 +183,14 @@ DOMAIN,knicks.jd.com
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,lf6-mgsdk-sign.dailygn.com
 DOMAIN,lf9-mgsdk-sign.dailygn.com
+DOMAIN,login.taobao.com
 DOMAIN,m.ctrip.com
 DOMAIN,m.icbc.com.cn
 DOMAIN,m.iqiyi.com
+DOMAIN,m.taobao.com
+DOMAIN,main.m.taobao.com
 DOMAIN,mapi.m.jd.com
+DOMAIN,market.m.taobao.com
 DOMAIN,mesh.if.iqiyi.com
 DOMAIN,mesu.apple.com
 DOMAIN,mmbiz.qpic.cn
@@ -187,9 +207,11 @@ DOMAIN,ocsp.apple.com
 DOMAIN,ocsp.digicert.cn
 DOMAIN,ocsp.digicert.com
 DOMAIN,ocsp2.apple.com
+DOMAIN,open.1688.com
 DOMAIN,orbit.jd.com
 DOMAIN,p26-sign.bdxiguaimg.com
 DOMAIN,p3-sign.bdxiguaimg.com
+DOMAIN,page.1688.com
 DOMAIN,page.amap.com
 DOMAIN,pages.c-ctrip.com
 DOMAIN,play-edge.itunes.apple.com
@@ -198,9 +220,11 @@ DOMAIN,policy.video.iqiyi.com
 DOMAIN,ppq.apple.com
 DOMAIN,qun.qq.com
 DOMAIN,rdelivery.qq.com
+DOMAIN,s.taobao.com
 DOMAIN,s1.kskwai.com
 DOMAIN,sdkapp.uve.weibo.com
 DOMAIN,setup.icloud.com
+DOMAIN,sg.m.taobao.com
 DOMAIN,slife.xy-asia.com
 DOMAIN,snowflake.qq.com
 DOMAIN,soup.v.qq.com
@@ -208,6 +232,7 @@ DOMAIN,statici.icloud.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,tdid.m.qq.com
 DOMAIN,terms.alicdn.com
+DOMAIN,trade.taobao.com
 DOMAIN,trae-api-sg.mchost.guru
 DOMAIN,ts.qq.com
 DOMAIN,tsis.jpush.cn
@@ -230,8 +255,10 @@ DOMAIN,vweixinf.tc.qq.com
 DOMAIN,vweixinthumb.tc.qq.com
 DOMAIN,w1.kskwai.com
 DOMAIN,w2.kskwai.com
+DOMAIN,wapa.taobao.com
 DOMAIN,weisenjoy.com
 DOMAIN,weixin110.qq.com
+DOMAIN,work.1688.com
 DOMAIN,wup.imtt.qq.com
 DOMAIN,www.doubao.com
 DOMAIN,www.goofish.com
@@ -1748,6 +1775,8 @@ DOMAIN-SUFFIX,dratio.com
 DOMAIN-SUFFIX,dreamcast.hk
 DOMAIN-SUFFIX,drm-lic-dom.net
 DOMAIN-SUFFIX,du8.ltd
+DOMAIN-SUFFIX,duapp.com
+DOMAIN-SUFFIX,duapp.net
 DOMAIN-SUFFIX,duiou.com.cn
 DOMAIN-SUFFIX,dvkors.com
 DOMAIN-SUFFIX,dw2.co
@@ -2682,6 +2711,8 @@ DOMAIN-SUFFIX,helixapp.cn
 DOMAIN-SUFFIX,hellobike.com
 DOMAIN-SUFFIX,helmicro.com
 DOMAIN-SUFFIX,hemaapi.cn
+DOMAIN-SUFFIX,hemaapp.cn
+DOMAIN-SUFFIX,hemamarket.com
 DOMAIN-SUFFIX,hemamax.com
 DOMAIN-SUFFIX,hemaopen.cn
 DOMAIN-SUFFIX,hemaos.com
@@ -3225,7 +3256,10 @@ DOMAIN-SUFFIX,jiangziyuedu.com
 DOMAIN-SUFFIX,jianying.com
 DOMAIN-SUFFIX,jingdong.com
 DOMAIN-SUFFIX,jingdongjinrong.com
+DOMAIN-SUFFIX,jingfen.cn
+DOMAIN-SUFFIX,jingfen.com
 DOMAIN-SUFFIX,jingfen.jd.com
+DOMAIN-SUFFIX,jingfenapp.com
 DOMAIN-SUFFIX,jingpinhui.com
 DOMAIN-SUFFIX,jingxi.com
 DOMAIN-SUFFIX,jinritemai-inc.com
@@ -3586,6 +3620,7 @@ DOMAIN-SUFFIX,mefenlife.com
 DOMAIN-SUFFIX,mei.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,meituan.today
 DOMAIN-SUFFIX,meitusiyu.com
 DOMAIN-SUFFIX,meiwpkpu.com
 DOMAIN-SUFFIX,metalrevolution.com
@@ -3916,6 +3951,7 @@ DOMAIN-SUFFIX,panplayable-toutiao.com
 DOMAIN-SUFFIX,paogame.cn
 DOMAIN-SUFFIX,pcmgr-global.com
 DOMAIN-SUFFIX,pcmgr-global.net
+DOMAIN-SUFFIX,pdd.net
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pdm.tech
 DOMAIN-SUFFIX,peiwanlu.com
@@ -3943,6 +3979,7 @@ DOMAIN-SUFFIX,picpic-ai.cn
 DOMAIN-SUFFIX,picself.cn
 DOMAIN-SUFFIX,picself.com.cn
 DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pinduoduo.net
 DOMAIN-SUFFIX,pipix.com
 DOMAIN-SUFFIX,pixeldance.com
 DOMAIN-SUFFIX,play-edge.itunes.apple.com
@@ -3960,8 +3997,10 @@ DOMAIN-SUFFIX,poiuytw.com
 DOMAIN-SUFFIX,poizon-inner.com
 DOMAIN-SUFFIX,poizon-inner.net
 DOMAIN-SUFFIX,poizon-support.com
+DOMAIN-SUFFIX,poizon.co
 DOMAIN-SUFFIX,poizon.com
 DOMAIN-SUFFIX,poizon.net
+DOMAIN-SUFFIX,poizonapp.com
 DOMAIN-SUFFIX,pokercup.net
 DOMAIN-SUFFIX,polarismesh.cn
 DOMAIN-SUFFIX,polestar.cn
@@ -4516,6 +4555,7 @@ DOMAIN-SUFFIX,sheec-tencentclb.cloud
 DOMAIN-SUFFIX,sheec-tencentclb.com
 DOMAIN-SUFFIX,sheec-tencentclb.net
 DOMAIN-SUFFIX,sheec-tencentclb.work
+DOMAIN-SUFFIX,shengqiankuaibao.com
 DOMAIN-SUFFIX,shenjing.com
 DOMAIN-SUFFIX,shhqcft-tencentclb.cloud
 DOMAIN-SUFFIX,shhqcft-tencentclb.com
@@ -4644,7 +4684,10 @@ DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,speedtest.net.cn
 DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,speedvr.cn
+DOMAIN-SUFFIX,sqkb.cn
 DOMAIN-SUFFIX,sqkb.com
+DOMAIN-SUFFIX,sqkbcdn.com
+DOMAIN-SUFFIX,sqkblive.com
 DOMAIN-SUFFIX,sqq.qq.com
 DOMAIN-SUFFIX,squadbusters-game.cn
 DOMAIN-SUFFIX,squadbustersgame.cn
@@ -4706,6 +4749,7 @@ DOMAIN-SUFFIX,szx-tencentclb.work
 DOMAIN-SUFFIX,szyxlx.cn
 DOMAIN-SUFFIX,t-jh.cn
 DOMAIN-SUFFIX,t-npm.com
+DOMAIN-SUFFIX,t-subao.com
 DOMAIN-SUFFIX,t-tlearning.com
 DOMAIN-SUFFIX,t.cn
 DOMAIN-SUFFIX,t8703hd304.com
@@ -4738,6 +4782,7 @@ DOMAIN-SUFFIX,tanxlog.istreamsche.com
 DOMAIN-SUFFIX,tao123.com
 DOMAIN-SUFFIX,taobao.cn
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,taobao.net
 DOMAIN-SUFFIX,taobao.org
 DOMAIN-SUFFIX,taobao.wang
 DOMAIN-SUFFIX,taobaocdn.com
@@ -4749,6 +4794,8 @@ DOMAIN-SUFFIX,taojianghu.com
 DOMAIN-SUFFIX,taopiaopiao.cn
 DOMAIN-SUFFIX,taopiaopiao.com
 DOMAIN-SUFFIX,taotao.com
+DOMAIN-SUFFIX,taote.cn
+DOMAIN-SUFFIX,taote.com
 DOMAIN-SUFFIX,taotv.cn
 DOMAIN-SUFFIX,taotv.com
 DOMAIN-SUFFIX,taotv.com.cn
@@ -6242,6 +6289,7 @@ DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.fm
 DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,xianjiqun.com
+DOMAIN-SUFFIX,xianyu.com
 DOMAIN-SUFFIX,xianyu.mobi
 DOMAIN-SUFFIX,xiaobai.com
 DOMAIN-SUFFIX,xiaohongshu.cn
@@ -6479,6 +6527,7 @@ DOMAIN-SUFFIX,zhuan-zhuan.cn
 DOMAIN-SUFFIX,zhuancorp.com
 DOMAIN-SUFFIX,zhuanspirit.com
 DOMAIN-SUFFIX,zhuanzfx.com
+DOMAIN-SUFFIX,zhuanzhuan.cn
 DOMAIN-SUFFIX,zhuanzhuan.com
 DOMAIN-SUFFIX,zhuoyuegame.cn
 DOMAIN-SUFFIX,zhuoyuegame.com
@@ -6542,6 +6591,7 @@ DOMAIN-SUFFIX,zwtianshangm.com
 DOMAIN-SUFFIX,zxgcloud.com
 DOMAIN-SUFFIX,zxgstock.com
 DOMAIN-SUFFIX,zygvqivs.com
+DOMAIN-SUFFIX,zz.com
 DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,weibo
 IP-ASN,132203,no-resolve
