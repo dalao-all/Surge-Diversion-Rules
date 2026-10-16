@@ -7,28 +7,28 @@
   "source_count": 124,
   "dependency_count": 28,
   "counts": {
-    "ads": 140885,
+    "ads": 140876,
     "ai": 101,
     "binance": 14,
-    "cn": 7186,
-    "global": 727,
+    "cn": 7188,
+    "global": 739,
     "google": 724,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 80,
     "protect-binance": 13,
-    "protect-cn": 998,
-    "protect-global": 80,
+    "protect-cn": 1004,
+    "protect-global": 94,
     "protect-google": 39,
     "protect-okx": 19,
     "protect-paypal": 5,
     "protect-stream": 38,
     "protect-tiktok": 24,
-    "protect-uk": 1,
+    "protect-uk": 5,
     "protect-wise": 2,
     "stream": 1358,
     "tiktok": 38,
-    "uk": 3,
+    "uk": 5,
     "wise": 2
   },
   "probe_count": 237,
@@ -97,20 +97,20 @@
     {
       "id": "uk",
       "policy": "🇬🇧 英国专属",
-      "rule_count": 3,
-      "protected_rule_count": 1
+      "rule_count": 5,
+      "protected_rule_count": 5
     },
     {
       "id": "global",
       "policy": "🌍 国际网络",
-      "rule_count": 727,
-      "protected_rule_count": 80
+      "rule_count": 739,
+      "protected_rule_count": 94
     },
     {
       "id": "cn",
       "policy": "DIRECT",
-      "rule_count": 7186,
-      "protected_rule_count": 998
+      "rule_count": 7188,
+      "protected_rule_count": 1004
     }
   ],
   "apps": [
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "49f349f31a0b3291ea0e7906ea783698fc75e3c0141db908e41de5f58048215d"
+  "semantic_sha256": "ce7c97b7d2c5e18c2bbe2373d20e71d929626ec1ce68a521f0ca8cdc467df696"
 }
