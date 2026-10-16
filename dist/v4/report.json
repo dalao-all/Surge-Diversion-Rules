@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140962,
+    "ads": 140948,
     "ai": 94,
     "binance": 14,
-    "cn": 7103,
+    "cn": 7140,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 876,
+    "protect-cn": 941,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -4514,7 +4514,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0080",
-      "matched_rule": "DOMAIN-SUFFIX,apple.com",
+      "matched_rule": "DOMAIN,amp-api.fitness.apple.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -4531,7 +4531,7 @@
       "evidence_kind": "official-document-only",
       "expected_category": "cn",
       "id": "P0081",
-      "matched_rule": "DOMAIN,floatingislandapps.com",
+      "matched_rule": "DOMAIN-SUFFIX,floatingislandapps.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；只证明文档/隐私链接"
     },
@@ -4549,7 +4549,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0082",
-      "matched_rule": "DOMAIN-SUFFIX,io.mi.com",
+      "matched_rule": "DOMAIN,ha.api.io.mi.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -4763,7 +4763,7 @@
       "evidence_kind": "official-document-only",
       "expected_category": "cn",
       "id": "P0094",
-      "matched_rule": "DOMAIN,www.myytx.com",
+      "matched_rule": "DOMAIN-SUFFIX,myytx.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；只证明文档/隐私链接"
     },
@@ -7492,6 +7492,10 @@
       "rule": "DOMAIN,cloan.amap.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,miguvideo.com",
+      "rule": "DOMAIN,clog.miguvideo.com"
+    },
+    {
       "protection": "DOMAIN,cm.bilibili.com",
       "rule": "DOMAIN,cm.bilibili.com"
     },
@@ -7664,6 +7668,22 @@
       "rule": "DOMAIN,geolocation.onetrust.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,miguvideo.com",
+      "rule": "DOMAIN,ggx01.miguvideo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,miguvideo.com",
+      "rule": "DOMAIN,ggx02.miguvideo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,miguvideo.com",
+      "rule": "DOMAIN,ggx03.miguvideo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,miguvideo.com",
+      "rule": "DOMAIN,ggx10.miguvideo.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN,globalapi.ad.xiaomi.com"
     },
@@ -7686,6 +7706,10 @@
     {
       "protection": "DOMAIN,gw6.push.mcp.weibo.cn",
       "rule": "DOMAIN,gw6.push.mcp.weibo.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,huaweicloud.com",
+      "rule": "DOMAIN,httpdns.huaweicloud.com"
     },
     {
       "protection": "DOMAIN,httpdns.meituan.com",
@@ -7846,6 +7870,10 @@
     {
       "protection": "DOMAIN-SUFFIX,zijieapi.com",
       "rule": "DOMAIN,log.zijieapi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,cmpassport.com",
+      "rule": "DOMAIN,log1.cmpassport.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
@@ -8756,6 +8784,10 @@
       "rule": "DOMAIN-SUFFIX,gdfp.gifshow.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,miguvideo.com",
+      "rule": "DOMAIN-SUFFIX,ggxwb.miguvideo.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,jd.com",
       "rule": "DOMAIN-SUFFIX,gia.jd.com"
     },
@@ -8814,6 +8846,10 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,huodong.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,huawei.com",
+      "rule": "DOMAIN-SUFFIX,hwa.his.huawei.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -8926,6 +8962,18 @@
     {
       "protection": "DOMAIN-SUFFIX,amemv.com",
       "rule": "DOMAIN-SUFFIX,log0-misc-hl.amemv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,cmpassport.com",
+      "rule": "DOMAIN-SUFFIX,log1.cmpassport.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,zhipin.com",
+      "rule": "DOMAIN-SUFFIX,logapi-and.zhipin.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,zhipin.com",
+      "rule": "DOMAIN-SUFFIX,logapi.zhipin.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
@@ -9090,6 +9138,10 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,mvideo.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,huawei.com",
+      "rule": "DOMAIN-SUFFIX,nebula-collector.huawei.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,music.163.com",
@@ -9334,6 +9386,10 @@
     {
       "protection": "DOMAIN-SUFFIX,pinduoduo.com",
       "rule": "DOMAIN-SUFFIX,t-dsp.pinduoduo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,zhipin.com",
+      "rule": "DOMAIN-SUFFIX,t.zhipin.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaohongshu.com",

@@ -13848,6 +13848,851 @@
         "Apple official support endpoints and BlackMatrix7 Apple rulesets"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "amp-api.fitness.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN085"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "fitness.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN085"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "hls-svod.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN085"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "floatingislandapps.com",
+      "category": "cn",
+      "app_ids": [
+        "CN086"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "growapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN086"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "miot-spec.org",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "home.mi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xiaomi.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.io.mi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "ha.api.io.mi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cn-ha.mqtt.io.mi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "huawei.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "huaweicloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hwtrip.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hihonor.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "honor.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "homekit.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN089"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "home.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN089"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "iwork.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN090"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "youdao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN091"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dict.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN091"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dict.youdao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN091"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "translate.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN092"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhipin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN093"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bosszhipin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN093"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "kanzhun.com",
+      "category": "cn",
+      "app_ids": [
+        "CN093"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weipinworld.com",
+      "category": "cn",
+      "app_ids": [
+        "CN093"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhaopin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN094"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhaopin.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN094"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhaopin.net",
+      "category": "cn",
+      "app_ids": [
+        "CN094"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zhaopincdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN094"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "liepin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN095"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lietou.com",
+      "category": "cn",
+      "app_ids": [
+        "CN095"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lietou-static.com",
+      "category": "cn",
+      "app_ids": [
+        "CN095"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "liepincdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN095"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qcc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN096"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qichacha.com",
+      "category": "cn",
+      "app_ids": [
+        "CN096"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qichacha.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN096"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "beike.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ctid.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN098"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ctdidcii.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN098"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ctidapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN098"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cdnrefresh.ctdidcii.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN098"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "auth.ctid.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN098"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "myytx.com",
+      "category": "cn",
+      "app_ids": [
+        "CN099"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "yuetongxing.com",
+      "category": "cn",
+      "app_ids": [
+        "CN099"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ytx.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN099"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "quda.com",
+      "category": "cn",
+      "app_ids": [
+        "CN100"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "quda.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN100"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "10086.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinamobile.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinamobileltd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "139.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmpassport.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "migu.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "migucdn.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "miguvideo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "10086kuaixiu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "12530.com",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmecloud.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ecpan.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN101"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uuyc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN102"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uuyc.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN102"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "12123.gov.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN103"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "12123.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN103"
+      ],
+      "reason": "关键业务候选；第7.4/7.5/7.6组运动健康、智能家居与政企学习业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

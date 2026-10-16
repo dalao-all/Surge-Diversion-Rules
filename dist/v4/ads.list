@@ -512,7 +512,6 @@ DOMAIN,click.tz.simba.taobao.com
 DOMAIN,click.uve.mobile.sina.cn
 DOMAIN,click2.hd.sohu.com
 DOMAIN,click4.chinaliftoff.io
-DOMAIN,clog.miguvideo.com
 DOMAIN,cloooud.com
 DOMAIN,cm.dmp.sina.cn
 DOMAIN,cm.ipinyou.com
@@ -709,10 +708,6 @@ DOMAIN,gemini.yahoo.com
 DOMAIN,geo.yahoo.com
 DOMAIN,getui.cn
 DOMAIN,ggx.cmvideo.cn
-DOMAIN,ggx01.miguvideo.com
-DOMAIN,ggx02.miguvideo.com
-DOMAIN,ggx03.miguvideo.com
-DOMAIN,ggx10.miguvideo.com
 DOMAIN,gif.7mmtv.sx
 DOMAIN,goblin.hupu.com
 DOMAIN,google-analytics.com
@@ -776,7 +771,6 @@ DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,httpdns.calorietech.com
 DOMAIN,httpdns.cctv.com
 DOMAIN,httpdns.danuoyi.tbcache.com
-DOMAIN,httpdns.huaweicloud.com
 DOMAIN,httpdns.kg.qq.com
 DOMAIN,httpdns.kwd.inkuai.com
 DOMAIN,httpdns.n.shifen.com
@@ -938,7 +932,6 @@ DOMAIN,log.v2.hunantv.com
 DOMAIN,log.vcgame.cn
 DOMAIN,log.web.kugou.com
 DOMAIN,log.ys7.com
-DOMAIN,log1.cmpassport.com
 DOMAIN,logrcv.aiclk.com
 DOMAIN,logrcv.yunxish.com
 DOMAIN,logs-bigdata.yeehaw.com.cn
@@ -42909,7 +42902,6 @@ DOMAIN-SUFFIX,ggveg.creatinegummies.com
 DOMAIN-SUFFIX,ggvjk.beginhealth.com
 DOMAIN-SUFFIX,ggw.gusuwang.com
 DOMAIN-SUFFIX,ggw.watertu.com
-DOMAIN-SUFFIX,ggxwb.miguvideo.com
 DOMAIN-SUFFIX,ggysxabi.com
 DOMAIN-SUFFIX,ggzfqn.mynerdlife.com
 DOMAIN-SUFFIX,gh.atlasspineclinic.ca
@@ -52976,7 +52968,6 @@ DOMAIN-SUFFIX,hvywk.grizzlycoolers.com
 DOMAIN-SUFFIX,hvzbn.humbler.com
 DOMAIN-SUFFIX,hvztqxvhhmpuj.website
 DOMAIN-SUFFIX,hw-t.hypers.com.cn
-DOMAIN-SUFFIX,hwa.his.huawei.com
 DOMAIN-SUFFIX,hwbfbaefllojr.online
 DOMAIN-SUFFIX,hwbjer.jjunheating.com
 DOMAIN-SUFFIX,hwbjkd.skygate.co.jp
@@ -68114,7 +68105,6 @@ DOMAIN-SUFFIX,log.zongheng.com
 DOMAIN-SUFFIX,log000.goo.ne.jp
 DOMAIN-SUFFIX,log002.commutil.kr
 DOMAIN-SUFFIX,log1.apkomega.com
-DOMAIN-SUFFIX,log1.cmpassport.com
 DOMAIN-SUFFIX,log1.perfectworldgames.com
 DOMAIN-SUFFIX,log1.pwsdk.com
 DOMAIN-SUFFIX,log1.wanmei.com
@@ -68131,13 +68121,11 @@ DOMAIN-SUFFIX,log2.spotify.com
 DOMAIN-SUFFIX,log2.wanmei.com
 DOMAIN-SUFFIX,log5.interactive-circle.jp
 DOMAIN-SUFFIX,loganmedia.mobi
-DOMAIN-SUFFIX,logapi-and.zhipin.com
 DOMAIN-SUFFIX,logapi.alza.cz
 DOMAIN-SUFFIX,logapi.bodyevey.com
 DOMAIN-SUFFIX,logapi.kt.com
 DOMAIN-SUFFIX,logapi.sooplive.com
 DOMAIN-SUFFIX,logapi.tv.naver.com
-DOMAIN-SUFFIX,logapi.zhipin.com
 DOMAIN-SUFFIX,logarithm29.top
 DOMAIN-SUFFIX,logbook93.com
 DOMAIN-SUFFIX,logc-sg.tsd.xindong.com
@@ -78554,7 +78542,6 @@ DOMAIN-SUFFIX,neat-price.com
 DOMAIN-SUFFIX,neatbadger.com
 DOMAIN-SUFFIX,neatrule.com
 DOMAIN-SUFFIX,neatshade.com
-DOMAIN-SUFFIX,nebula-collector.huawei.com
 DOMAIN-SUFFIX,nebula.donnezvotrevoiture.org
 DOMAIN-SUFFIX,nebula.roole.fr
 DOMAIN-SUFFIX,nebulacrescent.com
@@ -121587,7 +121574,6 @@ DOMAIN-SUFFIX,t.yourcaraccidentcheck.com
 DOMAIN-SUFFIX,t.yourframework.com
 DOMAIN-SUFFIX,t.zazen.ro
 DOMAIN-SUFFIX,t.zero-debts.com
-DOMAIN-SUFFIX,t.zhipin.com
 DOMAIN-SUFFIX,t.zk-sports.com
 DOMAIN-SUFFIX,t.zonzo.com.au
 DOMAIN-SUFFIX,t0.newbuildproperties.com
