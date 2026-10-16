@@ -1116,6 +1116,7 @@ DOMAIN-SUFFIX,capturetheflag.fun
 DOMAIN-SUFFIX,carbonxprogram.com
 DOMAIN-SUFFIX,catus.xyz
 DOMAIN-SUFFIX,catuscdn.xyz
+DOMAIN-SUFFIX,cc.cmbchina.com
 DOMAIN-SUFFIX,ccb-life.com.cn
 DOMAIN-SUFFIX,ccb.cn
 DOMAIN-SUFFIX,ccb.com
@@ -1210,6 +1211,7 @@ DOMAIN-SUFFIX,chinatechie.com
 DOMAIN-SUFFIX,chinatechie.com.cn
 DOMAIN-SUFFIX,chinatechie.net
 DOMAIN-SUFFIX,chinatechinsights.com
+DOMAIN-SUFFIX,chinaums.com
 DOMAIN-SUFFIX,chinaunionpay.com
 DOMAIN-SUFFIX,chinaunionpay.com.cn
 DOMAIN-SUFFIX,chinaunionpay.net
@@ -1220,12 +1222,19 @@ DOMAIN-SUFFIX,chndoi.net
 DOMAIN-SUFFIX,chndoi.org
 DOMAIN-SUFFIX,chuhai.group
 DOMAIN-SUFFIX,ciaxkzxy.com
+DOMAIN-SUFFIX,cib.cn
 DOMAIN-SUFFIX,cib.com.cn
+DOMAIN-SUFFIX,cibcb.com
+DOMAIN-SUFFIX,cibfintech.com
+DOMAIN-SUFFIX,cibfund.com
+DOMAIN-SUFFIX,cibfund.com.cn
+DOMAIN-SUFFIX,cibt.com.cn
 DOMAIN-SUFFIX,cignacmb-ipmi.com
 DOMAIN-SUFFIX,cignacmb.com
 DOMAIN-SUFFIX,cignacmbamc.com
 DOMAIN-SUFFIX,citic
 DOMAIN-SUFFIX,citic-prudential.com.cn
+DOMAIN-SUFFIX,citic.com
 DOMAIN-SUFFIX,citicbank.com
 DOMAIN-SUFFIX,citiccapital.com
 DOMAIN-SUFFIX,citiciam.com
@@ -1354,6 +1363,8 @@ DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbi.com.hk
 DOMAIN-SUFFIX,cmbimg.cn
 DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,cmblife.cn
+DOMAIN-SUFFIX,cmblife.com
 DOMAIN-SUFFIX,cmbt.cn
 DOMAIN-SUFFIX,cmbuat.com
 DOMAIN-SUFFIX,cmburl.cn
@@ -1449,6 +1460,7 @@ DOMAIN-SUFFIX,cr-wifi.com
 DOMAIN-SUFFIX,crct.com
 DOMAIN-SUFFIX,cre.cn
 DOMAIN-SUFFIX,crecc.com.cn
+DOMAIN-SUFFIX,creditcard.ecitic.com
 DOMAIN-SUFFIX,creip.cn
 DOMAIN-SUFFIX,crmpower.cn
 DOMAIN-SUFFIX,cross-zone.com
@@ -2856,6 +2868,7 @@ DOMAIN-SUFFIX,icbc-uk.com
 DOMAIN-SUFFIX,icbc-us.com
 DOMAIN-SUFFIX,icbc.ae
 DOMAIN-SUFFIX,icbc.be
+DOMAIN-SUFFIX,icbc.cn
 DOMAIN-SUFFIX,icbc.co.id
 DOMAIN-SUFFIX,icbc.co.jp
 DOMAIN-SUFFIX,icbc.co.kr
@@ -3156,6 +3169,7 @@ DOMAIN-SUFFIX,jddglobal.com
 DOMAIN-SUFFIX,jddtv.cn
 DOMAIN-SUFFIX,jddtv.com
 DOMAIN-SUFFIX,jdemall.com
+DOMAIN-SUFFIX,jdfcloud.com
 DOMAIN-SUFFIX,jdfeijing.com
 DOMAIN-SUFFIX,jdfinance.com
 DOMAIN-SUFFIX,jdfmgt.com
@@ -3167,6 +3181,7 @@ DOMAIN-SUFFIX,jdl.cn
 DOMAIN-SUFFIX,jdl.com
 DOMAIN-SUFFIX,jdl.com.cn
 DOMAIN-SUFFIX,jdlike.cn
+DOMAIN-SUFFIX,jdpay.cn
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jdpaydns.com
 DOMAIN-SUFFIX,jdsmartkf.com
@@ -3223,11 +3238,13 @@ DOMAIN-SUFFIX,joox.com
 DOMAIN-SUFFIX,joyai.com
 DOMAIN-SUFFIX,joybuy.com
 DOMAIN-SUFFIX,joybuy.es
+DOMAIN-SUFFIX,joying.com
 DOMAIN-SUFFIX,joyworkshop.com
 DOMAIN-SUFFIX,jp-tencentclb.cloud
 DOMAIN-SUFFIX,jp-tencentclb.com
 DOMAIN-SUFFIX,jp-tencentclb.net
 DOMAIN-SUFFIX,jp-tencentclb.work
+DOMAIN-SUFFIX,jr.jd.com
 DOMAIN-SUFFIX,jrzk.net.cn
 DOMAIN-SUFFIX,jsplayground.net
 DOMAIN-SUFFIX,jstti.com
@@ -4425,6 +4442,10 @@ DOMAIN-SUFFIX,scl0.cn
 DOMAIN-SUFFIX,scowqbfk.com
 DOMAIN-SUFFIX,scratchmirror.com
 DOMAIN-SUFFIX,scratchmirror.net
+DOMAIN-SUFFIX,scrcu.cn
+DOMAIN-SUFFIX,scrcu.com
+DOMAIN-SUFFIX,scrcubank.cn
+DOMAIN-SUFFIX,scrcubank.com
 DOMAIN-SUFFIX,scsentry.cn
 DOMAIN-SUFFIX,sdaswq.com
 DOMAIN-SUFFIX,sdffqaz.com

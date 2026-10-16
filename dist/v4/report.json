@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 141245,
+    "ads": 141229,
     "ai": 94,
     "binance": 14,
-    "cn": 6865,
+    "cn": 6886,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 302,
+    "protect-cn": 403,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -7188,12 +7188,28 @@
       "rule": "DOMAIN,adpublish.ydstatic.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,95516.com",
+      "rule": "DOMAIN,ads.95516.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,cup.com.cn",
+      "rule": "DOMAIN,ads.cup.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,ccb.com",
+      "rule": "DOMAIN,adv.ccb.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,advertising.apple.com"
     },
     {
       "protection": "DOMAIN,amap-aos-info-nogw.amap.com",
       "rule": "DOMAIN,amap-aos-info-nogw.amap.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com.cn",
+      "rule": "DOMAIN,amdc-sibling.alipay.com.cn"
     },
     {
       "protection": "DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net",
@@ -7624,6 +7640,10 @@
       "rule": "DOMAIN,statsigapi.net"
     },
     {
+      "protection": "DOMAIN-SUFFIX,cup.com.cn",
+      "rule": "DOMAIN,switch.cup.com.cn"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN,t.track.ad.xiaomi.com"
     },
@@ -7776,6 +7796,18 @@
       "rule": "DOMAIN-SUFFIX,al.autohome.com.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,alipaylog.com",
+      "rule": "DOMAIN-SUFFIX,alipaylog.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,amdc-thirdparty.alipay.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,amdc.alipay.com"
+    },
+    {
       "protection": "DOMAIN,amdc.m.taobao.com",
       "rule": "DOMAIN-SUFFIX,amdc.m.taobao.com"
     },
@@ -7826,6 +7858,10 @@
     {
       "protection": "DOMAIN-SUFFIX,youdao.com",
       "rule": "DOMAIN-SUFFIX,clkservice.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,collect.alipay.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
@@ -8048,6 +8084,26 @@
       "rule": "DOMAIN-SUFFIX,logbak.hicloud.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,loggw-ex.alipay.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,loggw-exsdk.alipay.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,loggw.alipay.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com.cn",
+      "rule": "DOMAIN-SUFFIX,loggw.alipay.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipaydns.com",
+      "rule": "DOMAIN-SUFFIX,loggw.alipaydns.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,logservice-dra.platform.hicloud.com"
     },
@@ -8178,6 +8234,14 @@
     {
       "protection": "DOMAIN-SUFFIX,openinstall.io",
       "rule": "DOMAIN-SUFFIX,openinstall.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay-eco.com",
+      "rule": "DOMAIN-SUFFIX,openmonitor.alipay-eco.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,alipay.com",
+      "rule": "DOMAIN-SUFFIX,openmonitor.alipay.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",

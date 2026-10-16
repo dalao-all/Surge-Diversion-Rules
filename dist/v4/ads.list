@@ -154,11 +154,9 @@ DOMAIN,ads-sg.tiktok.com
 DOMAIN,ads-shopping.shouqianba.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
-DOMAIN,ads.95516.com
 DOMAIN,ads.adfunlink.com
 DOMAIN,ads.aplus.pptv.com
 DOMAIN,ads.auctions.yahoo.com
-DOMAIN,ads.cup.com.cn
 DOMAIN,ads.data.pplive.com
 DOMAIN,ads.eu.msn.com
 DOMAIN,ads.fetnet.net
@@ -271,7 +269,6 @@ DOMAIN,adtracker.medproad.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv-api.shenshiads.com
 DOMAIN,adv.app.qq.com
-DOMAIN,adv.ccb.com
 DOMAIN,adv.sec.intl.miui.com
 DOMAIN,adv.sec.miui.com
 DOMAIN,adver.qq.com
@@ -337,7 +334,6 @@ DOMAIN,alltbcsp2p.baidu.com
 DOMAIN,alog.umeng.com
 DOMAIN,alogus.umeng.com
 DOMAIN,als.baidu.com
-DOMAIN,amdc-sibling.alipay.com.cn
 DOMAIN,amdc.m.youku.com
 DOMAIN,amdcopen.m.taobao.com
 DOMAIN,amp.thehackernews.com
@@ -1505,7 +1501,6 @@ DOMAIN,susapi.dev.surepush.cn
 DOMAIN,susapi.lenovomm.com
 DOMAIN,sv-video.play.aiseet.atianqi.com
 DOMAIN,sv.map.baidu.com
-DOMAIN,switch.cup.com.cn
 DOMAIN,syh-imp.cdnjtzy.com
 DOMAIN,syh.zybang.com
 DOMAIN,szbdyd.com
@@ -8531,7 +8526,6 @@ DOMAIN-SUFFIX,aline.institutoalinepinho.com
 DOMAIN-SUFFIX,alinedcauk.shop
 DOMAIN-SUFFIX,alinitroods.qpon
 DOMAIN-SUFFIX,alinks.outcomes4me.com
-DOMAIN-SUFFIX,alipaylog.com
 DOMAIN-SUFFIX,alitems.co
 DOMAIN-SUFFIX,alitems.site
 DOMAIN-SUFFIX,alitui.weibo.com
@@ -8789,8 +8783,6 @@ DOMAIN-SUFFIX,ambrosialsummit.com
 DOMAIN-SUFFIX,amc.yandex.ru
 DOMAIN-SUFFIX,amcgns.giesswein.com
 DOMAIN-SUFFIX,amcraahmou.com
-DOMAIN-SUFFIX,amdc-thirdparty.alipay.com
-DOMAIN-SUFFIX,amdc.alipay.com
 DOMAIN-SUFFIX,amdcopen.m.taobao.com
 DOMAIN-SUFFIX,amebousbeggerreagree.cyou
 DOMAIN-SUFFIX,amebousbrindle.com
@@ -22108,7 +22100,6 @@ DOMAIN-SUFFIX,collect.aerjournal.com
 DOMAIN-SUFFIX,collect.agambooks.com
 DOMAIN-SUFFIX,collect.air1.com
 DOMAIN-SUFFIX,collect.aligne.co
-DOMAIN-SUFFIX,collect.alipay.com
 DOMAIN-SUFFIX,collect.allianz-immo.ch
 DOMAIN-SUFFIX,collect.allianz-technology.ch
 DOMAIN-SUFFIX,collect.allianz.ch
@@ -68398,11 +68389,6 @@ DOMAIN-SUFFIX,logging.prefixbox.com
 DOMAIN-SUFFIX,logging.pw.adn.cloud
 DOMAIN-SUFFIX,loggingapi.spingo.com
 DOMAIN-SUFFIX,loggly.cheatsheet.com
-DOMAIN-SUFFIX,loggw-ex.alipay.com
-DOMAIN-SUFFIX,loggw-exsdk.alipay.com
-DOMAIN-SUFFIX,loggw.alipay.com
-DOMAIN-SUFFIX,loggw.alipay.com.cn
-DOMAIN-SUFFIX,loggw.alipaydns.com
 DOMAIN-SUFFIX,loggychops.paulsmith.site
 DOMAIN-SUFFIX,loggyevils.com
 DOMAIN-SUFFIX,logialevulicfebres.cyou
@@ -82031,8 +82017,6 @@ DOMAIN-SUFFIX,openlog.tapapis.cn
 DOMAIN-SUFFIX,openlog.tapapis.com
 DOMAIN-SUFFIX,openmindedaching.com
 DOMAIN-SUFFIX,openmindedpassengerserr.com
-DOMAIN-SUFFIX,openmonitor.alipay-eco.com
-DOMAIN-SUFFIX,openmonitor.alipay.com
 DOMAIN-SUFFIX,openpanel.dev
 DOMAIN-SUFFIX,openrate.aweber.com
 DOMAIN-SUFFIX,openrtb-banner.com

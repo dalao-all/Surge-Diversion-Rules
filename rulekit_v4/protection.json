@@ -6380,6 +6380,1319 @@
         "官方业务域名核准与高频规则集深度交叉审查"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝核心业务平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝国内解析",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝国内备案备用",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay.net",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝网络底层通信",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipayobjects.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝静态多媒体与前端CDN",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipayplus.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "Alipay+全球跨境支付",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay-corp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "蚂蚁集团支付宝企业服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay-eco.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝开放生态体系",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay-inc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝内部网关与API",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipay-traffic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝流量分发中心",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipaydns.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝移动端动态DNS调度",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipaylog.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝日志上报与风控验证",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "alipaydev.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝开放平台开发者接口",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ifaa.org.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "IFAA互联网金融身份认证联盟",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sinopayment.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "支付宝联合收单结算",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "antgroup.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "蚂蚁集团官网与服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "antfin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN001"
+      ],
+      "reason": "蚂蚁金服金融云服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "95516.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "中国银联云闪付核心平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "95516.net",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "中国银联网络与接口通道",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinaunionpay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "中国银联官方网站",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinaunionpay.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "中国银联国内官方备案",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinaunionpay.net",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "中国银联清算网络",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "unionpay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联国际与云闪付基础服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "unionpay.net",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联云端网络基础设施",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "unionpayintl.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联国际跨境网络",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "unionpayintl.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联国际境内业务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "unionpaysecure.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联在线支付安全认证3DS",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinapay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联电子支付网络平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinapay.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联电子支付移动端",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cup.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "中国银联专网通信",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cup62.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联62信用卡节与营销系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinaums.com",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联商务全渠道支付平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "airepay.net",
+      "category": "cn",
+      "app_ids": [
+        "CN002"
+      ],
+      "reason": "银联移动收银台加速",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbc.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "中国工商银行核心业务与手机银行",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "95588.com",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "中国工商银行统一客户服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "95588.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工商银行移动端客服与查询",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dccnet.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工行数据通信网技术平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbc.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工行国内业务备用",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbccs.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工银瑞信基金官方管理平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbccstz.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工银瑞信投资交易网关",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbcina.com",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工行海外与机构互联通道",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbcstandard.com",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工银标准银行金融业务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icbcasia.com",
+      "category": "cn",
+      "app_ids": [
+        "CN003"
+      ],
+      "reason": "工银亚洲手机银行专线",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccb.com",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "中国建设银行手机银行与主网",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccb.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建设银行国内官方业务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccb.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建设银行域名解析中枢",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbcos.com",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建设银行集约化运营平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbfund.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信基金移动客户端",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbfund.com",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信基金管理系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbfund.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信基金官方平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbfutures.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信期货交易结算",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbfutures.com",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信期货行情系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbhome.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建融家园长租社区服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbhome.net",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建融家园房源与签约网关",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbleasing.com",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信金融租赁官方平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbtrust.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信信托财产管理平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccbxt.com",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信信托业务系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ccb-life.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN004"
+      ],
+      "reason": "建信人寿保险与健康养老",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "scrcu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN005"
+      ],
+      "reason": "四川农信手机银行官方主站与API",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "scrcu.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN005"
+      ],
+      "reason": "四川农信移动端服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "scrcubank.com",
+      "category": "cn",
+      "app_ids": [
+        "CN005"
+      ],
+      "reason": "四川农村信用社联合社网络平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "scrcubank.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN005"
+      ],
+      "reason": "四川省农村信用社备用解析",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbchina.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商银行一网通与手机银行",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbchina.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商银行境内解析",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbchina.biz",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商银行企业银行网关",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbimg.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招行手机银行图标与素材CDN",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商银行图床加速服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmburl.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商银行短信与活动短链",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbt.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招行金融科技开放平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmbuat.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商银行测试与灰度集群",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmfchina.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商基金官方管理平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmfunds.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商基金投资交易系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmb-leasing.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招银金租官方平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cignacmb.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招商信诺人寿保险",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "joying.com",
+      "category": "cn",
+      "app_ids": [
+        "CN006"
+      ],
+      "reason": "招赢理财业务平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cib.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴业银行手机银行与网银主站",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cib.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴业银行国内备用解析",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cibfintech.com",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴业数金金融云技术底座",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cibfund.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴银基金官方平台",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cibfund.com",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴银基金管理系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cibt.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴业信托管理系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cibcb.com",
+      "category": "cn",
+      "app_ids": [
+        "CN007"
+      ],
+      "reason": "兴业银行信用卡业务系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "creditcard.ecitic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信银行信用卡动卡空间核心",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ecitic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信银行网银与在线金融",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "citicbank.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信银行股份有限公司官方门户",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "citic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信集团全栈业务入口",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "citiccapital.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信资本投资业务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "citicsf.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信期货交易与开户系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cfc108.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "中信证券投顾与理财系统",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinaamc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN008"
+      ],
+      "reason": "华夏基金管理有限公司（中信控股）",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cc.cmbchina.com",
+      "category": "cn",
+      "app_ids": [
+        "CN009"
+      ],
+      "reason": "招商银行掌上生活信用卡核心",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "8008205555.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN009"
+      ],
+      "reason": "招商银行信用卡客服与分期",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "8008205555.com",
+      "category": "cn",
+      "app_ids": [
+        "CN009"
+      ],
+      "reason": "招商银行信用卡中心官方",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmblife.com",
+      "category": "cn",
+      "app_ids": [
+        "CN009"
+      ],
+      "reason": "掌上生活生活消费与饭票主站",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmblife.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN009"
+      ],
+      "reason": "掌上生活移动客户端业务接口",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jr.jd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN010"
+      ],
+      "reason": "京东金融门户与白条借钱业务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdpay.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN010"
+      ],
+      "reason": "京东支付移动端清算",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jdfcloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN010"
+      ],
+      "reason": "京东科技金融云服务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wangyin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN010"
+      ],
+      "reason": "网银在线京东全资持牌支付机构",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinabank.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN010"
+      ],
+      "reason": "网银在线官方清算通道",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "baitiao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN010"
+      ],
+      "reason": "京东白条先买后付分期业务",
+      "evidence": [
+        "银行金融机构官方备案及金融科技云网关核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",
