@@ -16922,6 +16922,708 @@
         "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "whatsapp.com",
+      "category": "global",
+      "app_ids": [
+        "INT014"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "whatsapp.net",
+      "category": "global",
+      "app_ids": [
+        "INT014"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wa.me",
+      "category": "global",
+      "app_ids": [
+        "INT014"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "whatsapp.biz",
+      "category": "global",
+      "app_ids": [
+        "INT014"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "telegram.org",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "t.me",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "telegram.me",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "telegram.dog",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "telegra.ph",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tdesktop.com",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "telesco.pe",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cdn-telegram.org",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "stel.com",
+      "category": "global",
+      "app_ids": [
+        "INT015"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discord.com",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discordapp.com",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discord.gg",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discord.media",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discordapp.net",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discordcdn.com",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discord.dev",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dis.gd",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discord-activities.com",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "discord-attachments-uploads-prd.storage.googleapis.com",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "www.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "myaccount.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "passwords.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "policies.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "support.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cloud.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "1e100.net",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gstatic.com",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.com.hk",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.co.jp",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.co.uk",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.ca",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.com.tw",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.de",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "google.fr",
+      "category": "google",
+      "app_ids": [
+        "INT017"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chrome.com",
+      "category": "google",
+      "app_ids": [
+        "INT018"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chromecast.com",
+      "category": "google",
+      "app_ids": [
+        "INT018"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dl.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT018"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gmail.com",
+      "category": "google",
+      "app_ids": [
+        "INT019"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "inbox.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT019"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "contacts.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT019"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "googledrive.com",
+      "category": "google",
+      "app_ids": [
+        "INT020"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "docs.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT020"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "sheets.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT020"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "slides.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT020"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "forms.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT020"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "maps.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT021"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "maps.gstatic.com",
+      "category": "google",
+      "app_ids": [
+        "INT021"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "earth.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT021"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "streetview.google.com",
+      "category": "google",
+      "app_ids": [
+        "INT021"
+      ],
+      "reason": "关键业务候选；第3组国外通讯与第4组谷歌系列业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream rulesets and verified official endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

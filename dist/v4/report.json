@@ -1,19 +1,19 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140887,
+    "ads": 140885,
     "ai": 101,
     "binance": 14,
     "cn": 7186,
     "global": 727,
-    "google": 706,
+    "google": 724,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 80,
     "protect-binance": 13,
     "protect-cn": 998,
-    "protect-global": 57,
-    "protect-google": 8,
+    "protect-global": 80,
+    "protect-google": 39,
     "protect-okx": 19,
     "protect-paypal": 5,
     "protect-stream": 38,
@@ -5423,7 +5423,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "google",
       "id": "P0132",
-      "matched_rule": "DOMAIN-SUFFIX,google.com",
+      "matched_rule": "DOMAIN,www.google.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -8739,6 +8739,10 @@
       "rule": "DOMAIN-SUFFIX,dig.lianjia.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,whatsapp.net",
+      "rule": "DOMAIN-SUFFIX,dit.whatsapp.net"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,dnkeeper.hicloud.com"
     },
@@ -9381,6 +9385,10 @@
     {
       "protection": "DOMAIN-SUFFIX,netflix.com",
       "rule": "DOMAIN-SUFFIX,presentationtracking.netflix.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,whatsapp.net",
+      "rule": "DOMAIN-SUFFIX,privatestats.whatsapp.net"
     },
     {
       "protection": "DOMAIN-SUFFIX,kuaishou.com",
