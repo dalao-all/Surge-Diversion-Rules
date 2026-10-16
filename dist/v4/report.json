@@ -1,28 +1,28 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140885,
+    "ads": 140876,
     "ai": 101,
     "binance": 14,
-    "cn": 7186,
-    "global": 727,
+    "cn": 7188,
+    "global": 739,
     "google": 724,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 80,
     "protect-binance": 13,
-    "protect-cn": 998,
-    "protect-global": 80,
+    "protect-cn": 1004,
+    "protect-global": 94,
     "protect-google": 39,
     "protect-okx": 19,
     "protect-paypal": 5,
     "protect-stream": 38,
     "protect-tiktok": 24,
-    "protect-uk": 1,
+    "protect-uk": 5,
     "protect-wise": 2,
     "stream": 1358,
     "tiktok": 38,
-    "uk": 3,
+    "uk": 5,
     "wise": 2
   },
   "cross_category_shadow_witnesses": [
@@ -8527,6 +8527,10 @@
       "rule": "DOMAIN-SUFFIX,analytics.meituan.net"
     },
     {
+      "protection": "DOMAIN-SUFFIX,tableausoftware.com",
+      "rule": "DOMAIN-SUFFIX,ao-mkt.tableausoftware.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,api-adservices.apple.com"
     },
@@ -8553,6 +8557,14 @@
     {
       "protection": "DOMAIN-SUFFIX,volces.com",
       "rule": "DOMAIN-SUFFIX,apmplus.volces.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableausoftware.com",
+      "rule": "DOMAIN-SUFFIX,app.corp.tableausoftware.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableausoftware.com",
+      "rule": "DOMAIN-SUFFIX,app.tableausoftware.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,zijieapi.com",
@@ -8621,6 +8633,10 @@
     {
       "protection": "DOMAIN,chat1.jd.com",
       "rule": "DOMAIN-SUFFIX,chat1.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableau.com",
+      "rule": "DOMAIN-SUFFIX,clicks.tableau.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,music.163.com",
@@ -8965,6 +8981,14 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,igame.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableau.com",
+      "rule": "DOMAIN-SUFFIX,images.tableau.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableausoftware.com",
+      "rule": "DOMAIN-SUFFIX,images.tableausoftware.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,meituan.com",
@@ -9591,6 +9615,10 @@
       "rule": "DOMAIN-SUFFIX,ta.pinduoduo.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,tableausoftware.com",
+      "rule": "DOMAIN-SUFFIX,telemetry.tableausoftware.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,pinduoduo.com",
       "rule": "DOMAIN-SUFFIX,th.pinduoduo.com"
     },
@@ -9609,6 +9637,14 @@
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,tracker.ai.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableau.com",
+      "rule": "DOMAIN-SUFFIX,try.tableau.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tableausoftware.com",
+      "rule": "DOMAIN-SUFFIX,try.tableausoftware.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,yximgs.com",

@@ -17624,6 +17624,318 @@
         "BlackMatrix7 upstream rulesets and verified official endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "obsidian.md",
+      "category": "global",
+      "app_ids": [
+        "INT022"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "publish.obsidian.md",
+      "category": "global",
+      "app_ids": [
+        "INT022"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "forum.obsidian.md",
+      "category": "global",
+      "app_ids": [
+        "INT022"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "releases.obsidian.md",
+      "category": "global",
+      "app_ids": [
+        "INT022"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.obsidian.md",
+      "category": "global",
+      "app_ids": [
+        "INT022"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dejavocab.com",
+      "category": "global",
+      "app_ids": [
+        "INT023"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.dejavocab.com",
+      "category": "global",
+      "app_ids": [
+        "INT023"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tableau.com",
+      "category": "cn",
+      "app_ids": [
+        "INT024"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tableausoftware.com",
+      "category": "cn",
+      "app_ids": [
+        "INT024"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tableaucdn.com",
+      "category": "cn",
+      "app_ids": [
+        "INT024"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tableauusercontent.com",
+      "category": "cn",
+      "app_ids": [
+        "INT024"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "online.tableau.com",
+      "category": "cn",
+      "app_ids": [
+        "INT024"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "public.tableau.com",
+      "category": "cn",
+      "app_ids": [
+        "INT024"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sanas.ai",
+      "category": "global",
+      "app_ids": [
+        "INT025"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "app.sanas.ai",
+      "category": "global",
+      "app_ids": [
+        "INT025"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.sanas.ai",
+      "category": "global",
+      "app_ids": [
+        "INT025"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "giffgaff.com",
+      "category": "uk",
+      "app_ids": [
+        "INT026"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "giffgaff.design",
+      "category": "uk",
+      "app_ids": [
+        "INT026"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "id.giffgaff.com",
+      "category": "uk",
+      "app_ids": [
+        "INT026"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "community.giffgaff.com",
+      "category": "uk",
+      "app_ids": [
+        "INT026"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shadowlaunch.net",
+      "category": "global",
+      "app_ids": [
+        "INT027"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nssurge.com",
+      "category": "global",
+      "app_ids": [
+        "INT028"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "surge.net",
+      "category": "global",
+      "app_ids": [
+        "INT028"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "surge.run",
+      "category": "global",
+      "app_ids": [
+        "INT028"
+      ],
+      "reason": "关键业务候选；第5组国际工具（Obsidian/Tableau/giffgaff/Surge等）业务保护",
+      "evidence": [
+        "Official product endpoints and verified production routing"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

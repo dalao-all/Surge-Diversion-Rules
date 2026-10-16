@@ -210,6 +210,7 @@ DOMAIN,ocsp.apple.com
 DOMAIN,ocsp.digicert.cn
 DOMAIN,ocsp.digicert.com
 DOMAIN,ocsp2.apple.com
+DOMAIN,online.tableau.com
 DOMAIN,open.1688.com
 DOMAIN,orbit.jd.com
 DOMAIN,osxapps.itunes.apple.com
@@ -224,6 +225,7 @@ DOMAIN,photos.apple.com
 DOMAIN,platform.deepseek.com
 DOMAIN,policy.video.iqiyi.com
 DOMAIN,ppq.apple.com
+DOMAIN,public.tableau.com
 DOMAIN,qianwen.aliyun.com
 DOMAIN,qun.qq.com
 DOMAIN,reminders.icloud.com
@@ -849,6 +851,10 @@ DOMAIN-SUFFIX,support.apple.com
 DOMAIN-SUFFIX,supportapp.apple.com
 DOMAIN-SUFFIX,t-subao.com
 DOMAIN-SUFFIX,t.cn
+DOMAIN-SUFFIX,tableau.com
+DOMAIN-SUFFIX,tableaucdn.com
+DOMAIN-SUFFIX,tableausoftware.com
+DOMAIN-SUFFIX,tableauusercontent.com
 DOMAIN-SUFFIX,taobao.cn
 DOMAIN-SUFFIX,taobao.net
 DOMAIN-SUFFIX,taobao.org
