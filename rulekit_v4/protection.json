@@ -7693,6 +7693,760 @@
         "银行金融机构官方备案及金融科技云网关核准"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weixin.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信官方网站与业务平台",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wechat.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "WeChat 官方与国际互通服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wechatpay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信支付全球官方门户",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wechatpay.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信支付境内商户接入",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "servicewechat.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信小程序运行环境与API网关",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weixinbridge.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信JS-SDK与网页环境桥接通信",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weixinsxy.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信商户平台与培训学院",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tenpay.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "财付通微信支付底层金融清算网关",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wechatlegal.net",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信法律条款与合规审查服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wechatos.net",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信终端操作系统适配层",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wx.gtimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信静态前端素材与公众号图片CDN",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wx.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信网页版与扫码登录中继",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wxs.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信桌面端与移动端长连接网关",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weixin.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信公众号平台与开发者服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weixin110.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信安全中心与账号申诉服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vweixinf.tc.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信视频号高清流媒体CDN加速",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vweixinthumb.tc.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信视频号封面与缩略图CDN",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wxamedia.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "微信视频号音视频切片媒体流CDN",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wxwork.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "企业微信与微信互通服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "work.weixin.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN011"
+      ],
+      "reason": "企业微信管理后台与互通接口",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingtalk.com",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉核心业务与移动客户端API",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingtalk.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉境内解析主节点",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingtalk.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉国内官方备案中枢",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingtalk.net",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉全球音视频会议底层网络通信",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingtalkapps.com",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉微应用与企业开放平台API",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingtalkcloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉专属云与混合办公企业网关",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ztna-dingtalk.com",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉零信任安全接入专网",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingstore.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉应用市场与企业协同插件",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dingding.xin",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉短链跳转与邀请入职服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ddurl.to",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉聊天消息与文档分享短链",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dg-work.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "浙政钉政务协同专属办公工作台",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "laiwang.com",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "阿里巴巴来往钉钉基础IM底层架构",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lwurl.to",
+      "category": "cn",
+      "app_ids": [
+        "CN012"
+      ],
+      "reason": "钉钉早期消息协议备用短链",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "imqq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ官方移动门户与下载通道",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qzone.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ空间社交核心业务主站",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qzone.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ空间国内备案解析",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qqmail.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ邮箱核心收发与附件存储云",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "foxmail.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "Foxmail邮件客户端通信网关",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qlogo.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯QQ与微信用户头像高频CDN",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qpic.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯QQ聊天图片表情与空间相册CDN",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gtimg.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯前端静态资源加速CDN",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gtimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯全球静态加速节点",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gtimg.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯静态资源国内CDN解析",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "idqqimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ安全中心与身份凭据鉴权图床",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qqopen.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ互联开放平台第三方应用授权",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qqurl.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ聊天安全网址与短链跳转中继",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tencent.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯控股官方网站与基础服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tencent.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯国内业务备案备用",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tencent-cloud.net",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "腾讯云移动调度与接入服务",
+      "evidence": [
+        "第三方即时通讯平台官方备案与IM底层通信架构核准"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "im.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ核心即时通信平台",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qun.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ群核心业务与文件传输",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qzone.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ空间移动端业务",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mail.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ邮箱收发与附件通道",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "connect.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ互联开放登录授权",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vip.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ会员与商城服务",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ti.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "手机QQ动态与频道服务",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sqq.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "手机QQ即时连接网关",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ugc.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN013"
+      ],
+      "reason": "QQ空间用户内容CDN",
+      "evidence": [
+        "腾讯QQ移动端长连接与即时通信官方端点"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

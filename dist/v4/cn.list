@@ -1424,6 +1424,7 @@ DOMAIN-SUFFIX,colorfulclouds.net
 DOMAIN-SUFFIX,computeinit.com
 DOMAIN-SUFFIX,comsazms.com
 DOMAIN-SUFFIX,comsenz.com
+DOMAIN-SUFFIX,connect.qq.com
 DOMAIN-SUFFIX,cookicut.com
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
@@ -1602,11 +1603,13 @@ DOMAIN-SUFFIX,dianping.cn
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,dianping.net
 DOMAIN-SUFFIX,dingding.xin
+DOMAIN-SUFFIX,dingstore.cn
 DOMAIN-SUFFIX,dingtalk.cn
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,dingtalk.com.cn
 DOMAIN-SUFFIX,dingtalk.net
 DOMAIN-SUFFIX,dingtalkapps.com
+DOMAIN-SUFFIX,dingtalkcloud.com
 DOMAIN-SUFFIX,dingwei.link
 DOMAIN-SUFFIX,discuz.chat
 DOMAIN-SUFFIX,discuz.com
@@ -2984,6 +2987,7 @@ DOMAIN-SUFFIX,ilangqu.cn
 DOMAIN-SUFFIX,ilangqu.com
 DOMAIN-SUFFIX,ilangqu.com.cn
 DOMAIN-SUFFIX,ilcweloc.com
+DOMAIN-SUFFIX,im.qq.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,imagefuture101.com
 DOMAIN-SUFFIX,imark.cn
@@ -3523,6 +3527,7 @@ DOMAIN-SUFFIX,mahjongcup.cn
 DOMAIN-SUFFIX,mahjongcup.com
 DOMAIN-SUFFIX,mahjongcup.net
 DOMAIN-SUFFIX,maidouke.com
+DOMAIN-SUFFIX,mail.qq.com
 DOMAIN-SUFFIX,maileds.com
 DOMAIN-SUFFIX,maitix.com
 DOMAIN-SUFFIX,maitix.net
@@ -4157,6 +4162,7 @@ DOMAIN-SUFFIX,qqmra.cn
 DOMAIN-SUFFIX,qqmra.com
 DOMAIN-SUFFIX,qqmusic.store
 DOMAIN-SUFFIX,qqnaozhong.com
+DOMAIN-SUFFIX,qqopen.cn
 DOMAIN-SUFFIX,qqopenapp.com
 DOMAIN-SUFFIX,qqplusapp.com
 DOMAIN-SUFFIX,qqrer.com
@@ -4164,6 +4170,7 @@ DOMAIN-SUFFIX,qqservice.mobi
 DOMAIN-SUFFIX,qqspark.com
 DOMAIN-SUFFIX,qqumall.com
 DOMAIN-SUFFIX,qqun.com
+DOMAIN-SUFFIX,qqurl.cn
 DOMAIN-SUFFIX,qqurl.com
 DOMAIN-SUFFIX,qqvideo.gtimg.com
 DOMAIN-SUFFIX,qqwebapp.com
@@ -4179,6 +4186,7 @@ DOMAIN-SUFFIX,qtqsaadp.com
 DOMAIN-SUFFIX,qtslog.com
 DOMAIN-SUFFIX,qtsyzfc.com
 DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX,qun.qq.com
 DOMAIN-SUFFIX,quqxphdm.com
 DOMAIN-SUFFIX,qurail.cn
 DOMAIN-SUFFIX,qurail.com
@@ -4217,6 +4225,8 @@ DOMAIN-SUFFIX,qznovelpic.com
 DOMAIN-SUFFIX,qznovelstatic.com
 DOMAIN-SUFFIX,qznovelvod.com
 DOMAIN-SUFFIX,qzone.com
+DOMAIN-SUFFIX,qzone.com.cn
+DOMAIN-SUFFIX,qzone.qq.com
 DOMAIN-SUFFIX,qzoneapp.com
 DOMAIN-SUFFIX,r61lsi5tje.com
 DOMAIN-SUFFIX,r6d7345371.com
@@ -4612,6 +4622,7 @@ DOMAIN-SUFFIX,speedtest.net.cn
 DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,speedvr.cn
 DOMAIN-SUFFIX,sqkb.com
+DOMAIN-SUFFIX,sqq.qq.com
 DOMAIN-SUFFIX,squadbusters-game.cn
 DOMAIN-SUFFIX,squadbustersgame.cn
 DOMAIN-SUFFIX,srccdn.com
@@ -5385,6 +5396,7 @@ DOMAIN-SUFFIX,theduapp.com.cn
 DOMAIN-SUFFIX,thegreatwallpro.cn
 DOMAIN-SUFFIX,thepoizon.ru
 DOMAIN-SUFFIX,thepredictivemodel.com
+DOMAIN-SUFFIX,ti.qq.com
 DOMAIN-SUFFIX,tianchi.com
 DOMAIN-SUFFIX,tianfutong.com
 DOMAIN-SUFFIX,tianmao.cn
@@ -5763,6 +5775,7 @@ DOMAIN-SUFFIX,ugapk.cn
 DOMAIN-SUFFIX,ugapk.com
 DOMAIN-SUFFIX,ugc-up-dom.com
 DOMAIN-SUFFIX,ugc-up-dom.net
+DOMAIN-SUFFIX,ugc.qq.com
 DOMAIN-SUFFIX,ugcimg.cn
 DOMAIN-SUFFIX,ugdtimg.com
 DOMAIN-SUFFIX,ugh5.cn
@@ -5886,6 +5899,7 @@ DOMAIN-SUFFIX,videoyx.com
 DOMAIN-SUFFIX,vigtm-meeting-tencent.cn
 DOMAIN-SUFFIX,vigtm-meeting-tencent.com
 DOMAIN-SUFFIX,vip-lexiang.com
+DOMAIN-SUFFIX,vip.qq.com
 DOMAIN-SUFFIX,vipappsina.com
 DOMAIN-SUFFIX,vipcaocao.cn
 DOMAIN-SUFFIX,vipcaocao.com
@@ -5962,6 +5976,7 @@ DOMAIN-SUFFIX,vurl1.cn
 DOMAIN-SUFFIX,vurl3.vip
 DOMAIN-SUFFIX,vuxmpw.com
 DOMAIN-SUFFIX,vvhcwpddaa.com
+DOMAIN-SUFFIX,vweixinf.tc.qq.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
 DOMAIN-SUFFIX,vxo7tu.com
 DOMAIN-SUFFIX,vycxvgmk.com
@@ -6047,6 +6062,7 @@ DOMAIN-SUFFIX,weisurvey.com
 DOMAIN-SUFFIX,weisurvey.net
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,weixin110.qq.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,weixindevelop.com
 DOMAIN-SUFFIX,weixinsxy.com
@@ -6104,6 +6120,7 @@ DOMAIN-SUFFIX,wodeyt.com
 DOMAIN-SUFFIX,wohst8.com
 DOMAIN-SUFFIX,womendedw.cn
 DOMAIN-SUFFIX,womendedw.com
+DOMAIN-SUFFIX,work.weixin.qq.com
 DOMAIN-SUFFIX,workbenchapi.com
 DOMAIN-SUFFIX,wowtb.com
 DOMAIN-SUFFIX,wqsnx.org.cn
@@ -6158,6 +6175,7 @@ DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,wxscan.cn
 DOMAIN-SUFFIX,wxshops.co
 DOMAIN-SUFFIX,wxutil.com
+DOMAIN-SUFFIX,wxwork.com
 DOMAIN-SUFFIX,wxworklive.com
 DOMAIN-SUFFIX,wxxd.co
 DOMAIN-SUFFIX,wygkmitk.com
@@ -6477,6 +6495,7 @@ DOMAIN-SUFFIX,ztcexam.com
 DOMAIN-SUFFIX,ztcv1.cn
 DOMAIN-SUFFIX,ztcv2.cn
 DOMAIN-SUFFIX,ztcv3.cn
+DOMAIN-SUFFIX,ztna-dingtalk.com
 DOMAIN-SUFFIX,ztnwork.com
 DOMAIN-SUFFIX,zulllv.com
 DOMAIN-SUFFIX,zuodao.com

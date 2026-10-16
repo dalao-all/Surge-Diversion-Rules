@@ -314,7 +314,6 @@ adxlog.vivo.com.cn
 adxserver.ad.cmvideo.cn
 adxstatic.vivo.com.cn
 ae.bdstatic.com
-aedns.weixin.qq.com
 aegis.qq.com
 aem.dentsuchina.cn
 afdconf.baidu.com
@@ -370,8 +369,6 @@ androidgo.duapp.com
 andrqd.play.aiseet.atianqi.com
 ap.dongdianqiu.com
 ap.dongqiudi.com
-apd-pcdnwxnat.teg.tencent-cloud.net
-apd-pcdnwxstat.teg.tencent-cloud.net
 api-access.pangolin-sdk-toutiao-b.com
 api-access.pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao1.com
@@ -451,7 +448,6 @@ avn.innity.com
 b.smartvideo.youku.com
 b1-data.ads.heytapmobi.com
 bad.third-party.site
-badjs.weixinbridge.com
 baichuan-sdk.alicdn.com
 baichuan-sdk.taobao.com
 baiducdncmn-gd.inter.iqiyi.com
@@ -658,8 +654,6 @@ dmapp.youku.com
 dns.iqiyi.com
 dns.m.sm.cn
 dns.qiyipic.iqiyi.com
-dns.wechat.com
-dns.weixin.qq.com
 dns.weixin.qq.com.cn
 dns.ximalaya.com
 dns2.q2cdn.com
@@ -790,7 +784,6 @@ gslb.hpplay.cn
 gstat.myzaker.com
 gtm.oasisfeng.com
 guanggaoad.youku.com
-gvideo.qpic.cn
 gw.365you.com
 h-adashx.ut.taobao.com
 h-adashx.ut.youku.com
@@ -1077,7 +1070,6 @@ mixers.sina.cn
 mj.weimob.net
 mlog.bigda.com
 mlog.hiido.com
-mmgame.qpic.cn
 mnqlog.ldmnq.com
 moatads.com
 mob.bz.mgtv.com
@@ -1220,7 +1212,6 @@ pcweb.v1.mgtv.com
 pfp.sina.com.cn
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
-pgdt.gtimg.cn
 pgdt.ugdtimg.com
 pglstatp-toutiao.com
 pica-a-display.diwodiwo.xyz
@@ -1294,7 +1285,6 @@ redir.metaservices.microsoft.com
 redirect.simba.taobao.com
 render-web.11222.cn
 report.dxunion.cn
-report.idqqimg.com
 report.qqweb.qq.com
 report.tencentmusic.com
 report.tv.kohesport.qq.com
@@ -1443,7 +1433,6 @@ soul-ad.soulapp.cn
 splash.yy.com
 splashimgbssdl.yun.kugou.com
 splashimgretrybssdl.cloud.kugou.com
-splashqqlive.gtimg.com
 sponsors.vite.dev
 spro.so.com
 spynet2.microsoft.com
@@ -1622,7 +1611,6 @@ ucstat.baidu.com
 udata.namespace.so
 udc.yahoo.com
 udcm.yahoo.com
-udns.weixin.qq.com
 uedas.qidian.com
 uhabo.com
 ulog-sdk.gifshow.com
@@ -1737,15 +1725,10 @@ ws.tapjoyads.com
 wv.inner-active.mobi
 wwads.cn
 www-analytics.ripe.net
-wxa.wxs.qq.com
 wxa79ef55c1a84e284.wx.ckjr001.com
 wxaintpcos.wxqcloud.qq.com.cn
-wximg.wxs.qq.com
-wxsmw.wxs.qq.com
 wxsnsad.tc.qq.com
 wxsnsdy.tc.qq.com
-wxsnsdy.wxs.qq.com
-wxsnsdythumb.wxs.qq.com
 xadsmartget.adgain.cn
 xblgdvrassets3010.blob.core.windows.net
 xc.gdt.qq.com
@@ -5986,7 +5969,6 @@ zxid-m.mobileservice.cn
 .ad.vrvm.com
 .ad.walkgame.com
 .ad.weibo.com
-.ad.weixin.qq.com
 .ad.weplayer.cc
 .ad.winrar.com.cn
 .ad.wrtn.ai
@@ -21829,7 +21811,6 @@ zxid-m.mobileservice.cn
 .cms.net.abomix.de
 .cms.rottne.com
 .cms.velpa.pl
-.cmshow.gtimg.cn
 .cmslku.jetcost.it
 .cmstp.aluguemovement.com.br
 .cmstp.movementalphaville.com.br
@@ -42090,7 +42071,6 @@ zxid-m.mobileservice.cn
 .galidiawiriestxr.cyou
 .galileiberther.cfd
 .galileo.lunii.com
-.galileotelemetry.tencent.com
 .galiysana.vip
 .galleonentopic.com
 .gallerieshub.com
@@ -50846,7 +50826,6 @@ zxid-m.mobileservice.cn
 .guhohvxtocum.in
 .guhyqz.hawesko.de
 .guibareffed.cfd
-.guid.tpns.sgp.tencent.com
 .guidance.choosemylo.com
 .guidecent.com
 .guidehub.lol
@@ -68290,8 +68269,6 @@ zxid-m.mobileservice.cn
 .log.tiktokv.com
 .log.tossinvest.com
 .log.tosspayments.com
-.log.tpns.gz2.tencent.com
-.log.tpns.tencent.com
 .log.trackingio.com
 .log.trend.rankify.best
 .log.ttbc-hcm.gov.vn
@@ -84533,7 +84510,6 @@ zxid-m.mobileservice.cn
 .pgaoq.skinnycandy.com
 .pgc5000di6pg.www.brizy.io
 .pgcsfmjlvndfo.space
-.pgdt.gtimg.cn
 .pgduet.nnnthree.com
 .pgdvv.cupids.com
 .pgedqw.bolf.ro
@@ -117273,7 +117249,6 @@ zxid-m.mobileservice.cn
 .stat.tiara.tistory.com
 .stat.tildacdn.com
 .stat.timedg.com
-.stat.tpns.sgp.tencent.com
 .stat.ts.cn
 .stat.turb.pw
 .stat.tuv.com
@@ -117405,7 +117380,6 @@ zxid-m.mobileservice.cn
 .statistic.elkobraas.com
 .statistic.gamona.de
 .statistic.jac-systeme.de
-.statistic.qzone.qq.com
 .statistic2.reichelt.de
 .statistical-report.djiservice.org
 .statisticresearch.com
@@ -125491,7 +125465,6 @@ zxid-m.mobileservice.cn
 .tps.programmieren-starten.de
 .tps.trovaprezzi.it
 .tpscw.littletrouble.com
-.tpstelemetry.tencent.com
 .tptd.douglas.be
 .tptd.douglas.bg
 .tptd.douglas.ch
@@ -126833,7 +126806,6 @@ zxid-m.mobileservice.cn
 .trace.qq.com
 .trace.rememberapp.co.kr
 .trace.swaven.com
-.trace.zhiyan.tencent-cloud.net
 .tracecontent.com
 .tracelog.www.alibaba.com
 .tracer.autoscout24.ch
