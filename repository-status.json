@@ -10,14 +10,14 @@
     "ads": 140962,
     "ai": 94,
     "binance": 14,
-    "cn": 7048,
+    "cn": 7103,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 816,
+    "protect-cn": 876,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -109,8 +109,8 @@
     {
       "id": "cn",
       "policy": "DIRECT",
-      "rule_count": 7048,
-      "protected_rule_count": 816
+      "rule_count": 7103,
+      "protected_rule_count": 876
     }
   ],
   "apps": [
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "d33311ef8c70eba9df0f70bf1bca3963c21577ecc158205195b984940eac3709"
+  "semantic_sha256": "86f83777894db2675d2c2993551163ccee47363a93b63862045d039c9bcb0933"
 }
