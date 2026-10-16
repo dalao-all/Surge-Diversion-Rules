@@ -3692,6 +3692,734 @@
         "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Discord/Discord.list"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okx-dns.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 移动端 DNS",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okx-dns1.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 移动端 DNS",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okx-dns2.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 移动端 DNS",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okx.com.cdn.cloudflare.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX Cloudflare WebSocket / CDN",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ng-dex.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX Web3 DEX 业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cnouyi.pizza",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 客户端防封容灾域名",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "okg.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 集团核心业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "dkapi.geetest.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 极验验证码业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cloudauth-device.cn-hongkong.aliyuncs.com",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 阿里云风控实人认证",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "online-metrix.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX ThreatMetrix 设备指纹识别与风控",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "turingfraud.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 图灵反欺诈风控",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "d1nil3qbkxfj92.cloudfront.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX WebSocket 行情分发 CloudFront",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "d1w1p0smpsoh5j.cloudfront.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 行情分发 CloudFront",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "d2p7qknqur0nu9.cloudfront.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 行情分发 CloudFront",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "d3f0nrrzpmxcu1.cloudfront.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 行情分发 CloudFront",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "d2tbe9c16nz8ju.cloudfront.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 行情分发 CloudFront",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "d1a9ug9i3w9ke0.cloudfront.net",
+      "category": "okx",
+      "app_ids": [
+        "INT032"
+      ],
+      "reason": "OKX 行情分发 CloudFront",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binance.charity",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 官方业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binance.co",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 官方业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binance.cloud",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 官方业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binance.me",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 官方业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binancecnt.com",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 官方业务",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "binancefuture.com",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 合约交易",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bnappzh.co",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 客户端防封域名",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bnbzh.ac",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 客户端防封域名",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bntrace.com",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance 追踪风控",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "saasexch.cc",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance SaaS 交易系统",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "saasexch.com",
+      "category": "binance",
+      "app_ids": [
+        "INT031"
+      ],
+      "reason": "Binance SaaS 交易系统",
+      "evidence": [
+        "V1.3.6实测全链路规则库与2026-10-16最新抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "122.gov.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN103"
+      ],
+      "reason": "交管12123官方业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chinatax.gov.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN104"
+      ],
+      "reason": "国家税务总局个人所得税官方业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tax.gov.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN104"
+      ],
+      "reason": "税务系统业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cdtf.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN061"
+      ],
+      "reason": "天府通业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tianfutong.com",
+      "category": "cn",
+      "app_ids": [
+        "CN061"
+      ],
+      "reason": "天府通官网与支付",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jegotrip.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN062"
+      ],
+      "reason": "中国移动无忧行业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jegotrip.com",
+      "category": "cn",
+      "app_ids": [
+        "CN062"
+      ],
+      "reason": "中国移动无忧行业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "autohome.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "che168.com",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "二手车之家业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ah168.com",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家CDN",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "i4.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN111"
+      ],
+      "reason": "爱思助手业务与下载",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "speedtest.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN130"
+      ],
+      "reason": "全球网测测速节点",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uuremote.com",
+      "category": "cn",
+      "app_ids": [
+        "CN102"
+      ],
+      "reason": "网易UU远程桌面",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bybit.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 交易所业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "byd3c3.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 交易所业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bynbc.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 交易所业务",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.wsot2022.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit API",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitget.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget 交易所",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitgetapp.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget App",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitkeep.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget Wallet",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uuwallet.com",
+      "category": "okx",
+      "app_ids": [
+        "INT036"
+      ],
+      "reason": "UU Wallet",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "walletconnect.com",
+      "category": "global",
+      "app_ids": [
+        "INT037"
+      ],
+      "reason": "WalletConnect 协议",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "walletconnect.org",
+      "category": "global",
+      "app_ids": [
+        "INT037"
+      ],
+      "reason": "WalletConnect 协议",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "reown.com",
+      "category": "global",
+      "app_ids": [
+        "INT037"
+      ],
+      "reason": "Reown Web3 基础设施",
+      "evidence": [
+        "人工实测与官方业务域名核准"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sgsnssdk.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT026"
+      ],
+      "reason": "TikTok 海外独立数据中心",
+      "evidence": [
+        "V1.3.6实测全链路规则库与移动端抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "wise.service",
+      "category": "wise",
+      "app_ids": [
+        "INT033"
+      ],
+      "reason": "Wise 移动端基础设施",
+      "evidence": [
+        "V1.3.6实测全链路规则库与移动端抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "paypal-corp.com",
+      "category": "paypal",
+      "app_ids": [
+        "INT030"
+      ],
+      "reason": "PayPal 企业端",
+      "evidence": [
+        "V1.3.6实测全链路规则库与移动端抓包"
+      ],
+      "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "paypal-mktg.com",
+      "category": "paypal",
+      "app_ids": [
+        "INT030"
+      ],
+      "reason": "PayPal 市场与通知",
+      "evidence": [
+        "V1.3.6实测全链路规则库与移动端抓包"
+      ],
+      "confidence": "known-business-candidate"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

@@ -2,6 +2,9 @@
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,roovza.cdn-settings.appsflyersdk.com
+DOMAIN,roovza.launches.appsflyersdk.com
+DOMAIN,www.tiktok.com
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteintlapi.com
@@ -17,6 +20,7 @@ DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,sgsnssdk.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn-us.com

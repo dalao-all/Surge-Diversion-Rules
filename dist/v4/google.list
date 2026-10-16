@@ -1,4 +1,12 @@
 # Surge Rulekit v4 | google | policy supplied by main profile
+DOMAIN,accounts.google.com
+DOMAIN,drive.google.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,firebaseremoteconfig.googleapis.com
+DOMAIN,mail.google.com
+DOMAIN,maps.googleapis.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,update.googleapis.com
 DOMAIN,voice.telephony.goog
 DOMAIN,www.googleapis.com
 DOMAIN-SUFFIX,0emm.com

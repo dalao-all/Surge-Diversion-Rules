@@ -1,31 +1,38 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 141417,
-    "ai": 79,
-    "binance": 12,
-    "cn": 6648,
-    "global": 693,
-    "google": 698,
-    "okx": 3,
+    "ads": 141408,
+    "ai": 92,
+    "binance": 14,
+    "cn": 6777,
+    "global": 721,
+    "google": 706,
+    "okx": 20,
     "paypal": 246,
     "protect-ai": 36,
-    "protect-binance": 2,
-    "protect-cn": 157,
+    "protect-binance": 13,
+    "protect-cn": 170,
     "protect-global": 32,
     "protect-google": 8,
-    "protect-okx": 2,
-    "protect-paypal": 3,
+    "protect-okx": 19,
+    "protect-paypal": 5,
     "protect-stream": 10,
-    "protect-tiktok": 4,
+    "protect-tiktok": 5,
     "protect-uk": 1,
     "protect-wise": 2,
-    "stream": 1349,
-    "tiktok": 28,
-    "uk": 2,
+    "stream": 1352,
+    "tiktok": 32,
+    "uk": 3,
     "wise": 2
   },
   "cross_category_shadow_witnesses": [
+    {
+      "shadowed_category": "stream",
+      "shadowed_rule": "DOMAIN,h-netflix.online-metrix.net",
+      "winner_category": "okx",
+      "winner_rule": "DOMAIN-SUFFIX,online-metrix.net",
+      "witness": "h-netflix.online-metrix.net"
+    },
     {
       "shadowed_category": "google",
       "shadowed_rule": "DOMAIN-SUFFIX,beacons.gvt2.com",
@@ -56,6 +63,13 @@
     },
     {
       "shadowed_category": "global",
+      "shadowed_rule": "DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com",
+      "winner_category": "google",
+      "winner_rule": "DOMAIN-SUFFIX,googleapis.com",
+      "witness": "discord-attachments-uploads-prd.storage.googleapis.com"
+    },
+    {
+      "shadowed_category": "global",
       "shadowed_rule": "DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com",
       "winner_category": "google",
       "winner_rule": "DOMAIN-SUFFIX,googleapis.com",
@@ -67,10 +81,34 @@
       "winner_category": "google",
       "winner_rule": "DOMAIN-SUFFIX,page.link",
       "witness": "discordapp.page.link"
+    },
+    {
+      "shadowed_category": "global",
+      "shadowed_rule": "DOMAIN-SUFFIX,grok.com",
+      "winner_category": "ai",
+      "winner_rule": "DOMAIN,grok.com",
+      "witness": "grok.com"
+    },
+    {
+      "shadowed_category": "cn",
+      "shadowed_rule": "DOMAIN,ocsp.digicert.com",
+      "winner_category": "global",
+      "winner_rule": "DOMAIN-SUFFIX,ocsp.digicert.com",
+      "witness": "ocsp.digicert.com"
     }
   ],
   "enabled_apps": 164,
   "exact_cross_category_overlaps": [
+    {
+      "rule": "DOMAIN,accounts.google.com",
+      "shadowed": "google",
+      "winner": "ai"
+    },
+    {
+      "rule": "DOMAIN,oauth2.googleapis.com",
+      "shadowed": "google",
+      "winner": "ai"
+    },
     {
       "rule": "DOMAIN-SUFFIX,deepmind.com",
       "shadowed": "google",
@@ -7031,7 +7069,7 @@
       "evidence_kind": "official-and-community-review",
       "expected_category": "cn",
       "id": "content-20261016-235",
-      "matched_rule": "DOMAIN-SUFFIX,etax.chinatax.gov.cn",
+      "matched_rule": "DOMAIN-SUFFIX,chinatax.gov.cn",
       "passed": true,
       "purpose": "Reviewed positive service-routing regression"
     },
@@ -7112,6 +7150,10 @@
       "rule": "DOMAIN,activeqq.3g.qq.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN,adproxy.autohome.com.cn"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,advertising.apple.com"
     },
@@ -7130,6 +7172,10 @@
     {
       "protection": "DOMAIN-SUFFIX,statsig.com",
       "rule": "DOMAIN,api.statsig.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN,applogapi.autohome.com.cn"
     },
     {
       "protection": "DOMAIN,awaken.amap.com",
@@ -7308,6 +7354,10 @@
       "rule": "DOMAIN,proxy.advp.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN,rd.autohome.com.cn"
+    },
+    {
       "protection": "DOMAIN,sdkapp.uve.weibo.com",
       "rule": "DOMAIN,sdkapp.uve.weibo.com"
     },
@@ -7370,6 +7420,10 @@
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,advertising.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN-SUFFIX,al.autohome.com.cn"
     },
     {
       "protection": "DOMAIN,amdc.m.taobao.com",
@@ -7444,6 +7498,14 @@
       "rule": "DOMAIN-SUFFIX,fosshub.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN-SUFFIX,ftwo-feedback.autohome.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN-SUFFIX,ftwo-receiver.autohome.com.cn"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,volces.com",
       "rule": "DOMAIN-SUFFIX,gator.volces.com"
     },
@@ -7480,6 +7542,10 @@
       "rule": "DOMAIN-SUFFIX,iadworkbench.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,autohome.com.cn",
+      "rule": "DOMAIN-SUFFIX,idm.api.autohome.com.cn"
+    },
+    {
       "protection": "DOMAIN,api.jpush.cn",
       "rule": "DOMAIN-SUFFIX,jpush.cn"
     },
@@ -7498,6 +7564,10 @@
     {
       "protection": "DOMAIN,s1.kskwai.com",
       "rule": "DOMAIN-SUFFIX,kskwai.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,sgsnssdk.com",
+      "rule": "DOMAIN-SUFFIX,log-tb.sgsnssdk.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,iqiyipic.com",
@@ -7538,6 +7608,10 @@
     {
       "protection": "DOMAIN-SUFFIX,openinstall.io",
       "rule": "DOMAIN-SUFFIX,openinstall.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,sgsnssdk.com",
+      "rule": "DOMAIN-SUFFIX,pangolin16.sgsnssdk.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
