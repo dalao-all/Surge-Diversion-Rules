@@ -162,6 +162,7 @@ DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,10086kuaixiu.com
 DOMAIN-SUFFIX,1010gamer.com
 DOMAIN-SUFFIX,10p07v10o5.com
+DOMAIN-SUFFIX,122.gov.cn
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12530.com
 DOMAIN-SUFFIX,126.am
@@ -771,6 +772,9 @@ DOMAIN-SUFFIX,auqscfmk.com
 DOMAIN-SUFFIX,auqsipfm.com
 DOMAIN-SUFFIX,autodnsv1.com
 DOMAIN-SUFFIX,autodnsv1.net
+DOMAIN-SUFFIX,autohome.com
+DOMAIN-SUFFIX,autohome.com.cn
+DOMAIN-SUFFIX,autoimg.cn
 DOMAIN-SUFFIX,autolabautobus.cn
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,avec6ua79dc6.com
@@ -1035,6 +1039,7 @@ DOMAIN-SUFFIX,cdnv1.cn
 DOMAIN-SUFFIX,cdnv2.cn
 DOMAIN-SUFFIX,cdnv3.cn
 DOMAIN-SUFFIX,cdnv4-go.cn
+DOMAIN-SUFFIX,cdtft.cn
 DOMAIN-SUFFIX,ceawgez.com
 DOMAIN-SUFFIX,ceeunion.com
 DOMAIN-SUFFIX,cemodule.com
@@ -1708,6 +1713,7 @@ DOMAIN-SUFFIX,essurl.cn
 DOMAIN-SUFFIX,essurl.com
 DOMAIN-SUFFIX,etagri.com
 DOMAIN-SUFFIX,etao.com
+DOMAIN-SUFFIX,etax.chinatax.gov.cn
 DOMAIN-SUFFIX,etoote.cn
 DOMAIN-SUFFIX,etoote.com
 DOMAIN-SUFFIX,etoote.com.cn
@@ -3006,6 +3012,8 @@ DOMAIN-SUFFIX,jdsmartkf.com
 DOMAIN-SUFFIX,jdwl.com
 DOMAIN-SUFFIX,jdworldwide.com
 DOMAIN-SUFFIX,jdx.com
+DOMAIN-SUFFIX,jegotrip.cn
+DOMAIN-SUFFIX,jegotrip.com.cn
 DOMAIN-SUFFIX,jerpx.com
 DOMAIN-SUFFIX,jftianshancn.com
 DOMAIN-SUFFIX,jhgtgb.com
@@ -5595,6 +5603,7 @@ DOMAIN-SUFFIX,utvmuvpi.com
 DOMAIN-SUFFIX,uucqrdmk.com
 DOMAIN-SUFFIX,uueasy.com
 DOMAIN-SUFFIX,uuhimalayanqm.com
+DOMAIN-SUFFIX,uuyc.163.com
 DOMAIN-SUFFIX,uvlv75moy8.com
 DOMAIN-SUFFIX,uw36gicu5xav.com
 DOMAIN-SUFFIX,uyhjnm.com
@@ -6637,7 +6646,4 @@ IP-CIDR6,::ffff:af06:5460/128,no-resolve
 IP-CIDR6,::ffff:b7a1:9085/128,no-resolve
 IP-CIDR6,::ffff:b7a1:90e6/128,no-resolve
 IP-CIDR6,::ffff:b7a1:9569/128,no-resolve
-IP-CIDR6,::ffff:c612:58a/128,no-resolve
-IP-CIDR6,::ffff:c612:651/128,no-resolve
-IP-CIDR6,::ffff:c612:653/128,no-resolve
 IP-CIDR6,::ffff:dff0:bfee/128,no-resolve

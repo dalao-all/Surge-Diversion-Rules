@@ -3447,6 +3447,251 @@
         "2026-10-15 误杀排查修复"
       ],
       "confidence": "verified business endpoint"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "trae.ai",
+      "category": "ai",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "TRAE international feature must precede broad domestic shared suffixes.",
+      "evidence": [
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
+        "https://www.trae.ai/"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marscode.com",
+      "category": "ai",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "TRAE international feature must precede broad domestic shared suffixes.",
+      "evidence": [
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
+        "https://www.trae.ai/"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "trae-api-sg.mchost.guru",
+      "category": "ai",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "TRAE international feature must precede broad domestic shared suffixes.",
+      "evidence": [
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
+        "https://www.trae.ai/"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "oaistatsig.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official ChatGPT functional assets / feature configuration; preserve descendants.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/openai"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "oaistatic.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official ChatGPT functional assets / feature configuration; preserve descendants.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/openai"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "oaiusercontent.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official ChatGPT functional assets / feature configuration; preserve descendants.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/openai"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claude.com",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "Official Claude application/user-content domains; same AI egress.",
+      "evidence": [
+        "https://code.claude.com/docs/en/desktop#network-access-requirements",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/anthropic"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claude.app",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "Official Claude application/user-content domains; same AI egress.",
+      "evidence": [
+        "https://code.claude.com/docs/en/desktop#network-access-requirements",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/anthropic"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claudeusercontent.com",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "Official Claude application/user-content domains; same AI egress.",
+      "evidence": [
+        "https://code.claude.com/docs/en/desktop#network-access-requirements",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/anthropic"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "claudemcpcontent.com",
+      "category": "ai",
+      "app_ids": [
+        "INT002"
+      ],
+      "reason": "Official Claude application/user-content domains; same AI egress.",
+      "evidence": [
+        "https://code.claude.com/docs/en/desktop#network-access-requirements",
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/anthropic"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cdn.openaimerge.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cdn.workos.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "forwarder.workos.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "frontend-apps-multi-region.workos.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "images.workoscdn.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "setup.workos.com",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "workos.imgix.net",
+      "category": "ai",
+      "app_ids": [
+        "INT001"
+      ],
+      "reason": "Official authentication dependency, exact host only.",
+      "evidence": [
+        "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "discord-attachments-uploads-prd.storage.googleapis.com",
+      "category": "global",
+      "app_ids": [
+        "INT016"
+      ],
+      "reason": "Discord upload bucket: tenant-specific exception ahead of generic googleapis.com.",
+      "evidence": [
+        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/discord",
+        "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Discord/Discord.list"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",
