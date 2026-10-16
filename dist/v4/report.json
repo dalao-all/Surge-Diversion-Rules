@@ -1,18 +1,18 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 141408,
-    "ai": 92,
+    "ads": 141248,
+    "ai": 94,
     "binance": 14,
-    "cn": 6777,
-    "global": 721,
+    "cn": 6830,
+    "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
-    "protect-ai": 36,
+    "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 170,
-    "protect-global": 32,
+    "protect-cn": 255,
+    "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
     "protect-paypal": 5,
@@ -132,6 +132,21 @@
     {
       "rule": "DOMAIN-SUFFIX,grok.com",
       "shadowed": "global",
+      "winner": "ai"
+    },
+    {
+      "rule": "DOMAIN,trae-api-sg.mchost.guru",
+      "shadowed": "cn",
+      "winner": "ai"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,marscode.com",
+      "shadowed": "cn",
+      "winner": "ai"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,trae.ai",
+      "shadowed": "cn",
       "winner": "ai"
     }
   ],
@@ -3493,7 +3508,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0026",
-      "matched_rule": "DOMAIN-SUFFIX,qq.com",
+      "matched_rule": "DOMAIN-SUFFIX,lol.qq.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -4016,7 +4031,7 @@
       "evidence_kind": "business-candidate",
       "expected_category": "cn",
       "id": "P0055",
-      "matched_rule": "DOMAIN,trae.com.cn",
+      "matched_rule": "DOMAIN-SUFFIX,trae.com.cn",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；未在手机运行启动/登录/业务验证"
     },
@@ -4510,7 +4525,7 @@
       "evidence_kind": "shared-service-candidate",
       "expected_category": "cn",
       "id": "P0082",
-      "matched_rule": "DOMAIN-SUFFIX,ha.api.io.mi.com",
+      "matched_rule": "DOMAIN-SUFFIX,io.mi.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；共享端点不证明APP主业务"
     },
@@ -6628,54 +6643,53 @@
       "purpose": "Screenshot ad SDK blocking witness; no claim of phone runtime storm elimination"
     },
     {
-      "actual_category": "ai",
+      "actual_category": "cn",
       "app_ids": [
         "CN055"
       ],
       "device_verified": false,
       "domain": "trae.ai",
       "evidence": [
-        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
-        "https://www.trae.ai/"
+        "https://www.trae.ai/",
+        "https://www.trae.com.cn/"
       ],
       "evidence_kind": "official-and-community-review",
-      "expected_category": "ai",
+      "expected_category": "cn",
       "id": "content-20261016-211",
       "matched_rule": "DOMAIN-SUFFIX,trae.ai",
       "passed": true,
       "purpose": "Reviewed positive service-routing regression"
     },
     {
-      "actual_category": "ai",
+      "actual_category": "cn",
       "app_ids": [
         "CN055"
       ],
       "device_verified": false,
       "domain": "marscode.com",
       "evidence": [
-        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
+        "https://www.marscode.cn/",
         "https://www.trae.ai/"
       ],
       "evidence_kind": "official-and-community-review",
-      "expected_category": "ai",
+      "expected_category": "cn",
       "id": "content-20261016-212",
       "matched_rule": "DOMAIN-SUFFIX,marscode.com",
       "passed": true,
       "purpose": "Reviewed positive service-routing regression"
     },
     {
-      "actual_category": "ai",
+      "actual_category": "cn",
       "app_ids": [
         "CN055"
       ],
       "device_verified": false,
       "domain": "trae-api-sg.mchost.guru",
       "evidence": [
-        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
         "https://www.trae.ai/"
       ],
       "evidence_kind": "official-and-community-review",
-      "expected_category": "ai",
+      "expected_category": "cn",
       "id": "content-20261016-213",
       "matched_rule": "DOMAIN,trae-api-sg.mchost.guru",
       "passed": true,
@@ -7033,7 +7047,7 @@
       "evidence_kind": "official-and-community-review",
       "expected_category": "cn",
       "id": "content-20261016-233",
-      "matched_rule": "DOMAIN-SUFFIX,163.com",
+      "matched_rule": "DOMAIN-SUFFIX,uuyc.163.com",
       "passed": true,
       "purpose": "Reviewed positive service-routing regression"
     },
@@ -7122,6 +7136,14 @@
       "rule": "DOMAIN,1500026601.vodplayer.wxamedia.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,a.hl.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,a0.app.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN,aaid.umeng.com",
       "rule": "DOMAIN,aaid.umeng.com"
     },
@@ -7150,8 +7172,20 @@
       "rule": "DOMAIN,activeqq.3g.qq.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,ad-sdk-config.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,maoyan.com",
+      "rule": "DOMAIN,ad.maoyan.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,autohome.com.cn",
       "rule": "DOMAIN,adproxy.autohome.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,ydstatic.com",
+      "rule": "DOMAIN,adpublish.ydstatic.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -7170,6 +7204,30 @@
       "rule": "DOMAIN,api-adservices.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,api.ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,api.d.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN,api.g.micloud.xiaomi.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,api.hybrid.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,api.installer.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,api.jr.mi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,statsig.com",
       "rule": "DOMAIN,api.statsig.com"
     },
@@ -7180,6 +7238,10 @@
     {
       "protection": "DOMAIN,awaken.amap.com",
       "rule": "DOMAIN,awaken.amap.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,awsusor0-cdn.fds-ssl.api.xiaomi.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -7194,12 +7256,32 @@
       "rule": "DOMAIN,c-nfa.jd.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,c.id.mi.com"
+    },
+    {
       "protection": "DOMAIN,ccc-x.jd.com",
       "rule": "DOMAIN,ccc-x.jd.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,cdn.exp.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,cdn.fds-ssl.api.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN,chat1.jd.com",
       "rule": "DOMAIN,chat1.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,clkservice.mail.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,clkservice2.dict.youdao.com"
     },
     {
       "protection": "DOMAIN,cloan.amap.com",
@@ -7210,8 +7292,36 @@
       "rule": "DOMAIN,cm.bilibili.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,controller.intl.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,d.g.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,d.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,data.mistat.india.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,data.mistat.rus.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,data.mistat.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN,datacollection.uve.weibo.com",
       "rule": "DOMAIN,datacollection.uve.weibo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,diagnosis.ad.xiaomi.com"
     },
     {
       "protection": "DOMAIN,dns.jd.com",
@@ -7230,8 +7340,32 @@
       "rule": "DOMAIN,dpmtpush.dianping.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,e.ad.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,events-analytics.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,f1.g.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,f4.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,f6.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,f7.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,f8.market.xiaomi.com"
     },
     {
       "protection": "DOMAIN,free-aos-cdn-image.amap.com",
@@ -7246,8 +7380,24 @@
       "rule": "DOMAIN,game.weibo.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,geo.hicloud.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,onetrust.com",
       "rule": "DOMAIN,geolocation.onetrust.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,globalapi.ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,gorgon.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,grs.hicloud.com"
     },
     {
       "protection": "DOMAIN,gw5.push.mcp.weibo.cn",
@@ -7298,6 +7448,18 @@
       "rule": "DOMAIN,iadsdk.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,image.box.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,impservice.dictapp.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,impservice.youdao.com"
+    },
+    {
       "protection": "DOMAIN,janapi.jd.com",
       "rule": "DOMAIN,janapi.jd.com"
     },
@@ -7314,12 +7476,60 @@
       "rule": "DOMAIN,launch.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,liteapp.developer.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,log-yex.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,log.ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN,log.yex.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,logbak.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,logservice.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,logservice1.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN,lxcdn.dl.files.xiaomi.net"
+    },
+    {
       "protection": "DOMAIN,mapi.m.jd.com",
       "rule": "DOMAIN,mapi.m.jd.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,1688.com",
+      "rule": "DOMAIN,match.p4p.1688.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,metrics.data.hicloud.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,mzstatic.com",
       "rule": "DOMAIN,metrics.mzstatic.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN,metrics2.data.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,mis.g.mi.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,volces.com",
@@ -7334,6 +7544,10 @@
       "rule": "DOMAIN,notes-analytics-events.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,o2o.api.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN,orbit.jd.com",
       "rule": "DOMAIN,orbit.jd.com"
     },
@@ -7344,6 +7558,10 @@
     {
       "protection": "DOMAIN-SUFFIX,mdt.qq.com",
       "rule": "DOMAIN,oth.str.mdt.qq.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN,pdc.micloud.xiaomi.net"
     },
     {
       "protection": "DOMAIN,policy.video.iqiyi.com",
@@ -7358,12 +7576,40 @@
       "rule": "DOMAIN,rd.autohome.com.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,resolver.mi.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN,resolver.msg.xiaomi.net"
+    },
+    {
       "protection": "DOMAIN,sdkapp.uve.weibo.com",
       "rule": "DOMAIN,sdkapp.uve.weibo.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,sdkconfig.ad.intl.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,sdkconfig.ad.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,securemetrics.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,sentry.d.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,sf0.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,shoes.app-xae.xiaomi.com"
     },
     {
       "protection": "DOMAIN,snowflake.qq.com",
@@ -7378,12 +7624,48 @@
       "rule": "DOMAIN,statsigapi.net"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,t.track.ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,t1.a.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN,t1.g.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,t2.a.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,t3.a.market.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,volces.com",
       "rule": "DOMAIN,tab.volces.com"
     },
     {
       "protection": "DOMAIN,tdid.m.qq.com",
       "rule": "DOMAIN,tdid.m.qq.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,test.ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,test.e.ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,tracker.ai.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,tz.sec.xiaomi.com"
     },
     {
       "protection": "DOMAIN,uranus.jd.com",
@@ -7394,12 +7676,36 @@
       "rule": "DOMAIN,userimg.qunar.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,vd0.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,vd1.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,video.market.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN,w1.kskwai.com",
       "rule": "DOMAIN,w1.kskwai.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN,weather-analytics-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,wtradv.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,xadx.file.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN,zeus.ad.xiaomi.com"
     },
     {
       "protection": "DOMAIN,1500020991.vodplayer.wxamedia.com",
@@ -7416,6 +7722,50 @@
     {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
       "rule": "DOMAIN-SUFFIX,a.ipinfo.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,a.market.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN-SUFFIX,a.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ad.india.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ad.intl.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,ad.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ad.quickapp.hybrid.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ad.rus.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ad.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ad1.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,admin.e.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,ads.xiaomi.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -7446,6 +7796,22 @@
       "rule": "DOMAIN-SUFFIX,apmplus.volces.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,atlas-emui-drcn.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,samsclub.com",
+      "rule": "DOMAIN-SUFFIX,beacon.samsclub.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi-img.com",
+      "rule": "DOMAIN-SUFFIX,browser.mi-img.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,dianping.com",
+      "rule": "DOMAIN-SUFFIX,catfront.dianping.com"
+    },
+    {
       "protection": "DOMAIN,ccc-x.jd.com",
       "rule": "DOMAIN-SUFFIX,ccc-x.jd.com"
     },
@@ -7454,12 +7820,28 @@
       "rule": "DOMAIN-SUFFIX,chat1.jd.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN-SUFFIX,clkservice.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,configserver-dra.platform.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,dbankcdn.com",
+      "rule": "DOMAIN-SUFFIX,cs02-pps-drcn.dbankcdn.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,paypal.com",
       "rule": "DOMAIN-SUFFIX,data.account.paypal.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,paypal.com",
       "rule": "DOMAIN-SUFFIX,data.fastlane-email.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,data.hicloud.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,paypal.com",
@@ -7482,12 +7864,40 @@
       "rule": "DOMAIN-SUFFIX,datacollection.uve.weibo.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,lianjia.com",
+      "rule": "DOMAIN-SUFFIX,dig.lianjia.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,dnkeeper.hicloud.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,drupalmetrics.ppg.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,dt.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,dun.mi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,statsigapi.net",
       "rule": "DOMAIN-SUFFIX,events.statsigapi.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,fe01.c3.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,fe02.c3.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,feedback-dre.platform.hicloud.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,fengkongcloud.com",
@@ -7506,6 +7916,10 @@
       "rule": "DOMAIN-SUFFIX,ftwo-receiver.autohome.com.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,game.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,volces.com",
       "rule": "DOMAIN-SUFFIX,gator.volces.com"
     },
@@ -7514,12 +7928,48 @@
       "rule": "DOMAIN-SUFFIX,graffiti-tags.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,grs.hicloud.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,wise.com",
       "rule": "DOMAIN-SUFFIX,gtm.wise.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,hd.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,heyue.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,vmall.com",
+      "rule": "DOMAIN-SUFFIX,hiad.vmall.com"
+    },
+    {
       "protection": "DOMAIN,httpdns.bilivideo.com",
       "rule": "DOMAIN-SUFFIX,httpdns.bilivideo.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,samsclub.com",
+      "rule": "DOMAIN-SUFFIX,hubmetric.samsclub.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,samsclub.com",
+      "rule": "DOMAIN-SUFFIX,hubmetrics.samsclub.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,huodong.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,huodong.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,hybrid.intl.xiaomi.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,paypal.com",
@@ -7546,6 +7996,18 @@
       "rule": "DOMAIN-SUFFIX,idm.api.autohome.com.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,io.mi.com",
+      "rule": "DOMAIN-SUFFIX,idm.api.io.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,igame.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,installer.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN,api.jpush.cn",
       "rule": "DOMAIN-SUFFIX,jpush.cn"
     },
@@ -7566,8 +8028,40 @@
       "rule": "DOMAIN-SUFFIX,kskwai.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,lg.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,samsclub.com",
+      "rule": "DOMAIN-SUFFIX,links.samsclub.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,sgsnssdk.com",
       "rule": "DOMAIN-SUFFIX,log-tb.sgsnssdk.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,logbak.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,logservice-dra.platform.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,logservice-dre.platform.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,logservice.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,logservice1.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,logtransform.hicloud.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,iqiyipic.com",
@@ -7582,6 +8076,10 @@
       "rule": "DOMAIN-SUFFIX,mdt.qq.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,samsclub.com",
+      "rule": "DOMAIN-SUFFIX,metric.samsclub.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,metrics.apple.com"
     },
@@ -7590,8 +8088,60 @@
       "rule": "DOMAIN-SUFFIX,metrics.mzstatic.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,samsclub.com",
+      "rule": "DOMAIN-SUFFIX,metrics.samsclub.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mibi.api.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mibi.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,migc.g.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,migc.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,migcreport.g.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mistat.india.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mistat.intl.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mistat.rus.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mistat.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,miui.security.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,msedge.net",
       "rule": "DOMAIN-SUFFIX,msedge.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,music.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,mvideo.xiaomi.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -7606,8 +8156,24 @@
       "rule": "DOMAIN-SUFFIX,news-sports-events.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,o2o.api.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,op.hicloud.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,openinstall.io",
       "rule": "DOMAIN-SUFFIX,openinstall.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,opsdata.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,pandora.xiaomi.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,sgsnssdk.com",
@@ -7622,16 +8188,68 @@
       "rule": "DOMAIN-SUFFIX,push.mcp.weibo.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,qiye.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN-SUFFIX,rlogs.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN-SUFFIX,sdk-log-inter.youdao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,sdkconfig.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN-SUFFIX,search.xiaomi.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN-SUFFIX,sec-cdn.static.xiaomi.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN-SUFFIX,sec.resource.xiaomi.net"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,securemvt.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.net",
+      "rule": "DOMAIN-SUFFIX,sentry.d.xiaomi.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,hicloud.com",
+      "rule": "DOMAIN-SUFFIX,servicesupport.hicloud.com"
     },
     {
       "protection": "DOMAIN,snowflake.qq.com",
       "rule": "DOMAIN-SUFFIX,snowflake.qq.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,stat.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,stat.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,stat.youpin.mi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,paypal.com",
       "rule": "DOMAIN-SUFFIX,stats.paypal.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,stats.xiaomi.com"
     },
     {
       "protection": "DOMAIN,statsig.anthropic.com",
@@ -7646,6 +8264,30 @@
       "rule": "DOMAIN-SUFFIX,supportmetrics.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,sys.intl.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,sys.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,tk.d.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,tracker.ai.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,mi.com",
+      "rule": "DOMAIN-SUFFIX,union.mi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,youdao.com",
+      "rule": "DOMAIN-SUFFIX,union.youdao.com"
+    },
+    {
       "protection": "DOMAIN,up-hl.3g.qq.com",
       "rule": "DOMAIN-SUFFIX,up-hl.3g.qq.com"
     },
@@ -7658,12 +8300,24 @@
       "rule": "DOMAIN-SUFFIX,v.ipinfo.io"
     },
     {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,video.xiaomi.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,oschina.net",
       "rule": "DOMAIN-SUFFIX,visit.oschina.net"
     },
     {
       "protection": "DOMAIN,wxs.qq.com",
       "rule": "DOMAIN-SUFFIX,wxs.qq.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,xiazai.xiaomi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,xiaomi.com",
+      "rule": "DOMAIN-SUFFIX,xitong.xiaomi.com"
     }
   ],
   "sources": 124,

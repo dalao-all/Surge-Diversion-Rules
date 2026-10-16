@@ -8,6 +8,7 @@ DOMAIN,api.anthropic.com
 DOMAIN,api.openai.com
 DOMAIN,api.x.ai
 DOMAIN,api2.cursor.sh
+DOMAIN,assets.grok.com
 DOMAIN,auth.openai.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.openaimerge.com
@@ -25,6 +26,7 @@ DOMAIN,frontend-apps-multi-region.workos.com
 DOMAIN,gemini.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,grok.com
+DOMAIN,help.x.ai
 DOMAIN,images.workoscdn.com
 DOMAIN,makersuite.google.com
 DOMAIN,oauth2.googleapis.com

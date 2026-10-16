@@ -561,7 +561,7 @@
       "confidence": "known-business-candidate; static protection, not phone validation"
     },
     {
-      "type": "DOMAIN",
+      "type": "DOMAIN-SUFFIX",
       "value": "trae.com.cn",
       "category": "cn",
       "app_ids": [
@@ -734,7 +734,8 @@
       "value": "api.x.ai",
       "category": "ai",
       "app_ids": [
-        "INT005"
+        "INT005",
+        "INT006"
       ],
       "reason": "关键业务候选；物理清洗广告与前置策略双保护",
       "evidence": [
@@ -2625,7 +2626,13 @@
       "type": "DOMAIN-SUFFIX",
       "value": "apple.com",
       "category": "cn",
-      "app_ids": [],
+      "app_ids": [
+        "CN071",
+        "CN079",
+        "CN113",
+        "CN114",
+        "CN115"
+      ],
       "reason": "Apple主站、更新、TestFlight和开发者服务在DNS解析前直接匹配",
       "evidence": [
         "User audit",
@@ -3451,41 +3458,79 @@
     {
       "type": "DOMAIN-SUFFIX",
       "value": "trae.ai",
-      "category": "ai",
+      "category": "cn",
       "app_ids": [
         "CN055"
       ],
-      "reason": "TRAE international feature must precede broad domestic shared suffixes.",
+      "reason": "TRAE 字节跳动国内AI开发工具业务",
       "evidence": [
-        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
-        "https://www.trae.ai/"
+        "https://www.trae.ai/",
+        "https://www.trae.com.cn/"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "trae.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "TRAE 字节跳动国内AI开发工具业务",
+      "evidence": [
+        "https://www.trae.cn/"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
     },
     {
       "type": "DOMAIN-SUFFIX",
       "value": "marscode.com",
-      "category": "ai",
+      "category": "cn",
       "app_ids": [
         "CN055"
       ],
-      "reason": "TRAE international feature must precede broad domestic shared suffixes.",
+      "reason": "MarsCode 字节跳动开发工具业务",
       "evidence": [
-        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
+        "https://www.marscode.cn/",
         "https://www.trae.ai/"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marscode.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "MarsCode 字节跳动开发工具业务",
+      "evidence": [
+        "https://www.marscode.cn/"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "marscode.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN055"
+      ],
+      "reason": "MarsCode 字节跳动开发工具业务",
+      "evidence": [
+        "https://www.marscode.cn/"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
     },
     {
       "type": "DOMAIN",
       "value": "trae-api-sg.mchost.guru",
-      "category": "ai",
+      "category": "cn",
       "app_ids": [
         "CN055"
       ],
-      "reason": "TRAE international feature must precede broad domestic shared suffixes.",
+      "reason": "TRAE 字节跳动国内AI开发工具业务API端点",
       "evidence": [
-        "https://github.com/v2fly/domain-list-community/blob/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/bytedance-ai-!cn",
         "https://www.trae.ai/"
       ],
       "confidence": "official service plus upstream corroboration where available; not device verified"
@@ -4420,6 +4465,1310 @@
         "V1.3.6实测全链路规则库与移动端抓包"
       ],
       "confidence": "known-business-candidate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tmri.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN103"
+      ],
+      "reason": "公安部交通管理科学研究所",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "12366.gov.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN104"
+      ],
+      "reason": "国家税务总局12366纳税服务平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cdtft.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN061"
+      ],
+      "reason": "成都天府通交通金融服务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "autohome.com",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家国际与移动端API",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "autoimg.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家静态图片CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "autohomecar.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家车系业务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "che168img.com",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "二手车之家图片CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "athm.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家短链与服务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "autohome.tel",
+      "category": "cn",
+      "app_ids": [
+        "CN064"
+      ],
+      "reason": "汽车之家客服与认证",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "i4tools.com",
+      "category": "cn",
+      "app_ids": [
+        "CN111"
+      ],
+      "reason": "爱思助手海外与API",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "i4img.com",
+      "category": "cn",
+      "app_ids": [
+        "CN111"
+      ],
+      "reason": "爱思助手静态资源CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "testspeed.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN130"
+      ],
+      "reason": "中国信通院测速服务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "speedtest.net.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN130"
+      ],
+      "reason": "国内宽带测速节点",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caict.ac.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN130"
+      ],
+      "reason": "中国信息通信研究院",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jegotrip.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN062"
+      ],
+      "reason": "中国移动无忧行移动端",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cmiot.chinamobile.com",
+      "category": "cn",
+      "app_ids": [
+        "CN062"
+      ],
+      "reason": "中移物联核心平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uuyc.163.com",
+      "category": "cn",
+      "app_ids": [
+        "CN102"
+      ],
+      "reason": "网易UU远程桌面控制端",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uu.163.com",
+      "category": "cn",
+      "app_ids": [
+        "CN102"
+      ],
+      "reason": "网易UU加速器业务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "uubaobao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN102"
+      ],
+      "reason": "网易UU主机加速棒与硬件",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "camscanner.com",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "合合信息扫描全能王",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "camscanner.net",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "扫描全能王云端同步",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "camcard.com",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "名片全能王",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "camcard.net",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "名片全能王云端服务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "intsig.com",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "合合信息官网与API",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "intsig.net",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "合合信息数据处理",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "csimg.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "扫描全能王图片与识别CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ke.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "贝壳找房核心平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lianjia.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "链家房地产经纪",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "beckyroom.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "贝壳VR看房与装修",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bkzhibo.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "贝壳找房直播讲房",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ke-cdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "贝壳找房静态CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ljcdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "链家静态资源CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "homelink.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN097"
+      ],
+      "reason": "链家在线",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tousu.sina.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN110"
+      ],
+      "reason": "新浪黑猫投诉平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tousu.sina.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN110"
+      ],
+      "reason": "黑猫投诉H5与移动端",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "heimaotousu.com",
+      "category": "cn",
+      "app_ids": [
+        "CN110"
+      ],
+      "reason": "黑猫投诉独立官网",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "小米官网与应用商城",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xiaomi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "小米集团全栈业务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xiaomi.net",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "小米IoT网络基础设施",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mi-img.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "小米智能硬件图像CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mifile.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "小米下载与固件推送",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "io.mi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN087"
+      ],
+      "reason": "米家智能家居IoT网关",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vmall.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "华为商城与硬件配网",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vmallres.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "华为商城与应用资源CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hicloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "华为云空间与智慧生活同步",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dbankcdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "华为静态加速与OTA",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hilink.com",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "华为HiLink智能家居生态",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "agconnect.link",
+      "category": "cn",
+      "app_ids": [
+        "CN088"
+      ],
+      "reason": "华为应用连接AppGallery",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "youdao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN091"
+      ],
+      "reason": "网易有道词典与翻译",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ydstatic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN091"
+      ],
+      "reason": "网易有道静态CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cr-wifi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN100"
+      ],
+      "reason": "国铁动车WiFi认证",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qurail.com",
+      "category": "cn",
+      "app_ids": [
+        "CN100"
+      ],
+      "reason": "去哒高铁服务平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qurail.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN100"
+      ],
+      "reason": "去哒高铁移动端",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shangdaoji.com",
+      "category": "cn",
+      "app_ids": [
+        "CN107"
+      ],
+      "reason": "上岛记灵动岛小组件",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shangdaoji.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN107"
+      ],
+      "reason": "上岛记数据同步",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icost.app",
+      "category": "cn",
+      "app_ids": [
+        "CN108"
+      ],
+      "reason": "iCost 记账应用官网",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icostapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN108"
+      ],
+      "reason": "iCost 记账数据同步",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gestaltedit.com",
+      "category": "cn",
+      "app_ids": [
+        "CN124"
+      ],
+      "reason": "GestaltEdit 工具主站",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "havoc.app",
+      "category": "cn",
+      "app_ids": [
+        "CN124"
+      ],
+      "reason": "Havoc 插件源",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chariz.com",
+      "category": "cn",
+      "app_ids": [
+        "CN124"
+      ],
+      "reason": "Chariz 插件源",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jianying.com",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "字节跳动剪映国内版",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "capcut.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "剪映国内正版授权",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ulikecam.com",
+      "category": "cn",
+      "app_ids": [
+        "CN024"
+      ],
+      "reason": "剪映轻颜相机技术底座",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pvp.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN025"
+      ],
+      "reason": "腾讯王者荣耀官方与更新",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lol.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "英雄联盟中国官方与掌盟",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "qt.qq.com",
+      "category": "cn",
+      "app_ids": [
+        "CN026"
+      ],
+      "reason": "腾讯游戏助手掌上英雄联盟API",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "maoyan.com",
+      "category": "cn",
+      "app_ids": [
+        "CN029"
+      ],
+      "reason": "猫眼电影票务与演出",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "taopiaopiao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN030"
+      ],
+      "reason": "阿里影业淘票票",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dianping.com",
+      "category": "cn",
+      "app_ids": [
+        "CN039"
+      ],
+      "reason": "美团大众点评核心平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dpfile.com",
+      "category": "cn",
+      "app_ids": [
+        "CN039"
+      ],
+      "reason": "大众点评图片与商家CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "51ping.com",
+      "category": "cn",
+      "app_ids": [
+        "CN039"
+      ],
+      "reason": "大众点评备用CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "samsclub.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "沃尔玛山姆会员商店中国",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "samsclub.com",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "山姆会员商店会员体系",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "walmart.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN041"
+      ],
+      "reason": "沃尔玛中国供应链",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "1688.com",
+      "category": "cn",
+      "app_ids": [
+        "CN044"
+      ],
+      "reason": "阿里巴巴1688批发网",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "joyai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN045"
+      ],
+      "reason": "京东AI技术与智能导购",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "etao.com",
+      "category": "cn",
+      "app_ids": [
+        "CN046"
+      ],
+      "reason": "阿里巴巴一淘返利平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "jingfen.jd.com",
+      "category": "cn",
+      "app_ids": [
+        "CN047"
+      ],
+      "reason": "京东京粉推广分销平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "applediagnostics.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN056"
+      ],
+      "reason": "Marvis Apple Music 集成认证",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shadowrocket.net",
+      "category": "global",
+      "app_ids": [
+        "INT027"
+      ],
+      "reason": "Shadowrocket 小火箭官网与更新",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bycsi.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 静态资产与行情CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bytick.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 撮合引擎WebSocket",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "byapis.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 全球开放API",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bycbe.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 移动端数据通道",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "byapps.net",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 移动端APP分发与升级",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bybit-global.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 国际访问节点",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bybit.cloud",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 云端基础设施",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bybitglobal.com",
+      "category": "global",
+      "app_ids": [
+        "INT034"
+      ],
+      "reason": "Bybit 国际镜像",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitgetimg.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget 静态资源CDN",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitgetapi.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget 高频交易接口",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitgetvip.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget 大客户专线",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bgstatic.com",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget 静态加速节点",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bitkeep.org",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget Wallet 链上服务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bika.one",
+      "category": "okx",
+      "app_ids": [
+        "INT035"
+      ],
+      "reason": "Bitget 短链与深层链接",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "web3modal.org",
+      "category": "global",
+      "app_ids": [
+        "INT037"
+      ],
+      "reason": "Web3Modal 钱包弹窗组件",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "web3modal.com",
+      "category": "global",
+      "app_ids": [
+        "INT037"
+      ],
+      "reason": "Web3Modal 资产服务",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "x.ai",
+      "category": "ai",
+      "app_ids": [
+        "INT005",
+        "INT006"
+      ],
+      "reason": "xAI 官网与开发者平台",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "grok.com",
+      "category": "ai",
+      "app_ids": [
+        "INT005",
+        "INT006"
+      ],
+      "reason": "Grok AI 独立应用门户",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "assets.grok.com",
+      "category": "ai",
+      "app_ids": [
+        "INT005",
+        "INT006"
+      ],
+      "reason": "Grok 静态前端资源",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "help.x.ai",
+      "category": "ai",
+      "app_ids": [
+        "INT005",
+        "INT006"
+      ],
+      "reason": "xAI 帮助与文档中心",
+      "evidence": [
+        "官方业务域名核准与社区高频规则集深度交叉审查"
+      ],
+      "confidence": "official service plus upstream corroboration where available; not device verified"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

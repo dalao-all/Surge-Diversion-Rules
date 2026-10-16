@@ -9,10 +9,8 @@
 9ibbcq2d.sina.cn
 a.alimama.cn
 a.glcdn.co
-a.hl.mi.com
 a.imput.net
 a.tool.lu
-a0.app.xiaomi.com
 a460.cell.phone.ringtone.samsung.sms13.de
 abyss.cyapi.cn
 ac3.msn.com
@@ -29,7 +27,6 @@ ad-h5-station-cdn.soulapp.cn
 ad-r.soulapp.cn
 ad-scope.com
 ad-scope.com.cn
-ad-sdk-config.youdao.com
 ad-sh-sz-zb.wagbridge.tanx.alimama.com
 ad-splash-tracking.hktvmall.com
 ad-splash.hktvmall.com
@@ -62,7 +59,6 @@ ad.iot.360.cn
 ad.jia.360.cn
 ad.jiemian.com
 ad.life.360.cn
-ad.maoyan.com
 ad.mobile.youku.com
 ad.netowl.jp
 ad.obuy.tw
@@ -144,7 +140,6 @@ admusicpic.music.126.net
 adn-collector.voodoo-tech.io
 adping.qq.com
 adpm.app.qq.com
-adpublish.ydstatic.com
 adrdir.qq.com
 adreq.vivo.com.cn
 ads-api-o.api.leiniao.com
@@ -399,23 +394,17 @@ api-htp.beizi.biz
 api-luckycoinsdk.doglobal.net
 api-scout.vercel.app
 api-shoulei-ssl.xunlei.com
-api.ad.xiaomi.com
 api.adxpand.com
 api.amplitude.com
 api.anythinktech.com
 api.aqyad.com
 api.cortana.ai
-api.d.xiaomi.com
 api.e.kuaishou.com
 api.eu.amplitude.com
 api.fu.xcultur.com
-api.g.micloud.xiaomi.net
 api.htp.hubcloud.com.cn
-api.hybrid.xiaomi.com
 api.hzsanjiaomao.com
-api.installer.xiaomi.com
 api.jietuhb.com
-api.jr.mi.com
 api.kingdata.ksyun.com
 api.lab.amplitude.com
 api.sec.intl.miui.com
@@ -463,7 +452,6 @@ audid.umeng.com
 audio-ak-spotify-com.akamaized.net
 automation.vuejs.org
 avn.innity.com
-awsusor0-cdn.fds-ssl.api.xiaomi.com
 b.smartvideo.youku.com
 b1-data.ads.heytapmobi.com
 bad.third-party.site
@@ -514,7 +502,6 @@ c.bing.com
 c.etoolads.cn
 c.evidon.com
 c.gj.qq.com
-c.id.mi.com
 c.kuaiduizuoye.com
 c.l.qq.com
 c.mse.360.cn
@@ -541,8 +528,6 @@ cdn.24metrics.com
 cdn.aiclk.com
 cdn.chinaliftoff-creatives.io
 cdn.drda.io
-cdn.exp.xiaomi.com
-cdn.fds-ssl.api.xiaomi.com
 cdn.hpplay.com.cn
 cdn.iads.unitychina.cn
 cdn.liftoff-creatives.io
@@ -572,8 +557,6 @@ click.uve.mobile.sina.cn
 click2.hd.sohu.com
 click4.chinaliftoff.io
 clientlogusf.music.163.com
-clkservice.mail.youdao.com
-clkservice2.dict.youdao.com
 clog.miguvideo.com
 cloooud.com
 cm.dmp.sina.cn
@@ -598,7 +581,6 @@ config.chsmarttv.com
 config.inmobi.com
 config.mobisage.cn
 config.unityads.unity3d.com
-controller.intl.xiaomi.com
 count.taobao.com
 count.vrs.sohu.com
 cpc-service-square.aiclk.com
@@ -623,8 +605,6 @@ ctr.hd.sohu.com
 cwa.html.zone
 d.applovin.com
 d.applvn.com
-d.g.mi.com
-d.xiaomi.com
 d0.sina.com.cn
 d0.sinaimg.cn
 d00.sina.com.cn
@@ -655,9 +635,6 @@ data-sdk-uuid-log.d.meituan.net
 data.ads.oppomobile.com
 data.chsmarttv.com
 data.dex.group
-data.mistat.india.xiaomi.com
-data.mistat.rus.xiaomi.com
-data.mistat.xiaomi.com
 data.securykit.com
 datain.longfor.com
 datareport.fkw.com
@@ -673,7 +650,6 @@ dev.iyuba.cn
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 dflow.bz.mgtv.com
-diagnosis.ad.xiaomi.com
 diagnostics.support.microsoft.com
 dig.zjurl.cn
 dingwei.nos-jd.163yun.com
@@ -719,7 +695,6 @@ dynamicad.kfc.com.cn
 dyp2p-ali.douyucdn.cn
 dyp2p-hw.douyucdn.cn
 e-ad-monitor.huya.com
-e.ad.xiaomi.com
 e.jparking.cn
 e.pubtailer.com
 e2elog.fetnet.net
@@ -748,11 +723,6 @@ events.reddit.com
 events.redditmedia.com
 eventv1.leidong.rayenergytech.com
 evs.s.dreamdata.io
-f1.g.mi.com
-f4.market.xiaomi.com
-f6.market.xiaomi.com
-f7.market.xiaomi.com
-f8.market.xiaomi.com
 fancyapi.com
 fav.simba.taobao.com
 fbapi.guguread.com
@@ -799,7 +769,6 @@ gdfp.gifshow.com
 gecko-hl.snssdk.com
 gecko-lq.snssdk.com
 gemini.yahoo.com
-geo.hicloud.com
 geo.yahoo.com
 getui.cn
 ggx.cmvideo.cn
@@ -808,7 +777,6 @@ ggx02.miguvideo.com
 ggx03.miguvideo.com
 ggx10.miguvideo.com
 gif.7mmtv.sx
-globalapi.ad.xiaomi.com
 goblin.hupu.com
 google-analytics.com
 googleads.g.doubleclick-cn.net
@@ -816,14 +784,12 @@ googleads.g.doubleclick.net
 googleadservices-cn.com
 googleadservices.com
 googletagservices-cn.com
-gorgon.youdao.com
 gpm.samsungqbe.com
 gromore.pangolin-sdk-toutiao.com
 grs.dbankcloud.asia
 grs.dbankcloud.cn
 grs.dbankcloud.com
 grs.dbankcloud.eu
-grs.hicloud.com
 gslb.hpplay.cn
 gstat.myzaker.com
 gtm.oasisfeng.com
@@ -930,7 +896,6 @@ ifs.tanx.com
 ii.gdt.qq.com
 im-x.jd.com
 image-ad.sm.cn
-image.box.xiaomi.com
 image.hpplay.cn
 images.outbrainimg.com
 imdns.hpplay.cn
@@ -945,8 +910,6 @@ imgad0.pconline.com.cn
 impression-asia.chinaliftoff.io
 impression-asia.liftoff.io
 impression.appsflyer.com
-impservice.dictapp.youdao.com
-impservice.youdao.com
 in.treasuredata.com
 in.vipliangmei.com
 info.sec.miui.com
@@ -1011,7 +974,6 @@ line3-h5-mobile-api.biligame.com
 links.services.disqus.com
 list.z.qingting.fm
 litchiads.com
-liteapp.developer.xiaomi.com
 live-api.hktvmall.com
 liveats-vod.video.ptqy.gitv.tv
 livec.l.qq.com
@@ -1037,8 +999,6 @@ log-upload-os.hoyoverse.com
 log-upload.mihoyo.com
 log-verify.dutils.com
 log-verify.hiaiabc.com
-log-yex.youdao.com
-log.ad.xiaomi.com
 log.aispeech.com
 log.amemv.com
 log.appstore3.huan.tv
@@ -1059,18 +1019,14 @@ log.tidbcloud.com
 log.v2.hunantv.com
 log.vcgame.cn
 log.web.kugou.com
-log.yex.youdao.com
 log.ys7.com
 log.zijieapi.com
 log1.cmpassport.com
-logbak.hicloud.com
 logrcv.aiclk.com
 logrcv.yunxish.com
 logs-bigdata.yeehaw.com.cn
 logs.amap.com
 logs.chelaile.net.cn
-logservice.hicloud.com
-logservice1.hicloud.com
 logtj.kugou.com
 logupdate.avlyun.sec.miui.com
 logv2.ireader.com
@@ -1080,7 +1036,6 @@ lookup.api.bsb.baidu.com
 ls.l.qq.com
 lstat.youku.com
 luimg.baidu.com
-lxcdn.dl.files.xiaomi.net
 m-adnet.hiaiabc.com
 m.ad.zhangyue.com
 m.atm.youku.com
@@ -1093,7 +1048,6 @@ marketing-aibox.v.mitvos.com
 marketplacestats.service.spaceship.com
 masdk.3g.qq.com
 masdkv6.3g.qq.com
-match.p4p.1688.com
 mazu.3g.qq.com
 mazu.m.qq.com
 mbdlog.iqiyi.com
@@ -1106,9 +1060,7 @@ mclick.simba.taobao.com
 mdevstat.qqlive.qq.com
 medproad.com
 metrics.beam.cloud
-metrics.data.hicloud.com
 metrics.icloud.com
-metrics2.data.hicloud.com
 metrika.yandex.ru
 mg.games.sina.com.cn
 mi.gdt.qq.com
@@ -1120,7 +1072,6 @@ mini.midonglab.com
 miniapp-ad.cdn.bcebos.com
 miniapp.qiluyidian.mobi
 minisite.letv.com
-mis.g.mi.com
 misc.in.duokanbox.com
 misc.wcd.qq.com
 mission-pub.smart-tv.cn
@@ -1197,7 +1148,6 @@ nsclick.baidu.com
 numbers.mailbox.org
 o-sdk.mediation.unity3d.com
 o.send.now
-o2o.api.xiaomi.com
 o2oad.elemecdn.com
 oct.pocoiq.cn
 oempprd.samsungcloudsolution.com
@@ -1271,7 +1221,6 @@ pcdn.yximgs.com
 pclog.thepaper.cn
 pcm-img.zhls.qq.com
 pcweb.v1.mgtv.com
-pdc.micloud.xiaomi.net
 pfp.sina.com.cn
 pg-ad-b1.ws.126.net
 pg-ad-b2.ws.126.net
@@ -1361,8 +1310,6 @@ res1.hubcloud.com.cn
 res2.hubcloud.com.cn
 res3.hubcloud.com.cn
 resolve.umeng.com
-resolver.mi.xiaomi.com
-resolver.msg.xiaomi.net
 review.gdtimg.com
 rich.kuwo.cn
 river.zhidao.baidu.com
@@ -1449,8 +1396,6 @@ sdkapp.mobile.sina.cn
 sdkauth.hpplay.cn
 sdkclick.mobile.sina.cn
 sdkconf.avlyun.com
-sdkconfig.ad.intl.xiaomi.com
-sdkconfig.ad.xiaomi.com
 sdkconfig.play.aiseet.atianqi.com
 sdkconfig.video.qq.com
 sdkinit.taobao.com
@@ -1465,15 +1410,12 @@ search5-search-hl.ixigua.com
 search5-search.ixigua.com
 securepubads.g.doubleclick.net
 sensors-log.dongqiudi.com
-sentry.d.mi.com
 sentry.music.163.com
 sentry.netease.com
 service.changhong.upgrade2.huan.tv
 service.vmos.cn
-sf0.market.xiaomi.com
 sf16-static.i18n-pglstatp.com
 sf3-fe-tos.pglstatp-toutiao.com
-shoes.app-xae.xiaomi.com
 short-video.kakamobi.cn
 shouji.sogou.com
 show.look.360.cn
@@ -1573,15 +1515,10 @@ t.adbxb.com
 t.applovin.com
 t.l.qq.com
 t.teads.tv
-t.track.ad.xiaomi.com
 t.yesware.com
 t002.ottcn.com
-t1.a.market.xiaomi.com
-t1.g.mi.com
 t1.teads.tv
-t2.a.market.xiaomi.com
 t2.fancyapi.com
-t3.a.market.xiaomi.com
 t7z.cupid.ptqy.gitv.tv
 ta.qq.com
 tag.safary.club
@@ -1596,9 +1533,7 @@ telecome.cn
 telemetry.sdk.inmobi.com
 ten.sngapm.qq.com
 tencent-dtv.m.cn.miaozhen.com
-test.ad.xiaomi.com
 test.ark.letv.com
-test.e.ad.xiaomi.com
 test.surepush.cn
 textlink.simba.taobao.com
 tf.logview.alimama.com
@@ -1658,7 +1593,6 @@ track.lc.quark.cn
 track.uc.cn
 trackapp.guahao.cn
 tracker-prd.aldi.com.cn
-tracker.ai.xiaomi.com
 tracker.didiglobal.com
 tracker.gitee.com
 tracker.searchableanalytics.com
@@ -1687,7 +1621,6 @@ tx-p2p-pull.live-voip.com
 tx-p2p-v2.pull.yximgs.com
 tyh.taobao.com
 tytx.m.cn.miaozhen.com
-tz.sec.xiaomi.com
 u1.img.mobile.sina.cn
 uapi.ads.heytapmobi.com
 ucstat.baidu.com
@@ -1749,15 +1682,12 @@ vali.cp31.ott.cibntv.net.302.myalicdn.com
 vapi.tiandi.com
 vcardsdkservice.vivo.com.cn
 vd.l.qq.com
-vd0.market.xiaomi.com
-vd1.market.xiaomi.com
 vd6.l.qq.com
 veim.lrswl.com
 vi.l.qq.com
 video-ad.sm.cn
 video-dsp.pddpic.com
 video.dispatch.tc.qq.com
-video.market.xiaomi.com
 view.html.zone
 vip.bz.mgtv.com
 vipauth.hpplay.cn
@@ -1809,7 +1739,6 @@ wn.x.jd.com
 ws-keyboard.shouji.sogou.com
 ws.sj.qq.com
 ws.tapjoyads.com
-wtradv.market.xiaomi.com
 wv.inner-active.mobi
 wwads.cn
 www-analytics.ripe.net
@@ -1823,7 +1752,6 @@ wxsnsdy.tc.qq.com
 wxsnsdy.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
 xadsmartget.adgain.cn
-xadx.file.market.xiaomi.com
 xblgdvrassets3010.blob.core.windows.net
 xc.gdt.qq.com
 xcx.dcad01.com
@@ -1854,7 +1782,6 @@ ytx-file.110route.cn
 yuedu.iqiyi.com
 yumao.puata.info
 yun.rili.cn
-zeus.ad.xiaomi.com
 zhanzhang.toutiao.com
 zhihu-web-analytics.zhihu.com
 zjres-ad.kajicam.com
@@ -4119,7 +4046,6 @@ zxid-m.mobileservice.cn
 .a.magnetz.dk
 .a.magnordic.com
 .a.maple-sky.com
-.a.market.xiaomi.com
 .a.maxxhotel.com
 .a.medtronic.com
 .a.meinmpp.de
@@ -4288,7 +4214,6 @@ zxid-m.mobileservice.cn
 .a.yamcha.xyz
 .a.yangshengtang123.com
 .a.yellowurl.cn
-.a.youdao.com
 .a.yuzhainan.com
 .a.zleep.com
 .a.zrnora.rs
@@ -6000,10 +5925,8 @@ zxid-m.mobileservice.cn
 .ad.ichiban-boshi.com
 .ad.ichiru.net
 .ad.imp.joins.com
-.ad.india.xiaomi.com
 .ad.inhaabit.com
 .ad.inston.ltd
-.ad.intl.xiaomi.com
 .ad.intools.dev
 .ad.iwhop.cn
 .ad.jibunde-esute.com
@@ -6022,7 +5945,6 @@ zxid-m.mobileservice.cn
 .ad.mail.sohu.com
 .ad.mediamixer.co.kr
 .ad.mediaprimaplus.com.my
-.ad.mi.com
 .ad.missena.io
 .ad.mobiuspace.net
 .ad.moe.video
@@ -6043,10 +5965,8 @@ zxid-m.mobileservice.cn
 .ad.pontualcargo.com.br
 .ad.qn.img-space.com
 .ad.qq.com
-.ad.quickapp.hybrid.xiaomi.com
 .ad.rajasimo89.live
 .ad.rejichoice.jp
-.ad.rus.xiaomi.com
 .ad.sexplex.com
 .ad.shinjuku-mens-chuoh.com
 .ad.simpledesign.ltd
@@ -6080,7 +6000,6 @@ zxid-m.mobileservice.cn
 .ad.wx.com
 .ad.wynk.in
 .ad.xelements.cn
-.ad.xiaomi.com
 .ad.ximalaya.com
 .ad.xn--o9jem5iv41o982db8k.jp
 .ad.xxam.org
@@ -6095,7 +6014,6 @@ zxid-m.mobileservice.cn
 .ad01.tmgrup.com.tr
 .ad1.tone.ne.jp
 .ad1.udn.com
-.ad1.xiaomi.com
 .ad123.ynet.com
 .ad1n.net
 .ad2.fivecdm.com
@@ -6518,7 +6436,6 @@ zxid-m.mobileservice.cn
 .admin.academyforconsciousleadership.net
 .admin.darnelgroup.com
 .admin.dbzboutique.fr
-.admin.e.mi.com
 .admin.growthwithhasan.com
 .admin.healthinsurancesolutions.org
 .admin.net.fidorbank.uk
@@ -6904,7 +6821,6 @@ zxid-m.mobileservice.cn
 .ads.win555capi.com
 .ads.worldofshowjumping.com
 .ads.xglobalmarkets.com
-.ads.xiaomi.com
 .ads.xlxtra.com
 .ads.yahoo.com
 .ads.yeeyi.com
@@ -14209,7 +14125,6 @@ zxid-m.mobileservice.cn
 .atl-6-ga.com
 .atlantablackstar.black.news
 .atlas-3ib.com
-.atlas-emui-drcn.hicloud.com
 .atlas1.krone.at
 .atldmiwjarwpe.online
 .atleethnize.shop
@@ -15774,7 +15689,6 @@ zxid-m.mobileservice.cn
 .beacon.radiko.jp
 .beacon.riskified.com
 .beacon.s.llnwi.net
-.beacon.samsclub.com
 .beacon.searchspring.io
 .beacon.securestudies.com
 .beacon.sftoaa.com
@@ -17899,7 +17813,6 @@ zxid-m.mobileservice.cn
 .browser-intake-datadoghq.eu
 .browser-updater.yandex.net
 .browser.events.data.msn.cn
-.browser.mi-img.com
 .browser.miui.com
 .browsercfg-drcn.cloud.dbankcloud.cn
 .browserguides.net
@@ -19902,7 +19815,6 @@ zxid-m.mobileservice.cn
 .catfish.pressure.cooking
 .catfish.sofatido.ch
 .catfood.mikipetstore.com
-.catfront.dianping.com
 .catharsisproductionsmarketing.catharsisproductions.com
 .cathaytrash.com
 .cathrinsarcler.cfd
@@ -21614,7 +21526,6 @@ zxid-m.mobileservice.cn
 .clkn3.apostle.onl
 .clknrtrg.pro
 .clkrev.com
-.clkservice.youdao.com
 .clksite.com
 .clkstat.china.cn
 .clktrkd.com
@@ -22835,7 +22746,6 @@ zxid-m.mobileservice.cn
 .config.venuesearchlondon.com
 .configchain.com
 .configcontrol.com
-.configserver-dra.platform.hicloud.com
 .configuration.ttpsdk.info
 .configure.adlermode.com
 .confirm.aon.com
@@ -24373,7 +24283,6 @@ zxid-m.mobileservice.cn
 .cs0010sbeda.theory-diet.com
 .cs0010sbeda.theory-kumatarumi.com
 .cs0113sbeda.scanet.jp
-.cs02-pps-drcn.dbankcdn.com
 .cs1.wpc.v0cdn.net
 .cs1470sbeda.schoolasp.com
 .cs15.biz
@@ -30045,7 +29954,6 @@ zxid-m.mobileservice.cn
 .data.heta.hr
 .data.hetnoorderlicht.com
 .data.hexe.com.pl
-.data.hicloud.com
 .data.hilo.com
 .data.hinweis.aetkasmart.de
 .data.hinweis.alditalk-kundenbetreuung.de
@@ -32943,7 +32851,6 @@ zxid-m.mobileservice.cn
 .difficultfog.com
 .difficultyanthonymode.com
 .diffusedpassionquaking.com
-.dig.lianjia.com
 .dig.qbao.com
 .dig.ultimedia.com
 .digestiondrawer.com
@@ -33623,7 +33530,6 @@ zxid-m.mobileservice.cn
 .dnjfj3f4gg3.greeting.dk
 .dnjjsaftgijjc.space
 .dnkeeper.dbankcloud.com
-.dnkeeper.hicloud.com
 .dnkeeper.platform.dbankcloud.cn
 .dnkeyt.svetsochtillbehor.se
 .dnkrpsvh.com
@@ -34333,7 +34239,6 @@ zxid-m.mobileservice.cn
 .dt.greymatterfashion.nl
 .dt.harpermeds.com
 .dt.herlimedical.com
-.dt.hicloud.com
 .dt.hodi.nl
 .dt.hypejuice.com
 .dt.kapstokkendirect.nl
@@ -34571,7 +34476,6 @@ zxid-m.mobileservice.cn
 .dump4barn.com
 .dumpster.cam4.com
 .dumptakapuffily.cyou
-.dun.mi.com
 .dunchencycbrazes.cyou
 .duncishwhuffle.cfd
 .dunderaffiliates.com
@@ -39637,8 +39541,6 @@ zxid-m.mobileservice.cn
 .fdyqre.pormadeonline.com.br
 .fe-go.letv.com
 .fe.futuroscope.com
-.fe01.c3.xiaomi.com
-.fe02.c3.xiaomi.com
 .fe7qygqi2p2h.com
 .fe7wk7tihrbgj.em7gh6j5ywry8u23xq7p1bjmub.cyou
 .fe7xxmtg3.com
@@ -39684,7 +39586,6 @@ zxid-m.mobileservice.cn
 .feedads.feedblitz.com
 .feedandpurr.com
 .feedback-c.zijieapi.com
-.feedback-dre.platform.hicloud.com
 .feedback.aon.com
 .feedback.avigilon.com
 .feedback.campbellmetal.com
@@ -42222,7 +42123,6 @@ zxid-m.mobileservice.cn
 .game.keysforgames.shop
 .game.letvstore.com
 .game.pps.tv
-.game.xiaomi.com
 .game9time.com
 .gameads.io
 .gamebox.360.cn
@@ -45079,7 +44979,6 @@ zxid-m.mobileservice.cn
 .grrergiol.com
 .grrfeedqkfmbq.site
 .grrzr.icoverdirect.com
-.grs.hicloud.com
 .grs.platform.dbankcloud.ru
 .grsm.io
 .grt1pkpu9kb3hnzjg.rest
@@ -51738,7 +51637,6 @@ zxid-m.mobileservice.cn
 .hczj7w56k.top
 .hczvwi.soldejaneiro.com
 .hd.pe.fr
-.hd.xiaomi.com
 .hd100546c.com
 .hd2o34yu8.com
 .hdacode.com
@@ -52028,7 +51926,6 @@ zxid-m.mobileservice.cn
 .heydeysparus.shop
 .heyserves.com
 .heytr.kaleandme.de
-.heyue.xiaomi.com
 .heyzap.com
 .hezlyx.uchicomi.com
 .hf.forevernetworks.com
@@ -52191,7 +52088,6 @@ zxid-m.mobileservice.cn
 .hi407ezyz.com
 .hi6uqvisz9.com
 .hiad.myweb.hinet.net
-.hiad.vmall.com
 .hiasor.com
 .hibar.hellohibar.com
 .hibids10.com
@@ -53147,8 +53043,6 @@ zxid-m.mobileservice.cn
 .hubhubhub.name
 .hubkgy.yves-rocher.sk
 .hublosk.com
-.hubmetric.samsclub.com
-.hubmetrics.samsclub.com
 .hubside.fr
 .hudhno.jdsports.es
 .hue11.com
@@ -53206,8 +53100,6 @@ zxid-m.mobileservice.cn
 .hunter-hub.com
 .huntmad.com
 .hunzlj.icu
-.huodong.mi.com
-.huodong.xiaomi.com
 .huohuo.huamuwo.com
 .hup.huppatzdigital.com.au
 .huprz.nardurna.com
@@ -53353,7 +53245,6 @@ zxid-m.mobileservice.cn
 .hyaplnr.com
 .hyb.werkholm.pl
 .hybrid.ai
-.hybrid.intl.xiaomi.com
 .hybrid.miniapp.taobao.com
 .hybridburst.com
 .hycpyd.efpfanfic.net
@@ -53771,7 +53662,6 @@ zxid-m.mobileservice.cn
 .idksyl.romanoriginals.co.uk
 .idlecollect.com
 .idlqzb.puntoscolombia.com
-.idm.api.io.mi.com
 .idndlc.kango-oshigoto.jp
 .idnqg.dermaclara.com
 .idopm.progressjj.co.uk
@@ -53869,7 +53759,6 @@ zxid-m.mobileservice.cn
 .ig65.vip
 .ig66.vip
 .ig67.vip
-.igame.xiaomi.com
 .igaming-warp-service.io
 .igc0.destinia.at
 .igdcv.nydj.com
@@ -56480,7 +56369,6 @@ zxid-m.mobileservice.cn
 .install.rottne.com
 .install.xchange.sabx.com
 .installationmidterm.com
-.installer.xiaomi.com
 .installtracker.com
 .instana-e0qgdpnx.net.rewe.de
 .instanceimprovedhew.com
@@ -61286,7 +61174,6 @@ zxid-m.mobileservice.cn
 .lfyqsi.erborian.com
 .lfzlb.levasleep.com
 .lg-release-tracking-8080.gcld-line.com
-.lg.xiaomi.com
 .lgad.cjpowercast.com.edgesuite.net
 .lgaekait.com
 .lgahqrtyamnln.online
@@ -62374,7 +62261,6 @@ zxid-m.mobileservice.cn
 .links.riftapp.co
 .links.riverratrounders.com
 .links.riverview.org
-.links.samsclub.com
 .links.schnucks.com
 .links.sciencechannel.com
 .links.seed.co
@@ -68469,7 +68355,6 @@ zxid-m.mobileservice.cn
 .logapi.tv.naver.com
 .logapi.zhipin.com
 .logarithm29.top
-.logbak.hicloud.com
 .logbook93.com
 .logc-sg.tsd.xindong.com
 .logcol.kyobobook.co.kr
@@ -68595,13 +68480,9 @@ zxid-m.mobileservice.cn
 .logsbin.dantri.com.vn
 .logsdata.cxkfwn.com
 .logsdk.kwai-pro.com
-.logservice-dra.platform.hicloud.com
 .logservice-dre.platform.dbankcloud.cn
-.logservice-dre.platform.hicloud.com
 .logservice.dbankcloud.cn
-.logservice.hicloud.com
 .logservice1.dbankcloud.cn
-.logservice1.hicloud.com
 .logsink.zedge.net
 .logsk.glomancloud.gr
 .logssug.ucweb.com
@@ -68609,7 +68490,6 @@ zxid-m.mobileservice.cn
 .logstracker.com
 .logtail.com
 .logtake.weidian.com
-.logtransform.hicloud.com
 .logx-experimentation.iherb.com
 .logz.tekiusa.com
 .lohhp.champion.com
@@ -73376,7 +73256,6 @@ zxid-m.mobileservice.cn
 .metric.royalmail.com
 .metric.royalmailnl.com
 .metric.salliemae.com
-.metric.samsclub.com
 .metric.schooloutfitters.com
 .metric.schwab.com
 .metric.schwabinstitutional.com
@@ -75516,7 +75395,6 @@ zxid-m.mobileservice.cn
 .metrics.salmonattitude.com
 .metrics.salomon.com
 .metrics.samicce.com
-.metrics.samsclub.com
 .metrics.samsunglife.com
 .metrics.sanatorium.tattoo
 .metrics.saneofrance.fr
@@ -76380,8 +76258,6 @@ zxid-m.mobileservice.cn
 .miastorakepirohemic.cyou
 .miayarus.com
 .mibbasharathreap.cfd
-.mibi.api.xiaomi.com
-.mibi.xiaomi.com
 .micasa.eventofaturandoalto.com
 .michiganfirstcreditunion.fmservice.com
 .michiganrobotflower.com
@@ -76423,9 +76299,6 @@ zxid-m.mobileservice.cn
 .miexgq.forevernew.co.nz
 .mifamlfziobx.in
 .miflqxlpzuxqh.site
-.migc.g.mi.com
-.migc.xiaomi.com
-.migcreport.g.mi.com
 .mightyspiders.com
 .mignished-sility.com
 .migrationoctavian.com
@@ -76558,10 +76431,6 @@ zxid-m.mobileservice.cn
 .misst.mibiota.de
 .missungcurtest.qpon
 .missvent.com
-.mistat.india.xiaomi.com
-.mistat.intl.xiaomi.com
-.mistat.rus.xiaomi.com
-.mistat.xiaomi.com
 .mistertees.net
 .mistervillas.com
 .mistralkachina.qpon
@@ -76596,7 +76465,6 @@ zxid-m.mobileservice.cn
 .mittaus.kayttoauto.fi
 .mittaus.marinekauppa.com
 .mittencattle.com
-.miui.security.xiaomi.com
 .mivbo.thenetreturn.com
 .mivlr.thewhitecompany.com
 .mivpm.agacio.com
@@ -78034,7 +77902,6 @@ zxid-m.mobileservice.cn
 .mushroomreclaimschnapps.com
 .mushywaste.com
 .mushyyoung.com
-.music.xiaomi.com
 .musicallv.top
 .musicenforcer.com
 .musicflashcard.com
@@ -78100,7 +77967,6 @@ zxid-m.mobileservice.cn
 .mvhcvlfbzstlex.com
 .mvhmppnuvmpdp.online
 .mviasyrhzdmqr.site
-.mvideo.xiaomi.com
 .mvisflenuppep.online
 .mvjkbj.2-carat.net
 .mvjkbj.inazumanews2.com
@@ -80789,7 +80655,6 @@ zxid-m.mobileservice.cn
 .o2.ikontwerpflyers.nl
 .o28wg9kq8i.com
 .o2de.mno.link
-.o2o.api.xiaomi.com
 .o2x4h2txrc.com
 .o3.puroomega.com
 .o333o.com
@@ -82105,7 +81970,6 @@ zxid-m.mobileservice.cn
 .op.dbankcloud.cn
 .op.dbankcloud.com
 .op.dragonfru.it
-.op.hicloud.com
 .op.oronpropp.se
 .op.purexbio.com
 .op00.biz
@@ -82228,7 +82092,6 @@ zxid-m.mobileservice.cn
 .ops.rottne.com
 .ops.sunpowercorp.com
 .opsd.mskprotect24.de
-.opsdata.hicloud.com
 .opskxz.rosettastone.com
 .opt.delta.com
 .opt.doubao.com
@@ -83471,7 +83334,6 @@ zxid-m.mobileservice.cn
 .panda.teraskolmio.fi
 .panda.unpublished.app
 .pandasuite.io
-.pandora.xiaomi.com
 .panel.adtryx.com
 .panel.rottne.com
 .panelednordic.com
@@ -88011,7 +87873,6 @@ zxid-m.mobileservice.cn
 .qiwiqfuaqppso.site
 .qixipi.kathykuohome.com
 .qiydigatu.com
-.qiye.xiaomi.com
 .qiyeb.iaskbus.com
 .qiyegongqiu1.qiyegongqiu.com
 .qiyluatrurksx.space
@@ -90565,7 +90426,6 @@ zxid-m.mobileservice.cn
 .rlog.9gag.com
 .rlog.baifentan.com
 .rlog.popin.cc
-.rlogs.youdao.com
 .rlovoa.duckcamp.com
 .rlr1ubj9u.com
 .rlrxb.ziviapparel.com
@@ -93760,7 +93620,6 @@ zxid-m.mobileservice.cn
 .sdk-api-v1.singular.net
 .sdk-api.kidoz.net
 .sdk-cdn.optimove.net
-.sdk-log-inter.youdao.com
 .sdk-log-upload-os.hoyoverse.com
 .sdk-log.airbridge.io
 .sdk-monitoring.ogury.co
@@ -93778,7 +93637,6 @@ zxid-m.mobileservice.cn
 .sdkapi-prod.dfinery.ai
 .sdkauth.hpplay.cn
 .sdkc.vervegroupinc.net
-.sdkconfig.xiaomi.com
 .sdklog.uu.cc
 .sdks.stats-locations.com
 .sdkty.tradeonlyplumbing.co.uk
@@ -93864,7 +93722,6 @@ zxid-m.mobileservice.cn
 .search.adcaffe.com
 .search.anonymous.ads.brave.com
 .search.ixigua.com
-.search.xiaomi.net
 .search3-search.ixigua.com
 .search5-search-hl.ixigua.com
 .search5-search.ixigua.com
@@ -93889,8 +93746,6 @@ zxid-m.mobileservice.cn
 .sebvlvis.graviditetsillamaende.se
 .sec-analytics.panasonic.co.uk
 .sec-analytics.panasonic.de
-.sec-cdn.static.xiaomi.net
-.sec.resource.xiaomi.net
 .sec.vmware.com
 .sec.wolterskluwerfs.com
 .seccc.jasjas.xyz
@@ -94306,7 +94161,6 @@ zxid-m.mobileservice.cn
 .sentinelbi.com
 .sentinelp.com
 .sentinelpro.com
-.sentry.d.xiaomi.net
 .sentry.eks.hoyoverse.com
 .sentry.music.163.com
 .sentry.pnblab.com
@@ -98034,7 +97888,6 @@ zxid-m.mobileservice.cn
 .services.sdiapi.com
 .services.wetek.com
 .services.xtm.com.au
-.servicesupport.hicloud.com
 .servicing.business.hsbc.com
 .servicing.unitedautocredit.net
 .servico.dracarlasena.com.br
@@ -117369,7 +117222,6 @@ zxid-m.mobileservice.cn
 .stat.matichon.co.th
 .stat.meitudata.com
 .stat.mersz.hu
-.stat.mi.com
 .stat.mint.ca
 .stat.mixi.media
 .stat.moevideo.net
@@ -117464,12 +117316,10 @@ zxid-m.mobileservice.cn
 .stat.wolterskluwer.pt
 .stat.ws.126.net
 .stat.xgo.com.cn
-.stat.xiaomi.com
 .stat.xtom.com
 .stat.y.qq.com
 .stat.ykimg.com
 .stat.youku.com
-.stat.youpin.mi.com
 .stat.yunfan.com
 .stat.zol.com.cn
 .stat1.clickfraud.ru
@@ -119032,7 +118882,6 @@ zxid-m.mobileservice.cn
 .stats.wymanmobilenotary.com
 .stats.xactcode.com
 .stats.xactware.com
-.stats.xiaomi.com
 .stats.xn--antnio-dxa.pt
 .stats.ybbond.id
 .stats.yeardot.co.uk
@@ -120955,10 +120804,8 @@ zxid-m.mobileservice.cn
 .syrupimmediate.com
 .sys.hager.com
 .sys.institutolapalabra.com
-.sys.intl.xiaomi.com
 .sys.jumpeducacao.com.br
 .sys.miui.com
-.sys.xiaomi.com
 .sysmeasuring.net
 .sysmon.kakaku.com
 .sysoutvariola.com
@@ -124830,7 +124677,6 @@ zxid-m.mobileservice.cn
 .tk.caseadvisors.org
 .tk.conforama.fr
 .tk.criandosemcrise.com.br
-.tk.d.mi.com
 .tk.dietbon.fr
 .tk.domitys.fr
 .tk.dossier.co
@@ -128118,7 +127964,6 @@ zxid-m.mobileservice.cn
 .tracker.adcluster.com.tr
 .tracker.adsales.rakuten.co.jp
 .tracker.affiliate.iqbroker.com
-.tracker.ai.xiaomi.com
 .tracker.anandtech.com
 .tracker.antartidaarcondicionado.com.br
 .tracker.arc.io
@@ -132754,10 +132599,8 @@ zxid-m.mobileservice.cn
 .union.china.com.cn
 .union.dplayerstatic.com
 .union.jd.com
-.union.mi.com
 .union.sogou.com
 .union.yihaodian.com
-.union.youdao.com
 .unionadjs.com
 .unionimage.baidu.com
 .unionsyeggman.cfd
@@ -134169,7 +134012,6 @@ zxid-m.mobileservice.cn
 .video.pixels.ai
 .video.verintsystemsinc.com
 .video.vitcord.com
-.video.xiaomi.com
 .video231.oss-cn-beijing.aliyuncs.com
 .videoads-cloud.rovio.com
 .videoadstech.org
@@ -138273,7 +138115,6 @@ zxid-m.mobileservice.cn
 .xianliao.voto
 .xiaopinwo.com
 .xiaoshuoyun.cn
-.xiazai.xiaomi.com
 .xibspj.komehyo.jp
 .xibuvdzihpjlrq.com
 .xibvdjz2x2.com
@@ -138297,7 +138138,6 @@ zxid-m.mobileservice.cn
 .xirses.wargo.jp
 .xis.vipergirls.to
 .xithgs.suitsoutlets.com
-.xitong.xiaomi.com
 .xitongku.cc
 .xitvce.webtretho.com
 .xiuksf.worten.es
