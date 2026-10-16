@@ -1,27 +1,27 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140945,
+    "ads": 140887,
     "ai": 101,
     "binance": 14,
     "cn": 7186,
-    "global": 722,
+    "global": 727,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 80,
     "protect-binance": 13,
     "protect-cn": 998,
-    "protect-global": 33,
+    "protect-global": 57,
     "protect-google": 8,
     "protect-okx": 19,
     "protect-paypal": 5,
-    "protect-stream": 10,
-    "protect-tiktok": 5,
+    "protect-stream": 38,
+    "protect-tiktok": 24,
     "protect-uk": 1,
     "protect-wise": 2,
-    "stream": 1352,
-    "tiktok": 32,
+    "stream": 1358,
+    "tiktok": 38,
     "uk": 3,
     "wise": 2
   },
@@ -5244,7 +5244,7 @@
       "evidence_kind": "business-candidate",
       "expected_category": "global",
       "id": "P0122",
-      "matched_rule": "DOMAIN-SUFFIX,x.com",
+      "matched_rule": "DOMAIN,api.x.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；未在手机运行启动/登录/业务验证"
     },
@@ -5351,7 +5351,7 @@
       "evidence_kind": "business-candidate",
       "expected_category": "stream",
       "id": "P0128",
-      "matched_rule": "DOMAIN-SUFFIX,viki.com",
+      "matched_rule": "DOMAIN,viki.com",
       "passed": true,
       "purpose": "APP关联域名静态路由候选；未在手机运行启动/登录/业务验证"
     },
@@ -7219,6 +7219,10 @@
       "rule": "DOMAIN,adpublish.ydstatic.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,twitter.com",
+      "rule": "DOMAIN,ads-api.twitter.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xhscdn.com",
       "rule": "DOMAIN,ads-img-al.xhscdn.com"
     },
@@ -7313,6 +7317,10 @@
     {
       "protection": "DOMAIN-SUFFIX,alipay.com.cn",
       "rule": "DOMAIN,amdc-sibling.alipay.com.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,facebook.com",
+      "rule": "DOMAIN,an.facebook.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,duapp.com",
@@ -7839,6 +7847,10 @@
       "rule": "DOMAIN,log.amemv.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN,log.byteoversea.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,youdao.com",
       "rule": "DOMAIN,log.yex.youdao.com"
     },
@@ -7905,6 +7917,10 @@
     {
       "protection": "DOMAIN-SUFFIX,qpic.cn",
       "rule": "DOMAIN,mmgame.qpic.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN,mon-va.byteoversea.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,gitv.tv",
@@ -8419,6 +8435,18 @@
       "rule": "DOMAIN-SUFFIX,admin.e.mi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,twitter.com",
+      "rule": "DOMAIN-SUFFIX,ads-api.twitter.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,x.com",
+      "rule": "DOMAIN-SUFFIX,ads-api.x.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,twitter.com",
+      "rule": "DOMAIN-SUFFIX,ads-bidder-api.twitter.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xhscdn.com",
       "rule": "DOMAIN-SUFFIX,ads-img-al.xhscdn.com"
     },
@@ -8455,6 +8483,10 @@
       "rule": "DOMAIN-SUFFIX,advertising.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,aidsvc.netflix.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,autohome.com.cn",
       "rule": "DOMAIN-SUFFIX,al.autohome.com.cn"
     },
@@ -8477,6 +8509,10 @@
     {
       "protection": "DOMAIN,amdc.m.taobao.com",
       "rule": "DOMAIN-SUFFIX,amdc.m.taobao.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,facebook.com",
+      "rule": "DOMAIN-SUFFIX,an.facebook.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -8539,8 +8575,16 @@
       "rule": "DOMAIN-SUFFIX,atom-log.3.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,beacon.netflix.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,samsclub.com",
       "rule": "DOMAIN-SUFFIX,beacon.samsclub.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.net",
+      "rule": "DOMAIN-SUFFIX,beaconimages.netflix.net"
     },
     {
       "protection": "DOMAIN-SUFFIX,mi-img.com",
@@ -8603,12 +8647,20 @@
       "rule": "DOMAIN-SUFFIX,clkservice.youdao.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,viki.io",
+      "rule": "DOMAIN-SUFFIX,clvk.viki.io"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,gtimg.cn",
       "rule": "DOMAIN-SUFFIX,cmshow.gtimg.cn"
     },
     {
       "protection": "DOMAIN-SUFFIX,alipay.com",
       "rule": "DOMAIN-SUFFIX,collect.alipay.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,viki.io",
+      "rule": "DOMAIN-SUFFIX,colvk.viki.io"
     },
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
@@ -8627,8 +8679,20 @@
       "rule": "DOMAIN-SUFFIX,cupid.qiyi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,customerevents.dradis.netflix.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,customerevents.netflix.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,meituan.net",
       "rule": "DOMAIN-SUFFIX,d.meituan.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,darnuid.netflix.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,paypal.com",
@@ -8739,6 +8803,10 @@
       "rule": "DOMAIN-SUFFIX,fosshub.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,musical.ly",
+      "rule": "DOMAIN-SUFFIX,frontier.musical.ly"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,autohome.com.cn",
       "rule": "DOMAIN-SUFFIX,ftwo-feedback.autohome.com.cn"
     },
@@ -8773,6 +8841,18 @@
     {
       "protection": "DOMAIN-SUFFIX,jd.com",
       "rule": "DOMAIN-SUFFIX,gia.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,gplog-sg.byteoversea.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,gpm-mon-sg.byteoversea.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,gpm-mon-va.byteoversea.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
@@ -8859,6 +8939,18 @@
       "rule": "DOMAIN-SUFFIX,iadworkbench.apple.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,ichnaea-web.netflix.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,ichnaea.dradis.netflix.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,ichnaea.netflix.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,autohome.com.cn",
       "rule": "DOMAIN-SUFFIX,idm.api.autohome.com.cn"
     },
@@ -8931,8 +9023,20 @@
       "rule": "DOMAIN-SUFFIX,log-tb.sgsnssdk.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,log-va.tiktokv.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,jd.com",
       "rule": "DOMAIN-SUFFIX,log.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,musical.ly",
+      "rule": "DOMAIN-SUFFIX,log.musical.ly"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,log.tiktokv.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,tencent.com",
@@ -8949,6 +9053,10 @@
     {
       "protection": "DOMAIN-SUFFIX,cmpassport.com",
       "rule": "DOMAIN-SUFFIX,log1.cmpassport.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,musical.ly",
+      "rule": "DOMAIN-SUFFIX,log2.musical.ly"
     },
     {
       "protection": "DOMAIN-SUFFIX,zhipin.com",
@@ -8987,6 +9095,14 @@
       "rule": "DOMAIN-SUFFIX,logs.amap.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,logs.dradis.netflix.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,logs.netflix.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,logservice-dra.platform.hicloud.com"
     },
@@ -9011,8 +9127,28 @@
       "rule": "DOMAIN-SUFFIX,m.iqiyipic.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,maliva-mcs.byteoversea.com"
+    },
+    {
       "protection": "DOMAIN,mapi.m.jd.com",
       "rule": "DOMAIN-SUFFIX,mapi.m.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,mcs-va-useast2a.tiktokv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,mcs-va.tiktokv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.us",
+      "rule": "DOMAIN-SUFFIX,mcs.tiktokv.us"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,mcs.us.tiktokv.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,zijieapi.com",
@@ -9095,6 +9231,18 @@
       "rule": "DOMAIN-SUFFIX,mllog.jd.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,mon.byteoversea.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,mon.tiktokv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,mon.us.tiktokv.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,msedge.net",
       "rule": "DOMAIN-SUFFIX,msedge.net"
     },
@@ -9113,6 +9261,14 @@
     {
       "protection": "DOMAIN-SUFFIX,qiyi.com",
       "rule": "DOMAIN-SUFFIX,msg.video.qiyi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,mssdk-sg.byteoversea.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,mssdk-va.byteoversea.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
@@ -9141,6 +9297,10 @@
     {
       "protection": "DOMAIN-SUFFIX,apple.com",
       "rule": "DOMAIN-SUFFIX,news-sports-events.apple.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,nmtracking.netflix.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,duapp.com",
@@ -9191,6 +9351,10 @@
       "rule": "DOMAIN-SUFFIX,opt.doubao.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,p16-ad.byteoversea.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,xiaomi.com",
       "rule": "DOMAIN-SUFFIX,pandora.xiaomi.com"
     },
@@ -9203,6 +9367,10 @@
       "rule": "DOMAIN-SUFFIX,pgdt.gtimg.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,facebook.com",
+      "rule": "DOMAIN-SUFFIX,pixel.facebook.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
       "rule": "DOMAIN-SUFFIX,pixel.ipinfo.io"
     },
@@ -9211,8 +9379,16 @@
       "rule": "DOMAIN-SUFFIX,polaris.zijieapi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,presentationtracking.netflix.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,kuaishou.com",
       "rule": "DOMAIN-SUFFIX,promotion-partner.kuaishou.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,netflix.com",
+      "rule": "DOMAIN-SUFFIX,pulse.perfmetrics.netflix.com"
     },
     {
       "protection": "DOMAIN,gw5.push.mcp.weibo.cn",
@@ -9237,6 +9413,18 @@
     {
       "protection": "DOMAIN-SUFFIX,sinajs.cn",
       "rule": "DOMAIN-SUFFIX,rs.sinajs.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,rtc-logger-va.tiktokv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,rtlog.byteoversea.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,rtlog.tiktokv.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,c-ctrip.com",
@@ -9297,6 +9485,14 @@
     {
       "protection": "DOMAIN-SUFFIX,hicloud.com",
       "rule": "DOMAIN-SUFFIX,servicesupport.hicloud.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokcdn-us.com",
+      "rule": "DOMAIN-SUFFIX,sf16-telemetry-proxy-oci.tiktokcdn-us.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,sgali-mcs.byteoversea.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,jd.com",
@@ -9371,6 +9567,10 @@
       "rule": "DOMAIN-SUFFIX,t-dsp.pinduoduo.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,x.com",
+      "rule": "DOMAIN-SUFFIX,t.e.x.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,zhipin.com",
       "rule": "DOMAIN-SUFFIX,t.zhipin.com"
     },
@@ -9413,6 +9613,10 @@
     {
       "protection": "DOMAIN-SUFFIX,qiyi.com",
       "rule": "DOMAIN-SUFFIX,uestat.video.qiyi.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,ug-sg.byteoversea.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,gifshow.com",
@@ -9461,6 +9665,10 @@
     {
       "protection": "DOMAIN-SUFFIX,ipinfo.io",
       "rule": "DOMAIN-SUFFIX,v.ipinfo.io"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,v16-ad.byteoversea.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,zijieapi.com",
@@ -9523,8 +9731,32 @@
       "rule": "DOMAIN-SUFFIX,xitong.xiaomi.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,musical.ly",
+      "rule": "DOMAIN-SUFFIX,xlog-va.musical.ly"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,xlog-va.tiktokv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,byteoversea.com",
+      "rule": "DOMAIN-SUFFIX,xlog.byteoversea.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,jd.com",
       "rule": "DOMAIN-SUFFIX,xlog.jd.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,tiktokv.com",
+      "rule": "DOMAIN-SUFFIX,xlog.tiktokv.com"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,fbcdn.net",
+      "rule": "DOMAIN-SUFFIX,xy.fbcdn.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,fbcdn.net",
+      "rule": "DOMAIN-SUFFIX,xz.fbcdn.net"
     }
   ],
   "sources": 124,

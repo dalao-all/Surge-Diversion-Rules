@@ -2,6 +2,7 @@
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN,api.telegram.org
+DOMAIN,api.x.com
 DOMAIN,cdn.jwplayer.com
 DOMAIN,connect.facebook.net
 DOMAIN,dejavocab.com
@@ -11,12 +12,16 @@ DOMAIN,graph-fallback.instagram.com
 DOMAIN,graph.facebook.com
 DOMAIN,graph.instagram.com
 DOMAIN,i.instagram.com
+DOMAIN,m.facebook.com
 DOMAIN,platform.instagram.com
 DOMAIN,sanas.ai
 DOMAIN,sync.obsidian.md
 DOMAIN,token.safebrowsing.apple
 DOMAIN,twemoji.maxcdn.com
+DOMAIN,upload.twitter.com
+DOMAIN,video.twitter.com
 DOMAIN,web.whatsapp.com
+DOMAIN,www.facebook.com
 DOMAIN,www.sanas.ai
 DOMAIN-SUFFIX,aboutfacebook.com
 DOMAIN-SUFFIX,accessfacebookfromschool.com

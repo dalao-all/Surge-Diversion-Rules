@@ -15999,6 +15999,929 @@
         "BlackMatrix7/v2fly AI upstream rulesets and official platform endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "x.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "twitter.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "t.co",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "twimg.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "twimg.co",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tweetdeck.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "pscp.tv",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "periscope.tv",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cms-twdigitalassets.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.x.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "upload.twitter.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "video.twitter.com",
+      "category": "global",
+      "app_ids": [
+        "INT007"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "googlevideo.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ytimg.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "youtu.be",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "youtubekids.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "youtube-nocookie.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "withyoutube.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ggpht.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "m.youtube.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "music.youtube.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "tv.youtube.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "studio.youtube.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "kids.youtube.com",
+      "category": "stream",
+      "app_ids": [
+        "INT008"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "m.tiktok.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.tiktok.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api-va.tiktokv.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api-sg.tiktokv.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api-core.tiktok.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "p16-tiktokcdn-com.akamaized.net",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "lf16-effectcdn.byteeffecttos-g.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "lf16-pkgcdn.pitaya-clientai.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tiktokcdn.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tiktokv.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tiktokv.us",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "byteoversea.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ibytedtos.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ibyteimg.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ipstatp.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "musically.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "musical.ly",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sgpstatp.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tiktokcdn-us.com",
+      "category": "tiktok",
+      "app_ids": [
+        "INT009"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "instagram.com",
+      "category": "global",
+      "app_ids": [
+        "INT010"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cdninstagram.com",
+      "category": "global",
+      "app_ids": [
+        "INT010"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "instagr.am",
+      "category": "global",
+      "app_ids": [
+        "INT010"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "facebook.com",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fb.com",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fb.me",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fbcdn.net",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fbsbx.com",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fbsbx.net",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "meta.com",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "m.facebook.com",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "www.facebook.com",
+      "category": "global",
+      "app_ids": [
+        "INT011"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "netflix.com",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "netflix.net",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nflximg.com",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nflximg.net",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nflxvideo.net",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nflxext.com",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nflxso.net",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "netflixdnstest0.com",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "netflixdnstest1.com",
+      "category": "stream",
+      "app_ids": [
+        "INT012"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "viki.com",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "viki.io",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "viki.net",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vikiplatform.com",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vikidash.akamaized.net",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "m-content-viki.s.llnwi.net",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "viki.com",
+      "category": "stream",
+      "app_ids": [
+        "INT013"
+      ],
+      "reason": "关键业务候选；第2组国际娱乐流媒体与社交网络业务保护",
+      "evidence": [
+        "BlackMatrix7 upstream entertainment rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",
