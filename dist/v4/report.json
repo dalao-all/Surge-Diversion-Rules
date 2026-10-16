@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140966,
+    "ads": 140962,
     "ai": 94,
     "binance": 14,
-    "cn": 7033,
+    "cn": 7048,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 752,
+    "protect-cn": 816,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -7200,6 +7200,10 @@
       "rule": "DOMAIN,ad-sdk-config.youdao.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,12306.cn",
+      "rule": "DOMAIN,ad.12306.cn"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,maoyan.com",
       "rule": "DOMAIN,ad.maoyan.com"
     },
@@ -9200,6 +9204,10 @@
       "rule": "DOMAIN-SUFFIX,rs.sinajs.cn"
     },
     {
+      "protection": "DOMAIN-SUFFIX,c-ctrip.com",
+      "rule": "DOMAIN-SUFFIX,s.c-ctrip.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,zijieapi.com",
       "rule": "DOMAIN-SUFFIX,saveu5-normal-lq.zijieapi.com"
     },
@@ -9360,6 +9368,10 @@
       "rule": "DOMAIN-SUFFIX,tx-kmpaudio.pull.yximgs.com"
     },
     {
+      "protection": "DOMAIN-SUFFIX,tripcdn.com",
+      "rule": "DOMAIN-SUFFIX,ubt-sin.tripcdn.com"
+    },
+    {
       "protection": "DOMAIN-SUFFIX,qiyi.com",
       "rule": "DOMAIN-SUFFIX,uestat.video.qiyi.com"
     },
@@ -9430,6 +9442,10 @@
     {
       "protection": "DOMAIN-SUFFIX,oschina.net",
       "rule": "DOMAIN-SUFFIX,visit.oschina.net"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,segway.com",
+      "rule": "DOMAIN-SUFFIX,vtyhvy.segway.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,ksapisrv.com",

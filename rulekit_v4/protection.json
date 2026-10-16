@@ -12235,6 +12235,838 @@
         "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "12306.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "12306.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "95306.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "95572.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "china-railway.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "china-ric.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "crct.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cre.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "crecc.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "creip.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "crscl.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gzrailway.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "nntlj.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "peoplerail.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "rails.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tdpress.com",
+      "category": "cn",
+      "app_ids": [
+        "CN057"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ctrip.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "c-ctrip.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ctrip.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tripcdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ctripbiz.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tieyou.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "suanya.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "suanya.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "vipdlt.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "colinker.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "doticloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN058"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "umetrip.com",
+      "category": "cn",
+      "app_ids": [
+        "CN059"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "umetrip.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN059"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "umetrip.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN059"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "travelsky.com",
+      "category": "cn",
+      "app_ids": [
+        "CN059"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "travelsky.net",
+      "category": "cn",
+      "app_ids": [
+        "CN059"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "travelsky.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN059"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hellobike.com",
+      "category": "cn",
+      "app_ids": [
+        "CN060"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hello-inc.com",
+      "category": "cn",
+      "app_ids": [
+        "CN060"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hellobike.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN060"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "hellochuxing.com",
+      "category": "cn",
+      "app_ids": [
+        "CN060"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cdtf.net",
+      "category": "cn",
+      "app_ids": [
+        "CN061"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dongchedi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dongchediapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dcdapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dcarapi.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dcarimg.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dcarlive.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dcarstatic.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "dcarvod.com",
+      "category": "cn",
+      "app_ids": [
+        "CN063"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "geely.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "geelyauto.com.hk",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "geelyholding.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "geelydesign.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "lynkco.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zeekrlife.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caocaokeji.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caocaotrip.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "51caocao.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zgh.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "geometryauto.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "zjcarnet.com",
+      "category": "cn",
+      "app_ids": [
+        "CN065"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ninebot.com",
+      "category": "cn",
+      "app_ids": [
+        "CN066"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ninebot.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN066"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "segway.com",
+      "category": "cn",
+      "app_ids": [
+        "CN066"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "segway.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN066"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "segway-ninebot.com",
+      "category": "cn",
+      "app_ids": [
+        "CN066"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ninebotcdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN066"
+      ],
+      "reason": "关键业务候选；第7.1/7.2组出行休闲与汽车生活业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

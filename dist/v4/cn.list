@@ -349,6 +349,7 @@ DOMAIN-SUFFIX,1010gamer.com
 DOMAIN-SUFFIX,10p07v10o5.com
 DOMAIN-SUFFIX,122.gov.cn
 DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,12366.gov.cn
 DOMAIN-SUFFIX,12530.com
 DOMAIN-SUFFIX,126.am
@@ -1249,6 +1250,7 @@ DOMAIN-SUFFIX,cdnv2.cn
 DOMAIN-SUFFIX,cdnv3.cn
 DOMAIN-SUFFIX,cdnv4-go.cn
 DOMAIN-SUFFIX,cdtf.cn
+DOMAIN-SUFFIX,cdtf.net
 DOMAIN-SUFFIX,cdtft.cn
 DOMAIN-SUFFIX,ceawgez.com
 DOMAIN-SUFFIX,ceeunion.com
@@ -2748,7 +2750,10 @@ DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,healthybaike.com
 DOMAIN-SUFFIX,heimaotousu.com
 DOMAIN-SUFFIX,helixapp.cn
+DOMAIN-SUFFIX,hello-inc.com
+DOMAIN-SUFFIX,hellobike.cn
 DOMAIN-SUFFIX,hellobike.com
+DOMAIN-SUFFIX,hellochuxing.com
 DOMAIN-SUFFIX,helmicro.com
 DOMAIN-SUFFIX,hemaapi.cn
 DOMAIN-SUFFIX,hemaapp.cn
@@ -3860,7 +3865,9 @@ DOMAIN-SUFFIX,nhcilab.com
 DOMAIN-SUFFIX,nhlink.cn
 DOMAIN-SUFFIX,nhurl.cn
 DOMAIN-SUFFIX,nic.xin
+DOMAIN-SUFFIX,ninebot.cn
 DOMAIN-SUFFIX,ninebot.com
+DOMAIN-SUFFIX,ninebotcdn.com
 DOMAIN-SUFFIX,nintendoswitch.cn
 DOMAIN-SUFFIX,nintendoswitch.com.cn
 DOMAIN-SUFFIX,nj-tencentclb.cloud
@@ -4565,6 +4572,9 @@ DOMAIN-SUFFIX,sdaswq.com
 DOMAIN-SUFFIX,sdffqaz.com
 DOMAIN-SUFFIX,sdfscx.com
 DOMAIN-SUFFIX,searchtb.com
+DOMAIN-SUFFIX,segway-ninebot.com
+DOMAIN-SUFFIX,segway.cn
+DOMAIN-SUFFIX,segway.com
 DOMAIN-SUFFIX,sehimalayanqj.com
 DOMAIN-SUFFIX,semi.design
 DOMAIN-SUFFIX,senderline.com
@@ -5762,6 +5772,9 @@ DOMAIN-SUFFIX,trae.cn
 DOMAIN-SUFFIX,trae.com.cn
 DOMAIN-SUFFIX,trae.guru
 DOMAIN-SUFFIX,traecdn.com
+DOMAIN-SUFFIX,travelsky.com
+DOMAIN-SUFFIX,travelsky.com.cn
+DOMAIN-SUFFIX,travelsky.net
 DOMAIN-SUFFIX,trfgvb.com
 DOMAIN-SUFFIX,tri.cn
 DOMAIN-SUFFIX,trimg.cn
@@ -5913,7 +5926,9 @@ DOMAIN-SUFFIX,um.run
 DOMAIN-SUFFIX,umaszdc.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,umetrip.cn
 DOMAIN-SUFFIX,umetrip.com
+DOMAIN-SUFFIX,umetrip.com.cn
 DOMAIN-SUFFIX,umpxkvtt.com
 DOMAIN-SUFFIX,umsns.com
 DOMAIN-SUFFIX,umtrack.com
