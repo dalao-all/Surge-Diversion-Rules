@@ -182,15 +182,16 @@ DOMAIN,example.com,"🍎 Apple兜底"
 在 `🍎 Apple兜底`、`🎬 流媒体` 与 `🌍 国际网络` 等 smart 策略组中，节点的权重配置（`policy-priority`）直接决定用户体验：
 
 ```ini
-# 🍎 Apple兜底策略组范式
-🍎 Apple兜底 = smart, include-all-proxies=true, policy-regex-filter=^(?!.*0\.3X|.*家宽).*(香港|新加坡|日本|台湾|韩国), policy-priority="香港:0.60;台湾:0.75;日本:0.90;新加坡:1.20;韩国:1.00", hidden=1
+# 🍎 Apple兜底策略组范式（V3.3.3+ 回归纯正 Smart 算法）
+🍎 Apple兜底 = smart, include-all-proxies=true, policy-regex-filter=^(?!.*0\.3X|.*家宽).*(香港|台湾|日本), hidden=1
 ```
 
-* **权重系数设计原理**：
-  * Surge 的 smart 评分是 `真实 RTT × 权重系数`。**系数越小，优先级越高**。
-  * 香港赋予 **0.60**（绝对优先）：因为香港 IPLC 专线握手极快（15~30ms），访问海外 Akamai 速度最快。
-  * 台湾赋予 **0.75**：作为高带宽低延迟第二备选。
-  * 新加坡赋予 **1.20**（惩罚下沉）：新加坡物理距离远（70~90ms），调大系数防止智能测速偶尔波动时选到新加坡造成体感减速。
+* **设计哲学与回归纯正 Smart（V3.3.3 经验）**：
+  * **不要滥用人工权重 `policy-priority`**：
+    Surge 官方手册强调，Smart 组核心优势是**自适应重试（Adaptive Retry）**与**站点独立记忆（Per-site Memory）**。
+    若人为添加死板的 `policy-priority` 系数（如香港打了 0.5 折），当晚高峰香港节点出现跨境拥堵或丢包飙升时，算法会被人工系数误导继续选用慢速节点，**压制了 Smart 组原本出色的毫秒级容灾能力**。
+  * **最佳实践**：
+    用 `policy-regex-filter` 守住合格节点范围（剔除 0.3X 和远洋高延迟节点），而将具体选优与换道重试彻底交给 Surge 智能算法引擎，实现 100% 动态感知与自愈。
 
 ### 4. pre-matching 与 DNS 阶段拦截
 
