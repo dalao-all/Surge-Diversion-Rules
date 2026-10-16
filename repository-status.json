@@ -7,27 +7,27 @@
   "source_count": 124,
   "dependency_count": 28,
   "counts": {
-    "ads": 140945,
+    "ads": 140887,
     "ai": 101,
     "binance": 14,
     "cn": 7186,
-    "global": 722,
+    "global": 727,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 80,
     "protect-binance": 13,
     "protect-cn": 998,
-    "protect-global": 33,
+    "protect-global": 57,
     "protect-google": 8,
     "protect-okx": 19,
     "protect-paypal": 5,
-    "protect-stream": 10,
-    "protect-tiktok": 5,
+    "protect-stream": 38,
+    "protect-tiktok": 24,
     "protect-uk": 1,
     "protect-wise": 2,
-    "stream": 1352,
-    "tiktok": 32,
+    "stream": 1358,
+    "tiktok": 38,
     "uk": 3,
     "wise": 2
   },
@@ -79,14 +79,14 @@
     {
       "id": "tiktok",
       "policy": "🎵 TikTok住宅",
-      "rule_count": 32,
-      "protected_rule_count": 5
+      "rule_count": 38,
+      "protected_rule_count": 24
     },
     {
       "id": "stream",
       "policy": "🎬 流媒体",
-      "rule_count": 1352,
-      "protected_rule_count": 10
+      "rule_count": 1358,
+      "protected_rule_count": 38
     },
     {
       "id": "google",
@@ -103,8 +103,8 @@
     {
       "id": "global",
       "policy": "🌍 国际网络",
-      "rule_count": 722,
-      "protected_rule_count": 33
+      "rule_count": 727,
+      "protected_rule_count": 57
     },
     {
       "id": "cn",
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "4561316388ad406ec41b81247bcc572aa7b89d1cd966bc69614c1e82bfa748bb"
+  "semantic_sha256": "0cf49e68c94434a26d6ce761e597d25fbcfb0d1840b2e5191ca5e12f8cc3c369"
 }
