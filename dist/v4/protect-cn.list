@@ -245,6 +245,7 @@ DOMAIN,sylvan.apple.com
 DOMAIN,tdid.m.qq.com
 DOMAIN,terms.alicdn.com
 DOMAIN,tongyi.aliyun.com
+DOMAIN,tousu.sina.com
 DOMAIN,trade.taobao.com
 DOMAIN,trae-api-sg.mchost.guru
 DOMAIN,translate.apple.com
@@ -384,6 +385,7 @@ DOMAIN-SUFFIX,caict.ac.cn
 DOMAIN-SUFFIX,camcard.com
 DOMAIN-SUFFIX,camcard.net
 DOMAIN-SUFFIX,camp.qq.com
+DOMAIN-SUFFIX,camscanner.cn
 DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,camscanner.net
 DOMAIN-SUFFIX,caocaokeji.cn
@@ -458,6 +460,7 @@ DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cnnic.cn
 DOMAIN-SUFFIX,colinker.com
 DOMAIN-SUFFIX,connect.qq.com
+DOMAIN-SUFFIX,cookieapp.cn
 DOMAIN-SUFFIX,coolapk.cn
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
@@ -542,6 +545,7 @@ DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,etao.cn
 DOMAIN-SUFFIX,etao.com
 DOMAIN-SUFFIX,etaocdn.com
+DOMAIN-SUFFIX,etax.chinatax.gov.cn
 DOMAIN-SUFFIX,faceu.com
 DOMAIN-SUFFIX,faceu.mobi
 DOMAIN-SUFFIX,feizhi.cn
@@ -559,6 +563,7 @@ DOMAIN-SUFFIX,geelyauto.com.hk
 DOMAIN-SUFFIX,geelydesign.com
 DOMAIN-SUFFIX,geelyholding.com
 DOMAIN-SUFFIX,geometryauto.com
+DOMAIN-SUFFIX,gerensuodeshui.com.cn
 DOMAIN-SUFFIX,gestaltedit.com
 DOMAIN-SUFFIX,gewara.com
 DOMAIN-SUFFIX,gifshow.com
@@ -571,6 +576,7 @@ DOMAIN-SUFFIX,gtimg.com.cn
 DOMAIN-SUFFIX,gzrailway.com.cn
 DOMAIN-SUFFIX,havoc.app
 DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,heimaotousu.cn
 DOMAIN-SUFFIX,heimaotousu.com
 DOMAIN-SUFFIX,hello-inc.com
 DOMAIN-SUFFIX,hellobike.cn
@@ -607,6 +613,8 @@ DOMAIN-SUFFIX,icbccstz.com.cn
 DOMAIN-SUFFIX,icbcina.com
 DOMAIN-SUFFIX,icbcstandard.com
 DOMAIN-SUFFIX,icost.app
+DOMAIN-SUFFIX,icost.vip
+DOMAIN-SUFFIX,icostapp.cn
 DOMAIN-SUFFIX,icostapp.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,iesdouyin.com
@@ -614,7 +622,9 @@ DOMAIN-SUFFIX,ifaa.org.cn
 DOMAIN-SUFFIX,im.qq.com
 DOMAIN-SUFFIX,imqq.com
 DOMAIN-SUFFIX,intsig.com
+DOMAIN-SUFFIX,intsig.com.cn
 DOMAIN-SUFFIX,intsig.net
+DOMAIN-SUFFIX,intsig.net.cn
 DOMAIN-SUFFIX,io.mi.com
 DOMAIN-SUFFIX,iqiyi.cn
 DOMAIN-SUFFIX,iqiyipic.com
@@ -700,6 +710,7 @@ DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,migucdn.cn
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,miot-spec.org
+DOMAIN-SUFFIX,monojizhang.com
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,music.163.com
@@ -714,6 +725,7 @@ DOMAIN-SUFFIX,ninebot.cn
 DOMAIN-SUFFIX,ninebot.com
 DOMAIN-SUFFIX,ninebotcdn.com
 DOMAIN-SUFFIX,nntlj.com
+DOMAIN-SUFFIX,noncurious.com
 DOMAIN-SUFFIX,np-edge.itunes.apple.com
 DOMAIN-SUFFIX,openinstall.io
 DOMAIN-SUFFIX,oschina.net
@@ -887,6 +899,7 @@ DOMAIN-SUFFIX,weibo.com.cn
 DOMAIN-SUFFIX,weibo.net
 DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-SUFFIX,weipinworld.com
+DOMAIN-SUFFIX,weisenjoy.com
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,weixin110.qq.com

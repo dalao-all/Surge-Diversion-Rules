@@ -14693,6 +14693,175 @@
         "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "gerensuodeshui.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN104"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "etax.chinatax.gov.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN104"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weisenjoy.com",
+      "category": "cn",
+      "app_ids": [
+        "CN105"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "monojizhang.com",
+      "category": "cn",
+      "app_ids": [
+        "CN105"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "noncurious.com",
+      "category": "cn",
+      "app_ids": [
+        "CN106"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cookieapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN106"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icost.vip",
+      "category": "cn",
+      "app_ids": [
+        "CN108"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "icostapp.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN108"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "camscanner.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "intsig.net.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "intsig.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN109"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "heimaotousu.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN110"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "tousu.sina.com",
+      "category": "cn",
+      "app_ids": [
+        "CN110"
+      ],
+      "reason": "关键业务候选；第7.7组记账与财务工具业务保护",
+      "evidence": [
+        "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

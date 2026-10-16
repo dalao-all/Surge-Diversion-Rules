@@ -319,6 +319,7 @@ DOMAIN,sylvan.apple.com
 DOMAIN,tdid.m.qq.com
 DOMAIN,terms.alicdn.com
 DOMAIN,tongyi.aliyun.com
+DOMAIN,tousu.sina.com
 DOMAIN,trade.taobao.com
 DOMAIN,trae-api-sg.mchost.guru
 DOMAIN,translate.apple.com
@@ -1233,6 +1234,7 @@ DOMAIN-SUFFIX,camcard.com
 DOMAIN-SUFFIX,camcard.net
 DOMAIN-SUFFIX,camp.qq.com
 DOMAIN-SUFFIX,camreizuxphd.com
+DOMAIN-SUFFIX,camscanner.cn
 DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,camscanner.net
 DOMAIN-SUFFIX,caocaobusiness.cc
@@ -1568,6 +1570,7 @@ DOMAIN-SUFFIX,comsazms.com
 DOMAIN-SUFFIX,comsenz.com
 DOMAIN-SUFFIX,connect.qq.com
 DOMAIN-SUFFIX,cookicut.com
+DOMAIN-SUFFIX,cookieapp.cn
 DOMAIN-SUFFIX,coolapk.cn
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
@@ -2275,6 +2278,7 @@ DOMAIN-SUFFIX,geelysc.com
 DOMAIN-SUFFIX,geelyswedenholdings.com
 DOMAIN-SUFFIX,geespace.com
 DOMAIN-SUFFIX,geometryauto.com
+DOMAIN-SUFFIX,gerensuodeshui.com.cn
 DOMAIN-SUFFIX,gestagpu.com
 DOMAIN-SUFFIX,gestaltedit.com
 DOMAIN-SUFFIX,gewara.com
@@ -2818,6 +2822,7 @@ DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com
 DOMAIN-SUFFIX,hdslb.net
 DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,healthybaike.com
+DOMAIN-SUFFIX,heimaotousu.cn
 DOMAIN-SUFFIX,heimaotousu.com
 DOMAIN-SUFFIX,helixapp.cn
 DOMAIN-SUFFIX,hello-inc.com
@@ -3091,6 +3096,8 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icomuimi.com
 DOMAIN-SUFFIX,iconfont.cn
 DOMAIN-SUFFIX,icost.app
+DOMAIN-SUFFIX,icost.vip
+DOMAIN-SUFFIX,icostapp.cn
 DOMAIN-SUFFIX,icostapp.com
 DOMAIN-SUFFIX,icourse163.cn
 DOMAIN-SUFFIX,icourse163.com
@@ -3190,7 +3197,9 @@ DOMAIN-SUFFIX,instreet.com
 DOMAIN-SUFFIX,intencent.com
 DOMAIN-SUFFIX,intlgame.cn
 DOMAIN-SUFFIX,intsig.com
+DOMAIN-SUFFIX,intsig.com.cn
 DOMAIN-SUFFIX,intsig.net
+DOMAIN-SUFFIX,intsig.net.cn
 DOMAIN-SUFFIX,io.mi.com
 DOMAIN-SUFFIX,ioasaas.com
 DOMAIN-SUFFIX,ioikypzw.com
@@ -3808,6 +3817,7 @@ DOMAIN-SUFFIX,moco-game.cn
 DOMAIN-SUFFIX,mok8uptsmk19.com
 DOMAIN-SUFFIX,molo.cn
 DOMAIN-SUFFIX,moneydata.hk
+DOMAIN-SUFFIX,monojizhang.com
 DOMAIN-SUFFIX,monternet.com
 DOMAIN-SUFFIX,moonton.com
 DOMAIN-SUFFIX,morefunstudio.com
@@ -3964,6 +3974,7 @@ DOMAIN-SUFFIX,nnjioko.com
 DOMAIN-SUFFIX,nntlj.com
 DOMAIN-SUFFIX,nohost.pro
 DOMAIN-SUFFIX,nokialumia.com.cn
+DOMAIN-SUFFIX,noncurious.com
 DOMAIN-SUFFIX,novelfm.com
 DOMAIN-SUFFIX,novelfmpic.com
 DOMAIN-SUFFIX,novelfmstatic.com
@@ -6279,6 +6290,7 @@ DOMAIN-SUFFIX,weicunmall.com
 DOMAIN-SUFFIX,weipan.cn
 DOMAIN-SUFFIX,weipan.com.cn
 DOMAIN-SUFFIX,weipinworld.com
+DOMAIN-SUFFIX,weisenjoy.com
 DOMAIN-SUFFIX,weishi.com
 DOMAIN-SUFFIX,weisurvey.com
 DOMAIN-SUFFIX,weisurvey.net
