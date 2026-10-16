@@ -13067,6 +13067,787 @@
         "BlackMatrix7/v2fly upstream rulesets and official transport/automotive endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ess.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN067"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "identity.ess.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN067"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "init.ess.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN067"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "service.ess.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN067"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "vvs.ess.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN067"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "facetime.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN067"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "message.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN068"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "smoot.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN069"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "apple-search.com",
+      "category": "cn",
+      "app_ids": [
+        "CN069"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "safari.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN069"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.smoot.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN069"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "guzzoni.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN069"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "photos.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN070"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "share.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN070"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cvws.icloud-content.com",
+      "category": "cn",
+      "app_ids": [
+        "CN070"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "apple.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN071",
+        "CN079"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "caldav.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN072"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "calendar.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN072"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "contacts.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN072"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "mail.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN073"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mail.me.com",
+      "category": "cn",
+      "app_ids": [
+        "CN073"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "imap.mail.me.com",
+      "category": "cn",
+      "app_ids": [
+        "CN073"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "smtp.mail.me.com",
+      "category": "cn",
+      "app_ids": [
+        "CN073"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "notes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN074"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "notes.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN074"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ckdatabase.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN074"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "reminders.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN075"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weather-data.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN076"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "weatherkit.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN076"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "weather-map.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN076"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "weather-analytics-events.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN076"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "health.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN077"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "healthkit.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN077"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "smp-device.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN078"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "pass.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN078"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "wallet.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN078"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "apple-pay-gateway.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN078"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "paymentpass.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN078"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "cards.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN078"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "drive.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN080"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "docws.icloud-content.com",
+      "category": "cn",
+      "app_ids": [
+        "CN080"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "albert.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN081"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "deviceenrollment.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN081"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "configuration.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN081"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "diagassets.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN081"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "captive.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN081"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "xp.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN081"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "buy.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN082"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "api.store.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN082"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "sandbox.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN082"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "iosapps.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN082"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "osxapps.itunes.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN082"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "companion.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN083"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "watch.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN083"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "fmfmobile.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN084"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "fmipmobile.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN084"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "statici.icloud.com",
+      "category": "cn",
+      "app_ids": [
+        "CN084"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "findmy.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN084"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "fmf.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN084"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN",
+      "value": "fmip.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN084"
+      ],
+      "reason": "关键业务候选；第7.3组日常手机常用（iOS内置18个服务）业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7 Apple rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

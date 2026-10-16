@@ -4,14 +4,14 @@
     "ads": 140962,
     "ai": 94,
     "binance": 14,
-    "cn": 7048,
+    "cn": 7103,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 816,
+    "protect-cn": 876,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -8280,7 +8280,7 @@
       "rule": "DOMAIN,wbapp.uve.weibo.com"
     },
     {
-      "protection": "DOMAIN-SUFFIX,apple.com",
+      "protection": "DOMAIN,weather-analytics-events.apple.com",
       "rule": "DOMAIN,weather-analytics-events.apple.com"
     },
     {
