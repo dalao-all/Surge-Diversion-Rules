@@ -7,15 +7,15 @@
   "source_count": 124,
   "dependency_count": 28,
   "counts": {
-    "ads": 140947,
-    "ai": 94,
+    "ads": 140945,
+    "ai": 101,
     "binance": 14,
     "cn": 7186,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
-    "protect-ai": 37,
+    "protect-ai": 80,
     "protect-binance": 13,
     "protect-cn": 998,
     "protect-global": 33,
@@ -73,8 +73,8 @@
     {
       "id": "ai",
       "policy": "🤖 AI住宅",
-      "rule_count": 94,
-      "protected_rule_count": 37
+      "rule_count": 101,
+      "protected_rule_count": 80
     },
     {
       "id": "tiktok",
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "414a131971d182d4c04b7b66c16849b2138ceace5bc6c4b590adc3a0700465f8"
+  "semantic_sha256": "4561316388ad406ec41b81247bcc572aa7b89d1cd966bc69614c1e82bfa748bb"
 }
