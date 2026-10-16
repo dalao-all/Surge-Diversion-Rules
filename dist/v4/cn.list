@@ -985,6 +985,7 @@ DOMAIN-SUFFIX,applenews.hamburg
 DOMAIN-SUFFIX,applenews.tv
 DOMAIN-SUFFIX,applenewsformat.com
 DOMAIN-SUFFIX,applepodcasts.com
+DOMAIN-SUFFIX,applestore.apple.com
 DOMAIN-SUFFIX,appletv.com
 DOMAIN-SUFFIX,appletv.fr
 DOMAIN-SUFFIX,appletv.wang
@@ -1006,6 +1007,7 @@ DOMAIN-SUFFIX,aquaterramail.com
 DOMAIN-SUFFIX,aqviwv.com
 DOMAIN-SUFFIX,aqvx8mcr392mv7.com
 DOMAIN-SUFFIX,arenabreakoutcn.com
+DOMAIN-SUFFIX,arkit.apple.com
 DOMAIN-SUFFIX,armaf.org
 DOMAIN-SUFFIX,arthubdam.com
 DOMAIN-SUFFIX,artistrylab.net
@@ -1143,9 +1145,11 @@ DOMAIN-SUFFIX,blackdragon.com
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,bohu.co
 DOMAIN-SUFFIX,boodo.com
+DOMAIN-SUFFIX,books.apple.com
 DOMAIN-SUFFIX,boombeach.cn
 DOMAIN-SUFFIX,bosszhipin.com
 DOMAIN-SUFFIX,box-anchor.com
+DOMAIN-SUFFIX,bpapi.apple.com
 DOMAIN-SUFFIX,bqqpx.com
 DOMAIN-SUFFIX,bqtalk.com
 DOMAIN-SUFFIX,brawlstars.cn
@@ -1221,6 +1225,7 @@ DOMAIN-SUFFIX,ca-tencentclb.net
 DOMAIN-SUFFIX,ca-tencentclb.work
 DOMAIN-SUFFIX,ca9ce6rv872ce1.com
 DOMAIN-SUFFIX,caict.ac.cn
+DOMAIN-SUFFIX,caict.cn
 DOMAIN-SUFFIX,caigoutong.net
 DOMAIN-SUFFIX,cainiao-inc.com
 DOMAIN-SUFFIX,cainiao.com
@@ -1332,6 +1337,7 @@ DOMAIN-SUFFIX,cgoec-tencentclb.work
 DOMAIN-SUFFIX,ch6k5zd77f.com
 DOMAIN-SUFFIX,changdunovel.com
 DOMAIN-SUFFIX,chariz.com
+DOMAIN-SUFFIX,chariz.io
 DOMAIN-SUFFIX,chatnos.com
 DOMAIN-SUFFIX,che168.com
 DOMAIN-SUFFIX,che168img.com
@@ -1568,6 +1574,7 @@ DOMAIN-SUFFIX,colorfulclouds.net
 DOMAIN-SUFFIX,computeinit.com
 DOMAIN-SUFFIX,comsazms.com
 DOMAIN-SUFFIX,comsenz.com
+DOMAIN-SUFFIX,concierge.apple.com
 DOMAIN-SUFFIX,connect.qq.com
 DOMAIN-SUFFIX,cookicut.com
 DOMAIN-SUFFIX,cookieapp.cn
@@ -1623,6 +1630,7 @@ DOMAIN-SUFFIX,csec-tencentclb.net
 DOMAIN-SUFFIX,csec-tencentclb.work
 DOMAIN-SUFFIX,csimg.cn
 DOMAIN-SUFFIX,csjplatform.com
+DOMAIN-SUFFIX,cssubmissions.apple.com
 DOMAIN-SUFFIX,cswqvzh.com
 DOMAIN-SUFFIX,ctdidcii.cn
 DOMAIN-SUFFIX,ctgia.com
@@ -2058,6 +2066,7 @@ DOMAIN-SUFFIX,ezyotkp.com
 DOMAIN-SUFFIX,f09qgja1.com
 DOMAIN-SUFFIX,f61a.com
 DOMAIN-SUFFIX,f61b.com
+DOMAIN-SUFFIX,facetime.apple.com
 DOMAIN-SUFFIX,faceu.com
 DOMAIN-SUFFIX,faceu.com.cn
 DOMAIN-SUFFIX,faceu.mobi
@@ -2075,7 +2084,9 @@ DOMAIN-SUFFIX,fast666ioceywit93h8a.com
 DOMAIN-SUFFIX,fastidea.cc
 DOMAIN-SUFFIX,fastidea.me
 DOMAIN-SUFFIX,fatfreader.com
+DOMAIN-SUFFIX,fba.apple.com
 DOMAIN-SUFFIX,fdh6up750n.com
+DOMAIN-SUFFIX,feedbackassistant.apple.com
 DOMAIN-SUFFIX,feelgood.cn
 DOMAIN-SUFFIX,feie.work
 DOMAIN-SUFFIX,feiliao.com
@@ -2116,6 +2127,7 @@ DOMAIN-SUFFIX,fqnovelop.com
 DOMAIN-SUFFIX,fqnovelpic.com
 DOMAIN-SUFFIX,fqnovelstatic.com
 DOMAIN-SUFFIX,fqnovelvod.com
+DOMAIN-SUFFIX,freeform.apple.com
 DOMAIN-SUFFIX,freshhema.com
 DOMAIN-SUFFIX,fsight.ai
 DOMAIN-SUFFIX,fsight.cn
@@ -2281,6 +2293,7 @@ DOMAIN-SUFFIX,geometryauto.com
 DOMAIN-SUFFIX,gerensuodeshui.com.cn
 DOMAIN-SUFFIX,gestagpu.com
 DOMAIN-SUFFIX,gestaltedit.com
+DOMAIN-SUFFIX,getsupport.apple.com
 DOMAIN-SUFFIX,gewara.com
 DOMAIN-SUFFIX,gfdwsx.com
 DOMAIN-SUFFIX,gfnormal00aa.com
@@ -3016,6 +3029,8 @@ DOMAIN-SUFFIX,i-book.com
 DOMAIN-SUFFIX,i-book.net
 DOMAIN-SUFFIX,i.ipinyou.com
 DOMAIN-SUFFIX,i4.cn
+DOMAIN-SUFFIX,i4.com.cn
+DOMAIN-SUFFIX,i4cdn.com
 DOMAIN-SUFFIX,i4img.com
 DOMAIN-SUFFIX,i4tools.com
 DOMAIN-SUFFIX,i77p94y6yi.com
@@ -3030,6 +3045,7 @@ DOMAIN-SUFFIX,ibook.com
 DOMAIN-SUFFIX,ibook.eu
 DOMAIN-SUFFIX,ibook.net
 DOMAIN-SUFFIX,ibookpartner.com
+DOMAIN-SUFFIX,ibooks.apple.com
 DOMAIN-SUFFIX,ibooksauthor.com
 DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,ica-alliance.org
@@ -3233,6 +3249,8 @@ DOMAIN-SUFFIX,itddo2page.com
 DOMAIN-SUFFIX,itopplay.com
 DOMAIN-SUFFIX,itopsdk.com
 DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunespartner.apple.com
 DOMAIN-SUFFIX,iujkm.com
 DOMAIN-SUFFIX,iuktb.com
 DOMAIN-SUFFIX,iuynfg.com
@@ -3417,6 +3435,7 @@ DOMAIN-SUFFIX,jokecommunity.cn
 DOMAIN-SUFFIX,jokecommunity.com
 DOMAIN-SUFFIX,jokecommunity.net
 DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,journal.apple.com
 DOMAIN-SUFFIX,joyai.com
 DOMAIN-SUFFIX,joybuy.com
 DOMAIN-SUFFIX,joybuy.es
@@ -3467,6 +3486,7 @@ DOMAIN-SUFFIX,kefu01.com
 DOMAIN-SUFFIX,kelude.cn
 DOMAIN-SUFFIX,keouaxbw.com
 DOMAIN-SUFFIX,keruioil.com
+DOMAIN-SUFFIX,keychain.apple.com
 DOMAIN-SUFFIX,kgrestrg.com
 DOMAIN-SUFFIX,kissyui.com
 DOMAIN-SUFFIX,kjdvsg.com
@@ -3894,6 +3914,7 @@ DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myqcloud.com.cn
 DOMAIN-SUFFIX,myqcloud.net
 DOMAIN-SUFFIX,myrtx.com
+DOMAIN-SUFFIX,mysupport.apple.com
 DOMAIN-SUFFIX,mytencentes.com
 DOMAIN-SUFFIX,mytqwpe.com
 DOMAIN-SUFFIX,mytt.com
@@ -4473,6 +4494,8 @@ DOMAIN-SUFFIX,redfcv.com
 DOMAIN-SUFFIX,rednet.cn
 DOMAIN-SUFFIX,reqgvheo.com
 DOMAIN-SUFFIX,rergdfh.com
+DOMAIN-SUFFIX,reserve-prime.apple.com
+DOMAIN-SUFFIX,retail.apple.com
 DOMAIN-SUFFIX,rexpos.cn
 DOMAIN-SUFFIX,rextech.cn
 DOMAIN-SUFFIX,rgaxobcs.com
@@ -4717,6 +4740,7 @@ DOMAIN-SUFFIX,shjr-tencentclb.net
 DOMAIN-SUFFIX,shjr-tencentclb.work
 DOMAIN-SUFFIX,shlsyb.com
 DOMAIN-SUFFIX,shoppingads.cn
+DOMAIN-SUFFIX,shortcuts.apple.com
 DOMAIN-SUFFIX,shuame.com
 DOMAIN-SUFFIX,shuimoo.cn
 DOMAIN-SUFFIX,shujuapi.com
@@ -4768,6 +4792,7 @@ DOMAIN-SUFFIX,sinauda.com
 DOMAIN-SUFFIX,sinaurl.cn
 DOMAIN-SUFFIX,sinopayment.com.cn
 DOMAIN-SUFFIX,siozqkt.com
+DOMAIN-SUFFIX,sirishortcuts.apple.com
 DOMAIN-SUFFIX,sixjoy.com
 DOMAIN-SUFFIX,sjtm.me
 DOMAIN-SUFFIX,sjwec-tencentclb.cloud
@@ -4846,7 +4871,11 @@ DOMAIN-SUFFIX,ssscdn.com
 DOMAIN-SUFFIX,starlakelab.com
 DOMAIN-SUFFIX,static163.net
 DOMAIN-SUFFIX,stats.ipinyou.com
+DOMAIN-SUFFIX,stocks-data.apple.com
+DOMAIN-SUFFIX,stocks-sparkline.apple.com
+DOMAIN-SUFFIX,stocks.apple.com
 DOMAIN-SUFFIX,stor-helper.com
+DOMAIN-SUFFIX,store.apple.com
 DOMAIN-SUFFIX,stozxmveui4pvr.com
 DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
 DOMAIN-SUFFIX,sturmdcp.com
@@ -4861,6 +4890,8 @@ DOMAIN-SUFFIX,superfix.cn
 DOMAIN-SUFFIX,superfix.com
 DOMAIN-SUFFIX,superfix.com.cn
 DOMAIN-SUFFIX,supet.com
+DOMAIN-SUFFIX,support.apple.com
+DOMAIN-SUFFIX,supportapp.apple.com
 DOMAIN-SUFFIX,surveyqq.com
 DOMAIN-SUFFIX,svfrrg.com
 DOMAIN-SUFFIX,svk3o97xmyid93.com
@@ -5626,6 +5657,7 @@ DOMAIN-SUFFIX,timedl.com
 DOMAIN-SUFFIX,timibase.com
 DOMAIN-SUFFIX,timmerse.com
 DOMAIN-SUFFIX,tingbook.com
+DOMAIN-SUFFIX,tips.apple.com
 DOMAIN-SUFFIX,tiqakcrxmyca6i.com
 DOMAIN-SUFFIX,tiquality.cn
 DOMAIN-SUFFIX,tiquality.com.cn
@@ -6176,6 +6208,7 @@ DOMAIN-SUFFIX,vodpro-upload2.com
 DOMAIN-SUFFIX,vodpro-uploadbk.com
 DOMAIN-SUFFIX,vodtcbk.com
 DOMAIN-SUFFIX,vodxl-qcloud.com
+DOMAIN-SUFFIX,voicememos.apple.com
 DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcdem.com
 DOMAIN-SUFFIX,volceapplog.com
@@ -6356,6 +6389,7 @@ DOMAIN-SUFFIX,womendedw.cn
 DOMAIN-SUFFIX,womendedw.com
 DOMAIN-SUFFIX,work.weixin.qq.com
 DOMAIN-SUFFIX,workbenchapi.com
+DOMAIN-SUFFIX,workflow.is
 DOMAIN-SUFFIX,wowtb.com
 DOMAIN-SUFFIX,wqsnx.org.cn
 DOMAIN-SUFFIX,wqstatic.com

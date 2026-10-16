@@ -14862,6 +14862,578 @@
         "BlackMatrix7/v2fly upstream rulesets and verified production endpoints"
       ],
       "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "i4.com.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN111"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "i4cdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN111"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "voicememos.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN112"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "arkit.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN114"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "keychain.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN116"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "books.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN117"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ibooks.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN117"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "shortcuts.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN118"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "sirishortcuts.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN118"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "workflow.is",
+      "category": "cn",
+      "app_ids": [
+        "CN118"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "stocks.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN119"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "stocks-data.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN119"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "stocks-sparkline.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN119"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "facetime.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN120"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "support.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN121"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "mysupport.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN121"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "getsupport.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN121"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "supportapp.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN121"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "feedbackassistant.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN122"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "fba.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN122"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "bpapi.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN122"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "cssubmissions.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN122"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "applestore.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN123"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "store.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN123"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "retail.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN123"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "reserve-prime.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN123"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "concierge.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN123"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "chariz.io",
+      "category": "cn",
+      "app_ids": [
+        "CN124"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "tips.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN125"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "freeform.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN126"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "journal.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN127"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "itunes.com",
+      "category": "cn",
+      "app_ids": [
+        "CN128"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "itunespartner.apple.com",
+      "category": "cn",
+      "app_ids": [
+        "CN128"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caict.cn",
+      "category": "cn",
+      "app_ids": [
+        "CN130"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "speedtest.net",
+      "category": "cn",
+      "app_ids": [
+        "CN131"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "ooklaserver.net",
+      "category": "cn",
+      "app_ids": [
+        "CN131"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "speedtestcustom.com",
+      "category": "cn",
+      "app_ids": [
+        "CN131"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "speedtest.co",
+      "category": "cn",
+      "app_ids": [
+        "CN131"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caiyunapp.com",
+      "category": "cn",
+      "app_ids": [
+        "CN132"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caiyuncdn.com",
+      "category": "cn",
+      "app_ids": [
+        "CN132"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "colorfulclouds.com",
+      "category": "cn",
+      "app_ids": [
+        "CN132"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "colorfulclouds.net",
+      "category": "cn",
+      "app_ids": [
+        "CN132"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "caiyunai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN132"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "value": "xiaomengai.com",
+      "category": "cn",
+      "app_ids": [
+        "CN132"
+      ],
+      "reason": "关键业务候选；第7.8组低频系统工具业务保护",
+      "evidence": [
+        "Apple official support endpoints and BlackMatrix7/v2fly upstream rulesets"
+      ],
+      "confidence": "known-business-candidate; static protection, not phone validation"
     }
   ],
   "design": "每条由APP所有权启用；真实候选业务先于广告，并清洗所有拒绝输出。集团候选不等于集团全白名单。历史保护清洗范围单调保留以兼容缓存。",

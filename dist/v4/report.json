@@ -1,17 +1,17 @@
 {
   "compiler_version": "4.2.0",
   "counts": {
-    "ads": 140948,
+    "ads": 140947,
     "ai": 94,
     "binance": 14,
-    "cn": 7152,
+    "cn": 7186,
     "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
     "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 954,
+    "protect-cn": 998,
     "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
@@ -7202,6 +7202,10 @@
     {
       "protection": "DOMAIN-SUFFIX,12306.cn",
       "rule": "DOMAIN,ad.12306.cn"
+    },
+    {
+      "protection": "DOMAIN-SUFFIX,caiyunapp.com",
+      "rule": "DOMAIN,ad.caiyunapp.com"
     },
     {
       "protection": "DOMAIN-SUFFIX,maoyan.com",
