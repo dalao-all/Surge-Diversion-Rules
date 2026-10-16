@@ -7,18 +7,18 @@
   "source_count": 124,
   "dependency_count": 28,
   "counts": {
-    "ads": 141408,
-    "ai": 92,
+    "ads": 141248,
+    "ai": 94,
     "binance": 14,
-    "cn": 6777,
-    "global": 721,
+    "cn": 6830,
+    "global": 722,
     "google": 706,
     "okx": 20,
     "paypal": 246,
-    "protect-ai": 36,
+    "protect-ai": 37,
     "protect-binance": 13,
-    "protect-cn": 170,
-    "protect-global": 32,
+    "protect-cn": 255,
+    "protect-global": 33,
     "protect-google": 8,
     "protect-okx": 19,
     "protect-paypal": 5,
@@ -73,8 +73,8 @@
     {
       "id": "ai",
       "policy": "🤖 AI住宅",
-      "rule_count": 92,
-      "protected_rule_count": 36
+      "rule_count": 94,
+      "protected_rule_count": 37
     },
     {
       "id": "tiktok",
@@ -103,14 +103,14 @@
     {
       "id": "global",
       "policy": "🌍 国际网络",
-      "rule_count": 721,
-      "protected_rule_count": 32
+      "rule_count": 722,
+      "protected_rule_count": 33
     },
     {
       "id": "cn",
       "policy": "DIRECT",
-      "rule_count": 6777,
-      "protected_rule_count": 170
+      "rule_count": 6830,
+      "protected_rule_count": 255
     }
   ],
   "apps": [
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "54bffdf093dd91eb0850e142b3149a54e334bcbf423494199aafd5107a8bcdc7"
+  "semantic_sha256": "a73141b30292248bf016f994eb371343131d7b00321bbd1c52683ca3b783feab"
 }
