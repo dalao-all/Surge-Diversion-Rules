@@ -1,0 +1,19 @@
+# NAME: CN-CamScanner — 扫描全能王
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=10 TOTAL=10
+# V4 APPS: CN109 扫描全能王
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Intsig
+# NOTE: 国内 App；合合信息集团共享域名归 CN-Intsig；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,camscanner.cn
+DOMAIN-SUFFIX,intsig.com.cn
+DOMAIN-SUFFIX,csimg.cn
+DOMAIN-SUFFIX,intsig.net.cn
+DOMAIN-SUFFIX,camcard.com
+DOMAIN-SUFFIX,camscanner.com
+DOMAIN-SUFFIX,intsig.com
+DOMAIN-SUFFIX,camcard.net
+DOMAIN-SUFFIX,camscanner.net
+DOMAIN-SUFFIX,intsig.net

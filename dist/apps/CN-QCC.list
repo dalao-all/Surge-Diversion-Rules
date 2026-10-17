@@ -1,0 +1,11 @@
+# NAME: CN-QCC — 企查查
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v2:qcc | v4own | custom
+# COUNT: DOMAIN-SUFFIX=3 TOTAL=3
+# V4 APPS: CN096 企查查
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,qichacha.cn
+DOMAIN-SUFFIX,qcc.com
+DOMAIN-SUFFIX,qichacha.com

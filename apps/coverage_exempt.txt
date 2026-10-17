@@ -1,4 +1,5 @@
 # 已知豁免（有意不归属任何 App）
+# ttwebview.com：字节系 WebView SDK（抖音/TikTok 共用），V3.5.5 起归 CN-ByteDance 直连，保持不变
 tiktok	DOMAIN-SUFFIX,bytedapm.com
 paypal	DOMAIN-SUFFIX,anfutong.com.cn
 paypal	DOMAIN-SUFFIX,beibao.com.cn
@@ -6,3 +7,5 @@ paypal	DOMAIN-SUFFIX,xoom.net.cn
 binance	DOMAIN-SUFFIX,appsflayer.com
 okx	DOMAIN,dkapi.geetest.com
 protect-okx	DOMAIN,dkapi.geetest.com
+tiktok	DOMAIN-SUFFIX,ttwebview.com
+protect-tiktok	DOMAIN-SUFFIX,ttwebview.com

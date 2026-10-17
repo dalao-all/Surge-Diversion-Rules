@@ -1,0 +1,12 @@
+# NAME: CN-TianFuTong — 天府通
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=4 TOTAL=4
+# V4 APPS: CN061 天府通
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,cdtf.cn
+DOMAIN-SUFFIX,cdtft.cn
+DOMAIN-SUFFIX,tianfutong.com
+DOMAIN-SUFFIX,cdtf.net

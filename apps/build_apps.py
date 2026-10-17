@@ -16,6 +16,10 @@
   repo-custom:<name>   本仓库 rulekit_v4/custom/<name>.list
   repo-patch:<name>    本仓库 patches/<name>.list
   custom               本仓库 apps/custom/<id>.list（人工审核/抓包补充）
+  v4own                本仓库 dist/v4/cn.list 中归属本表 v4_app_ids 的条目（多个表共同认领 → 归 family 集团表）（provenance：用户 159 App 抓包、protect-cn 业务端点、
+                       rulekit_v4/custom/app-*.list、reviewed-*.list 与上游专属表；不含集团共享依赖）
+  v4dep:<依赖组>        dist/v4/cn.list 中来自集团共享依赖组（如 tencent-shared）的条目
+  v4common             dist/v4/cn.list 中没有任何 App/依赖组归属的条目（Sukka domestic/direct 等基础设施）
 IP 规则只从 ip_sources 列出的来源收取，其它来源的 IP 一律丢弃。
 上游目录：环境变量 UPSTREAM_DIR（默认 ./.upstream），子目录 v2fly bm acl vpsd xiaolai sukka official。
 """
@@ -149,10 +153,66 @@ def sukka_stream(name):
             return [r for r in out if r]
     warnings.append(f'sukka stream 无 {name}'); return []
 
+# ---------- 仓库 v4 国内表（按 App 拆分） ----------
+_V4 = None
+def v4_index():
+    """把 dist/v4/cn.list 的每条规则按 provenance 归属到 App / 依赖组；海外 App(INT*) 的认领不算（除非上游明确更正为 cn）。"""
+    global _V4
+    if _V4 is not None: return _V4
+    import gzip
+    cn = [r for r in parse_list_text(rd(os.path.join(ROOT, 'dist', 'v4', 'cn.list'))) if r[0] != 'DROP']
+    universe = set(cn)
+    claims = defaultdict(lambda: {'own': set(), 'dep': set(), 'intl': set()})
+    pv = os.path.join(ROOT, 'dist', 'v4', 'provenance.ndjson.gz')
+    for line in gzip.open(pv, 'rt', encoding='utf-8'):
+        rec = json.loads(line)
+        if rec.get('category') not in ('cn', 'protect-cn') or not rec.get('published'): continue
+        r = norm_rule(rec['rule'])
+        if not r or r not in universe: continue
+        c = claims[r]
+        for o in rec.get('origins', []):
+            deps = o.get('dependency_ids') or []
+            ids = o.get('app_ids') or []
+            fixed_cn = (o.get('correction') or {}).get('output_category') == 'cn'
+            for d in deps: c['dep'].add(d)
+            if deps: continue
+            for i in ids:
+                if i.startswith('INT') and not fixed_cn: c['intl'].add(i)
+                elif not i.startswith('INT'): c['own'].add(i)
+    # App → 输出表；多个表的 App 共同认领的条目 → 共同的集团表（family），否则归排序最前的表
+    lst, fam, pos = {}, {}, {}
+    for n, a in enumerate(MAN['apps']):
+        pos[a['id']] = n
+        for i in a.get('v4_app_ids', []): lst[i] = a['id']
+        if a.get('family'): fam[a['id']] = a['family']
+    own, dep, common, intl_only, unmapped = defaultdict(list), defaultdict(list), [], [], defaultdict(int)
+    for r in cn:
+        c = claims.get(r)
+        if not c or not (c['own'] or c['dep'] or c['intl']): common.append(r); continue
+        if not c['own'] and not c['dep']: intl_only.append((r, sorted(c['intl']))); continue
+        ls = set()
+        for i in c['own']:
+            if i in lst: ls.add(lst[i])
+            else: unmapped[i] += 1
+        if len(ls) > 1:
+            fs = {fam.get(x, x) for x in ls}
+            ls = fs if len(fs) == 1 else {min(ls, key=pos.get)}
+        for x in ls: own[x].append(r)
+        for d in c['dep']: dep[d].append(r)
+        if not ls and not c['dep']: common.append(r)
+    if unmapped: warnings.append(f'v4 App 未映射到任何输出表: {dict(unmapped)}')
+    _V4 = {'universe': cn, 'own': own, 'dep': dep, 'common': common, 'intl_only': intl_only}
+    return _V4
+
+IP_FRAGMENT = re.compile(r'^[0-9.]+$')
+
 # ---------- 来源分发 ----------
 def load_source(src, app_id, cn=False):
     kind, _, arg = src.partition(':')
     if kind == 'v2': return v2_load(arg, cn=cn)
+    if kind == 'v4own': return list(v4_index()['own'].get(app_id, []))
+    if kind == 'v4dep': return list(v4_index()['dep'].get(arg, []))
+    if kind == 'v4common': return list(v4_index()['common'])
     p = {
         'bm': lambda: os.path.join(UP, 'bm', 'rule', 'Surge', arg, arg + '.list'),
         'acl': lambda: os.path.join(UP, 'acl', 'Clash', 'Ruleset', arg),
@@ -253,6 +313,7 @@ def main():
                 if r[0].startswith('IP') and s not in ipsrc: dropped['IP(来源未列入 ip_sources)'] += 1; continue
                 if not r[0].startswith('IP') and s not in a['sources']: continue
                 if r[1] in excl: dropped['exclude'] += 1; continue
+                if r[0] == 'DOMAIN-KEYWORD' and IP_FRAGMENT.match(r[1]): dropped['IP 片段关键词(应为 IP-CIDR)'] += 1; continue
                 if r[0] == 'DOMAIN-KEYWORD' and r[1] in KW_DENY: dropped['泛关键词(keyword_denylist)'] += 1; warnings.append(f'{aid}: 丢弃泛关键词 {r[1]} (来自 {s})'); continue
                 kept.append(r)
             per_src[s] = len(set(kept))
@@ -293,6 +354,7 @@ def main():
     owner = {}
     conflicts = []
     ids = list(built)
+    CAT = {a['id']: a.get('category') for a in apps}
     for aid in ids:
         keep = []
         for r in built[aid]:
@@ -316,13 +378,89 @@ def main():
             k = kw_hit(r, prev_kw) if r[0] != 'DOMAIN-KEYWORD' else None
             if c:
                 conflicts.append({'rule': f'{r[0]},{r[1]}', 'kept_in': prev_sfx[c[1]], 'removed_from': aid, 'reason': f'被前序 {c[1]} 后缀覆盖（死规则）'}); continue
+            if k and CAT[aid] == 'cn' and CAT[prev_kw[k]] != 'cn':
+                conflicts.append({'rule': f'{r[0]},{r[1]}', 'kept_in': aid, 'removed_from': None, 'reason': f'国内条目含海外 App 关键词 {k}（配置中会先命中 {prev_kw[k]}，保留在国内表并报告）'})
+                keep.append(r); continue
             if k:
                 conflicts.append({'rule': f'{r[0]},{r[1]}', 'kept_in': prev_kw[k], 'removed_from': aid, 'reason': f'含前序 App 关键词 {k} → 移入该 App'})
                 if r not in built[prev_kw[k]]: built[prev_kw[k]].append(r)
                 continue
             keep.append(r)
         built[aid] = keep
+    # ---------- 国内表新增条目不得压过广告层：被新增条目“罩住”的广告域名 → CN-Reject（配置中放在国内单表之前） ----------
+    ads = []   # (类型, 值)
+    for f, dset in (('patches/ads-patch.domainset', True), ('mirrors/owned/List/domainset/reject.conf', True),
+                    ('mirrors/owned/List/domainset/reject_phishing.conf', True), ('patches/ads-supplement.list', False),
+                    ('mirrors/owned/List/non_ip/reject.conf', False), ('mirrors/owned/List/non_ip/reject-drop.conf', False),
+                    ('mirrors/owned/List/non_ip/reject-no-drop.conf', False)):
+        txt = rd(os.path.join(ROOT, f)) or ''
+        for l in txt.splitlines():
+            l = l.strip()
+            if not l or l[0] in '#;': continue
+            if dset:
+                ads.append(('DOMAIN-SUFFIX', l.lstrip('+').lstrip('.').lower()) if l[0] in '.+' else ('DOMAIN', l.lower()))
+            else:
+                r = norm_rule(l)
+                if r and r[0] in ('DOMAIN', 'DOMAIN-SUFFIX'): ads.append(r)
+    ad_sfx = {v for t, v in ads if t == 'DOMAIN-SUFFIX'}; ad_ex = {v for t, v in ads if t == 'DOMAIN'}
+    old_cover_sfx = set(cn_sfx) | dom_sfx; old_cover_ex = set(cn_ex) | dom_ex
+    # ads_trust：V3.5.5 起就在国内层（广告层之前）的 27 个表，其上游条目视同已审核，不做广告过滤，保持原行为
+    trust = {a['id'] for a in apps if a.get('ads_trust')}
+    for aid in trust:
+        for t, v in built[aid]:
+            if t == 'DOMAIN-SUFFIX': old_cover_sfx.add(v)
+            elif t == 'DOMAIN': old_cover_ex.add(v)
+    new_sfx = {}
+    ads_dropped, cn_reject = [], []
+    for aid in ids:
+        if CAT[aid] != 'cn': continue
+        keep = []
+        for r in built[aid]:
+            if r[0] in ('DOMAIN', 'DOMAIN-SUFFIX') and not covered_by(r, old_cover_sfx, old_cover_ex) and covered_by(r, ad_sfx, ad_ex):
+                ads_dropped.append({'rule': f'{r[0]},{r[1]}', 'app': aid}); continue   # 条目本身就是广告域名
+            if r[0] == 'DOMAIN-SUFFIX' and not covered_by(r, old_cover_sfx, old_cover_ex): new_sfx[r[1]] = aid
+            keep.append(r)
+        built[aid] = keep
+    seen_rej = set()
+    for t, v in sorted(set(ads)):
+        if covered_by((t, v), old_cover_sfx, old_cover_ex): continue      # 旧版就已被国内层放行，保持不变
+        ps = v.split('.')
+        hit = next(('.'.join(ps[i:]) for i in range(1 if t == 'DOMAIN-SUFFIX' else 0, len(ps)) if '.'.join(ps[i:]) in new_sfx), None)
+        if hit and (t, v) not in seen_rej:
+            seen_rej.add((t, v)); cn_reject.append(((t, v), new_sfx[hit], hit))
     today = datetime.date.today().isoformat()
+    rj_hdr = ['# NAME: CN-Reject — 国内单表新增后缀下的广告/追踪域名（保持广告层原有拦截）', '# REPO: https://github.com/dalao-all/Surge-Diversion-Rules',
+              f'# BUILT: {today}', '# SUGGESTED POLICY: REJECT（必须放在国内 App 单表之前）', f'# COUNT: TOTAL={len(cn_reject)}']
+    rj_body = []
+    for (t, v), aid, hit in cn_reject: rj_body += [f'# {aid} 的 {hit} 会罩住它', f'{t},{v}']
+    open(os.path.join(OUT, 'CN-Reject.list'), 'w', encoding='utf-8').write('\n'.join(rj_hdr + rj_body) + '\n')
+    # ---------- 国内条目被海外 App 关键词误吸 → 生成 CN-Guard（配置中放在海外 App 层之前 DIRECT） ----------
+    i_sfx, i_ex, i_kw = {}, set(), {}
+    for aid in ids:
+        if CAT[aid] == 'cn': continue
+        for t, v in built[aid]:
+            if t == 'DOMAIN-SUFFIX': i_sfx[v] = aid
+            elif t == 'DOMAIN': i_ex.add(v)
+            elif t == 'DOMAIN-KEYWORD': i_kw[v] = aid
+    guard, guard_skipped = [], []
+    for aid in ids:
+        if CAT[aid] != 'cn': continue
+        for r in built[aid]:
+            if r[0] not in ('DOMAIN', 'DOMAIN-SUFFIX'): continue
+            k = kw_hit(r, i_kw)
+            if k and not covered_by(r, i_sfx, i_ex):
+                # CN-Common 是无归属的通用条目（含 Ookla 等海外服务的“国内测速”标注），只对 .cn 域名做防误吸，其余保持海外 App 优先
+                if aid == 'CN-Common' and not r[1].endswith('.cn'):
+                    guard_skipped.append((r, aid, i_kw[k], k)); continue
+                guard.append((r, aid, i_kw[k], k))
+    today = datetime.date.today().isoformat()
+    g_hdr = ['# NAME: CN-Guard — 国内条目防误吸（被海外 App 的 DOMAIN-KEYWORD 命中的国内域名）', '# REPO: https://github.com/dalao-all/Surge-Diversion-Rules',
+             f'# BUILT: {today}', '# SUGGESTED POLICY: DIRECT（必须放在海外 App 规则之前）', '# 自动生成：每条注明所属国内 App 与会误吸它的海外 App 关键词',
+             f'# COUNT: TOTAL={len(guard)}']
+    g_body = []
+    for (t, v), aid, iaid, k in guard:
+        g_body += [f'# {aid} ← 被 {iaid} 关键词 {k} 误吸', f'{t},{v}']
+    open(os.path.join(OUT, 'CN-Guard.list'), 'w', encoding='utf-8').write('\n'.join(g_hdr + g_body) + '\n')
     for a in apps:
         aid = a['id']
         ips = [ipaddress.ip_network(v) for t, v in built[aid] if t in ('IP-CIDR', 'IP-CIDR6')]
@@ -338,20 +476,29 @@ def main():
                f'# BUILT: {today}', f'# SUGGESTED POLICY: {a.get("suggested_policy", "")}',
                '# SOURCES: ' + ' | '.join(a['sources']),
                '# COUNT: ' + ' '.join(f'{k}={cnt[k]}' for k in sorted(cnt, key=ORDER.get)) + f' TOTAL={len(rules)}']
+        if a.get('v4_app_ids'): hdr.append('# V4 APPS: ' + '、'.join(f'{i} {n}' for i, n in zip(a['v4_app_ids'], a.get('v4_app_names', []))))
+        if a.get('family'): hdr.append(f'# FAMILY: 与同集团其它 App 共用的域名在 {a["family"]}')
         if a.get('note'): hdr.append('# NOTE: ' + a['note'])
         body = [f'{t},{v},no-resolve' if t.startswith('IP') else f'{t},{v}' for t, v in rules]
         open(os.path.join(OUT, aid + '.list'), 'w', encoding='utf-8').write('\n'.join(hdr + body) + '\n')
         report[aid]['total'] = len(rules)
         report[aid]['count'] = dict(cnt)
-    json.dump({'built': today, 'order': ids, 'apps': report, 'conflicts': conflicts, 'warnings': warnings},
+    v4 = v4_index()
+    json.dump({'built': today, 'order': ids, 'apps': report, 'conflicts': conflicts, 'warnings': warnings,
+               'cn_ads_dropped': ads_dropped,
+               'cn_reject': [{'rule': f'{t},{v}', 'app': aid, 'shadowed_by': hit} for (t, v), aid, hit in cn_reject],
+               'cn_guard': [{'rule': f'{t},{v}', 'cn_app': aid, 'intl_app': iaid, 'keyword': k} for (t, v), aid, iaid, k in guard],
+               'cn_guard_skipped': [{'rule': f'{t},{v}', 'cn_app': aid, 'intl_app': iaid, 'keyword': k} for (t, v), aid, iaid, k in guard_skipped],
+               'v4_cn_intl_only': [{'rule': f'{t},{v}', 'claimed_by': c} for (t, v), c in v4['intl_only']]},
               open(os.path.join(OUT, 'report.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     md = ['# 按 App 规则集（dist/apps）', '', f'构建日期：{today}。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。',
           '', '引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`', '',
           '表格顺序即推荐的规则顺序（共享域名只归属排在前面的 App）。详细来源统计见 report.json，上游提交见 sources.lock.json。', '',
-          '| # | App | 文件 | 条目 | 最大单一上游 | 建议策略 | 上游 |', '|---|---|---|---|---|---|---|']
+          '另有两个自动生成的辅助表（不在下表）：`CN-Guard.list`（被海外关键词误吸的国内域名，放海外 App 层之前 DIRECT）、`CN-Reject.list`（被新扩国内后缀罩住的广告域名，放国内单表之前 REJECT）。', '',
+          '| # | App | 文件 | 条目 | 最大单一上游 | 建议策略 | 覆盖的 v4 App | 上游 |', '|---|---|---|---|---|---|---|---|']
     for n, a in enumerate(apps, 1):
         r = report[a['id']]; best = max([v for k, v in r['per_source_raw'].items() if k != 'custom'] or [0])
-        md.append(f"| {n} | {a['name']} | [{a['id']}.list]({a['id']}.list) | {r['total']} | {best} | {a.get('surge_policy_in_V3.5.5', a.get('suggested_policy', ''))} | {', '.join(x for x in a['sources'])} |")
+        md.append(f"| {n} | {a['name']} | [{a['id']}.list]({a['id']}.list) | {r['total']} | {best} | {a.get('surge_policy', a.get('suggested_policy', ''))} | {'、'.join(f'{i} {n}' for i, n in zip(a.get('v4_app_ids', []), a.get('v4_app_names', [])))} | {', '.join(x for x in a['sources'])} |")
     open(os.path.join(OUT, 'README.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
     print(f'apps={len(ids)} conflicts={len(conflicts)} warnings={len(warnings)}')
     for aid in ids:

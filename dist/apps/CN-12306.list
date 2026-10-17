@@ -1,10 +1,11 @@
-# NAME: CN-12306 — 12306（国内）
+# NAME: CN-12306 — 铁路12306
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:12306 | custom
-# COUNT: DOMAIN-SUFFIX=15 TOTAL=15
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:12306 | v4own | custom
+# COUNT: DOMAIN-SUFFIX=16 TOTAL=16
+# V4 APPS: CN057 铁路12306
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,95306.cn
 DOMAIN-SUFFIX,china-railway.com.cn
@@ -14,6 +15,7 @@ DOMAIN-SUFFIX,gzrailway.com.cn
 DOMAIN-SUFFIX,cre.cn
 DOMAIN-SUFFIX,creip.cn
 DOMAIN-SUFFIX,rails.cn
+DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,95572.com
 DOMAIN-SUFFIX,china-ric.com
 DOMAIN-SUFFIX,crct.com

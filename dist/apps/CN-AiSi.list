@@ -1,0 +1,13 @@
+# NAME: CN-AiSi — 爱思全能版
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=5 TOTAL=5
+# V4 APPS: CN111 爱思全能版
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,i4.com.cn
+DOMAIN-SUFFIX,i4.cn
+DOMAIN-SUFFIX,i4cdn.com
+DOMAIN-SUFFIX,i4img.com
+DOMAIN-SUFFIX,i4tools.com

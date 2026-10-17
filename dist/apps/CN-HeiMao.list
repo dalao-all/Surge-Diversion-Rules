@@ -1,0 +1,14 @@
+# NAME: CN-HeiMao — 黑猫投诉
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN=1 DOMAIN-SUFFIX=4 TOTAL=5
+# V4 APPS: CN110 黑猫投诉
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Sina
+# NOTE: 国内 App；新浪集团共享域名归 CN-Sina；v2fly 仅取非 @!cn 条目
+DOMAIN,tousu.sina.com
+DOMAIN-SUFFIX,tousu.sina.com.cn
+DOMAIN-SUFFIX,heimaotousu.cn
+DOMAIN-SUFFIX,tousu.sina.cn
+DOMAIN-SUFFIX,heimaotousu.com

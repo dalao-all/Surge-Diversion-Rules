@@ -3,9 +3,12 @@ on:
   schedule:
     - cron: '17 20 * * 1' # 每周一 北京 04:17
   workflow_dispatch:
+  workflow_run: # v4 每日更新发布后（cn.list / provenance 变化）重新拆分国内 App 表
+    workflows: ['Surge v4 verified daily update']
+    types: [completed]
   push:
     branches: [main]
-    paths: ['apps/**', '.github/workflows/apps.yml']
+    paths: ['apps/**', '.github/workflows/apps.yml', 'dist/v4/cn.list', 'dist/v4/protect-cn.list', 'dist/v4/provenance.ndjson.gz']
 permissions:
   contents: read
 concurrency:
@@ -13,6 +16,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -28,15 +32,19 @@ jobs:
         run: bash apps/fetch_upstreams.sh
       - name: Build per-App lists
         run: python apps/build_apps.py
-      - name: Coverage check (dist/v4 海外条目必须全部归属某个 App)
+      - name: Coverage check (dist/v4 海外条目归属海外 App 表；cn.list 每条归属某个 CN-* 表)
         run: python apps/coverage_check.py
       - name: Sanity (每个文件非空、不含国内重叠误删以外的异常)
         run: |
           python - <<'PY'
           import json, os, sys
           r = json.load(open('dist/apps/report.json'))
-          empty = [a for a, v in r['apps'].items() if v['total'] == 0]
+          empty = [a for a, v in r['apps'].items() if v['total'] == 0 and not a.startswith('CN-')]
           if empty: sys.exit('空表: ' + ', '.join(empty))
+          cn_empty = [a for a, v in r['apps'].items() if v['total'] == 0 and a.startswith('CN-')]
+          if cn_empty: print('国内空表（条目已全部归前序 App，配置不引用）:', ', '.join(cn_empty))
+          big = r['apps'].get('CN-Common', {}).get('total', 0)
+          if big > 1500: sys.exit(f'CN-Common 过大（{big}），说明 App 归属失效')
           bad = [w for w in r['warnings'] if '缺失' in w or '缺少' in w or '无段落' in w or '无 ' in w]
           if bad: sys.exit('上游结构变化: \n' + '\n'.join(bad))
           print('OK', len(r['apps']), 'apps')

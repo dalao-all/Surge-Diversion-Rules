@@ -1,10 +1,11 @@
-# NAME: CN-ICBC — ICBC（国内）
+# NAME: CN-ICBC — 中国工商银行
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:ICBC | v2:icbc | custom
-# COUNT: DOMAIN-SUFFIX=58 TOTAL=58
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:ICBC | v2:icbc | v4own | custom
+# COUNT: DOMAIN-SUFFIX=59 TOTAL=59
+# V4 APPS: CN003 中国工商银行
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,icbc.ae
 DOMAIN-SUFFIX,icbcme.ae
 DOMAIN-SUFFIX,icbc.com.au
@@ -16,6 +17,7 @@ DOMAIN-SUFFIX,icbc.com.cn
 DOMAIN-SUFFIX,icbccs.com.cn
 DOMAIN-SUFFIX,icbccstz.com.cn
 DOMAIN-SUFFIX,icbcmanila.com.cn
+DOMAIN-SUFFIX,icbc.cn
 DOMAIN-SUFFIX,95588.com
 DOMAIN-SUFFIX,icbc-at.com
 DOMAIN-SUFFIX,icbc-cz.com

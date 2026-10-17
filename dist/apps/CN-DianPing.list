@@ -1,0 +1,12 @@
+# NAME: CN-DianPing — 大众点评
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=3 TOTAL=3
+# V4 APPS: CN039 大众点评
+# FAMILY: 与同集团其它 App 共用的域名在 CN-MeiTuan
+# NOTE: 国内 App；美团集团共享域名归 CN-MeiTuan；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,dianping.cn
+DOMAIN-SUFFIX,dpurl.cn
+DOMAIN-SUFFIX,dianping.net

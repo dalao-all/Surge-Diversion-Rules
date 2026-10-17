@@ -1,0 +1,13 @@
+# NAME: CN-JingFen — 京粉
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=4 TOTAL=4
+# V4 APPS: CN047 京粉
+# FAMILY: 与同集团其它 App 共用的域名在 CN-JingDong
+# NOTE: 国内 App；集团共享域名归 CN-JingDong；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,jingfen.cn
+DOMAIN-SUFFIX,jingfen.jd.com
+DOMAIN-SUFFIX,jingfen.com
+DOMAIN-SUFFIX,jingfenapp.com

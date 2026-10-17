@@ -1,0 +1,15 @@
+# NAME: CN-AppleTV — Apple 视频（Apple TV）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN=4 DOMAIN-SUFFIX=2 TOTAL=6
+# V4 APPS: CN032 视频（Apple TV）
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Apple
+# NOTE: 国内 App；同上；v2fly 仅取非 @!cn 条目
+DOMAIN,hls.itunes.apple.com
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,tv.applemusic.com
+DOMAIN-SUFFIX,np-edge.itunes.apple.com
+DOMAIN-SUFFIX,uts-api.itunes.apple.com

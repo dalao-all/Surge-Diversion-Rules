@@ -1,0 +1,16 @@
+# NAME: CN-JDAI — 京东AI购
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN=1 DOMAIN-SUFFIX=6 TOTAL=7
+# V4 APPS: CN045 京东AI购
+# FAMILY: 与同集团其它 App 共用的域名在 CN-JingDong
+# NOTE: 国内 App；集团共享域名归 CN-JingDong；v2fly 仅取非 @!cn 条目
+DOMAIN,joyai.jd.com
+DOMAIN-SUFFIX,300hu.com
+DOMAIN-SUFFIX,jdcache.com
+DOMAIN-SUFFIX,jdjinrong.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,joyai.com
+DOMAIN-SUFFIX,joybuy.com

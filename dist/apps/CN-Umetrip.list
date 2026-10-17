@@ -1,0 +1,14 @@
+# NAME: CN-Umetrip — 航旅纵横
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=6 TOTAL=6
+# V4 APPS: CN059 航旅纵横
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,travelsky.com.cn
+DOMAIN-SUFFIX,umetrip.com.cn
+DOMAIN-SUFFIX,umetrip.cn
+DOMAIN-SUFFIX,travelsky.com
+DOMAIN-SUFFIX,umetrip.com
+DOMAIN-SUFFIX,travelsky.net

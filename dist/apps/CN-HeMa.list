@@ -1,0 +1,23 @@
+# NAME: CN-HeMa — 盒马
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:HeMa | v4own | custom
+# COUNT: DOMAIN-SUFFIX=14 TOTAL=14
+# V4 APPS: CN040 盒马
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,hemaapi.cn
+DOMAIN-SUFFIX,hemaapp.cn
+DOMAIN-SUFFIX,hemaopen.cn
+DOMAIN-SUFFIX,hemashare.cn
+DOMAIN-SUFFIX,rexpos.cn
+DOMAIN-SUFFIX,rextech.cn
+DOMAIN-SUFFIX,freshhema.com
+DOMAIN-SUFFIX,hemamarket.com
+DOMAIN-SUFFIX,hemamax.com
+DOMAIN-SUFFIX,hemaos.com
+DOMAIN-SUFFIX,marioall.com
+DOMAIN-SUFFIX,marioin.com
+DOMAIN-SUFFIX,mariowap.com
+DOMAIN-SUFFIX,shyhhema.com

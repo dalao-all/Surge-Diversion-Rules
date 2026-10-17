@@ -1,16 +1,16 @@
-# NAME: CN-MeiTuan — MeiTuan（国内）
+# NAME: CN-MeiTuan — 美团
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:MeiTuan | v2:meituan | custom
+# SOURCES: bm:MeiTuan | v2:meituan | v4dep:meituan-shared | v4own | custom
 # COUNT: DOMAIN-SUFFIX=19 TOTAL=19
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# V4 APPS: CN037 美团
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,baobaoaichi.cn
 DOMAIN-SUFFIX,neixin.cn
 DOMAIN-SUFFIX,51ping.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,dpfile.com
-DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,mtyun.com
 DOMAIN-SUFFIX,sankuai.com
@@ -24,3 +24,4 @@ DOMAIN-SUFFIX,ddcorp.net
 DOMAIN-SUFFIX,ddfresh.net
 DOMAIN-SUFFIX,ddmaicai.net
 DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,meituan.today

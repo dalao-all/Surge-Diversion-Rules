@@ -1,11 +1,24 @@
-# NAME: CN-Weibo — Weibo（国内）
+# NAME: CN-Weibo — 微博
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:Weibo | custom
-# COUNT: DOMAIN-SUFFIX=3 DOMAIN-KEYWORD=1 TOTAL=4
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:Weibo | v4own | custom
+# COUNT: DOMAIN-SUFFIX=14 DOMAIN-KEYWORD=1 TOTAL=15
+# V4 APPS: CN018 微博
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Sina
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,weibo.com.cn
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sinajs.cn
+DOMAIN-SUFFIX,t.cn
+DOMAIN-SUFFIX,wbimg.cn
 DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibocdn.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,weibopay.com
+DOMAIN-SUFFIX,weiboums.com
+DOMAIN-SUFFIX,weibo.net
+DOMAIN-SUFFIX,weibo.tv
+DOMAIN-SUFFIX,weibo
 DOMAIN-KEYWORD,weibo

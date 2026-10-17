@@ -1,0 +1,12 @@
+# NAME: CN-Traffic12123 — 交管12123
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=4 TOTAL=4
+# V4 APPS: CN103 交管12123
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,12123.cn
+DOMAIN-SUFFIX,12123.gov.cn
+DOMAIN-SUFFIX,122.gov.cn
+DOMAIN-SUFFIX,tmri.cn

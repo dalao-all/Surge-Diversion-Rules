@@ -1,10 +1,11 @@
-# NAME: CN-ChinaMobile — ChinaMobile（国内）
+# NAME: CN-ChinaMobile — 中国移动
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:ChinaMobile | v2:chinamobile | custom
+# SOURCES: bm:ChinaMobile | v2:chinamobile | v4own | custom
 # COUNT: DOMAIN-SUFFIX=49 IP-CIDR=1 TOTAL=50
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# V4 APPS: CN101 中国移动
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,andfx.cn
 DOMAIN-SUFFIX,cmcc-cs.cn

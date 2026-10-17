@@ -1,0 +1,10 @@
+# NAME: CN-MONO — MONO记账
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=2 TOTAL=2
+# V4 APPS: CN105 MONO记账
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,monojizhang.com
+DOMAIN-SUFFIX,weisenjoy.com

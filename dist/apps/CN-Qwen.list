@@ -1,0 +1,18 @@
+# NAME: CN-Qwen — 千问
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN=5 DOMAIN-SUFFIX=4 TOTAL=9
+# V4 APPS: CN053 千问
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目
+DOMAIN,qianwen.aliyun.com
+DOMAIN,tongyi.aliyun.com
+DOMAIN,dashscope.cn-beijing.aliyuncs.com
+DOMAIN,dashscope.cn-shanghai.aliyuncs.com
+DOMAIN,dashscope.aliyuncs.com
+DOMAIN-SUFFIX,tongyi.cn
+DOMAIN-SUFFIX,qianwen.com
+DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,tongyiai.com

@@ -47,29 +47,106 @@
   "CN-UnionPay",
   "CN-ICBC",
   "CN-CCB",
+  "CN-SCRCU",
+  "CN-CMBLife",
   "CN-CMB",
-  "CN-JingDong",
+  "CN-CIB",
+  "CN-CITIC",
+  "CN-JDFinance",
   "CN-WeChat",
+  "CN-QQ",
   "CN-DingTalk",
-  "CN-TencentVideo",
-  "CN-Tencent",
   "CN-DouYin",
+  "CN-JianYing",
   "CN-KuaiShou",
   "CN-XiaoHongShu",
   "CN-BiliBili",
   "CN-Weibo",
+  "CN-HeiMao",
   "CN-NetEaseMusic",
+  "CN-Youdao",
+  "CN-TencentVideo",
   "CN-iQIYI",
-  "CN-ByteDance",
+  "CN-HonorOfKings",
+  "CN-LOLMobile",
+  "CN-FlyDigi",
   "CN-Coolapk",
-  "CN-GaoDe",
-  "CN-Alibaba",
+  "CN-Maoyan",
+  "CN-Taopiaopiao",
+  "CN-Taobao",
+  "CN-JDAI",
+  "CN-JingFen",
+  "CN-JingDong",
   "CN-Pinduoduo",
+  "CN-XianYu",
+  "CN-Eleme",
   "CN-MeiTuan",
+  "CN-DianPing",
+  "CN-HeMa",
+  "CN-SamsClub",
+  "CN-DeWu",
   "CN-ZhuanZhuan",
+  "CN-1688",
+  "CN-YiTao",
+  "CN-ShengQian",
+  "CN-GaoDe",
+  "CN-DeepSeek",
+  "CN-Doubao",
+  "CN-Qwen",
+  "CN-ima",
+  "CN-TRAE",
+  "CN-Marvis",
   "CN-12306",
   "CN-XieCheng",
-  "CN-ChinaMobile"
+  "CN-Umetrip",
+  "CN-HelloBike",
+  "CN-TianFuTong",
+  "CN-JegoTrip",
+  "CN-DongCheDi",
+  "CN-AutoHome",
+  "CN-Geely",
+  "CN-Ninebot",
+  "CN-Grow",
+  "CN-MiHome",
+  "CN-HuaweiSmartLife",
+  "CN-BOSS",
+  "CN-Zhaopin",
+  "CN-Liepin",
+  "CN-QCC",
+  "CN-Beike",
+  "CN-CTID",
+  "CN-YueTongXing",
+  "CN-QuShangWang",
+  "CN-ChinaMobile",
+  "CN-UUYC",
+  "CN-Traffic12123",
+  "CN-IncomeTax",
+  "CN-MONO",
+  "CN-Cookie",
+  "CN-ShangDaoJi",
+  "CN-iCost",
+  "CN-CamScanner",
+  "CN-AiSi",
+  "CN-GestaltEdit",
+  "CN-NetSpeed",
+  "CN-ColorfulClouds",
+  "CN-AppleMusic",
+  "CN-ApplePodcasts",
+  "CN-AppleTV",
+  "CN-FindMy",
+  "CN-FitnessPlus",
+  "CN-iTunesStore",
+  "CN-Apple",
+  "CN-Tencent",
+  "CN-ByteDance",
+  "CN-Alibaba",
+  "CN-NetEase",
+  "CN-Sina",
+  "CN-Huawei",
+  "CN-XiaoMi",
+  "CN-Lianjia",
+  "CN-Intsig",
+  "CN-Common"
  ],
  "apps": {
   "OKX": {
@@ -969,10 +1046,11 @@
    }
   },
   "CN-AliPay": {
-   "name": "AliPay（国内）",
-   "total": 21,
+   "name": "支付宝",
+   "total": 23,
    "per_source_raw": {
     "bm:AliPay": 21,
+    "v4own": 24,
     "custom": 0
    },
    "dropped": {},
@@ -980,15 +1058,16 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 21
+    "DOMAIN-SUFFIX": 23
    }
   },
   "CN-UnionPay": {
-   "name": "UnionPay（国内）",
+   "name": "云闪付",
    "total": 17,
    "per_source_raw": {
     "bm:UnionPay": 16,
     "v2:unionpay": 14,
+    "v4own": 18,
     "custom": 0
    },
    "dropped": {},
@@ -1000,11 +1079,12 @@
    }
   },
   "CN-ICBC": {
-   "name": "ICBC（国内）",
-   "total": 58,
+   "name": "中国工商银行",
+   "total": 59,
    "per_source_raw": {
     "bm:ICBC": 58,
     "v2:icbc": 13,
+    "v4own": 60,
     "custom": 0
    },
    "dropped": {},
@@ -1012,15 +1092,16 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 58
+    "DOMAIN-SUFFIX": 59
    }
   },
   "CN-CCB": {
-   "name": "CCB（国内）",
+   "name": "中国建设银行",
    "total": 18,
    "per_source_raw": {
     "bm:CCB": 18,
     "v2:ccb": 14,
+    "v4own": 19,
     "custom": 0
    },
    "dropped": {},
@@ -1031,345 +1112,11 @@
     "DOMAIN-SUFFIX": 18
    }
   },
-  "CN-CMB": {
-   "name": "CMB（国内）",
-   "total": 39,
-   "per_source_raw": {
-    "bm:CMB": 38,
-    "v2:cmb": 20,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 39
-   }
-  },
-  "CN-JingDong": {
-   "name": "JingDong（国内）",
-   "total": 269,
-   "per_source_raw": {
-    "bm:JingDong": 249,
-    "v2:jd": 243,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 269
-   }
-  },
-  "CN-WeChat": {
-   "name": "WeChat（国内）",
-   "total": 330,
-   "per_source_raw": {
-    "bm:WeChat": 330,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 2
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN": 7,
-    "DOMAIN-SUFFIX": 22,
-    "DOMAIN-KEYWORD": 233,
-    "IP-CIDR": 3,
-    "IP-CIDR6": 64,
-    "IP-ASN": 1
-   }
-  },
-  "CN-DingTalk": {
-   "name": "DingTalk（国内）",
-   "total": 14,
-   "per_source_raw": {
-    "bm:DingTalk": 11,
-    "v2:dingtalk": 11,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 14
-   }
-  },
-  "CN-TencentVideo": {
-   "name": "TencentVideo（国内）",
-   "total": 50,
-   "per_source_raw": {
-    "bm:TencentVideo": 51,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN": 13,
-    "DOMAIN-SUFFIX": 5,
-    "IP-CIDR": 3,
-    "IP-CIDR6": 29
-   }
-  },
-  "CN-Tencent": {
-   "name": "Tencent（国内）",
-   "total": 554,
-   "per_source_raw": {
-    "bm:Tencent": 20,
-    "v2:tencent": 560,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 5
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 534,
-    "IP-CIDR": 20
-   }
-  },
-  "CN-DouYin": {
-   "name": "DouYin（国内）",
-   "total": 78,
-   "per_source_raw": {
-    "bm:DouYin": 13,
-    "v2:douyin": 71,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN": 2,
-    "DOMAIN-SUFFIX": 76
-   }
-  },
-  "CN-KuaiShou": {
-   "name": "KuaiShou（国内）",
-   "total": 688,
-   "per_source_raw": {
-    "bm:KuaiShou": 678,
-    "v2:kuaishou": 32,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 688
-   }
-  },
-  "CN-XiaoHongShu": {
-   "name": "XiaoHongShu（国内）",
-   "total": 10,
-   "per_source_raw": {
-    "bm:XiaoHongShu": 4,
-    "v2:xiaohongshu": 9,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 10
-   }
-  },
-  "CN-BiliBili": {
-   "name": "BiliBili（国内）",
-   "total": 120,
-   "per_source_raw": {
-    "bm:BiliBili": 123,
-    "v2:bilibili": 49,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 10
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN": 49,
-    "DOMAIN-SUFFIX": 63,
-    "IP-CIDR": 8
-   }
-  },
-  "CN-Weibo": {
-   "name": "Weibo（国内）",
+  "CN-SCRCU": {
+   "name": "个人手机银行（四川农信）",
    "total": 4,
    "per_source_raw": {
-    "bm:Weibo": 4,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 3,
-    "DOMAIN-KEYWORD": 1
-   }
-  },
-  "CN-NetEaseMusic": {
-   "name": "NetEaseMusic（国内）",
-   "total": 28,
-   "per_source_raw": {
-    "bm:NetEaseMusic": 28,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 2
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN": 1,
-    "DOMAIN-SUFFIX": 9,
-    "IP-CIDR": 18
-   }
-  },
-  "CN-iQIYI": {
-   "name": "iQIYI（国内）",
-   "total": 56,
-   "per_source_raw": {
-    "bm:iQIYI": 56,
-    "v2:iqiyi": 9,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 7
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 34,
-    "DOMAIN-KEYWORD": 1,
-    "IP-CIDR": 21
-   }
-  },
-  "CN-ByteDance": {
-   "name": "ByteDance（国内）",
-   "total": 904,
-   "per_source_raw": {
-    "bm:ByteDance": 371,
-    "v2:bytedance": 862,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 2
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 903,
-    "IP-CIDR": 1
-   }
-  },
-  "CN-Coolapk": {
-   "name": "Coolapk（国内）",
-   "total": 3,
-   "per_source_raw": {
-    "bm:Coolapk": 3,
-    "v2:coolapk": 3,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 3
-   }
-  },
-  "CN-GaoDe": {
-   "name": "GaoDe（国内）",
-   "total": 9,
-   "per_source_raw": {
-    "bm:GaoDe": 9,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 9
-   }
-  },
-  "CN-Alibaba": {
-   "name": "Alibaba（国内）",
-   "total": 362,
-   "per_source_raw": {
-    "bm:Alibaba": 57,
-    "v2:alibaba": 339,
-    "custom": 0
-   },
-   "dropped": {
-    "不支持的类型/非法": 1
-   },
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN": 4,
-    "DOMAIN-SUFFIX": 304,
-    "IP-CIDR": 53,
-    "IP-CIDR6": 1
-   }
-  },
-  "CN-Pinduoduo": {
-   "name": "Pinduoduo（国内）",
-   "total": 7,
-   "per_source_raw": {
-    "bm:Pinduoduo": 3,
-    "v2:pinduoduo": 7,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 7
-   }
-  },
-  "CN-MeiTuan": {
-   "name": "MeiTuan（国内）",
-   "total": 19,
-   "per_source_raw": {
-    "bm:MeiTuan": 7,
-    "v2:meituan": 19,
-    "custom": 0
-   },
-   "dropped": {},
-   "dead_by_protect_cn": [],
-   "removed_overlap_cn": [],
-   "kept_overlap_cn_custom": [],
-   "count": {
-    "DOMAIN-SUFFIX": 19
-   }
-  },
-  "CN-ZhuanZhuan": {
-   "name": "ZhuanZhuan（国内）",
-   "total": 4,
-   "per_source_raw": {
-    "bm:ZhuanZhuan": 4,
+    "v4own": 5,
     "custom": 0
    },
    "dropped": {},
@@ -1380,11 +1127,11 @@
     "DOMAIN-SUFFIX": 4
    }
   },
-  "CN-12306": {
-   "name": "12306（国内）",
-   "total": 15,
+  "CN-CMBLife": {
+   "name": "掌上生活（招行信用卡）",
+   "total": 5,
    "per_source_raw": {
-    "bm:12306": 15,
+    "v4own": 6,
     "custom": 0
    },
    "dropped": {},
@@ -1392,15 +1139,17 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 15
+    "DOMAIN-SUFFIX": 5
    }
   },
-  "CN-XieCheng": {
-   "name": "XieCheng（国内）",
+  "CN-CMB": {
+   "name": "招商银行",
    "total": 37,
    "per_source_raw": {
-    "bm:XieCheng": 29,
-    "v2:ctrip": 28,
+    "bm:CMB": 38,
+    "v2:cmb": 20,
+    "v4dep:cmb-shared": 38,
+    "v4own": 14,
     "custom": 0
    },
    "dropped": {},
@@ -1411,12 +1160,1096 @@
     "DOMAIN-SUFFIX": 37
    }
   },
+  "CN-CIB": {
+   "name": "兴业银行",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-CITIC": {
+   "name": "动卡空间（中信银行）",
+   "total": 18,
+   "per_source_raw": {
+    "v2:citic": 14,
+    "v4dep:citic-shared": 17,
+    "v4own": 9,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 18
+   }
+  },
+  "CN-JDFinance": {
+   "name": "京东金融",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "CN-WeChat": {
+   "name": "微信",
+   "total": 315,
+   "per_source_raw": {
+    "bm:WeChat": 97,
+    "v4own": 336,
+    "custom": 0
+   },
+   "dropped": {
+    "IP 片段关键词(应为 IP-CIDR)": 233,
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 27,
+    "IP-CIDR": 218,
+    "IP-CIDR6": 64,
+    "IP-ASN": 1
+   }
+  },
+  "CN-QQ": {
+   "name": "QQ",
+   "total": 23,
+   "per_source_raw": {
+    "v4own": 24,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 23
+   }
+  },
+  "CN-DingTalk": {
+   "name": "钉钉",
+   "total": 14,
+   "per_source_raw": {
+    "bm:DingTalk": 11,
+    "v2:dingtalk": 11,
+    "v4own": 15,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 14
+   }
+  },
+  "CN-DouYin": {
+   "name": "抖音",
+   "total": 82,
+   "per_source_raw": {
+    "bm:DouYin": 13,
+    "v2:douyin": 71,
+    "v4own": 22,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 80
+   }
+  },
+  "CN-JianYing": {
+   "name": "剪映",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 7,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-KuaiShou": {
+   "name": "快手 / 快手极速版",
+   "total": 689,
+   "per_source_raw": {
+    "bm:KuaiShou": 678,
+    "v2:kuaishou": 32,
+    "v4own": 681,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 689
+   }
+  },
+  "CN-XiaoHongShu": {
+   "name": "小红书",
+   "total": 13,
+   "per_source_raw": {
+    "bm:XiaoHongShu": 4,
+    "v2:xiaohongshu": 9,
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 13
+   }
+  },
+  "CN-BiliBili": {
+   "name": "哔哩哔哩",
+   "total": 122,
+   "per_source_raw": {
+    "bm:BiliBili": 123,
+    "v2:bilibili": 49,
+    "v4own": 123,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 10
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 49,
+    "DOMAIN-SUFFIX": 65,
+    "IP-CIDR": 8
+   }
+  },
+  "CN-Weibo": {
+   "name": "微博",
+   "total": 15,
+   "per_source_raw": {
+    "bm:Weibo": 4,
+    "v4own": 10,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 14,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "CN-HeiMao": {
+   "name": "黑猫投诉",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-NetEaseMusic": {
+   "name": "网易云音乐",
+   "total": 31,
+   "per_source_raw": {
+    "bm:NetEaseMusic": 28,
+    "v4own": 32,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 12,
+    "IP-CIDR": 18
+   }
+  },
+  "CN-Youdao": {
+   "name": "网易有道词典",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-TencentVideo": {
+   "name": "腾讯视频",
+   "total": 51,
+   "per_source_raw": {
+    "bm:TencentVideo": 51,
+    "v4own": 55,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 10,
+    "DOMAIN-SUFFIX": 9,
+    "IP-CIDR": 3,
+    "IP-CIDR6": 29
+   }
+  },
+  "CN-iQIYI": {
+   "name": "爱奇艺",
+   "total": 57,
+   "per_source_raw": {
+    "bm:iQIYI": 56,
+    "v2:iqiyi": 9,
+    "v4own": 65,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 7
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 35,
+    "DOMAIN-KEYWORD": 1,
+    "IP-CIDR": 21
+   }
+  },
+  "CN-HonorOfKings": {
+   "name": "王者荣耀",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 7,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-LOLMobile": {
+   "name": "掌上英雄联盟",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-FlyDigi": {
+   "name": "飞智游戏厅",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-Coolapk": {
+   "name": "酷安",
+   "total": 4,
+   "per_source_raw": {
+    "bm:Coolapk": 3,
+    "v2:coolapk": 3,
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-Maoyan": {
+   "name": "猫眼",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "CN-Taopiaopiao": {
+   "name": "淘票票",
+   "total": 10,
+   "per_source_raw": {
+    "v4own": 10,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 10
+   }
+  },
+  "CN-Taobao": {
+   "name": "淘宝",
+   "total": 25,
+   "per_source_raw": {
+    "v4own": 25,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 18,
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-JDAI": {
+   "name": "京东AI购",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 7,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 6
+   }
+  },
+  "CN-JingFen": {
+   "name": "京粉",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-JingDong": {
+   "name": "京东",
+   "total": 261,
+   "per_source_raw": {
+    "bm:JingDong": 249,
+    "v2:jd": 243,
+    "v4dep:jd-shared": 249,
+    "v4own": 26,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 261
+   }
+  },
+  "CN-Pinduoduo": {
+   "name": "拼多多",
+   "total": 8,
+   "per_source_raw": {
+    "bm:Pinduoduo": 3,
+    "v2:pinduoduo": 7,
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 8
+   }
+  },
+  "CN-XianYu": {
+   "name": "闲鱼",
+   "total": 20,
+   "per_source_raw": {
+    "bm:XianYu": 16,
+    "v4own": 23,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 18
+   }
+  },
+  "CN-Eleme": {
+   "name": "淘宝闪购（饿了么）",
+   "total": 22,
+   "per_source_raw": {
+    "bm:Eleme": 13,
+    "v2:eleme": 9,
+    "v4own": 20,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 18
+   }
+  },
+  "CN-MeiTuan": {
+   "name": "美团",
+   "total": 19,
+   "per_source_raw": {
+    "bm:MeiTuan": 7,
+    "v2:meituan": 19,
+    "v4dep:meituan-shared": 7,
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 19
+   }
+  },
+  "CN-DianPing": {
+   "name": "大众点评",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-HeMa": {
+   "name": "盒马",
+   "total": 14,
+   "per_source_raw": {
+    "bm:HeMa": 12,
+    "v4own": 14,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 14
+   }
+  },
+  "CN-SamsClub": {
+   "name": "山姆会员商店",
+   "total": 16,
+   "per_source_raw": {
+    "v4dep:walmart-shared": 10,
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 16
+   }
+  },
+  "CN-DeWu": {
+   "name": "得物",
+   "total": 49,
+   "per_source_raw": {
+    "v2:dewu": 44,
+    "v4own": 49,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 49
+   }
+  },
+  "CN-ZhuanZhuan": {
+   "name": "转转",
+   "total": 6,
+   "per_source_raw": {
+    "bm:ZhuanZhuan": 4,
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 6
+   }
+  },
+  "CN-1688": {
+   "name": "阿里巴巴（1688）",
+   "total": 6,
+   "per_source_raw": {
+    "v4own": 10,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "CN-YiTao": {
+   "name": "一淘",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 3,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-ShengQian": {
+   "name": "省钱快报",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "CN-GaoDe": {
+   "name": "高德地图",
+   "total": 9,
+   "per_source_raw": {
+    "bm:GaoDe": 9,
+    "v4own": 11,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 9
+   }
+  },
+  "CN-DeepSeek": {
+   "name": "DeepSeek",
+   "total": 2,
+   "per_source_raw": {
+    "v2:deepseek": 2,
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "CN-Doubao": {
+   "name": "豆包",
+   "total": 35,
+   "per_source_raw": {
+    "v2:doubao": 32,
+    "v4own": 37,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 35
+   }
+  },
+  "CN-Qwen": {
+   "name": "千问",
+   "total": 9,
+   "per_source_raw": {
+    "v4own": 9,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-ima": {
+   "name": "ima",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 3
+   }
+  },
+  "CN-TRAE": {
+   "name": "TRAE",
+   "total": 16,
+   "per_source_raw": {
+    "v2:trae": 12,
+    "v4own": 19,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 16
+   }
+  },
+  "CN-Marvis": {
+   "name": "Marvis",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-12306": {
+   "name": "铁路12306",
+   "total": 16,
+   "per_source_raw": {
+    "bm:12306": 15,
+    "v4own": 16,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 16
+   }
+  },
+  "CN-XieCheng": {
+   "name": "携程旅行",
+   "total": 37,
+   "per_source_raw": {
+    "bm:XieCheng": 29,
+    "v2:ctrip": 28,
+    "v4own": 31,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 37
+   }
+  },
+  "CN-Umetrip": {
+   "name": "航旅纵横",
+   "total": 6,
+   "per_source_raw": {
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 6
+   }
+  },
+  "CN-HelloBike": {
+   "name": "哈啰",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-TianFuTong": {
+   "name": "天府通",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-JegoTrip": {
+   "name": "无忧行",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-DongCheDi": {
+   "name": "懂车帝",
+   "total": 8,
+   "per_source_raw": {
+    "v2:dongchedi": 8,
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 8
+   }
+  },
+  "CN-AutoHome": {
+   "name": "汽车之家",
+   "total": 9,
+   "per_source_raw": {
+    "v4own": 9,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 9
+   }
+  },
+  "CN-Geely": {
+   "name": "吉利汽车",
+   "total": 50,
+   "per_source_raw": {
+    "bm:Geely": 50,
+    "v4own": 50,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 50
+   }
+  },
+  "CN-Ninebot": {
+   "name": "九号出行",
+   "total": 6,
+   "per_source_raw": {
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 6
+   }
+  },
+  "CN-Grow": {
+   "name": "Grow",
+   "total": 2,
+   "per_source_raw": {
+    "v4own": 3,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "CN-MiHome": {
+   "name": "米家",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 12,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-HuaweiSmartLife": {
+   "name": "华为智慧生活",
+   "total": 11,
+   "per_source_raw": {
+    "v4own": 11,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 11
+   }
+  },
+  "CN-BOSS": {
+   "name": "BOSS直聘",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-Zhaopin": {
+   "name": "智联招聘",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-Liepin": {
+   "name": "猎聘",
+   "total": 4,
+   "per_source_raw": {
+    "v2:liepin": 3,
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-QCC": {
+   "name": "企查查",
+   "total": 3,
+   "per_source_raw": {
+    "v2:qcc": 2,
+    "v4own": 3,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-Beike": {
+   "name": "贝壳找房",
+   "total": 8,
+   "per_source_raw": {
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 8
+   }
+  },
+  "CN-CTID": {
+   "name": "国家网络身份认证",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-YueTongXing": {
+   "name": "悦通行",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-QuShangWang": {
+   "name": "去上网（去哒）",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
   "CN-ChinaMobile": {
-   "name": "ChinaMobile（国内）",
+   "name": "中国移动",
    "total": 50,
    "per_source_raw": {
     "bm:ChinaMobile": 38,
     "v2:chinamobile": 33,
+    "v4own": 38,
     "custom": 0
    },
    "dropped": {},
@@ -1426,6 +2259,485 @@
    "count": {
     "DOMAIN-SUFFIX": 49,
     "IP-CIDR": 1
+   }
+  },
+  "CN-UUYC": {
+   "name": "UU远程",
+   "total": 6,
+   "per_source_raw": {
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 6
+   }
+  },
+  "CN-Traffic12123": {
+   "name": "交管12123",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-IncomeTax": {
+   "name": "个人所得税",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-MONO": {
+   "name": "MONO记账",
+   "total": 2,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "CN-Cookie": {
+   "name": "Cookie",
+   "total": 2,
+   "per_source_raw": {
+    "v4own": 3,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "CN-ShangDaoJi": {
+   "name": "上岛记",
+   "total": 2,
+   "per_source_raw": {
+    "v4own": 2,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "CN-iCost": {
+   "name": "iCost",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-CamScanner": {
+   "name": "扫描全能王",
+   "total": 10,
+   "per_source_raw": {
+    "v4own": 10,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 10
+   }
+  },
+  "CN-AiSi": {
+   "name": "爱思全能版",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "CN-GestaltEdit": {
+   "name": "GestaltEdit",
+   "total": 4,
+   "per_source_raw": {
+    "v4own": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-NetSpeed": {
+   "name": "全球网测",
+   "total": 5,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "CN-ColorfulClouds": {
+   "name": "彩云天气PRO",
+   "total": 6,
+   "per_source_raw": {
+    "v2:colorfulclouds": 6,
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 6
+   }
+  },
+  "CN-AppleMusic": {
+   "name": "Apple 音乐",
+   "total": 7,
+   "per_source_raw": {
+    "v4own": 7,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 6,
+    "DOMAIN-SUFFIX": 1
+   }
+  },
+  "CN-ApplePodcasts": {
+   "name": "Apple 播客",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-AppleTV": {
+   "name": "Apple 视频（Apple TV）",
+   "total": 6,
+   "per_source_raw": {
+    "v4own": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "CN-FindMy": {
+   "name": "Apple 查找",
+   "total": 6,
+   "per_source_raw": {
+    "v4own": 6,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 6
+   }
+  },
+  "CN-FitnessPlus": {
+   "name": "Apple 健身",
+   "total": 3,
+   "per_source_raw": {
+    "v4own": 3,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 3
+   }
+  },
+  "CN-iTunesStore": {
+   "name": "iTunes Store",
+   "total": 46,
+   "per_source_raw": {
+    "v4own": 46,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 46
+   }
+  },
+  "CN-Apple": {
+   "name": "Apple 系统 App 与基础服务（地图/电话/信息/照片/日历/邮件/备忘录/提醒/天气/健康/钱包/文件/设置/App Store/Watch/家庭/Numbers/翻译/语音备忘录/密码/图书/快捷指令/股市/FaceTime/支持/反馈/Apple Store/提示/无边记/手记/预览/相机/计算器/指南针/测距仪/放大器）",
+   "total": 19,
+   "per_source_raw": {
+    "v4dep:apple-account": 4,
+    "v4dep:apple-apns": 1,
+    "v4dep:apple-feedback": 3,
+    "v4dep:apple-icloud": 7,
+    "v4dep:apple-maps": 2,
+    "v4dep:apple-pki": 9,
+    "v4dep:apple-search": 2,
+    "v4dep:apple-store": 5,
+    "v4dep:apple-update": 7,
+    "v4own": 155,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 6,
+    "DOMAIN-SUFFIX": 13
+   }
+  },
+  "CN-Tencent": {
+   "name": "腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用）",
+   "total": 2578,
+   "per_source_raw": {
+    "bm:Tencent": 20,
+    "v2:tencent": 560,
+    "v4dep:tencent-shared": 2498,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 5
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2558,
+    "IP-CIDR": 20
+   }
+  },
+  "CN-ByteDance": {
+   "name": "字节跳动集团共享（剪映等共用）",
+   "total": 841,
+   "per_source_raw": {
+    "bm:ByteDance": 371,
+    "v2:bytedance": 862,
+    "v4dep:bytedance-cn-shared": 371,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 840,
+    "IP-CIDR": 1
+   }
+  },
+  "CN-Alibaba": {
+   "name": "阿里集团共享（淘宝/淘票票/1688/一淘/千问等共用）",
+   "total": 1338,
+   "per_source_raw": {
+    "bm:Alibaba": 57,
+    "v2:alibaba": 339,
+    "v4dep:alibaba-shared": 1263,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 1
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 1284,
+    "IP-CIDR": 53,
+    "IP-CIDR6": 1
+   }
+  },
+  "CN-NetEase": {
+   "name": "网易集团共享",
+   "total": 132,
+   "per_source_raw": {
+    "bm:NetEase": 146,
+    "v2:netease": 40,
+    "v4dep:netease-shared": 146,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 119,
+    "IP-CIDR": 13
+   }
+  },
+  "CN-Sina": {
+   "name": "新浪集团共享",
+   "total": 99,
+   "per_source_raw": {
+    "bm:Sina": 108,
+    "v2:sina": 27,
+    "v4dep:sina-shared": 108,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 99
+   }
+  },
+  "CN-Huawei": {
+   "name": "华为集团共享",
+   "total": 349,
+   "per_source_raw": {
+    "bm:Huawei": 160,
+    "v2:huawei": 299,
+    "v4dep:huawei-shared": 160,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 349
+   }
+  },
+  "CN-XiaoMi": {
+   "name": "小米集团共享",
+   "total": 151,
+   "per_source_raw": {
+    "bm:XiaoMi": 157,
+    "v2:xiaomi": 53,
+    "v4dep:xiaomi-iot-shared": 4,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 1
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 142,
+    "IP-CIDR": 9
+   }
+  },
+  "CN-Lianjia": {
+   "name": "链家/贝壳集团共享",
+   "total": 0,
+   "per_source_raw": {
+    "v2:lianjia": 5,
+    "v4dep:lianjia-shared": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {}
+  },
+  "CN-Intsig": {
+   "name": "合合信息集团共享",
+   "total": 1,
+   "per_source_raw": {
+    "v2:intsig": 5,
+    "v4dep:intsig-shared": 5,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 1
+   }
+  },
+  "CN-Common": {
+   "name": "国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等）",
+   "total": 674,
+   "per_source_raw": {
+    "v4common": 803,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 37,
+    "DOMAIN-SUFFIX": 627,
+    "DOMAIN-KEYWORD": 9,
+    "DOMAIN-WILDCARD": 1
    }
   }
  },
@@ -3195,63 +4507,15 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
-   "rule": "DOMAIN,dldir1.qq.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-TencentVideo",
+   "rule": "DOMAIN-SUFFIX,8008205555.cn",
+   "kept_in": "CN-CMBLife",
+   "removed_from": "CN-CMB",
    "reason": "完全重复，归优先级更高的 App"
   },
   {
-   "rule": "DOMAIN-SUFFIX,weixinbridge.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,iot-tencent.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,qlogo.cn",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,qpic.cn",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,servicewechat.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,tenpay.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,wechat.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,weixin.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN-SUFFIX,weixinsxy.com",
-   "kept_in": "CN-WeChat",
-   "removed_from": "CN-Tencent",
+   "rule": "DOMAIN-SUFFIX,8008205555.com",
+   "kept_in": "CN-CMBLife",
+   "removed_from": "CN-CMB",
    "reason": "完全重复，归优先级更高的 App"
   },
   {
@@ -3297,9 +4561,243 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN,dldir1.qq.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-TencentVideo",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,300hu.com",
+   "kept_in": "CN-JDAI",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,chinabank.com.cn",
+   "kept_in": "CN-JDFinance",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,jdcache.com",
+   "kept_in": "CN-JDAI",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,jdjinrong.com",
+   "kept_in": "CN-JDAI",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,jdpay.com",
+   "kept_in": "CN-JDAI",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,joybuy.com",
+   "kept_in": "CN-JDAI",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wangyin.com",
+   "kept_in": "CN-JDFinance",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,joyai.com",
+   "kept_in": "CN-JDAI",
+   "removed_from": "CN-JingDong",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,maoyan.com",
+   "kept_in": "CN-Maoyan",
+   "removed_from": "CN-MeiTuan",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,51ping.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-DianPing",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dianping.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-DianPing",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dpfile.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-DianPing",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,smtcdns.net",
-   "kept_in": "CN-Tencent",
-   "removed_from": "CN-BiliBili",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tencent-cloud.net",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weixinbridge.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,foxmail.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,gtimg.cn",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,gtimg.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,gtimg.com.cn",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,idqqimg.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,imqq.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,iot-tencent.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qlogo.cn",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qpic.cn",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qqmail.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qzone.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,servicewechat.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tencent.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tencent.com.cn",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tenpay.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wechat.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wechatpay.cn",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weixin.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weixinsxy.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,smoba.net",
+   "kept_in": "CN-HonorOfKings",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wechatlegal.net",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wechatpay.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wetv.vip",
+   "kept_in": "CN-TencentVideo",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wxamedia.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
    "reason": "完全重复，归优先级更高的 App"
   },
   {
@@ -3333,6 +4831,66 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,dcarapi.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dcarimg.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dcarlive.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dcarstatic.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dcarvod.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dcdapp.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dongchedi.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dongchediapp.com",
+   "kept_in": "CN-DongCheDi",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,doubao.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,doubao.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,douyin.com",
    "kept_in": "CN-DouYin",
    "removed_from": "CN-ByteDance",
@@ -3359,6 +4917,18 @@
   {
    "rule": "DOMAIN-SUFFIX,douyinliving.com",
    "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,faceu.com",
+   "kept_in": "CN-JianYing",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,faceu.mobi",
+   "kept_in": "CN-JianYing",
    "removed_from": "CN-ByteDance",
    "reason": "完全重复，归优先级更高的 App"
   },
@@ -3519,6 +5089,12 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,jinritemai.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,kolbuyer.cn",
    "kept_in": "CN-DouYin",
    "removed_from": "CN-ByteDance",
@@ -3527,6 +5103,48 @@
   {
    "rule": "DOMAIN-SUFFIX,kspkg.com",
    "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,marscode.cn",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,trae.cn",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,trae.com.cn",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ulikecam.com",
+   "kept_in": "CN-JianYing",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ulikecam.net",
+   "kept_in": "CN-JianYing",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,volcengine.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,volces.com",
+   "kept_in": "CN-Doubao",
    "removed_from": "CN-ByteDance",
    "reason": "完全重复，归优先级更高的 App"
   },
@@ -3599,6 +5217,198 @@
   {
    "rule": "DOMAIN-SUFFIX,toutiao.com",
    "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,zijieapi.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,butterfly-static.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,butterflyai.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,coze-dns-01.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,coze.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,coze.email",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,coze.site",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozeapp.net",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozebaas.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozebuild.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozecdn.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozedeploy.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozefn.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozeide.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozesdk.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozetest.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozetest2.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cozetest3.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dbbuilding.fun",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,building.fun",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instreet.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,doubao-dev.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,doubaocdn.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hi-butterfly.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,maoxiangai.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,myparallelstory.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,oceancloudapi.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,obriccloud.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,obricclouddw.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,picpic-ai.cn",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,pixeldance.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,api-building.fun",
+   "kept_in": "CN-Doubao",
    "removed_from": "CN-ByteDance",
    "reason": "完全重复，归优先级更高的 App"
   },
@@ -3765,8 +5575,74 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,doudou.com",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,marscode.com.cn",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mcbaas.work",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mcdemo.show",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mchost.guru",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mcprev.cn",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tcwqqdy.guru",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,trae.guru",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,yoma.cn",
+   "kept_in": "CN-TRAE",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,snssdk.com",
    "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,jianying.com",
+   "kept_in": "CN-JianYing",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,capcut.cn",
+   "kept_in": "CN-JianYing",
    "removed_from": "CN-ByteDance",
    "reason": "完全重复，归优先级更高的 App"
   },
@@ -3897,6 +5773,60 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,doservice.com",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ele.me",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ele.to",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,eleme.cn",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,eleme.io",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,elemecdn.cn",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,elemecdn.com",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,elenet.me",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,fengniaojipei.net",
+   "kept_in": "CN-Eleme",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,alipay-eco.com",
    "kept_in": "CN-AliPay",
    "removed_from": "CN-Alibaba",
@@ -3939,9 +5869,735 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,alisoft.com",
+   "kept_in": "CN-1688",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,damai.cn",
+   "kept_in": "CN-Taopiaopiao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,maitix.com",
+   "kept_in": "CN-Taopiaopiao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,rexpos.cn",
+   "kept_in": "CN-HeMa",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,alipayplus.com",
    "kept_in": "CN-AliPay",
    "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,freshhema.com",
+   "kept_in": "CN-HeMa",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hemamax.com",
+   "kept_in": "CN-HeMa",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hemaos.com",
+   "kept_in": "CN-HeMa",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hemashare.cn",
+   "kept_in": "CN-HeMa",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,shyhhema.com",
+   "kept_in": "CN-HeMa",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,antfin.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,antgroup.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,1688.com",
+   "kept_in": "CN-1688",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,etao.com",
+   "kept_in": "CN-YiTao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taobao.net",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taobao.org",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taobaocdn.com",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taopiaopiao.com",
+   "kept_in": "CN-Taopiaopiao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tbcdn.cn",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,goofish.com",
+   "kept_in": "CN-XianYu",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipay.hk",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipaymo.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taobao.cn",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taobaotest.com",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,taobaotesting.com",
+   "kept_in": "CN-Taobao",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,netease.ugcvideoss.ourdvs.com",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,163yun.com",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ydstatic.com",
+   "kept_in": "CN-Youdao",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youdao.com",
+   "kept_in": "CN-Youdao",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,yun-app.net",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,101.71.154.241/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,103.126.92.132/31",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,112.13.119.17/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,112.13.119.18/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,112.13.122.1/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,112.13.122.4/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,118.24.63.156/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,182.92.170.253/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,193.112.159.225/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,39.105.175.128/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,39.105.63.80/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,45.254.48.1/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,47.100.127.239/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,59.111.19.33/32",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "IP-CIDR,59.111.21.14/31",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-NetEase",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,sinaimg.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,sinajs.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,t.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wbimg.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibo.com.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibo.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibocdn.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-KEYWORD,weibo",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,agconnect.link",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dbankcdn.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hicloud.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hihonor.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huawei.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huaweicloud.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hwtrip.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,vmall.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,vmallres.com",
+   "kept_in": "CN-HuaweiSmartLife",
+   "removed_from": "CN-Huawei",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mi-img.com",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mi.com",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mifile.cn",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,miot-spec.org",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaomi.cn",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaomi.com",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaomi.net",
+   "kept_in": "CN-MiHome",
+   "removed_from": "CN-XiaoMi",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,lianjia.com",
+   "kept_in": "CN-Beike",
+   "removed_from": "CN-Lianjia",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ljcdn.com",
+   "kept_in": "CN-Beike",
+   "removed_from": "CN-Lianjia",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,beckyroom.com",
+   "kept_in": "CN-Beike",
+   "removed_from": "CN-Lianjia",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bkzhibo.com",
+   "kept_in": "CN-Beike",
+   "removed_from": "CN-Lianjia",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ke.com",
+   "kept_in": "CN-Beike",
+   "removed_from": "CN-Lianjia",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intsig.com",
+   "kept_in": "CN-CamScanner",
+   "removed_from": "CN-Intsig",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intsig.net",
+   "kept_in": "CN-CamScanner",
+   "removed_from": "CN-Intsig",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,camscanner.com",
+   "kept_in": "CN-CamScanner",
+   "removed_from": "CN-Intsig",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,camcard.com",
+   "kept_in": "CN-CamScanner",
+   "removed_from": "CN-Intsig",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,aligames.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipan.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bilicomic.com",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,byteacctimg.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cainiaoyizhan.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinpay.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,duokan.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,duokanbox.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,feishu.net",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,feishupkg.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,freshippo.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,guoguo-app.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,kugou.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,kuwo.cn",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mi-fds.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mi-idc.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mijia.tech",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mipay.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,miui.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,miwifi.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,okr.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,pddugc.com",
+   "kept_in": "CN-Pinduoduo",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ppximg.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ppxstatic.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ppxvod.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,rnote.com",
+   "kept_in": "CN-XiaoHongShu",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,robloxdev.cn",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,rsproxy.cn",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,saxyit.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,sogo.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,sogou.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,sogoucdn.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tripcdn.cn",
+   "kept_in": "CN-XieCheng",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tudou.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,uczzd.cn",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,volcvideo.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaoaisound.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaomiev.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaomixiaoai.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaomiyoupin.com",
+   "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xiaoxiaapi.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ximalaya.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,xmcdn.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
    "reason": "完全重复，归优先级更高的 App"
   },
   {
@@ -4021,6 +6677,576 @@
    "kept_in": "AI-Common",
    "removed_from": "GitHub",
    "reason": "被前序 arkoselabs.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-TencentVideo",
+   "reason": "被前序 tencent-cloud.net 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,ins-eeww7kom.ias.tencent-cloud.net",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-TencentVideo",
+   "reason": "被前序 tencent-cloud.net 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,yoo.gtimg.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-TencentVideo",
+   "reason": "被前序 gtimg.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,pgdt.gtimg.cn",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-TencentVideo",
+   "reason": "被前序 gtimg.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qqvideo.gtimg.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-TencentVideo",
+   "reason": "被前序 gtimg.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,copilot.tencent.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-ima",
+   "reason": "被前序 tencent.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,marvis.tencent.com",
+   "kept_in": "CN-QQ",
+   "removed_from": "CN-Marvis",
+   "reason": "被前序 tencent.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.cn",
+   "kept_in": "CN-NetSpeed",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 speedtest（配置中会先命中 Speedtest，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.net.cn",
+   "kept_in": "CN-NetSpeed",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 speedtest（配置中会先命中 Speedtest，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN,ocsp.digicert.com",
+   "kept_in": "Global-Misc",
+   "removed_from": "CN-Apple",
+   "reason": "被前序 ocsp.digicert.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dispatcher.is.autonavi.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Apple",
+   "reason": "被前序 autonavi.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,userimg.qunar.com",
+   "kept_in": "CN-XieCheng",
+   "removed_from": "CN-Alibaba",
+   "reason": "被前序 qunar.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qingmail.cn",
+   "kept_in": "CN-Sina",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 gmail（配置中会先命中 Google，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qingmail.com",
+   "kept_in": "CN-Sina",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 gmail（配置中会先命中 Google，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibo.tv",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "含前序 App 关键词 weibo → 移入该 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibocdn.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "含前序 App 关键词 weibo → 移入该 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weiboums.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "含前序 App 关键词 weibo → 移入该 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibo",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "含前序 App 关键词 weibo → 移入该 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weibopay.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Sina",
+   "reason": "含前序 App 关键词 weibo → 移入该 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,restapi.amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-XiaoMi",
+   "reason": "被前序 amap.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,1500020991.vodplayer.wxamedia.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Common",
+   "reason": "被前序 wxamedia.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,1500022744.vodplayer.wxamedia.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Common",
+   "reason": "被前序 wxamedia.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,1500026601.vodplayer.wxamedia.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Common",
+   "reason": "被前序 wxamedia.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,aaid.umeng.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "被前序 umeng.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,abtest-ch.snssdk.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-Common",
+   "reason": "被前序 snssdk.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,abtest.alibaba.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "被前序 alibaba.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,ac.dun.163yun.com",
+   "kept_in": "CN-NetEaseMusic",
+   "removed_from": "CN-Common",
+   "reason": "被前序 163yun.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,acfeedbackws.icloud.com",
+   "kept_in": "CN-Apple",
+   "removed_from": "CN-Common",
+   "reason": "被前序 icloud.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,acg.tv",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Common",
+   "reason": "被前序 acg.tv 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,acstatic-dun.126.net",
+   "kept_in": "CN-NetEase",
+   "removed_from": "CN-Common",
+   "reason": "被前序 126.net 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,activeqq.3g.qq.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 qq.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,aedns.weixin.qq.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weixin.qq.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,amap-aos-info-nogw.amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Common",
+   "reason": "被前序 amap.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,apidns-js.kwd.inkuai.com",
+   "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-Common",
+   "reason": "被前序 inkuai.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,apidns.kwd.inkuai.com",
+   "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-Common",
+   "reason": "被前序 inkuai.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,awaken.amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Common",
+   "reason": "被前序 amap.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,b23.tv",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Common",
+   "reason": "被前序 b23.tv 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,bootpreload.uve.weibo.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,c-nfa.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,ca.iadsdk.apple.com",
+   "kept_in": "CN-Apple",
+   "removed_from": "CN-Common",
+   "reason": "被前序 apple.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,ccc-x.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,cdnstatic.tencentcs.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 tencentcs.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,chat.bilibili.com",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Common",
+   "reason": "被前序 bilibili.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,chat1.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,cloan.amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Common",
+   "reason": "被前序 amap.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,club.bilibili.com",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Common",
+   "reason": "被前序 bilibili.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,cm.bilibili.com",
+   "kept_in": "CN-BiliBili",
+   "removed_from": "CN-Common",
+   "reason": "被前序 bilibili.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,datacollection.uve.weibo.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dns.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dns.pub",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 dns.pub 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dns.weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,docs.c-ctrip.com",
+   "kept_in": "CN-XieCheng",
+   "removed_from": "CN-Common",
+   "reason": "被前序 c-ctrip.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,doh.pub",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 doh.pub 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dot.pub",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 dot.pub 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dp.im.weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,dpmtpush.dianping.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-Common",
+   "reason": "被前序 dianping.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,free-aos-cdn-image.amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Common",
+   "reason": "被前序 amap.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,game.weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,game.weibo.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,gw5.push.mcp.weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,gw6.push.mcp.weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,httpdns.meituan.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-Common",
+   "reason": "被前序 meituan.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,httpdnsmultiapi.meituan.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-Common",
+   "reason": "被前序 meituan.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,httpdnsmultiapivip.meituan.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-Common",
+   "reason": "被前序 meituan.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,httpdnsvip.meituan.com",
+   "kept_in": "CN-MeiTuan",
+   "removed_from": "CN-Common",
+   "reason": "被前序 meituan.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,huodong.weibo.cn",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,janapi.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,juejin.cn",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "被前序 juejin.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,juejin.im",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "被前序 juejin.im 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,kepler.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,knicks.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,lf6-mgsdk-sign.dailygn.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "被前序 dailygn.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,lf9-mgsdk-sign.dailygn.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "被前序 dailygn.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,mapi.m.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,mtrace.amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Common",
+   "reason": "被前序 amap.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,news-events.apple.com",
+   "kept_in": "CN-iTunesStore",
+   "removed_from": "CN-Common",
+   "reason": "被前序 news-events.apple.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,orbit.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,p26-sign.bdxiguaimg.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "被前序 bdxiguaimg.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,p3-sign.bdxiguaimg.com",
+   "kept_in": "CN-ByteDance",
+   "removed_from": "CN-Common",
+   "reason": "被前序 bdxiguaimg.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,sdkapp.uve.weibo.com",
+   "kept_in": "CN-Weibo",
+   "removed_from": "CN-Common",
+   "reason": "被前序 weibo.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,snowflake.qq.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 qq.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,tdid.m.qq.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 qq.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,terms.alicdn.com",
+   "kept_in": "CN-Alibaba",
+   "removed_from": "CN-Common",
+   "reason": "被前序 alicdn.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,up-hl.3g.qq.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Common",
+   "reason": "被前序 up-hl.3g.qq.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,uranus.jd.com",
+   "kept_in": "CN-JingDong",
+   "removed_from": "CN-Common",
+   "reason": "被前序 jd.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,url.cn",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 url.cn 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,userimg.qunar.com",
+   "kept_in": "CN-XieCheng",
+   "removed_from": "CN-Common",
+   "reason": "被前序 qunar.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,w1.kskwai.com",
+   "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-Common",
+   "reason": "被前序 kskwai.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,w2.kskwai.com",
+   "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-Common",
+   "reason": "被前序 kskwai.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cnspeedtest.cn",
+   "kept_in": "CN-Common",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 speedtest（配置中会先命中 Speedtest，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,lcdn-locator.apple.com",
+   "kept_in": "CN-Apple",
+   "removed_from": "CN-Common",
+   "reason": "被前序 apple.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,mdt.qq.com",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-Common",
+   "reason": "被前序 qq.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.co",
+   "kept_in": "CN-Common",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 speedtest（配置中会先命中 Speedtest，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.net",
+   "kept_in": "CN-Common",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 speedtest（配置中会先命中 Speedtest，保留在国内表并报告）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtestcustom.com",
+   "kept_in": "CN-Common",
+   "removed_from": null,
+   "reason": "国内条目含海外 App 关键词 speedtest（配置中会先命中 Speedtest，保留在国内表并报告）"
   }
  ],
  "warnings": [
@@ -4035,6 +7261,114 @@
   "v2fly netflix regexp 跳过: (^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
   "v2fly netflix regexp 跳过: (^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
   "v2fly netflix regexp 跳过: (^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
-  "v2fly netflix regexp 跳过: (^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
+  "v2fly netflix regexp 跳过: (^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$",
+  "v4 App 未映射到任何输出表: {'CN131': 6}"
+ ],
+ "cn_ads_dropped": [
+  {
+   "rule": "DOMAIN-SUFFIX,miav-cse.avlyun.com",
+   "app": "CN-XiaoMi"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,miui-fxcse.avlyun.com",
+   "app": "CN-XiaoMi"
+  }
+ ],
+ "cn_reject": [
+  {
+   "rule": "DOMAIN-SUFFIX,f.airstar.com",
+   "app": "CN-XiaoMi",
+   "shadowed_by": "airstar.com"
+  }
+ ],
+ "cn_guard": [
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.cn",
+   "cn_app": "CN-NetSpeed",
+   "intl_app": "Speedtest",
+   "keyword": "speedtest"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.net.cn",
+   "cn_app": "CN-NetSpeed",
+   "intl_app": "Speedtest",
+   "keyword": "speedtest"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qingmail.cn",
+   "cn_app": "CN-Sina",
+   "intl_app": "Google",
+   "keyword": "gmail"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qingmail.com",
+   "cn_app": "CN-Sina",
+   "intl_app": "Google",
+   "keyword": "gmail"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cnspeedtest.cn",
+   "cn_app": "CN-Common",
+   "intl_app": "Speedtest",
+   "keyword": "speedtest"
+  }
+ ],
+ "cn_guard_skipped": [
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.co",
+   "cn_app": "CN-Common",
+   "intl_app": "Speedtest",
+   "keyword": "speedtest"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtest.net",
+   "cn_app": "CN-Common",
+   "intl_app": "Speedtest",
+   "keyword": "speedtest"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,speedtestcustom.com",
+   "cn_app": "CN-Common",
+   "intl_app": "Speedtest",
+   "keyword": "speedtest"
+  }
+ ],
+ "v4_cn_intl_only": [
+  {
+   "rule": "DOMAIN,online.tableau.com",
+   "claimed_by": [
+    "INT024"
+   ]
+  },
+  {
+   "rule": "DOMAIN,public.tableau.com",
+   "claimed_by": [
+    "INT024"
+   ]
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tableau.com",
+   "claimed_by": [
+    "INT024"
+   ]
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tableaucdn.com",
+   "claimed_by": [
+    "INT024"
+   ]
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tableausoftware.com",
+   "claimed_by": [
+    "INT024"
+   ]
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tableauusercontent.com",
+   "claimed_by": [
+    "INT024"
+   ]
+  }
  ]
 }

@@ -1,0 +1,17 @@
+# NAME: CN-AutoHome — 汽车之家
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=9 TOTAL=9
+# V4 APPS: CN064 汽车之家
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,athm.cn
+DOMAIN-SUFFIX,autoimg.cn
+DOMAIN-SUFFIX,autohome.com.cn
+DOMAIN-SUFFIX,autohomecar.com.cn
+DOMAIN-SUFFIX,ah168.com
+DOMAIN-SUFFIX,autohome.com
+DOMAIN-SUFFIX,che168.com
+DOMAIN-SUFFIX,che168img.com
+DOMAIN-SUFFIX,autohome.tel

@@ -1,0 +1,14 @@
+# NAME: CN-UUYC — UU远程
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=6 TOTAL=6
+# V4 APPS: CN102 UU远程
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,uuyc.cn
+DOMAIN-SUFFIX,uu.163.com
+DOMAIN-SUFFIX,uuyc.163.com
+DOMAIN-SUFFIX,uubaobao.com
+DOMAIN-SUFFIX,uuremote.com
+DOMAIN-SUFFIX,uuyc.com

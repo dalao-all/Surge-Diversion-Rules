@@ -1,0 +1,20 @@
+# NAME: CN-HuaweiSmartLife — 华为智慧生活
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=11 TOTAL=11
+# V4 APPS: CN088 华为智慧生活
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Huawei
+# NOTE: 国内 App；华为集团共享域名归 CN-Huawei；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,honor.cn
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,hihonor.com
+DOMAIN-SUFFIX,hilink.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,hwtrip.com
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,vmallres.com
+DOMAIN-SUFFIX,agconnect.link

@@ -1,0 +1,24 @@
+# NAME: CN-SamsClub — 山姆会员商店
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4dep:walmart-shared | v4own | custom
+# COUNT: DOMAIN-SUFFIX=16 TOTAL=16
+# V4 APPS: CN041 山姆会员商店
+# NOTE: 国内 App；沃尔玛集团候选域名，未经抓包；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,samsclub.com.cn
+DOMAIN-SUFFIX,sams.cn
+DOMAIN-SUFFIX,samsclub.cn
+DOMAIN-SUFFIX,wal-mart.cn
+DOMAIN-SUFFIX,walmart.cn
+DOMAIN-SUFFIX,walmartimages.cn
+DOMAIN-SUFFIX,w-mt.co
+DOMAIN-SUFFIX,wal.co
+DOMAIN-SUFFIX,wmt.co
+DOMAIN-SUFFIX,samsclub.com
+DOMAIN-SUFFIX,wal-mart.com
+DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,walmart-content.com
+DOMAIN-SUFFIX,walmartimages.com
+DOMAIN-SUFFIX,walmart.pharmacy
+DOMAIN-SUFFIX,walmart

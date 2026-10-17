@@ -1,0 +1,57 @@
+# NAME: CN-DeWu — 得物
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v2:dewu | v4own | custom
+# COUNT: DOMAIN-SUFFIX=49 TOTAL=49
+# V4 APPS: CN042 得物
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,theduapp.com.cn
+DOMAIN-SUFFIX,dewuapp.cn
+DOMAIN-SUFFIX,dewuhaowu.cn
+DOMAIN-SUFFIX,dewuhd.cn
+DOMAIN-SUFFIX,dewuhui.cn
+DOMAIN-SUFFIX,dewus.cn
+DOMAIN-SUFFIX,dewuyouhui.cn
+DOMAIN-SUFFIX,dwhhd.cn
+DOMAIN-SUFFIX,giftatdw.cn
+DOMAIN-SUFFIX,growthsharebounce.cn
+DOMAIN-SUFFIX,growthsharequestion.cn
+DOMAIN-SUFFIX,growthsharetubular.cn
+DOMAIN-SUFFIX,pengyoudewu.cn
+DOMAIN-SUFFIX,theduapp.cn
+DOMAIN-SUFFIX,wodehaodewu.cn
+DOMAIN-SUFFIX,womendedw.cn
+DOMAIN-SUFFIX,dewu.co
+DOMAIN-SUFFIX,dw2.co
+DOMAIN-SUFFIX,dw4.co
+DOMAIN-SUFFIX,poizon.co
+DOMAIN-SUFFIX,dewu.com
+DOMAIN-SUFFIX,dewu-inc.com
+DOMAIN-SUFFIX,dewu-inner.com
+DOMAIN-SUFFIX,dewucdn.com
+DOMAIN-SUFFIX,dewuhd.com
+DOMAIN-SUFFIX,dewuhui.com
+DOMAIN-SUFFIX,dewumall.com
+DOMAIN-SUFFIX,dewuyouhui.com
+DOMAIN-SUFFIX,duapp.com
+DOMAIN-SUFFIX,dwhhd.com
+DOMAIN-SUFFIX,giftatdw.com
+DOMAIN-SUFFIX,giftattoday.com
+DOMAIN-SUFFIX,pandarzli.com
+DOMAIN-SUFFIX,pengyoudewu.com
+DOMAIN-SUFFIX,poizon.com
+DOMAIN-SUFFIX,poizon-inner.com
+DOMAIN-SUFFIX,poizon-support.com
+DOMAIN-SUFFIX,poizonapp.com
+DOMAIN-SUFFIX,shizhuang-inc.com
+DOMAIN-SUFFIX,theduapp.com
+DOMAIN-SUFFIX,womendedw.com
+DOMAIN-SUFFIX,du8.ltd
+DOMAIN-SUFFIX,dewu.net
+DOMAIN-SUFFIX,dewu-inner.net
+DOMAIN-SUFFIX,duapp.net
+DOMAIN-SUFFIX,poizon.net
+DOMAIN-SUFFIX,poizon-inner.net
+DOMAIN-SUFFIX,shizhuang-inc.net
+DOMAIN-SUFFIX,thepoizon.ru

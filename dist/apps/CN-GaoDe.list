@@ -1,10 +1,12 @@
-# NAME: CN-GaoDe — GaoDe（国内）
+# NAME: CN-GaoDe — 高德地图
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:GaoDe | custom
+# SOURCES: bm:GaoDe | v4own | custom
 # COUNT: DOMAIN-SUFFIX=9 TOTAL=9
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# V4 APPS: CN049 高德地图
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,a-map.cn
 DOMAIN-SUFFIX,a-map.co
 DOMAIN-SUFFIX,amap.com

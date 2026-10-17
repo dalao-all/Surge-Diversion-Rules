@@ -1,10 +1,11 @@
-# NAME: CN-KuaiShou — KuaiShou（国内）
+# NAME: CN-KuaiShou — 快手 / 快手极速版
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:KuaiShou | v2:kuaishou | custom
-# COUNT: DOMAIN-SUFFIX=688 TOTAL=688
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:KuaiShou | v2:kuaishou | v4own | custom
+# COUNT: DOMAIN-SUFFIX=689 TOTAL=689
+# V4 APPS: CN015 快手、CN019 快手极速版
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,acfunchina.cn
 DOMAIN-SUFFIX,etoote.com.cn
@@ -154,6 +155,7 @@ DOMAIN-SUFFIX,acguxhda.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,aievsge.com
+DOMAIN-SUFFIX,aikan-tv.com
 DOMAIN-SUFFIX,aikgmgre.com
 DOMAIN-SUFFIX,aiwvegax.com
 DOMAIN-SUFFIX,aixifan.com

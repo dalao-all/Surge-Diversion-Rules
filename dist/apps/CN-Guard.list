@@ -1,0 +1,16 @@
+# NAME: CN-Guard — 国内条目防误吸（被海外 App 的 DOMAIN-KEYWORD 命中的国内域名）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT（必须放在海外 App 规则之前）
+# 自动生成：每条注明所属国内 App 与会误吸它的海外 App 关键词
+# COUNT: TOTAL=5
+# CN-NetSpeed ← 被 Speedtest 关键词 speedtest 误吸
+DOMAIN-SUFFIX,speedtest.cn
+# CN-NetSpeed ← 被 Speedtest 关键词 speedtest 误吸
+DOMAIN-SUFFIX,speedtest.net.cn
+# CN-Sina ← 被 Google 关键词 gmail 误吸
+DOMAIN-SUFFIX,qingmail.cn
+# CN-Sina ← 被 Google 关键词 gmail 误吸
+DOMAIN-SUFFIX,qingmail.com
+# CN-Common ← 被 Speedtest 关键词 speedtest 误吸
+DOMAIN-SUFFIX,cnspeedtest.cn

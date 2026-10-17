@@ -1,0 +1,44 @@
+# NAME: CN-Doubao — 豆包
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v2:doubao | v4own | custom
+# COUNT: DOMAIN-SUFFIX=35 TOTAL=35
+# V4 APPS: CN052 豆包
+# FAMILY: 与同集团其它 App 共用的域名在 CN-ByteDance
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,butterfly-static.cn
+DOMAIN-SUFFIX,butterflyai.cn
+DOMAIN-SUFFIX,coze.cn
+DOMAIN-SUFFIX,cozebaas.cn
+DOMAIN-SUFFIX,cozefn.cn
+DOMAIN-SUFFIX,cozeide.cn
+DOMAIN-SUFFIX,cozetest.cn
+DOMAIN-SUFFIX,cozetest2.cn
+DOMAIN-SUFFIX,cozetest3.cn
+DOMAIN-SUFFIX,doubao.cn
+DOMAIN-SUFFIX,hi-butterfly.cn
+DOMAIN-SUFFIX,picpic-ai.cn
+DOMAIN-SUFFIX,coze-dns-01.com
+DOMAIN-SUFFIX,cozebuild.com
+DOMAIN-SUFFIX,cozecdn.com
+DOMAIN-SUFFIX,cozedeploy.com
+DOMAIN-SUFFIX,cozesdk.com
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,doubao-dev.com
+DOMAIN-SUFFIX,doubaocdn.com
+DOMAIN-SUFFIX,instreet.com
+DOMAIN-SUFFIX,maoxiangai.com
+DOMAIN-SUFFIX,myparallelstory.com
+DOMAIN-SUFFIX,obriccloud.com
+DOMAIN-SUFFIX,obricclouddw.com
+DOMAIN-SUFFIX,oceancloudapi.com
+DOMAIN-SUFFIX,pixeldance.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,coze.email
+DOMAIN-SUFFIX,api-building.fun
+DOMAIN-SUFFIX,building.fun
+DOMAIN-SUFFIX,dbbuilding.fun
+DOMAIN-SUFFIX,cozeapp.net
+DOMAIN-SUFFIX,coze.site

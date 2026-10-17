@@ -1,0 +1,16 @@
+# NAME: CN-AppleMusic — Apple 音乐
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN=6 DOMAIN-SUFFIX=1 TOTAL=7
+# V4 APPS: CN023 音乐
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Apple
+# NOTE: 国内 App；Apple 系列只取仓库 v4 已收录条目；配置中 Apple 条件分流层在前；v2fly 仅取非 @!cn 条目
+DOMAIN,aod.itunes.apple.com
+DOMAIN,aod-ssl.itunes.apple.com
+DOMAIN,audio.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+DOMAIN-SUFFIX,music.apple.com

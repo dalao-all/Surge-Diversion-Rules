@@ -1,0 +1,29 @@
+# NAME: CN-XianYu — 闲鱼
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:XianYu | v4own | custom
+# COUNT: DOMAIN=2 DOMAIN-SUFFIX=18 TOTAL=20
+# V4 APPS: CN036 闲鱼
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN,2.tb.cn
+DOMAIN,2.taobao.com
+DOMAIN-SUFFIX,ewqcxz.com
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,hjkhjkl.com
+DOMAIN-SUFFIX,iopiopl.com
+DOMAIN-SUFFIX,lkjujm.com
+DOMAIN-SUFFIX,mnbvdfg.com
+DOMAIN-SUFFIX,nfmrtfv.com
+DOMAIN-SUFFIX,poiuytw.com
+DOMAIN-SUFFIX,qazasd.com
+DOMAIN-SUFFIX,redfcv.com
+DOMAIN-SUFFIX,svfrrg.com
+DOMAIN-SUFFIX,tfgvb.com
+DOMAIN-SUFFIX,uyhjnm.com
+DOMAIN-SUFFIX,vbmnmy.com
+DOMAIN-SUFFIX,wsxsdf.com
+DOMAIN-SUFFIX,xcbbtf.com
+DOMAIN-SUFFIX,xianyu.com
+DOMAIN-SUFFIX,xianyu.mobi

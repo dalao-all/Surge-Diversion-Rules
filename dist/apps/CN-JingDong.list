@@ -1,16 +1,16 @@
-# NAME: CN-JingDong — JingDong（国内）
+# NAME: CN-JingDong — 京东
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:JingDong | v2:jd | custom
-# COUNT: DOMAIN-SUFFIX=269 TOTAL=269
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:JingDong | v2:jd | v4dep:jd-shared | v4own | custom
+# COUNT: DOMAIN-SUFFIX=261 TOTAL=261
+# V4 APPS: CN034 京东
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,3.cn
 DOMAIN-SUFFIX,360buy.cn
 DOMAIN-SUFFIX,baitiao.cn
 DOMAIN-SUFFIX,chicalot.cn
 DOMAIN-SUFFIX,360buy.com.cn
-DOMAIN-SUFFIX,chinabank.com.cn
 DOMAIN-SUFFIX,duiou.com.cn
 DOMAIN-SUFFIX,jd.com.cn
 DOMAIN-SUFFIX,jd-ex.com.cn
@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,paidaojia.cn
 DOMAIN-SUFFIX,wuliujie.cn
 DOMAIN-SUFFIX,yhcdn.cn
 DOMAIN-SUFFIX,1huizhan.com
-DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,360buyinternational.com
@@ -153,7 +152,6 @@ DOMAIN-SUFFIX,jd-app.com
 DOMAIN-SUFFIX,jd-ex.com
 DOMAIN-SUFFIX,jdallianz.com
 DOMAIN-SUFFIX,jdbusiness.com
-DOMAIN-SUFFIX,jdcache.com
 DOMAIN-SUFFIX,jdcdn.com
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jdcloud-api.com
@@ -192,9 +190,7 @@ DOMAIN-SUFFIX,jdfw1.com
 DOMAIN-SUFFIX,jdgslb.com
 DOMAIN-SUFFIX,jdh.com
 DOMAIN-SUFFIX,jdindustry.com
-DOMAIN-SUFFIX,jdjinrong.com
 DOMAIN-SUFFIX,jdl.com
-DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jdpaydns.com
 DOMAIN-SUFFIX,jdsmartkf.com
 DOMAIN-SUFFIX,jdwl.com
@@ -208,8 +204,6 @@ DOMAIN-SUFFIX,jingpinhui.com
 DOMAIN-SUFFIX,jingxi.com
 DOMAIN-SUFFIX,jingxiaoling.com
 DOMAIN-SUFFIX,jkcsjd.com
-DOMAIN-SUFFIX,joyai.com
-DOMAIN-SUFFIX,joybuy.com
 DOMAIN-SUFFIX,linglonglife.com
 DOMAIN-SUFFIX,logiseasy.com
 DOMAIN-SUFFIX,mayshijia.com
@@ -226,7 +220,6 @@ DOMAIN-SUFFIX,toplife.com
 DOMAIN-SUFFIX,vg.com
 DOMAIN-SUFFIX,vipmro.com
 DOMAIN-SUFFIX,wanggou.com
-DOMAIN-SUFFIX,wangyin.com
 DOMAIN-SUFFIX,wdfok.com
 DOMAIN-SUFFIX,wuliujie.com
 DOMAIN-SUFFIX,xianjiqun.com

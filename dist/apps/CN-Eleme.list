@@ -1,0 +1,31 @@
+# NAME: CN-Eleme — 淘宝闪购（饿了么）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:Eleme | v2:eleme | v4own | custom
+# COUNT: DOMAIN=4 DOMAIN-SUFFIX=18 TOTAL=22
+# V4 APPS: CN038 淘宝闪购
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN,ju.taobao.com
+DOMAIN,flash.m.taobao.com
+DOMAIN,jhs.m.taobao.com
+DOMAIN,sg.m.taobao.com
+DOMAIN-SUFFIX,eleme.com.cn
+DOMAIN-SUFFIX,eleme.cn
+DOMAIN-SUFFIX,elemecdn.cn
+DOMAIN-SUFFIX,fengniaopaotui.cn
+DOMAIN-SUFFIX,fengniaozhongbao.cn
+DOMAIN-SUFFIX,taote.cn
+DOMAIN-SUFFIX,youcaishop.cn
+DOMAIN-SUFFIX,doservice.com
+DOMAIN-SUFFIX,elemecdn.com
+DOMAIN-SUFFIX,t-subao.com
+DOMAIN-SUFFIX,taote.com
+DOMAIN-SUFFIX,xingxuanwaimai.com
+DOMAIN-SUFFIX,xyzele.com
+DOMAIN-SUFFIX,eleme.io
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,elenet.me
+DOMAIN-SUFFIX,fengniaojipei.net
+DOMAIN-SUFFIX,ele.to

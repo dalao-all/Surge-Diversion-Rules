@@ -1,0 +1,26 @@
+# NAME: CN-CITIC — 动卡空间（中信银行）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v2:citic | v4dep:citic-shared | v4own | custom
+# COUNT: DOMAIN-SUFFIX=18 TOTAL=18
+# V4 APPS: CN008 动卡空间
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,citic
+DOMAIN-SUFFIX,citic-prudential.com.cn
+DOMAIN-SUFFIX,citicprufunds.com.cn
+DOMAIN-SUFFIX,cfc108.com
+DOMAIN-SUFFIX,chinaamc.com
+DOMAIN-SUFFIX,citic.com
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,citiccapital.com
+DOMAIN-SUFFIX,citiciam.com
+DOMAIN-SUFFIX,citicifh.com
+DOMAIN-SUFFIX,citicsf.com
+DOMAIN-SUFFIX,clsa.com
+DOMAIN-SUFFIX,cncbinternational.com
+DOMAIN-SUFFIX,csc108.com
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,citics.com.hk
+DOMAIN-SUFFIX,csci.hk
+DOMAIN-SUFFIX,xn--fiq64b

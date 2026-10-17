@@ -1,0 +1,12 @@
+# NAME: CN-ApplePodcasts — Apple 播客
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=3 TOTAL=3
+# V4 APPS: CN031 播客
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Apple
+# NOTE: 国内 App；同上；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,play.itunes.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,applepodcasts.com

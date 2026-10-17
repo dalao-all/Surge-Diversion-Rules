@@ -1,11 +1,12 @@
-# NAME: CN-TencentVideo — TencentVideo（国内）
+# NAME: CN-TencentVideo — 腾讯视频
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:TencentVideo | custom
-# COUNT: DOMAIN=13 DOMAIN-SUFFIX=5 IP-CIDR=3 IP-CIDR6=29 TOTAL=50
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
-DOMAIN,yoo.gtimg.com
+# SOURCES: bm:TencentVideo | v4own | custom
+# COUNT: DOMAIN=10 DOMAIN-SUFFIX=9 IP-CIDR=3 IP-CIDR6=29 TOTAL=51
+# V4 APPS: CN021 腾讯视频
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Tencent
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN,iacc.qq.com
 DOMAIN,ios.video.mpush.qq.com
 DOMAIN,rdelivery.qq.com
@@ -16,13 +17,15 @@ DOMAIN,v.streaming.qq.com
 DOMAIN,ts.qq.com
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net
-DOMAIN,ins-eeww7kom.ias.tencent-cloud.net
-DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
-DOMAIN-SUFFIX,pgdt.gtimg.cn
-DOMAIN-SUFFIX,qqvideo.gtimg.com
+DOMAIN-SUFFIX,film.qq.com
+DOMAIN-SUFFIX,tc.qq.com
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,vmind.qq.com
+DOMAIN-SUFFIX,qqlive.com
 DOMAIN-SUFFIX,v.smtcdns.com
+DOMAIN-SUFFIX,tenvideo.com
+DOMAIN-SUFFIX,wetv.vip
 IP-CIDR,58.49.111.79/32,no-resolve
 IP-CIDR,58.49.111.95/32,no-resolve
 IP-CIDR,58.49.111.117/32,no-resolve

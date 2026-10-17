@@ -1,10 +1,12 @@
-# NAME: CN-DouYin — DouYin（国内）
+# NAME: CN-DouYin — 抖音
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:DouYin | v2:douyin | custom
-# COUNT: DOMAIN=2 DOMAIN-SUFFIX=76 TOTAL=78
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:DouYin | v2:douyin | v4own | custom
+# COUNT: DOMAIN=2 DOMAIN-SUFFIX=80 TOTAL=82
+# V4 APPS: CN014 抖音
+# FAMILY: 与同集团其它 App 共用的域名在 CN-ByteDance
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
 DOMAIN-SUFFIX,amemv.cn
@@ -26,6 +28,8 @@ DOMAIN-SUFFIX,awemeuglang.com
 DOMAIN-SUFFIX,awemeugsoul.com
 DOMAIN-SUFFIX,awemeugwave.com
 DOMAIN-SUFFIX,boxdouyin.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,byteeffectflakes.com
 DOMAIN-SUFFIX,cookicut.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinact.com
@@ -62,6 +66,7 @@ DOMAIN-SUFFIX,ihuoshanstatic.com
 DOMAIN-SUFFIX,ihuoshanvod.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,jinritemai.com
 DOMAIN-SUFFIX,lifexue.com
 DOMAIN-SUFFIX,open-douyin.com
 DOMAIN-SUFFIX,ppkankan01.com
@@ -75,6 +80,7 @@ DOMAIN-SUFFIX,ulpay.com
 DOMAIN-SUFFIX,ultracachenode.com
 DOMAIN-SUFFIX,woaihuoshan.com
 DOMAIN-SUFFIX,wohst8.com
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,amemv.net
 DOMAIN-SUFFIX,douyinact.net
 DOMAIN-SUFFIX,huoshanvideo.net

@@ -1,0 +1,13 @@
+# NAME: CN-Youdao — 网易有道词典
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=4 TOTAL=4
+# V4 APPS: CN091 网易有道词典
+# FAMILY: 与同集团其它 App 共用的域名在 CN-NetEase
+# NOTE: 国内 App；网易集团共享域名归 CN-NetEase；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,dict.cn
+DOMAIN-SUFFIX,youdao.cn
+DOMAIN-SUFFIX,ydstatic.com
+DOMAIN-SUFFIX,youdao.com

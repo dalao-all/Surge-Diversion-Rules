@@ -1,0 +1,13 @@
+# NAME: CN-NetSpeed — 全球网测
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=5 TOTAL=5
+# V4 APPS: CN130 全球网测
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,caict.ac.cn
+DOMAIN-SUFFIX,caict.cn
+DOMAIN-SUFFIX,speedtest.net.cn
+DOMAIN-SUFFIX,speedtest.cn
+DOMAIN-SUFFIX,testspeed.cn

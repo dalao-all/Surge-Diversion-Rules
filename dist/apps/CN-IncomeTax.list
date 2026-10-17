@@ -1,0 +1,12 @@
+# NAME: CN-IncomeTax — 个人所得税
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=4 TOTAL=4
+# V4 APPS: CN104 个人所得税
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,gerensuodeshui.com.cn
+DOMAIN-SUFFIX,12366.gov.cn
+DOMAIN-SUFFIX,chinatax.gov.cn
+DOMAIN-SUFFIX,tax.gov.cn

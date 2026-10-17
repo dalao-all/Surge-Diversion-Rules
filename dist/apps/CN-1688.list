@@ -1,0 +1,15 @@
+# NAME: CN-1688 — 阿里巴巴（1688）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN=1 DOMAIN-SUFFIX=5 TOTAL=6
+# V4 APPS: CN044 阿里巴巴（1688）
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目
+DOMAIN,cbu01.alicdn.com
+DOMAIN-SUFFIX,1688.cn
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,alibank.com
+DOMAIN-SUFFIX,aliloan.com
+DOMAIN-SUFFIX,alisoft.com

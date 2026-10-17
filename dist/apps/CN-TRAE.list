@@ -1,0 +1,25 @@
+# NAME: CN-TRAE — TRAE
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v2:trae | v4own | custom
+# COUNT: DOMAIN-SUFFIX=16 TOTAL=16
+# V4 APPS: CN055 TRAE
+# FAMILY: 与同集团其它 App 共用的域名在 CN-ByteDance
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,marscode.com.cn
+DOMAIN-SUFFIX,trae.com.cn
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,mcprev.cn
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,yoma.cn
+DOMAIN-SUFFIX,doudou.com
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,trae-cdn.com
+DOMAIN-SUFFIX,traecdn.com
+DOMAIN-SUFFIX,mchost.guru
+DOMAIN-SUFFIX,tcwqqdy.guru
+DOMAIN-SUFFIX,trae.guru
+DOMAIN-SUFFIX,mcdemo.show
+DOMAIN-SUFFIX,mcbaas.work

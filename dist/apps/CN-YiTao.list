@@ -1,0 +1,12 @@
+# NAME: CN-YiTao — 一淘
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=3 TOTAL=3
+# V4 APPS: CN046 一淘
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,etao.cn
+DOMAIN-SUFFIX,etao.com
+DOMAIN-SUFFIX,etaocdn.com

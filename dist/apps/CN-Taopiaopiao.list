@@ -1,0 +1,19 @@
+# NAME: CN-Taopiaopiao — 淘票票
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=10 TOTAL=10
+# V4 APPS: CN030 淘票票
+# FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
+# NOTE: 国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,piao.com.cn
+DOMAIN-SUFFIX,damai.cn
+DOMAIN-SUFFIX,damaicdn.cn
+DOMAIN-SUFFIX,dmcdn.cn
+DOMAIN-SUFFIX,taopiaopiao.cn
+DOMAIN-SUFFIX,alipictures.com
+DOMAIN-SUFFIX,maitix.com
+DOMAIN-SUFFIX,piaogroup.com
+DOMAIN-SUFFIX,taopiaopiao.com
+DOMAIN-SUFFIX,maitix.net

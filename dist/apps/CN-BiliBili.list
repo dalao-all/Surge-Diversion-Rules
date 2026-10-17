@@ -1,10 +1,11 @@
-# NAME: CN-BiliBili — BiliBili（国内）
+# NAME: CN-BiliBili — 哔哩哔哩
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
 # BUILT: 2026-10-17
 # SUGGESTED POLICY: DIRECT
-# SOURCES: bm:BiliBili | v2:bilibili | custom
-# COUNT: DOMAIN=49 DOMAIN-SUFFIX=63 IP-CIDR=8 TOTAL=120
-# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+# SOURCES: bm:BiliBili | v2:bilibili | v4own | custom
+# COUNT: DOMAIN=49 DOMAIN-SUFFIX=65 IP-CIDR=8 TOTAL=122
+# V4 APPS: CN017 哔哩哔哩
+# NOTE: 国内 App；B 站国际版由海外表 BilibiliIntl 接管；v2fly 仅取非 @!cn 条目
 DOMAIN,112-81-125-43.dhost.00cdn.com
 DOMAIN,113-219-145-1.ksyungslb.com
 DOMAIN,114-236-92-129.ksyungslb.com
@@ -111,8 +112,10 @@ DOMAIN-SUFFIX,bilibili.net
 DOMAIN-SUFFIX,bilibiligame.net
 DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,bimagic.net
 DOMAIN-SUFFIX,hdslb.net
 DOMAIN-SUFFIX,mcbbs.net
+DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
 DOMAIN-SUFFIX,hdslb.org
 DOMAIN-SUFFIX,acg.tv

@@ -1,0 +1,13 @@
+# NAME: CN-ShengQian — 省钱快报
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=5 TOTAL=5
+# V4 APPS: CN048 省钱快报
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,sqkb.cn
+DOMAIN-SUFFIX,shengqiankuaibao.com
+DOMAIN-SUFFIX,sqkb.com
+DOMAIN-SUFFIX,sqkbcdn.com
+DOMAIN-SUFFIX,sqkblive.com

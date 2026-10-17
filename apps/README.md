@@ -10,7 +10,9 @@
 | `apps/custom/<App>.list` | 人工补充（抓包、1.3.6/V3.5.x 内联规则、官方文档）。这里的条目不会被“国内重叠”自动剔除 |
 | `apps/build_apps.py` | 构建脚本（来源格式见文件头注释） |
 | `apps/fetch_upstreams.sh` | 浅克隆全部上游到 `.upstream/`，并写 `dist/apps/sources.lock.json` |
-| `apps/coverage_check.py` | 覆盖检查：`dist/v4` 里所有海外条目必须被某个 App 表覆盖；豁免见 `apps/coverage_exempt.txt` |
+| `apps/coverage_check.py` | 覆盖检查：`dist/v4` 海外条目必须被某个海外 App 表覆盖；`dist/v4/cn.list` 每一条必须落入某个 `CN-*` 表；豁免见 `apps/coverage_exempt.txt` |
+| `dist/apps/CN-Guard.list` | 自动生成：被海外 App 关键词误吸的国内域名（如 speedtest.cn 被 Speedtest 的 `speedtest` 关键词吸走），配置中放在海外 App 层之前 DIRECT |
+| `dist/apps/CN-Reject.list` | 自动生成：新扩国内表的后缀罩住了广告层原本拦截的域名，配置中放在国内单表之前 REJECT，广告拦截行为不变 |
 | `dist/apps/README.md` | 自动生成的总表（每个 App 条目数、最大单一上游条目数、建议策略） |
 | `dist/apps/report.json` | 每个来源贡献、丢弃原因、跨 App 冲突、国内重叠剔除明细 |
 
@@ -27,6 +29,18 @@ xiaolai/anthropic-claude-surge-rules-set · SukkaW/Surge（ai.conf / global.conf
 6. 跨 App：完全重复的条目只归排在前面的 App；被前面 App 后缀覆盖的条目删除（死规则）；含前面 App 品牌关键词的条目移入该 App。
 7. 被 `dist/v4/protect-cn` 覆盖的条目删除（主配置里 protect-cn 在 App 表之前，属于死规则）。`override_protect_cn` 的 App（Tableau、B 站国际版）例外，须放在 protect-cn 之前。
 
+## 国内 App（V3.5.6 起全量拆分）
+国内 App 共 104 个表，覆盖仓库 v4 `rulekit_v4/apps.json` 的全部国内 App（CN001–CN132；CN131 Speedtest 走海外表 Speedtest，INT024 Tableau 走海外表 Tableau）。
+
+- 来源 = 你的抓包与审核结果（`dist/v4/provenance.ndjson.gz` 里 cn / protect-cn 两类，每条带 App 编号）+ blackmatrix7 + v2fly 同名表的并集：
+  - `v4own`：本表 `v4_app_ids` 认领的条目（含 protect-cn 业务端点、`rulekit_v4/custom/app-*.list`、`reviewed-*.list`、上游专属表）；
+  - `v4dep:<组>`：集团共享依赖组（tencent-shared、alibaba-shared、apple-icloud …）的条目；
+  - `v4common`：cn.list 里没有任何 App 归属的通用基础设施（Sukka domestic/direct 等）→ `CN-Common`。
+- 归属顺序：**专属 App 在前 → 集团共享表在后 → CN-Common 最后**。一条规则被多个 App 认领时：同一集团（manifest 的 `family`）→ 归集团表；跨集团 → 归排序最前的表。
+- 所有国内表策略都是 DIRECT，归属只决定“这条规则写在哪个文件里”，不改变路由；覆盖检查保证 `cn.list` 0 遗漏，所以主配置最终可以删掉 cn.list。
+- 有些 App 的表很小或为空（如贝壳的条目都已归 CN-Beike、链家集团表 CN-Lianjia 为空），说明它的域名已被同集团或更前面的表收录，主配置不引用空表。
+- `ads_trust`：V3.5.5 起就在国内层的 27 个表，上游条目视同已审核；其余新表的上游条目若本身是广告域名则剔除，若罩住广告域名则把广告域名写进 CN-Reject。
+
 ## 本地构建
 ```bash
 bash apps/fetch_upstreams.sh          # 拉上游到 .upstream/
@@ -34,7 +48,7 @@ python3 apps/build_apps.py            # 生成 dist/apps/
 python3 apps/coverage_check.py        # 覆盖检查
 python3 -m unittest discover -s apps -p 'test_*.py'
 ```
-GitHub Actions `.github/workflows/apps.yml`：每周一自动重建；修改 `apps/**` 推送后立即重建。
+GitHub Actions `.github/workflows/apps.yml`：每周一自动重建；修改 `apps/**`、`dist/v4/cn.list`、`provenance` 推送后，以及 v4 每日更新成功后立即重建。
 
 ## 新增 / 修改一个 App
 1. 在 `manifest.json` 合适位置加一项（更专属的 App 放在更通用的 App 前面，例如 YouTube 在 Google 前）。

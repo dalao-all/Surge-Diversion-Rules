@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "note": "每个 App 一个输出文件 dist/apps/<id>.list；数组顺序即优先级。来源格式见 build_apps.py 顶部注释。",
+ "note": "每个 App 一个输出文件 dist/apps/<id>.list；数组顺序即优先级。来源格式见 build_apps.py 顶部注释。 国内 App 按“专属在前、集团共享在后、CN-Common 兜底”排序；v4:<ID>/v4dep:<组>/v4common 取自 dist/v4 provenance（用户抓包 + 仓库 v4 已审核条目）。",
  "apps": [
   {
    "id": "OKX",
@@ -15,7 +15,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🪙 OKX 台湾"
+   "surge_policy": "🪙 OKX 台湾"
   },
   {
    "id": "Binance",
@@ -33,7 +33,7 @@
     "appsflayer.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🪙 Binance 台湾"
+   "surge_policy": "🪙 Binance 台湾"
   },
   {
    "id": "Bybit",
@@ -48,7 +48,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "💳 Bybit 全球"
+   "surge_policy": "💳 Bybit 全球"
   },
   {
    "id": "BybitEU",
@@ -62,7 +62,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🇩🇪 Bybit 欧洲"
+   "surge_policy": "🇩🇪 Bybit 欧洲"
   },
   {
    "id": "BitgetWallet",
@@ -75,7 +75,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🪙 数字资产"
+   "surge_policy": "🪙 数字资产"
   },
   {
    "id": "UUWallet",
@@ -88,7 +88,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🪙 数字资产"
+   "surge_policy": "🪙 数字资产"
   },
   {
    "id": "PlasmaOne",
@@ -101,7 +101,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🪙 数字资产"
+   "surge_policy": "🪙 数字资产"
   },
   {
    "id": "Crypto-Common",
@@ -121,7 +121,7 @@
     "fragment.com"
    ],
    "note": "其他交易所/钱包/链上工具（blackmatrix7 Crypto+Cryptocurrency 与人工补充），统一走数字资产",
-   "surge_policy_in_V3.5.5": "🪙 数字资产"
+   "surge_policy": "🪙 数字资产"
   },
   {
    "id": "PayPal",
@@ -136,7 +136,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "💳 PayPal 美国"
+   "surge_policy": "💳 PayPal 美国"
   },
   {
    "id": "Wise",
@@ -150,7 +150,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "💸 Wise 台湾"
+   "surge_policy": "💸 Wise 台湾"
   },
   {
    "id": "AI-Common",
@@ -167,7 +167,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "Arkose/hCaptcha/Sift/Statsig/WorkOS/Stripe 等，被多个 AI App 共用，必须与 AI 同出口",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "Claude",
@@ -196,7 +196,7 @@
     "storage.googleapis.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "ChatGPT",
@@ -227,7 +227,7 @@
     "stripe.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "Gemini",
@@ -255,7 +255,7 @@
     "www.google.com"
    ],
    "note": "只收 Gemini/AI Studio/DeepMind 专属主机；google.com 等通用后缀归 Google",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "Grok",
@@ -271,7 +271,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "Cursor",
@@ -287,7 +287,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "AI-Other",
@@ -351,7 +351,7 @@
     "self.events.data.microsoft.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "Notion",
@@ -366,7 +366,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "IPCheck",
@@ -379,7 +379,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "YouTube",
@@ -402,7 +402,7 @@
     "gvt2.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "📺 YouTube"
+   "surge_policy": "📺 YouTube"
   },
   {
    "id": "Google",
@@ -430,7 +430,7 @@
    ],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+   "surge_policy": "🤖 AI住宅"
   },
   {
    "id": "TikTok",
@@ -447,7 +447,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "与抖音共用的 ByteDance 国内基础设施（snssdk/bytedapm 等）自动剔除",
-   "surge_policy_in_V3.5.5": "🎵 TikTok"
+   "surge_policy": "🎵 TikTok"
   },
   {
    "id": "WhatsApp",
@@ -466,7 +466,7 @@
     "bintray.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "💬 WhatsApp"
+   "surge_policy": "💬 WhatsApp"
   },
   {
    "id": "Instagram",
@@ -482,7 +482,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "📘 Meta"
+   "surge_policy": "📘 Meta"
   },
   {
    "id": "Threads",
@@ -497,7 +497,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "📘 Meta"
+   "surge_policy": "📘 Meta"
   },
   {
    "id": "Facebook",
@@ -518,7 +518,7 @@
    ],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "📘 Meta"
+   "surge_policy": "📘 Meta"
   },
   {
    "id": "Reddit",
@@ -538,7 +538,7 @@
     "reddituploads.com.cdn-cf.dropbox.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "👽 Reddit"
+   "surge_policy": "👽 Reddit"
   },
   {
    "id": "Netflix",
@@ -560,7 +560,7 @@
    ],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🎬 Netflix"
+   "surge_policy": "🎬 Netflix"
   },
   {
    "id": "Telegram",
@@ -587,7 +587,7 @@
    ],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "✈️ Telegram"
+   "surge_policy": "✈️ Telegram"
   },
   {
    "id": "X",
@@ -606,7 +606,7 @@
    ],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🐦 X"
+   "surge_policy": "🐦 X"
   },
   {
    "id": "Discord",
@@ -623,7 +623,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🎮 Discord"
+   "surge_policy": "🎮 Discord"
   },
   {
    "id": "Viki",
@@ -639,7 +639,7 @@
     "twemoji.maxcdn.com"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🎬 流媒体"
+   "surge_policy": "🎬 流媒体"
   },
   {
    "id": "BilibiliIntl",
@@ -657,7 +657,7 @@
    ],
    "note": "仓库 v4 protect-cn 误收该 App 域名 → 配置中此列表须放在 protect-cn 之前",
    "override_protect_cn": true,
-   "surge_policy_in_V3.5.5": "🎬 流媒体"
+   "surge_policy": "🎬 流媒体"
   },
   {
    "id": "GitHub",
@@ -676,7 +676,7 @@
     "github-copilot"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "Obsidian",
@@ -690,7 +690,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "DejaVocab",
@@ -704,7 +704,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "Sanas",
@@ -718,7 +718,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "Tableau",
@@ -733,7 +733,7 @@
    "exclude": [],
    "note": "仓库 v4 protect-cn 误收该 App 域名 → 配置中此列表须放在 protect-cn 之前",
    "override_protect_cn": true,
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "Surge",
@@ -747,7 +747,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "Speedtest",
@@ -765,7 +765,7 @@
     "speed.dler.io"
    ],
    "note": "",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "giffgaff",
@@ -779,7 +779,7 @@
    "ip_sources": [],
    "exclude": [],
    "note": "",
-   "surge_policy_in_V3.5.5": "🇬🇧 英国专属"
+   "surge_policy": "🇬🇧 英国专属"
   },
   {
    "id": "Global-Misc",
@@ -792,458 +792,2531 @@
    "ip_sources": [],
    "exclude": [],
    "note": "短链/邮件追踪/OCSP/CDN 等多 App 共用的海外服务",
-   "surge_policy_in_V3.5.5": "🌍 国际网络"
+   "surge_policy": "🌍 国际网络"
   },
   {
    "id": "CN-AliPay",
-   "name": "AliPay（国内）",
+   "name": "支付宝",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:AliPay",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:AliPay"
+    "bm:AliPay",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN001"
+   ],
+   "v4_app_names": [
+    "支付宝"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba",
+   "ads_trust": true
   },
   {
    "id": "CN-UnionPay",
-   "name": "UnionPay（国内）",
+   "name": "云闪付",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:UnionPay",
     "v2:unionpay",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:UnionPay"
+    "bm:UnionPay",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN002"
+   ],
+   "v4_app_names": [
+    "云闪付"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-ICBC",
-   "name": "ICBC（国内）",
+   "name": "中国工商银行",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:ICBC",
     "v2:icbc",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:ICBC"
+    "bm:ICBC",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN003"
+   ],
+   "v4_app_names": [
+    "中国工商银行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-CCB",
-   "name": "CCB（国内）",
+   "name": "中国建设银行",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:CCB",
     "v2:ccb",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:CCB"
+    "bm:CCB",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN004"
+   ],
+   "v4_app_names": [
+    "中国建设银行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-SCRCU",
+   "name": "个人手机银行（四川农信）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN005"
+   ],
+   "v4_app_names": [
+    "个人手机银行（四川农信）"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-CMBLife",
+   "name": "掌上生活（招行信用卡）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN009"
+   ],
+   "v4_app_names": [
+    "掌上生活"
+   ],
+   "note": "国内 App；集团共享域名归 CN-CMB；v2fly 仅取非 @!cn 条目",
+   "family": "CN-CMB"
   },
   {
    "id": "CN-CMB",
-   "name": "CMB（国内）",
+   "name": "招商银行",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:CMB",
     "v2:cmb",
+    "v4dep:cmb-shared",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:CMB"
+    "bm:CMB",
+    "v4dep:cmb-shared",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN006"
+   ],
+   "v4_app_names": [
+    "招商银行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
-   "id": "CN-JingDong",
-   "name": "JingDong（国内）",
+   "id": "CN-CIB",
+   "name": "兴业银行",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
-    "bm:JingDong",
-    "v2:jd",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:JingDong"
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN007"
+   ],
+   "v4_app_names": [
+    "兴业银行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-CITIC",
+   "name": "动卡空间（中信银行）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:citic",
+    "v4dep:citic-shared",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4dep:citic-shared",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN008"
+   ],
+   "v4_app_names": [
+    "动卡空间"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-JDFinance",
+   "name": "京东金融",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN010"
+   ],
+   "v4_app_names": [
+    "京东金融"
+   ],
+   "note": "国内 App；集团共享域名归 CN-JingDong；v2fly 仅取非 @!cn 条目",
+   "family": "CN-JingDong"
   },
   {
    "id": "CN-WeChat",
-   "name": "WeChat（国内）",
+   "name": "微信",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:WeChat",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:WeChat"
+    "bm:WeChat",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN011"
+   ],
+   "v4_app_names": [
+    "微信"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-QQ",
+   "name": "QQ",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN013"
+   ],
+   "v4_app_names": [
+    "QQ"
+   ],
+   "note": "国内 App；腾讯集团共享域名归 CN-Tencent；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent"
   },
   {
    "id": "CN-DingTalk",
-   "name": "DingTalk（国内）",
+   "name": "钉钉",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:DingTalk",
     "v2:dingtalk",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:DingTalk"
+    "bm:DingTalk",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
-  },
-  {
-   "id": "CN-TencentVideo",
-   "name": "TencentVideo（国内）",
-   "category": "cn",
-   "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
-   "sources": [
-    "bm:TencentVideo",
-    "custom"
+   "v4_app_ids": [
+    "CN012"
    ],
-   "ip_sources": [
-    "bm:TencentVideo"
+   "v4_app_names": [
+    "钉钉"
    ],
-   "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
-  },
-  {
-   "id": "CN-Tencent",
-   "name": "Tencent（国内）",
-   "category": "cn",
-   "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
-   "sources": [
-    "bm:Tencent",
-    "v2:tencent",
-    "custom"
-   ],
-   "ip_sources": [
-    "bm:Tencent"
-   ],
-   "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba",
+   "ads_trust": true
   },
   {
    "id": "CN-DouYin",
-   "name": "DouYin（国内）",
+   "name": "抖音",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:DouYin",
     "v2:douyin",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:DouYin"
+    "bm:DouYin",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN014"
+   ],
+   "v4_app_names": [
+    "抖音"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-ByteDance",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-JianYing",
+   "name": "剪映",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN024"
+   ],
+   "v4_app_names": [
+    "剪映"
+   ],
+   "note": "国内 App；字节集团共享域名归 CN-ByteDance；v2fly 仅取非 @!cn 条目",
+   "family": "CN-ByteDance"
   },
   {
    "id": "CN-KuaiShou",
-   "name": "KuaiShou（国内）",
+   "name": "快手 / 快手极速版",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:KuaiShou",
     "v2:kuaishou",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:KuaiShou"
+    "bm:KuaiShou",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN015",
+    "CN019"
+   ],
+   "v4_app_names": [
+    "快手",
+    "快手极速版"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-XiaoHongShu",
-   "name": "XiaoHongShu（国内）",
+   "name": "小红书",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:XiaoHongShu",
     "v2:xiaohongshu",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:XiaoHongShu"
+    "bm:XiaoHongShu",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN016"
+   ],
+   "v4_app_names": [
+    "小红书"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-BiliBili",
-   "name": "BiliBili（国内）",
+   "name": "哔哩哔哩",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:BiliBili",
     "v2:bilibili",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:BiliBili"
+    "bm:BiliBili",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN017"
+   ],
+   "v4_app_names": [
+    "哔哩哔哩"
+   ],
+   "note": "国内 App；B 站国际版由海外表 BilibiliIntl 接管；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-Weibo",
-   "name": "Weibo（国内）",
+   "name": "微博",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:Weibo",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:Weibo"
+    "bm:Weibo",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN018"
+   ],
+   "v4_app_names": [
+    "微博"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Sina",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-HeiMao",
+   "name": "黑猫投诉",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN110"
+   ],
+   "v4_app_names": [
+    "黑猫投诉"
+   ],
+   "note": "国内 App；新浪集团共享域名归 CN-Sina；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Sina"
   },
   {
    "id": "CN-NetEaseMusic",
-   "name": "NetEaseMusic（国内）",
+   "name": "网易云音乐",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:NetEaseMusic",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:NetEaseMusic"
+    "bm:NetEaseMusic",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN020"
+   ],
+   "v4_app_names": [
+    "网易云音乐"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-NetEase",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-Youdao",
+   "name": "网易有道词典",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN091"
+   ],
+   "v4_app_names": [
+    "网易有道词典"
+   ],
+   "note": "国内 App；网易集团共享域名归 CN-NetEase；v2fly 仅取非 @!cn 条目",
+   "family": "CN-NetEase"
+  },
+  {
+   "id": "CN-TencentVideo",
+   "name": "腾讯视频",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:TencentVideo",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:TencentVideo",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN021"
+   ],
+   "v4_app_names": [
+    "腾讯视频"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent",
+   "ads_trust": true
   },
   {
    "id": "CN-iQIYI",
-   "name": "iQIYI（国内）",
+   "name": "爱奇艺",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:iQIYI",
     "v2:iqiyi",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:iQIYI"
+    "bm:iQIYI",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN022"
+   ],
+   "v4_app_names": [
+    "爱奇艺"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
-   "id": "CN-ByteDance",
-   "name": "ByteDance（国内）",
+   "id": "CN-HonorOfKings",
+   "name": "王者荣耀",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
-    "bm:ByteDance",
-    "v2:bytedance",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:ByteDance"
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN025"
+   ],
+   "v4_app_names": [
+    "王者荣耀"
+   ],
+   "note": "国内 App；腾讯集团共享域名归 CN-Tencent；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent"
+  },
+  {
+   "id": "CN-LOLMobile",
+   "name": "掌上英雄联盟",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN026"
+   ],
+   "v4_app_names": [
+    "掌上英雄联盟"
+   ],
+   "note": "国内 App；腾讯集团共享域名归 CN-Tencent；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent"
+  },
+  {
+   "id": "CN-FlyDigi",
+   "name": "飞智游戏厅",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN027"
+   ],
+   "v4_app_names": [
+    "飞智游戏厅"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
   },
   {
    "id": "CN-Coolapk",
-   "name": "Coolapk（国内）",
+   "name": "酷安",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:Coolapk",
     "v2:coolapk",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:Coolapk"
+    "bm:Coolapk",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN028"
+   ],
+   "v4_app_names": [
+    "酷安"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
-   "id": "CN-GaoDe",
-   "name": "GaoDe（国内）",
+   "id": "CN-Maoyan",
+   "name": "猫眼",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
-    "bm:GaoDe",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:GaoDe"
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN029"
+   ],
+   "v4_app_names": [
+    "猫眼"
+   ],
+   "note": "国内 App；美团集团共享域名归 CN-MeiTuan；v2fly 仅取非 @!cn 条目",
+   "family": "CN-MeiTuan"
   },
   {
-   "id": "CN-Alibaba",
-   "name": "Alibaba（国内）",
+   "id": "CN-Taopiaopiao",
+   "name": "淘票票",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
-    "bm:Alibaba",
-    "v2:alibaba",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:Alibaba"
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN030"
+   ],
+   "v4_app_names": [
+    "淘票票"
+   ],
+   "note": "国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-Taobao",
+   "name": "淘宝",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN033"
+   ],
+   "v4_app_names": [
+    "淘宝"
+   ],
+   "note": "国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-JDAI",
+   "name": "京东AI购",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN045"
+   ],
+   "v4_app_names": [
+    "京东AI购"
+   ],
+   "note": "国内 App；集团共享域名归 CN-JingDong；v2fly 仅取非 @!cn 条目",
+   "family": "CN-JingDong"
+  },
+  {
+   "id": "CN-JingFen",
+   "name": "京粉",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN047"
+   ],
+   "v4_app_names": [
+    "京粉"
+   ],
+   "note": "国内 App；集团共享域名归 CN-JingDong；v2fly 仅取非 @!cn 条目",
+   "family": "CN-JingDong"
+  },
+  {
+   "id": "CN-JingDong",
+   "name": "京东",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:JingDong",
+    "v2:jd",
+    "v4dep:jd-shared",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:JingDong",
+    "v4dep:jd-shared",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN034"
+   ],
+   "v4_app_names": [
+    "京东"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-Pinduoduo",
-   "name": "Pinduoduo（国内）",
+   "name": "拼多多",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:Pinduoduo",
     "v2:pinduoduo",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:Pinduoduo"
+    "bm:Pinduoduo",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN035"
+   ],
+   "v4_app_names": [
+    "拼多多"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-XianYu",
+   "name": "闲鱼",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:XianYu",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:XianYu",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN036"
+   ],
+   "v4_app_names": [
+    "闲鱼"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-Eleme",
+   "name": "淘宝闪购（饿了么）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:Eleme",
+    "v2:eleme",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Eleme",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN038"
+   ],
+   "v4_app_names": [
+    "淘宝闪购"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
   },
   {
    "id": "CN-MeiTuan",
-   "name": "MeiTuan（国内）",
+   "name": "美团",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:MeiTuan",
     "v2:meituan",
+    "v4dep:meituan-shared",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:MeiTuan"
+    "bm:MeiTuan",
+    "v4dep:meituan-shared",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN037"
+   ],
+   "v4_app_names": [
+    "美团"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-DianPing",
+   "name": "大众点评",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN039"
+   ],
+   "v4_app_names": [
+    "大众点评"
+   ],
+   "note": "国内 App；美团集团共享域名归 CN-MeiTuan；v2fly 仅取非 @!cn 条目",
+   "family": "CN-MeiTuan"
+  },
+  {
+   "id": "CN-HeMa",
+   "name": "盒马",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:HeMa",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:HeMa",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN040"
+   ],
+   "v4_app_names": [
+    "盒马"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-SamsClub",
+   "name": "山姆会员商店",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4dep:walmart-shared",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4dep:walmart-shared",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN041"
+   ],
+   "v4_app_names": [
+    "山姆会员商店"
+   ],
+   "note": "国内 App；沃尔玛集团候选域名，未经抓包；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-DeWu",
+   "name": "得物",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:dewu",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN042"
+   ],
+   "v4_app_names": [
+    "得物"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
   },
   {
    "id": "CN-ZhuanZhuan",
-   "name": "ZhuanZhuan（国内）",
+   "name": "转转",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:ZhuanZhuan",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:ZhuanZhuan"
+    "bm:ZhuanZhuan",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN043"
+   ],
+   "v4_app_names": [
+    "转转"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-1688",
+   "name": "阿里巴巴（1688）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN044"
+   ],
+   "v4_app_names": [
+    "阿里巴巴（1688）"
+   ],
+   "note": "国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-YiTao",
+   "name": "一淘",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN046"
+   ],
+   "v4_app_names": [
+    "一淘"
+   ],
+   "note": "国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-ShengQian",
+   "name": "省钱快报",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN048"
+   ],
+   "v4_app_names": [
+    "省钱快报"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-GaoDe",
+   "name": "高德地图",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:GaoDe",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:GaoDe",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN049"
+   ],
+   "v4_app_names": [
+    "高德地图"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-DeepSeek",
+   "name": "DeepSeek",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:deepseek",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN051"
+   ],
+   "v4_app_names": [
+    "DeepSeek"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Doubao",
+   "name": "豆包",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:doubao",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN052"
+   ],
+   "v4_app_names": [
+    "豆包"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-ByteDance"
+  },
+  {
+   "id": "CN-Qwen",
+   "name": "千问",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN053"
+   ],
+   "v4_app_names": [
+    "千问"
+   ],
+   "note": "国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Alibaba"
+  },
+  {
+   "id": "CN-ima",
+   "name": "ima",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN054"
+   ],
+   "v4_app_names": [
+    "ima"
+   ],
+   "note": "国内 App；腾讯集团共享域名归 CN-Tencent；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent"
+  },
+  {
+   "id": "CN-TRAE",
+   "name": "TRAE",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:trae",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN055"
+   ],
+   "v4_app_names": [
+    "TRAE"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "family": "CN-ByteDance"
+  },
+  {
+   "id": "CN-Marvis",
+   "name": "Marvis",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN056"
+   ],
+   "v4_app_names": [
+    "Marvis"
+   ],
+   "note": "国内 App；腾讯集团共享域名归 CN-Tencent；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Tencent"
   },
   {
    "id": "CN-12306",
-   "name": "12306（国内）",
+   "name": "铁路12306",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:12306",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:12306"
+    "bm:12306",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN057"
+   ],
+   "v4_app_names": [
+    "铁路12306"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
   },
   {
    "id": "CN-XieCheng",
-   "name": "XieCheng（国内）",
+   "name": "携程旅行",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:XieCheng",
     "v2:ctrip",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:XieCheng"
+    "bm:XieCheng",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN058"
+   ],
+   "v4_app_names": [
+    "携程旅行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-Umetrip",
+   "name": "航旅纵横",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN059"
+   ],
+   "v4_app_names": [
+    "航旅纵横"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-HelloBike",
+   "name": "哈啰",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN060"
+   ],
+   "v4_app_names": [
+    "哈啰"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-TianFuTong",
+   "name": "天府通",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN061"
+   ],
+   "v4_app_names": [
+    "天府通"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-JegoTrip",
+   "name": "无忧行",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN062"
+   ],
+   "v4_app_names": [
+    "无忧行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-DongCheDi",
+   "name": "懂车帝",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:dongchedi",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN063"
+   ],
+   "v4_app_names": [
+    "懂车帝"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-AutoHome",
+   "name": "汽车之家",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN064"
+   ],
+   "v4_app_names": [
+    "汽车之家"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Geely",
+   "name": "吉利汽车",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:Geely",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Geely",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN065"
+   ],
+   "v4_app_names": [
+    "吉利汽车"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Ninebot",
+   "name": "九号出行",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN066"
+   ],
+   "v4_app_names": [
+    "九号出行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Grow",
+   "name": "Grow",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN086"
+   ],
+   "v4_app_names": [
+    "Grow"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-MiHome",
+   "name": "米家",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN087"
+   ],
+   "v4_app_names": [
+    "米家"
+   ],
+   "note": "国内 App；小米集团共享域名归 CN-XiaoMi；v2fly 仅取非 @!cn 条目",
+   "family": "CN-XiaoMi"
+  },
+  {
+   "id": "CN-HuaweiSmartLife",
+   "name": "华为智慧生活",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN088"
+   ],
+   "v4_app_names": [
+    "华为智慧生活"
+   ],
+   "note": "国内 App；华为集团共享域名归 CN-Huawei；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Huawei"
+  },
+  {
+   "id": "CN-BOSS",
+   "name": "BOSS直聘",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN093"
+   ],
+   "v4_app_names": [
+    "BOSS直聘"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Zhaopin",
+   "name": "智联招聘",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN094"
+   ],
+   "v4_app_names": [
+    "智联招聘"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Liepin",
+   "name": "猎聘",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:liepin",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN095"
+   ],
+   "v4_app_names": [
+    "猎聘"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-QCC",
+   "name": "企查查",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:qcc",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN096"
+   ],
+   "v4_app_names": [
+    "企查查"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Beike",
+   "name": "贝壳找房",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN097"
+   ],
+   "v4_app_names": [
+    "贝壳找房"
+   ],
+   "note": "国内 App；链家集团共享域名归 CN-Lianjia；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Lianjia"
+  },
+  {
+   "id": "CN-CTID",
+   "name": "国家网络身份认证",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN098"
+   ],
+   "v4_app_names": [
+    "国家网络身份认证"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-YueTongXing",
+   "name": "悦通行",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN099"
+   ],
+   "v4_app_names": [
+    "悦通行"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-QuShangWang",
+   "name": "去上网（去哒）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN100"
+   ],
+   "v4_app_names": [
+    "去上网（去哒）"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
   },
   {
    "id": "CN-ChinaMobile",
-   "name": "ChinaMobile（国内）",
+   "name": "中国移动",
    "category": "cn",
    "suggested_policy": "DIRECT",
-   "surge_policy_in_V3.5.5": "DIRECT",
+   "surge_policy": "DIRECT",
    "sources": [
     "bm:ChinaMobile",
     "v2:chinamobile",
+    "v4own",
     "custom"
    ],
    "ip_sources": [
-    "bm:ChinaMobile"
+    "bm:ChinaMobile",
+    "v4own"
    ],
    "exclude": [],
-   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+   "v4_app_ids": [
+    "CN101"
+   ],
+   "v4_app_names": [
+    "中国移动"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-UUYC",
+   "name": "UU远程",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN102"
+   ],
+   "v4_app_names": [
+    "UU远程"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Traffic12123",
+   "name": "交管12123",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN103"
+   ],
+   "v4_app_names": [
+    "交管12123"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-IncomeTax",
+   "name": "个人所得税",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN104"
+   ],
+   "v4_app_names": [
+    "个人所得税"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-MONO",
+   "name": "MONO记账",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN105"
+   ],
+   "v4_app_names": [
+    "MONO记账"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Cookie",
+   "name": "Cookie",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN106"
+   ],
+   "v4_app_names": [
+    "Cookie"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-ShangDaoJi",
+   "name": "上岛记",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN107"
+   ],
+   "v4_app_names": [
+    "上岛记"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-iCost",
+   "name": "iCost",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN108"
+   ],
+   "v4_app_names": [
+    "iCost"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-CamScanner",
+   "name": "扫描全能王",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN109"
+   ],
+   "v4_app_names": [
+    "扫描全能王"
+   ],
+   "note": "国内 App；合合信息集团共享域名归 CN-Intsig；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Intsig"
+  },
+  {
+   "id": "CN-AiSi",
+   "name": "爱思全能版",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN111"
+   ],
+   "v4_app_names": [
+    "爱思全能版"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-GestaltEdit",
+   "name": "GestaltEdit",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN124"
+   ],
+   "v4_app_names": [
+    "GestaltEdit"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-NetSpeed",
+   "name": "全球网测",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN130"
+   ],
+   "v4_app_names": [
+    "全球网测"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-ColorfulClouds",
+   "name": "彩云天气PRO",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:colorfulclouds",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN132"
+   ],
+   "v4_app_names": [
+    "彩云天气PRO"
+   ],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-AppleMusic",
+   "name": "Apple 音乐",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN023"
+   ],
+   "v4_app_names": [
+    "音乐"
+   ],
+   "note": "国内 App；Apple 系列只取仓库 v4 已收录条目；配置中 Apple 条件分流层在前；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Apple"
+  },
+  {
+   "id": "CN-ApplePodcasts",
+   "name": "Apple 播客",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN031"
+   ],
+   "v4_app_names": [
+    "播客"
+   ],
+   "note": "国内 App；同上；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Apple"
+  },
+  {
+   "id": "CN-AppleTV",
+   "name": "Apple 视频（Apple TV）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN032"
+   ],
+   "v4_app_names": [
+    "视频（Apple TV）"
+   ],
+   "note": "国内 App；同上；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Apple"
+  },
+  {
+   "id": "CN-FindMy",
+   "name": "Apple 查找",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN084"
+   ],
+   "v4_app_names": [
+    "查找"
+   ],
+   "note": "国内 App；同上；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Apple"
+  },
+  {
+   "id": "CN-FitnessPlus",
+   "name": "Apple 健身",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN085"
+   ],
+   "v4_app_names": [
+    "健身"
+   ],
+   "note": "国内 App；同上；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Apple"
+  },
+  {
+   "id": "CN-iTunesStore",
+   "name": "iTunes Store",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN128"
+   ],
+   "v4_app_names": [
+    "iTunes Store"
+   ],
+   "note": "国内 App；同上；v2fly 仅取非 @!cn 条目",
+   "family": "CN-Apple"
+  },
+  {
+   "id": "CN-Apple",
+   "name": "Apple 系统 App 与基础服务（地图/电话/信息/照片/日历/邮件/备忘录/提醒/天气/健康/钱包/文件/设置/App Store/Watch/家庭/Numbers/翻译/语音备忘录/密码/图书/快捷指令/股市/FaceTime/支持/反馈/Apple Store/提示/无边记/手记/预览/相机/计算器/指南针/测距仪/放大器）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4dep:apple-account",
+    "v4dep:apple-apns",
+    "v4dep:apple-feedback",
+    "v4dep:apple-icloud",
+    "v4dep:apple-maps",
+    "v4dep:apple-pki",
+    "v4dep:apple-search",
+    "v4dep:apple-store",
+    "v4dep:apple-update",
+    "v4own",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4dep:apple-account",
+    "v4dep:apple-apns",
+    "v4dep:apple-feedback",
+    "v4dep:apple-icloud",
+    "v4dep:apple-maps",
+    "v4dep:apple-pki",
+    "v4dep:apple-search",
+    "v4dep:apple-store",
+    "v4dep:apple-update",
+    "v4own"
+   ],
+   "exclude": [],
+   "v4_app_ids": [
+    "CN050",
+    "CN067",
+    "CN068",
+    "CN069",
+    "CN070",
+    "CN071",
+    "CN072",
+    "CN073",
+    "CN074",
+    "CN075",
+    "CN076",
+    "CN077",
+    "CN078",
+    "CN079",
+    "CN080",
+    "CN081",
+    "CN082",
+    "CN083",
+    "CN089",
+    "CN090",
+    "CN092",
+    "CN112",
+    "CN113",
+    "CN114",
+    "CN115",
+    "CN116",
+    "CN117",
+    "CN118",
+    "CN119",
+    "CN120",
+    "CN121",
+    "CN122",
+    "CN123",
+    "CN125",
+    "CN126",
+    "CN127",
+    "CN129"
+   ],
+   "v4_app_names": [
+    "地图",
+    "电话",
+    "信息",
+    "Safari浏览器",
+    "照片",
+    "相机",
+    "日历",
+    "邮件",
+    "备忘录",
+    "提醒事项",
+    "天气",
+    "健康",
+    "钱包",
+    "计算器",
+    "文件",
+    "设置",
+    "App Store",
+    "Watch",
+    "家庭",
+    "Numbers表格",
+    "翻译",
+    "语音备忘录",
+    "指南针",
+    "测距仪",
+    "放大器",
+    "密码",
+    "图书",
+    "快捷指令",
+    "股市",
+    "FaceTime通话",
+    "支持",
+    "反馈",
+    "Apple Store",
+    "提示",
+    "无边记",
+    "手记",
+    "预览"
+   ],
+   "note": "国内 App；iOS 系统 App 共用 Apple 基础服务，无法再按单 App 区分；同上；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Tencent",
+   "name": "腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:Tencent",
+    "v2:tencent",
+    "v4dep:tencent-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Tencent",
+    "v4dep:tencent-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-ByteDance",
+   "name": "字节跳动集团共享（剪映等共用）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:ByteDance",
+    "v2:bytedance",
+    "v4dep:bytedance-cn-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:ByteDance",
+    "v4dep:bytedance-cn-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-Alibaba",
+   "name": "阿里集团共享（淘宝/淘票票/1688/一淘/千问等共用）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:Alibaba",
+    "v2:alibaba",
+    "v4dep:alibaba-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Alibaba",
+    "v4dep:alibaba-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目",
+   "ads_trust": true
+  },
+  {
+   "id": "CN-NetEase",
+   "name": "网易集团共享",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:NetEase",
+    "v2:netease",
+    "v4dep:netease-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:NetEase",
+    "v4dep:netease-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Sina",
+   "name": "新浪集团共享",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:Sina",
+    "v2:sina",
+    "v4dep:sina-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Sina",
+    "v4dep:sina-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Huawei",
+   "name": "华为集团共享",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:Huawei",
+    "v2:huawei",
+    "v4dep:huawei-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Huawei",
+    "v4dep:huawei-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-XiaoMi",
+   "name": "小米集团共享",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "bm:XiaoMi",
+    "v2:xiaomi",
+    "v4dep:xiaomi-iot-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:XiaoMi",
+    "v4dep:xiaomi-iot-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Lianjia",
+   "name": "链家/贝壳集团共享",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:lianjia",
+    "v4dep:lianjia-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4dep:lianjia-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Intsig",
+   "name": "合合信息集团共享",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v2:intsig",
+    "v4dep:intsig-shared",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4dep:intsig-shared"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Common",
+   "name": "国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy": "DIRECT",
+   "sources": [
+    "v4common",
+    "custom"
+   ],
+   "ip_sources": [
+    "v4common"
+   ],
+   "exclude": [],
+   "v4_app_ids": [],
+   "v4_app_names": [],
+   "note": "国内 App；cn.list 中没有任何 App 归属的条目；v2fly 仅取非 @!cn 条目"
   }
  ],
  "keyword_denylist": [

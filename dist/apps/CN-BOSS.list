@@ -1,0 +1,12 @@
+# NAME: CN-BOSS — BOSS直聘
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: v4own | custom
+# COUNT: DOMAIN-SUFFIX=4 TOTAL=4
+# V4 APPS: CN093 BOSS直聘
+# NOTE: 国内 App；v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,bosszhipin.com
+DOMAIN-SUFFIX,kanzhun.com
+DOMAIN-SUFFIX,weipinworld.com
+DOMAIN-SUFFIX,zhipin.com
