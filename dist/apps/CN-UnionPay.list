@@ -1,0 +1,24 @@
+# NAME: CN-UnionPay — UnionPay（国内）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:UnionPay | v2:unionpay | custom
+# COUNT: DOMAIN-SUFFIX=17 TOTAL=17
+# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,chinapay.cn
+DOMAIN-SUFFIX,chinaunionpay.com.cn
+DOMAIN-SUFFIX,cup.com.cn
+DOMAIN-SUFFIX,cup62.cn
+DOMAIN-SUFFIX,unionpayintl.cn
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,chinapay.com
+DOMAIN-SUFFIX,chinapayhongkong.com
+DOMAIN-SUFFIX,chinaums.com
+DOMAIN-SUFFIX,chinaunionpay.com
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,unionpayintl.com
+DOMAIN-SUFFIX,unionpaysecure.com
+DOMAIN-SUFFIX,95516.net
+DOMAIN-SUFFIX,airepay.net
+DOMAIN-SUFFIX,chinaunionpay.net
+DOMAIN-SUFFIX,unionpay.net

@@ -1,0 +1,7 @@
+# NAME: Sanas — Sanas
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 亚洲快速
+# SOURCES: repo-custom:app-INT025 | custom
+# COUNT: DOMAIN-SUFFIX=1 TOTAL=1
+DOMAIN-SUFFIX,sanas.ai

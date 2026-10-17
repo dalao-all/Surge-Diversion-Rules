@@ -1,0 +1,37 @@
+# NAME: ChatGPT — ChatGPT / OpenAI
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: v2:openai | bm:OpenAI | acl:OpenAi.list | vpsd:openai | sukka-ai:OpenAI / ChatGPT | custom
+# COUNT: DOMAIN=4 DOMAIN-SUFFIX=21 DOMAIN-KEYWORD=3 IP-CIDR=2 IP-ASN=1 TOTAL=31
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,openai.fm
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,chatgpt-async-webps-prod
+DOMAIN-KEYWORD,openai
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve

@@ -1,0 +1,35 @@
+# NAME: AI-Common — AI 通用依赖（验证码/风控/特性开关/登录）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: repo-custom:reviewed-ai-auth | repo-custom:ai-login-endpoints | repo-custom:ai-challenge | repo-custom:ai-featureflags | custom
+# COUNT: DOMAIN=9 DOMAIN-SUFFIX=18 DOMAIN-KEYWORD=1 TOTAL=28
+# NOTE: Arkose/hCaptcha/Sift/Statsig/WorkOS/Stripe 等，被多个 AI App 共用，必须与 AI 同出口
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,accounts.youtube.com
+DOMAIN,workos.imgix.net
+DOMAIN,featureassets.org
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,link.com
+DOMAIN-SUFFIX,sift.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigcdn.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
+DOMAIN-SUFFIX,hcaptcha.net
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,statsigproxy.net
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-KEYWORD,aidente

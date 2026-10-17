@@ -1,0 +1,41 @@
+# NAME: Bybit — Bybit
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 台湾
+# SOURCES: v2:bybit | repo-patch:finance-bybit-global | custom
+# COUNT: DOMAIN=4 DOMAIN-SUFFIX=29 DOMAIN-KEYWORD=2 TOTAL=35
+DOMAIN,20007249l4s.my-imcloud.com
+DOMAIN,api.wsot2022.com
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybick.com
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybitapi.com
+DOMAIN-SUFFIX,bybitcdn.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybitsignup.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,byhkbit.com
+DOMAIN-SUFFIX,bynbc.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,bybit.com.hk
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,turingfraud.net
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bybit-exchange.org
+DOMAIN-KEYWORD,sc-abtest
+DOMAIN-KEYWORD,sc-datasink

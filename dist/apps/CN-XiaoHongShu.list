@@ -1,0 +1,17 @@
+# NAME: CN-XiaoHongShu — XiaoHongShu（国内）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:XiaoHongShu | v2:xiaohongshu | custom
+# COUNT: DOMAIN-SUFFIX=10 TOTAL=10
+# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,redelight.cn
+DOMAIN-SUFFIX,askdiandian.com
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,rnote.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhsrcdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,diandianlife.top

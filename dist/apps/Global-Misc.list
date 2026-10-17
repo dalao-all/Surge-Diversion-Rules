@@ -1,0 +1,23 @@
+# NAME: Global-Misc — 通用海外服务（非单一 App）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 国际网络
+# SOURCES: custom
+# COUNT: DOMAIN=2 DOMAIN-SUFFIX=14 TOTAL=16
+# NOTE: 短链/邮件追踪/OCSP/CDN 等多 App 共用的海外服务
+DOMAIN,cdn.jwplayer.com
+DOMAIN,twemoji.maxcdn.com
+DOMAIN-SUFFIX,safebrowsing.apple
+DOMAIN-SUFFIX,bintray.com
+DOMAIN-SUFFIX,ocsp.digicert.com
+DOMAIN-SUFFIX,fosshub.com
+DOMAIN-SUFFIX,ocsp.godaddy.com
+DOMAIN-SUFFIX,list-manage.com
+DOMAIN-SUFFIX,mandrillapp.com
+DOMAIN-SUFFIX,ocsp.sectigo.com
+DOMAIN-SUFFIX,substack.com
+DOMAIN-SUFFIX,wixstatic.com
+DOMAIN-SUFFIX,app.link
+DOMAIN-SUFFIX,bnc.lt
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,sendgrid.net

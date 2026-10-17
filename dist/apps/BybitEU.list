@@ -1,0 +1,13 @@
+# NAME: BybitEU — Bybit EU
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 德国
+# SOURCES: repo-patch:finance-bybit-eu | custom
+# COUNT: DOMAIN-SUFFIX=6 DOMAIN-WILDCARD=1 TOTAL=7
+DOMAIN-SUFFIX,bybit-tr.com
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,bybit.nl
+DOMAIN-SUFFIX,bytick.nl
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-WILDCARD,iyzy2h-*.appsflyersdk.com

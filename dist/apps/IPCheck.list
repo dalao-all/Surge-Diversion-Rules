@@ -1,0 +1,15 @@
+# NAME: IPCheck — IP 检测站点
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽（用于核对 AI 出口）
+# SOURCES: custom
+# COUNT: DOMAIN-SUFFIX=9 TOTAL=9
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ip.sb

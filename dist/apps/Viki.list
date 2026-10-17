@@ -1,0 +1,13 @@
+# NAME: Viki — Viki
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 亚洲快速
+# SOURCES: bm:Viki | custom
+# COUNT: DOMAIN-SUFFIX=7 TOTAL=7
+DOMAIN-SUFFIX,viki.com
+DOMAIN-SUFFIX,vikiplatform.com
+DOMAIN-SUFFIX,viki.io
+DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
+DOMAIN-SUFFIX,vikidash.akamaized.net
+DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
+DOMAIN-SUFFIX,viki.net

@@ -1,0 +1,4040 @@
+{
+ "built": "2026-10-17",
+ "order": [
+  "OKX",
+  "Binance",
+  "Bybit",
+  "BybitEU",
+  "BitgetWallet",
+  "UUWallet",
+  "PlasmaOne",
+  "Crypto-Common",
+  "PayPal",
+  "Wise",
+  "AI-Common",
+  "Claude",
+  "ChatGPT",
+  "Gemini",
+  "Grok",
+  "Cursor",
+  "AI-Other",
+  "Notion",
+  "IPCheck",
+  "YouTube",
+  "Google",
+  "TikTok",
+  "WhatsApp",
+  "Instagram",
+  "Threads",
+  "Facebook",
+  "Reddit",
+  "Netflix",
+  "Telegram",
+  "X",
+  "Discord",
+  "Viki",
+  "BilibiliIntl",
+  "GitHub",
+  "Obsidian",
+  "DejaVocab",
+  "Sanas",
+  "Tableau",
+  "Surge",
+  "Speedtest",
+  "giffgaff",
+  "Global-Misc",
+  "CN-AliPay",
+  "CN-UnionPay",
+  "CN-ICBC",
+  "CN-CCB",
+  "CN-CMB",
+  "CN-JingDong",
+  "CN-WeChat",
+  "CN-DingTalk",
+  "CN-TencentVideo",
+  "CN-Tencent",
+  "CN-DouYin",
+  "CN-KuaiShou",
+  "CN-XiaoHongShu",
+  "CN-BiliBili",
+  "CN-Weibo",
+  "CN-NetEaseMusic",
+  "CN-iQIYI",
+  "CN-ByteDance",
+  "CN-Coolapk",
+  "CN-GaoDe",
+  "CN-Alibaba",
+  "CN-Pinduoduo",
+  "CN-MeiTuan",
+  "CN-ZhuanZhuan",
+  "CN-12306",
+  "CN-XieCheng",
+  "CN-ChinaMobile"
+ ],
+ "apps": {
+  "OKX": {
+   "name": "OKX",
+   "total": 21,
+   "per_source_raw": {
+    "v2:okx": 9,
+    "bm:OKX": 3,
+    "custom": 12
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [
+    "DOMAIN,dkapi.geetest.com"
+   ],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [
+    "DOMAIN,cloudauth-device.cn-hongkong.aliyuncs.com"
+   ],
+   "count": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 14
+   }
+  },
+  "Binance": {
+   "name": "Binance",
+   "total": 48,
+   "per_source_raw": {
+    "v2:binance": 45,
+    "bm:Binance": 11,
+    "acl:Binance.list": 8,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 46
+   }
+  },
+  "Bybit": {
+   "name": "Bybit",
+   "total": 35,
+   "per_source_raw": {
+    "v2:bybit": 16,
+    "repo-patch:finance-bybit-global": 1,
+    "custom": 19
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [
+    "DOMAIN,20007249l4s.my-imcloud.com"
+   ],
+   "count": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 29,
+    "DOMAIN-KEYWORD": 2
+   }
+  },
+  "BybitEU": {
+   "name": "Bybit EU",
+   "total": 7,
+   "per_source_raw": {
+    "repo-patch:finance-bybit-eu": 1,
+    "custom": 6
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 6,
+    "DOMAIN-WILDCARD": 1
+   }
+  },
+  "BitgetWallet": {
+   "name": "Bitget Wallet",
+   "total": 8,
+   "per_source_raw": {
+    "custom": 8
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 8
+   }
+  },
+  "UUWallet": {
+   "name": "UU Wallet",
+   "total": 1,
+   "per_source_raw": {
+    "custom": 1
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 1
+   }
+  },
+  "PlasmaOne": {
+   "name": "Plasma One",
+   "total": 3,
+   "per_source_raw": {
+    "custom": 3
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "Crypto-Common": {
+   "name": "其他交易所/钱包/链上工具 + WalletConnect/Reown",
+   "total": 197,
+   "per_source_raw": {
+    "bm:Crypto": 197,
+    "bm:Cryptocurrency": 43,
+    "custom": 4
+   },
+   "dropped": {
+    "exclude": 4
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 194,
+    "DOMAIN-KEYWORD": 2
+   }
+  },
+  "PayPal": {
+   "name": "PayPal",
+   "total": 241,
+   "per_source_raw": {
+    "v2:paypal": 233,
+    "bm:PayPal": 247,
+    "custom": 1
+   },
+   "dropped": {
+    "不支持的类型/非法": 1
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [
+    "DOMAIN-SUFFIX,anfutong.com.cn",
+    "DOMAIN-SUFFIX,beibao.com.cn",
+    "DOMAIN-SUFFIX,paypal.com.cn",
+    "DOMAIN-SUFFIX,paypal.net.cn",
+    "DOMAIN-SUFFIX,paypal.org.cn",
+    "DOMAIN-SUFFIX,paypalhere.com.cn",
+    "DOMAIN-SUFFIX,xoom.net.cn"
+   ],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 240,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Wise": {
+   "name": "Wise",
+   "total": 2,
+   "per_source_raw": {
+    "v2:wise": 2,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "AI-Common": {
+   "name": "AI 通用依赖（验证码/风控/特性开关/登录）",
+   "total": 28,
+   "per_source_raw": {
+    "repo-custom:reviewed-ai-auth": 7,
+    "repo-custom:ai-login-endpoints": 3,
+    "repo-custom:ai-challenge": 2,
+    "repo-custom:ai-featureflags": 3,
+    "custom": 19
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 18,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Claude": {
+   "name": "Claude",
+   "total": 39,
+   "per_source_raw": {
+    "v2:anthropic": 9,
+    "bm:Claude": 3,
+    "acl:Claude.list": 2,
+    "acl:ClaudeAI.list": 2,
+    "vpsd:anthropic": 34,
+    "xiaolai:anthropic": 9,
+    "sukka-ai:Anthropic / Claude": 4,
+    "bm:Anthropic": 3,
+    "custom": 7
+   },
+   "dropped": {
+    "不支持的类型/非法": 5,
+    "IP(来源未列入 ip_sources)": 6,
+    "exclude": 6,
+    "泛关键词(keyword_denylist)": 3
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [
+    "DOMAIN-SUFFIX,anthropic.com.cn"
+   ],
+   "count": {
+    "DOMAIN": 6,
+    "DOMAIN-SUFFIX": 28,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 1,
+    "IP-CIDR6": 1,
+    "IP-ASN": 1
+   }
+  },
+  "ChatGPT": {
+   "name": "ChatGPT / OpenAI",
+   "total": 31,
+   "per_source_raw": {
+    "v2:openai": 20,
+    "bm:OpenAI": 25,
+    "acl:OpenAi.list": 13,
+    "vpsd:openai": 30,
+    "sukka-ai:OpenAI / ChatGPT": 8,
+    "custom": 3
+   },
+   "dropped": {
+    "exclude": 24,
+    "不支持的类型/非法": 6,
+    "IP(来源未列入 ip_sources)": 5
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 21,
+    "DOMAIN-KEYWORD": 3,
+    "IP-CIDR": 2,
+    "IP-ASN": 1
+   }
+  },
+  "Gemini": {
+   "name": "Gemini / Google AI",
+   "total": 50,
+   "per_source_raw": {
+    "v2:google-gemini": 46,
+    "v2:google-deepmind": 46,
+    "bm:Gemini": 10,
+    "acl:Gemini.list": 10,
+    "vpsd:google-ai": 47,
+    "sukka-ai:Google": 25,
+    "bm:BardAI": 10,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 2,
+    "泛关键词(keyword_denylist)": 4,
+    "不支持的类型/非法": 4
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 11,
+    "DOMAIN-SUFFIX": 37,
+    "DOMAIN-KEYWORD": 2
+   }
+  },
+  "Grok": {
+   "name": "Grok / xAI",
+   "total": 6,
+   "per_source_raw": {
+    "v2:xai": 4,
+    "vpsd:x-ai": 4,
+    "sukka-ai:Grok": 2,
+    "custom": 4
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "Cursor": {
+   "name": "Cursor",
+   "total": 8,
+   "per_source_raw": {
+    "v2:cursor": 5,
+    "vpsd:cursor": 4,
+    "sukka-ai:Cursor": 1,
+    "custom": 6
+   },
+   "dropped": {
+    "不支持的类型/非法": 3
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "AI-Other": {
+   "name": "其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…）",
+   "total": 76,
+   "per_source_raw": {
+    "vpsd:perplexity": 4,
+    "vpsd:copilot": 27,
+    "vpsd:huggingface": 3,
+    "vpsd:mistral-ai": 1,
+    "vpsd:openrouter": 1,
+    "vpsd:windsurf": 4,
+    "vpsd:poe": 2,
+    "vpsd:groq": 1,
+    "vpsd:cohere": 2,
+    "vpsd:midjourney": 1,
+    "vpsd:replit": 5,
+    "vpsd:sourcegraph": 4,
+    "vpsd:zed": 1,
+    "vpsd:augment-code": 1,
+    "vpsd:meta-ai": 11,
+    "v2:perplexity": 4,
+    "v2:github-copilot": 6,
+    "v2:huggingface": 3,
+    "v2:poe": 2,
+    "v2:windsurf": 4,
+    "v2:groq": 1,
+    "sukka-ai:Perplexity": 1,
+    "sukka-ai:POE": 1,
+    "sukka-ai:GitHub Copilot": 0,
+    "sukka-ai:groq": 1,
+    "sukka-ai:OpenRouter AI - Unified Relay": 1,
+    "sukka-ai:Windsurf (formerly Codeium)": 3,
+    "sukka-ai:Meta AI": 1,
+    "bm:Copilot": 40,
+    "sukka-ai:Cloudflare AI Gateway": 1,
+    "sukka-ai:Dify.AI": 1,
+    "sukka-ai:Jasper": 2,
+    "sukka-ai:OpenArt": 1,
+    "sukka-ai:JetBrains AI": 1,
+    "custom": 10
+   },
+   "dropped": {
+    "exclude": 17,
+    "IP(来源未列入 ip_sources)": 5,
+    "不支持的类型/非法": 6
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 21,
+    "DOMAIN-SUFFIX": 54,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Notion": {
+   "name": "Notion",
+   "total": 9,
+   "per_source_raw": {
+    "v2:notion": 7,
+    "bm:Notion": 6,
+    "custom": 7
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "IPCheck": {
+   "name": "IP 检测站点",
+   "total": 9,
+   "per_source_raw": {
+    "custom": 9
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 9
+   }
+  },
+  "YouTube": {
+   "name": "YouTube",
+   "total": 179,
+   "per_source_raw": {
+    "v2:youtube": 176,
+    "bm:YouTube": 178,
+    "bm:YouTubeMusic": 1,
+    "acl:YouTube.list": 13,
+    "acl:YouTubeMusic.list": 1,
+    "sukka-stream:YouTube": 9,
+    "sukka-stream:YouTube Music": 0,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 3,
+    "IP(来源未列入 ip_sources)": 3,
+    "不支持的类型/非法": 15
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 177,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Google": {
+   "name": "Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator）",
+   "total": 735,
+   "per_source_raw": {
+    "v2:google": 942,
+    "bm:Google": 695,
+    "bm:GoogleDrive": 5,
+    "bm:GoogleEarth": 16,
+    "bm:GoogleFCM": 41,
+    "acl:Google.list": 23,
+    "acl:GoogleFCM.list": 18,
+    "acl:GoogleEarth.list": 16,
+    "sukka-global:GOOGLE": 98,
+    "sukka-gl:Google": 2,
+    "bm:GoogleSearch": 1,
+    "bm:GoogleVoice": 1,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 12,
+    "IP(来源未列入 ip_sources)": 28
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 707,
+    "DOMAIN-KEYWORD": 6,
+    "IP-CIDR": 20,
+    "IP-CIDR6": 1
+   }
+  },
+  "TikTok": {
+   "name": "TikTok（国际版）",
+   "total": 67,
+   "per_source_raw": {
+    "v2:tiktok": 36,
+    "bm:TikTok": 34,
+    "acl:TikTok.list": 10,
+    "sukka-stream:TikTok": 13,
+    "custom": 12
+   },
+   "dropped": {
+    "不支持的类型/非法": 3
+   },
+   "dead_by_protect_cn": [
+    "DOMAIN-SUFFIX,bytedapm.com",
+    "DOMAIN,trae-api-sg.mchost.guru",
+    "DOMAIN-SUFFIX,marscode.com",
+    "DOMAIN-SUFFIX,trae.ai"
+   ],
+   "removed_overlap_cn": [
+    "DOMAIN-SUFFIX,snssdk.com",
+    "DOMAIN-SUFFIX,ttwebview.com（国内 App 表）"
+   ],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 8,
+    "DOMAIN-SUFFIX": 55,
+    "DOMAIN-KEYWORD": 4
+   }
+  },
+  "WhatsApp": {
+   "name": "WhatsApp",
+   "total": 13,
+   "per_source_raw": {
+    "v2:whatsapp": 11,
+    "bm:Whatsapp": 4,
+    "acl:Whatsapp.list": 1,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 2,
+    "IP(来源未列入 ip_sources)": 26
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 12,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Instagram": {
+   "name": "Instagram",
+   "total": 74,
+   "per_source_raw": {
+    "v2:instagram": 72,
+    "bm:Instagram": 4,
+    "acl:Instagram.list": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 73,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Threads": {
+   "name": "Threads",
+   "total": 2,
+   "per_source_raw": {
+    "v2:threads": 2,
+    "bm:Threads": 1,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 2
+   }
+  },
+  "Facebook": {
+   "name": "Facebook / Messenger",
+   "total": 491,
+   "per_source_raw": {
+    "v2:facebook": 394,
+    "v2:messenger": 4,
+    "v2:facebook-dev": 44,
+    "bm:Facebook": 570,
+    "acl:Facebook.list": 7,
+    "sukka-gl:Facebook": 28,
+    "custom": 0
+   },
+   "dropped": {
+    "IP(来源未列入 ip_sources)": 14
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 465,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 23,
+    "IP-ASN": 1
+   }
+  },
+  "Reddit": {
+   "name": "Reddit",
+   "total": 13,
+   "per_source_raw": {
+    "v2:reddit": 12,
+    "bm:Reddit": 6,
+    "acl:Reddit.list": 4,
+    "sukka-gl:Reddit": 6,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 13
+   }
+  },
+  "Netflix": {
+   "name": "Netflix",
+   "total": 1154,
+   "per_source_raw": {
+    "v2:netflix": 24,
+    "bm:Netflix": 1156,
+    "acl:Netflix.list": 22,
+    "acl:NetflixIP.list": 863,
+    "sukka-stream:Netflix": 31,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 4,
+    "IP(来源未列入 ip_sources)": 18
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 30,
+    "DOMAIN-KEYWORD": 4,
+    "IP-CIDR": 1115,
+    "IP-CIDR6": 4
+   }
+  },
+  "Telegram": {
+   "name": "Telegram",
+   "total": 47,
+   "per_source_raw": {
+    "v2:telegram": 21,
+    "bm:Telegram": 40,
+    "acl:Telegram.list": 14,
+    "bm:TelegramNL": 5,
+    "bm:TelegramSG": 3,
+    "bm:TelegramUS": 2,
+    "custom": 0,
+    "sukka-ip:telegram_asn": 5,
+    "official:telegram": 14
+   },
+   "dropped": {
+    "不支持的类型/非法": 6
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 25,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 9,
+    "IP-CIDR6": 4,
+    "IP-ASN": 5
+   }
+  },
+  "X": {
+   "name": "X / Twitter",
+   "total": 39,
+   "per_source_raw": {
+    "v2:twitter": 23,
+    "bm:Twitter": 33,
+    "acl:Twitter.list": 12,
+    "sukka-gl:Twitter": 16,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 32,
+    "DOMAIN-KEYWORD": 1,
+    "IP-CIDR": 6
+   }
+  },
+  "Discord": {
+   "name": "Discord",
+   "total": 29,
+   "per_source_raw": {
+    "v2:discord": 28,
+    "bm:Discord": 29,
+    "acl:Discord.list": 6,
+    "sukka-gl:Discord": 8,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 28,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Viki": {
+   "name": "Viki",
+   "total": 7,
+   "per_source_raw": {
+    "bm:Viki": 7,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 1
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "BilibiliIntl": {
+   "name": "Bilibili 国际版",
+   "total": 7,
+   "per_source_raw": {
+    "sukka-stream:Bilibili International": 4,
+    "bm:BiliBiliIntl": 1,
+    "custom": 7
+   },
+   "dropped": {
+    "exclude": 1,
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [
+    "DOMAIN-SUFFIX,bilibili.tv"
+   ],
+   "count": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "GitHub": {
+   "name": "GitHub",
+   "total": 61,
+   "per_source_raw": {
+    "v2:github": 65,
+    "bm:GitHub": 31,
+    "acl:Github.list": 6,
+    "sukka-gl:GitHub": 14,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [
+    "DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com"
+   ],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 25,
+    "DOMAIN-SUFFIX": 35,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "Obsidian": {
+   "name": "Obsidian",
+   "total": 1,
+   "per_source_raw": {
+    "repo-custom:app-INT022": 1,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 1
+   }
+  },
+  "DejaVocab": {
+   "name": "DejaVocab",
+   "total": 1,
+   "per_source_raw": {
+    "repo-custom:app-INT023": 1,
+    "custom": 1
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 1
+   }
+  },
+  "Sanas": {
+   "name": "Sanas",
+   "total": 1,
+   "per_source_raw": {
+    "repo-custom:app-INT025": 2,
+    "custom": 1
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 1
+   }
+  },
+  "Tableau": {
+   "name": "Tableau",
+   "total": 5,
+   "per_source_raw": {
+    "repo-custom:app-INT024": 4,
+    "custom": 3
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [
+    "DOMAIN-SUFFIX,tableau.com",
+    "DOMAIN-SUFFIX,tableausoftware.com",
+    "DOMAIN-SUFFIX,tableaucdn.com",
+    "DOMAIN-SUFFIX,tableauusercontent.com"
+   ],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "Surge": {
+   "name": "Surge / Shadowrocket（代理工具自身）",
+   "total": 5,
+   "per_source_raw": {
+    "repo-custom:app-INT028": 1,
+    "custom": 5
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 5
+   }
+  },
+  "Speedtest": {
+   "name": "Speedtest",
+   "total": 10,
+   "per_source_raw": {
+    "v2:ookla-speedtest": 13,
+    "bm:Speedtest": 7,
+    "sukka-gl:Speedtest": 3,
+    "custom": 0
+   },
+   "dropped": {
+    "exclude": 1,
+    "不支持的类型/非法": 1
+   },
+   "dead_by_protect_cn": [
+    "DOMAIN-SUFFIX,ooklaserver.net",
+    "DOMAIN-SUFFIX,speedtest.co",
+    "DOMAIN-SUFFIX,speedtest.net",
+    "DOMAIN-SUFFIX,speedtestcustom.com"
+   ],
+   "removed_overlap_cn": [
+    "DOMAIN-SUFFIX,speed.cloudflare.com"
+   ],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 8,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "giffgaff": {
+   "name": "giffgaff",
+   "total": 4,
+   "per_source_raw": {
+    "v2:giffgaff": 2,
+    "custom": 2
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "Global-Misc": {
+   "name": "通用海外服务（非单一 App）",
+   "total": 16,
+   "per_source_raw": {
+    "custom": 16
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 14
+   }
+  },
+  "CN-AliPay": {
+   "name": "AliPay（国内）",
+   "total": 21,
+   "per_source_raw": {
+    "bm:AliPay": 21,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 21
+   }
+  },
+  "CN-UnionPay": {
+   "name": "UnionPay（国内）",
+   "total": 17,
+   "per_source_raw": {
+    "bm:UnionPay": 16,
+    "v2:unionpay": 14,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 17
+   }
+  },
+  "CN-ICBC": {
+   "name": "ICBC（国内）",
+   "total": 58,
+   "per_source_raw": {
+    "bm:ICBC": 58,
+    "v2:icbc": 13,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 58
+   }
+  },
+  "CN-CCB": {
+   "name": "CCB（国内）",
+   "total": 18,
+   "per_source_raw": {
+    "bm:CCB": 18,
+    "v2:ccb": 14,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 18
+   }
+  },
+  "CN-CMB": {
+   "name": "CMB（国内）",
+   "total": 39,
+   "per_source_raw": {
+    "bm:CMB": 38,
+    "v2:cmb": 20,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 39
+   }
+  },
+  "CN-JingDong": {
+   "name": "JingDong（国内）",
+   "total": 269,
+   "per_source_raw": {
+    "bm:JingDong": 249,
+    "v2:jd": 243,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 269
+   }
+  },
+  "CN-WeChat": {
+   "name": "WeChat（国内）",
+   "total": 330,
+   "per_source_raw": {
+    "bm:WeChat": 330,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 22,
+    "DOMAIN-KEYWORD": 233,
+    "IP-CIDR": 3,
+    "IP-CIDR6": 64,
+    "IP-ASN": 1
+   }
+  },
+  "CN-DingTalk": {
+   "name": "DingTalk（国内）",
+   "total": 14,
+   "per_source_raw": {
+    "bm:DingTalk": 11,
+    "v2:dingtalk": 11,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 14
+   }
+  },
+  "CN-TencentVideo": {
+   "name": "TencentVideo（国内）",
+   "total": 50,
+   "per_source_raw": {
+    "bm:TencentVideo": 51,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 13,
+    "DOMAIN-SUFFIX": 5,
+    "IP-CIDR": 3,
+    "IP-CIDR6": 29
+   }
+  },
+  "CN-Tencent": {
+   "name": "Tencent（国内）",
+   "total": 554,
+   "per_source_raw": {
+    "bm:Tencent": 20,
+    "v2:tencent": 560,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 5
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 534,
+    "IP-CIDR": 20
+   }
+  },
+  "CN-DouYin": {
+   "name": "DouYin（国内）",
+   "total": 78,
+   "per_source_raw": {
+    "bm:DouYin": 13,
+    "v2:douyin": 71,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 76
+   }
+  },
+  "CN-KuaiShou": {
+   "name": "KuaiShou（国内）",
+   "total": 688,
+   "per_source_raw": {
+    "bm:KuaiShou": 678,
+    "v2:kuaishou": 32,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 688
+   }
+  },
+  "CN-XiaoHongShu": {
+   "name": "XiaoHongShu（国内）",
+   "total": 10,
+   "per_source_raw": {
+    "bm:XiaoHongShu": 4,
+    "v2:xiaohongshu": 9,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 10
+   }
+  },
+  "CN-BiliBili": {
+   "name": "BiliBili（国内）",
+   "total": 120,
+   "per_source_raw": {
+    "bm:BiliBili": 123,
+    "v2:bilibili": 49,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 10
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 49,
+    "DOMAIN-SUFFIX": 63,
+    "IP-CIDR": 8
+   }
+  },
+  "CN-Weibo": {
+   "name": "Weibo（国内）",
+   "total": 4,
+   "per_source_raw": {
+    "bm:Weibo": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3,
+    "DOMAIN-KEYWORD": 1
+   }
+  },
+  "CN-NetEaseMusic": {
+   "name": "NetEaseMusic（国内）",
+   "total": 28,
+   "per_source_raw": {
+    "bm:NetEaseMusic": 28,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 9,
+    "IP-CIDR": 18
+   }
+  },
+  "CN-iQIYI": {
+   "name": "iQIYI（国内）",
+   "total": 56,
+   "per_source_raw": {
+    "bm:iQIYI": 56,
+    "v2:iqiyi": 9,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 7
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 34,
+    "DOMAIN-KEYWORD": 1,
+    "IP-CIDR": 21
+   }
+  },
+  "CN-ByteDance": {
+   "name": "ByteDance（国内）",
+   "total": 904,
+   "per_source_raw": {
+    "bm:ByteDance": 371,
+    "v2:bytedance": 862,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 2
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 903,
+    "IP-CIDR": 1
+   }
+  },
+  "CN-Coolapk": {
+   "name": "Coolapk（国内）",
+   "total": 3,
+   "per_source_raw": {
+    "bm:Coolapk": 3,
+    "v2:coolapk": 3,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 3
+   }
+  },
+  "CN-GaoDe": {
+   "name": "GaoDe（国内）",
+   "total": 9,
+   "per_source_raw": {
+    "bm:GaoDe": 9,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 9
+   }
+  },
+  "CN-Alibaba": {
+   "name": "Alibaba（国内）",
+   "total": 362,
+   "per_source_raw": {
+    "bm:Alibaba": 57,
+    "v2:alibaba": 339,
+    "custom": 0
+   },
+   "dropped": {
+    "不支持的类型/非法": 1
+   },
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 304,
+    "IP-CIDR": 53,
+    "IP-CIDR6": 1
+   }
+  },
+  "CN-Pinduoduo": {
+   "name": "Pinduoduo（国内）",
+   "total": 7,
+   "per_source_raw": {
+    "bm:Pinduoduo": 3,
+    "v2:pinduoduo": 7,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 7
+   }
+  },
+  "CN-MeiTuan": {
+   "name": "MeiTuan（国内）",
+   "total": 19,
+   "per_source_raw": {
+    "bm:MeiTuan": 7,
+    "v2:meituan": 19,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 19
+   }
+  },
+  "CN-ZhuanZhuan": {
+   "name": "ZhuanZhuan（国内）",
+   "total": 4,
+   "per_source_raw": {
+    "bm:ZhuanZhuan": 4,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 4
+   }
+  },
+  "CN-12306": {
+   "name": "12306（国内）",
+   "total": 15,
+   "per_source_raw": {
+    "bm:12306": 15,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 15
+   }
+  },
+  "CN-XieCheng": {
+   "name": "XieCheng（国内）",
+   "total": 37,
+   "per_source_raw": {
+    "bm:XieCheng": 29,
+    "v2:ctrip": 28,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 37
+   }
+  },
+  "CN-ChinaMobile": {
+   "name": "ChinaMobile（国内）",
+   "total": 50,
+   "per_source_raw": {
+    "bm:ChinaMobile": 38,
+    "v2:chinamobile": 33,
+    "custom": 0
+   },
+   "dropped": {},
+   "dead_by_protect_cn": [],
+   "removed_overlap_cn": [],
+   "kept_overlap_cn_custom": [],
+   "count": {
+    "DOMAIN-SUFFIX": 49,
+    "IP-CIDR": 1
+   }
+  }
+ },
+ "conflicts": [
+  {
+   "rule": "DOMAIN-SUFFIX,bnappzh.co",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bnbstatic.com",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bntrace.com",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bybit.com",
+   "kept_in": "Bybit",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,okex.com",
+   "kept_in": "OKX",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,oklink.com",
+   "kept_in": "OKX",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,binance.cc",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,binance.cloud",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,binance.com",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,binance.me",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,binance.us",
+   "kept_in": "Binance",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,okx.com",
+   "kept_in": "OKX",
+   "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,statsigapi.net",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,statsigapi.net",
+   "kept_in": "AI-Common",
+   "removed_from": "ChatGPT",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,challenges.cloudflare.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,featuregates.org",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intercom.io",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intercomcdn.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,sentry.io",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,stripe.com",
+   "kept_in": "AI-Common",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,openai-api.arkoselabs.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,openaicomproductionae4b.blob.core.windows.net",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,production-openaicom-storage.azureedge.net",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,chatgpt.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,oaistatic.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,oaiusercontent.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,openai.com",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,openaiapi-site.azureedge.net",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,openaicom.imgix.net",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,deepmind.com",
+   "kept_in": "Gemini",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ai.studio",
+   "kept_in": "Gemini",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ggpht.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,googlevideo.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,withyoutube.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtu.be",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube-nocookie.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ae",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.al",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.am",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.at",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.az",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ba",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.be",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.bg",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.bh",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.bo",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.by",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ca",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.cat",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ch",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.cl",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.ae",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.at",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.cr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.hu",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.id",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.il",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.in",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.jp",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.ke",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.kr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.ma",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.nz",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.th",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.tz",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.ug",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.uk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.ve",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.za",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.co.zw",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ar",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.au",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.az",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.bd",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.bh",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.bo",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.br",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.by",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.co",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.do",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ec",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ee",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.eg",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.es",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.gh",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.gr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.gt",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.hk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.hn",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.hr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.jm",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.jo",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.kw",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.lb",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.lv",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ly",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.mk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.mt",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.mx",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.my",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ng",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ni",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.om",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.pa",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.pe",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ph",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.pk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.pt",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.py",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.qa",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ro",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.sa",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.sg",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.sv",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.tn",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.tr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.tw",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ua",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.uy",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.com.ve",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.cr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.cz",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.de",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.dk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ee",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.es",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.fi",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.fr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ge",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.gr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.gt",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.hk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.hr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.hu",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ie",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.in",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.iq",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.is",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.it",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.jo",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.jp",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.kr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.kz",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.la",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.lk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.lt",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.lu",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.lv",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ly",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ma",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.md",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.me",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.mk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.mn",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.mx",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.my",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ng",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ni",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.nl",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.no",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.pa",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.pe",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ph",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.pk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.pl",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.pr",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.pt",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.qa",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ro",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.rs",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ru",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.sa",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.se",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.sg",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.si",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.sk",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.sn",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.soy",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.sv",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.tn",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.tv",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ua",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.ug",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.uy",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtube.vn",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubeeducation.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubefanfest.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubegaming.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubego.co.id",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubego.co.in",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubego.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubego.com.br",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubego.id",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubego.in",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubekids.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,youtubemobilesupport.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,yt.be",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ytimg.com",
+   "kept_in": "YouTube",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,achat-followers-instagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,acheter-followers-instagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,acheterdesfollowersinstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,acheterfollowersinstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bookstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,carstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cdninstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,chickstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ig.me",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,igcdn.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,igsonar.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,igtv.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,imstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,imtagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instaadder.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instachecker.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instafallow.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instafollower.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagainer.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagda.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagify.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagmania.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagor.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagr.am",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagram-brand.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagram-engineering.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagram-help.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagram-press.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagram-press.net",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramci.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramcn.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramdi.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramhashtags.net",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramhilecim.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramhilesi.org",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramium.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramizlenme.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramkusu.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramlogin.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramm.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramn.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagrampartners.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramphoto.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramq.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramsepeti.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramtakipcisatinal.net",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramtakiphilesi.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramtips.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagramtr.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagran.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagranm.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagrem.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagrm.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagtram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instagy.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instamgram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instangram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instanttelegram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instaplayer.net",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instastyle.tv",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,instgram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intagrm.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,intgram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,kingstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,lnstagram-help.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,oninstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,online-instagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,onlineinstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,theinstagramhack.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wa.me",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,web-instagram.net",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp-plus.info",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp-plus.me",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp-plus.net",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.biz",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.cc",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.com",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.info",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.net",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.org",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsapp.tv",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,whatsappbrand.com",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wwwinstagram.com",
+   "kept_in": "Instagram",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,threads.net",
+   "kept_in": "Threads",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,threads.com",
+   "kept_in": "Threads",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,atmeta.com",
+   "kept_in": "AI-Other",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-KEYWORD,whatsapp",
+   "kept_in": "WhatsApp",
+   "removed_from": "Facebook",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,grok.com",
+   "kept_in": "Grok",
+   "removed_from": "X",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,githubcopilot.com",
+   "kept_in": "AI-Other",
+   "removed_from": "GitHub",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,copilotprodattachments.blob.core.windows.net",
+   "kept_in": "AI-Other",
+   "removed_from": "GitHub",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,fast.com",
+   "kept_in": "Netflix",
+   "removed_from": "Speedtest",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,dldir1.qq.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-TencentVideo",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weixinbridge.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,iot-tencent.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qlogo.cn",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qpic.cn",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,servicewechat.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,tenpay.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wechat.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weixin.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,weixinsxy.com",
+   "kept_in": "CN-WeChat",
+   "removed_from": "CN-Tencent",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,p-bstarstatic.akamaized.net",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,p.bstarstatic.com",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,upos-bstar-mirrorakam.akamaized.net",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,upos-bstar1-mirrorakam.akamaized.net",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,bilibili.tv",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,biliintl.co",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,biliintl.com",
+   "kept_in": "BilibiliIntl",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,smtcdns.net",
+   "kept_in": "CN-Tencent",
+   "removed_from": "CN-BiliBili",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,aihst8.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,amemv.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,amemv.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,betastar.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,cookicut.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyin.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinact.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinact.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinec.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinliving.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,gifshow.com",
+   "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshan.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshancdn.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshangroup.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanimg.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanlive.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanparty.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanstatic.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshante8.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanvideo.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanvideo.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanvod.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanxiaoshipin.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanxiaoshipin.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanzhibo.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanzhibo.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,huoshanzhibo.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,idouyinpic.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,idouyinstatic.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,iesdouyin.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,iesdouyin.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ieshuodong.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ieshuodong.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ihst8.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ihuoshanimg.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ihuoshanvod.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,kolbuyer.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,kspkg.com",
+   "kept_in": "CN-KuaiShou",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,woaihuoshan.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,wohst8.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,amemv.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyincdn.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinpic.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinstatic.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinvod.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,idouyinvod.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ixigua.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ixiguavideo.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,pstatp.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,toutiao.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,activity-wbsj.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,awemeughun.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,awemeuglang.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,awemeugsoul.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,awemeugwave.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,boxdouyin.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinfe.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinmusicpromotion.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,duoshan.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hypercachenode.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,idouyinliving.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ihuoshanlive.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ihuoshanstatic.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,nextvid.net",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ppkankan01.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qishui.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qishui.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qishui.com.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qishuimusic.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,qishuimusic.com.cn",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,supercachenet.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,supercachenode.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ultracachenode.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,douyinpay.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ulpay.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,lifexue.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,open-douyin.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,snssdk.com",
+   "kept_in": "CN-DouYin",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipay",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,a-map.cn",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,a-map.co",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,a-map.link",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,a-map.vip",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,amap.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,amapauto.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,anav.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,autonavi.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,gaode.com",
+   "kept_in": "CN-GaoDe",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ddurl.to",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingding.xin",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingstore.cn",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingtalk.cn",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingtalk.com",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingtalk.net",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingtalkapps.com",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,dingtalkcloud.com",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,laiwang.com",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,lwurl.to",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,ztna-dingtalk.com",
+   "kept_in": "CN-DingTalk",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipay-eco.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipay.cn",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipay.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipay.com.cn",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipaydns.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipaylog.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipayobjects.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,alipayplus.com",
+   "kept_in": "CN-AliPay",
+   "removed_from": "CN-Alibaba",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,openai-api.arkoselabs.com",
+   "kept_in": "AI-Common",
+   "removed_from": "ChatGPT",
+   "reason": "被前序 arkoselabs.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,api.statsig.com",
+   "kept_in": "AI-Common",
+   "removed_from": "ChatGPT",
+   "reason": "被前序 statsig.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,api.statsig.com",
+   "kept_in": "AI-Common",
+   "removed_from": "AI-Other",
+   "reason": "被前序 statsig.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com",
+   "kept_in": "AI-Common",
+   "removed_from": "AI-Other",
+   "reason": "被前序 arkoselabs.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,events.statsigapi.net",
+   "kept_in": "AI-Common",
+   "removed_from": "AI-Other",
+   "reason": "被前序 statsigapi.net 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,chat.openai.com.cdn.cloudflare.net",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "被前序 openai.com.cdn.cloudflare.net 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,chatgpt.livekit.cloud",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "被前序 livekit.cloud 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,host.livekit.cloud",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "被前序 livekit.cloud 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,turn.livekit.cloud",
+   "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "被前序 livekit.cloud 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,h-netflix.online-metrix.net",
+   "kept_in": "OKX",
+   "removed_from": "Netflix",
+   "reason": "被前序 online-metrix.net 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com",
+   "kept_in": "Google",
+   "removed_from": "Discord",
+   "reason": "被前序 googleapis.com 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,discordapp.page.link",
+   "kept_in": "Google",
+   "removed_from": "Discord",
+   "reason": "被前序 page.link 后缀覆盖（死规则）"
+  },
+  {
+   "rule": "DOMAIN,github-api.arkoselabs.com",
+   "kept_in": "AI-Common",
+   "removed_from": "GitHub",
+   "reason": "被前序 arkoselabs.com 后缀覆盖（死规则）"
+  }
+ ],
+ "warnings": [
+  "Claude: 丢弃泛关键词 datadog (来自 vpsd:anthropic)",
+  "Claude: 丢弃泛关键词 sentry (来自 vpsd:anthropic)",
+  "Claude: 丢弃泛关键词 sift (来自 vpsd:anthropic)",
+  "v2fly openai regexp 跳过: ^chatgpt-async-webps-prod-\\s+-\\d+\\.webpubsub\\.azure\\.com$",
+  "Gemini: 丢弃泛关键词 colab (来自 bm:Gemini)",
+  "Gemini: 丢弃泛关键词 developerprofiles (来自 bm:Gemini)",
+  "Gemini: 丢弃泛关键词 colab (来自 acl:Gemini.list)",
+  "Gemini: 丢弃泛关键词 developerprofiles (来自 acl:Gemini.list)",
+  "v2fly netflix regexp 跳过: (^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+  "v2fly netflix regexp 跳过: (^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+  "v2fly netflix regexp 跳过: (^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+  "v2fly netflix regexp 跳过: (^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
+ ]
+}

@@ -1,0 +1,15 @@
+# NAME: Notion — Notion
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽（同 AI）
+# SOURCES: v2:notion | bm:Notion | custom
+# COUNT: DOMAIN=2 DOMAIN-SUFFIX=7 TOTAL=9
+DOMAIN,prod-files-secure.s3.us-west-2.amazonaws.com
+DOMAIN,http-inputs-notion.splunkcloud.com
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion-status.com
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so

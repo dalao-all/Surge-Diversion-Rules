@@ -1,0 +1,12 @@
+# NAME: Tableau — Tableau
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 亚洲快速
+# SOURCES: repo-custom:app-INT024 | custom
+# COUNT: DOMAIN-SUFFIX=5 TOTAL=5
+# NOTE: 仓库 v4 protect-cn 误收该 App 域名 → 配置中此列表须放在 protect-cn 之前
+DOMAIN-SUFFIX,tableau.com
+DOMAIN-SUFFIX,tableaucdn.com
+DOMAIN-SUFFIX,tableaupublic.com
+DOMAIN-SUFFIX,tableausoftware.com
+DOMAIN-SUFFIX,tableauusercontent.com

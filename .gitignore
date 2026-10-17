@@ -13,3 +13,4 @@ rulekit_v4/.cache/
 __pycache__/
 *.previous/
 .v4-stage-*/
+.upstream/

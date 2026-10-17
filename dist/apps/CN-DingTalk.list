@@ -1,0 +1,21 @@
+# NAME: CN-DingTalk — DingTalk（国内）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:DingTalk | v2:dingtalk | custom
+# COUNT: DOMAIN-SUFFIX=14 TOTAL=14
+# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,dingtalk.com.cn
+DOMAIN-SUFFIX,dg-work.cn
+DOMAIN-SUFFIX,dingstore.cn
+DOMAIN-SUFFIX,dingtalk.cn
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dingtalkapps.com
+DOMAIN-SUFFIX,dingtalkcloud.com
+DOMAIN-SUFFIX,laiwang.com
+DOMAIN-SUFFIX,ztna-dingtalk.com
+DOMAIN-SUFFIX,dingtalk.net
+DOMAIN-SUFFIX,ddurl.to
+DOMAIN-SUFFIX,lwurl.to
+DOMAIN-SUFFIX,dingding.xin
+DOMAIN-SUFFIX,realapp.xin

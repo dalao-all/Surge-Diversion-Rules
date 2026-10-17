@@ -1,0 +1,11 @@
+# AI-Other 人工补充（来源：仓库 patches/ai-extended.list）
+DOMAIN,gateway.ai.cloudflare.com
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,v0.app
+DOMAIN-SUFFIX,hark.com

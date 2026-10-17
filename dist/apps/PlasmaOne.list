@@ -1,0 +1,9 @@
+# NAME: PlasmaOne — Plasma One
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 台湾
+# SOURCES: custom
+# COUNT: DOMAIN-SUFFIX=3 TOTAL=3
+DOMAIN-SUFFIX,plasma.one
+DOMAIN-SUFFIX,plasma.org
+DOMAIN-SUFFIX,plasma.to

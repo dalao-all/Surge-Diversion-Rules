@@ -1,0 +1,53 @@
+name: Per-App rules (dist/apps)
+on:
+  schedule:
+    - cron: '17 20 * * 1' # 每周一 北京 04:17
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['apps/**', '.github/workflows/apps.yml']
+permissions:
+  contents: read
+concurrency:
+  group: apps-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python -m unittest discover -s apps -p 'test_*.py' -v
+      - name: Fetch upstreams (v2fly / blackmatrix7 / ACL4SSR / VPSDance / xiaolai / Sukka / Telegram 官方)
+        run: bash apps/fetch_upstreams.sh
+      - name: Build per-App lists
+        run: python apps/build_apps.py
+      - name: Coverage check (dist/v4 海外条目必须全部归属某个 App)
+        run: python apps/coverage_check.py
+      - name: Sanity (每个文件非空、不含国内重叠误删以外的异常)
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          r = json.load(open('dist/apps/report.json'))
+          empty = [a for a, v in r['apps'].items() if v['total'] == 0]
+          if empty: sys.exit('空表: ' + ', '.join(empty))
+          bad = [w for w in r['warnings'] if '缺失' in w or '缺少' in w or '无段落' in w or '无 ' in w]
+          if bad: sys.exit('上游结构变化: \n' + '\n'.join(bad))
+          print('OK', len(r['apps']), 'apps')
+          PY
+      - name: Publish
+        if: github.event_name != 'pull_request'
+        run: |
+          git add dist/apps
+          if git diff --cached --quiet; then echo 'unchanged' >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          git config user.name 'surge-apps-bot'
+          git config user.email 'surge-apps-bot@users.noreply.github.com'
+          git commit -m 'rules(apps): weekly per-App union rebuild'
+          git pull --rebase origin main
+          git push origin HEAD:main

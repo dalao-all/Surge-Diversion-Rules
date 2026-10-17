@@ -1,0 +1,74 @@
+# NAME: TikTok — TikTok（国际版）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: v2:tiktok | bm:TikTok | acl:TikTok.list | sukka-stream:TikTok | custom
+# COUNT: DOMAIN=8 DOMAIN-SUFFIX=55 DOMAIN-KEYWORD=4 TOTAL=67
+# NOTE: 与抖音共用的 ByteDance 国内基础设施（snssdk/bytedapm 等）自动剔除
+DOMAIN,roovza.cdn-settings.appsflyersdk.com
+DOMAIN,roovza.inapps.appsflyersdk.com
+DOMAIN,roovza.launches.appsflyersdk.com
+DOMAIN,roovza-launches.appsflyersdk.com
+DOMAIN,roovza.skadsdk.appsflyersdk.com
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutstatic.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musically.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok-minis.com
+DOMAIN-SUFFIX,tiktokapis.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokeu-cdn.com
+DOMAIN-SUFFIX,tiktokforbusiness.com
+DOMAIN-SUFFIX,tiktokglobalshop.com
+DOMAIN-SUFFIX,tiktokglobalshopv.com
+DOMAIN-SUFFIX,tiktokls.com
+DOMAIN-SUFFIX,tiktokpangle-cdn-us.com
+DOMAIN-SUFFIX,tiktokrow-cdn.com
+DOMAIN-SUFFIX,tiktokseller.com
+DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokvod.com
+DOMAIN-SUFFIX,tiktokw.com
+DOMAIN-SUFFIX,ttcdn-us.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,tiktokw.eu
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
+DOMAIN-SUFFIX,tiktokv.com.edgekey.net
+DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
+DOMAIN-SUFFIX,tiktok-row.net
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,ttoverseaus.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,tiktok.us
+DOMAIN-SUFFIX,tiktokminis.us
+DOMAIN-SUFFIX,tiktokpangle-b.us
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,tiktokcdn

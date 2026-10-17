@@ -1,0 +1,19 @@
+# NAME: WhatsApp — WhatsApp
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 亚洲快速
+# SOURCES: v2:whatsapp | bm:Whatsapp | acl:Whatsapp.list | custom
+# COUNT: DOMAIN-SUFFIX=12 DOMAIN-KEYWORD=1 TOTAL=13
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsapp.cc
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,whatsapp.info
+DOMAIN-SUFFIX,whatsapp-plus.info
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp-plus.me
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp-plus.net
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsapp.tv
+DOMAIN-KEYWORD,whatsapp

@@ -1,0 +1,12 @@
+# NAME: Grok — Grok / xAI
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: v2:xai | vpsd:x-ai | sukka-ai:Grok | custom
+# COUNT: DOMAIN=1 DOMAIN-SUFFIX=5 TOTAL=6
+DOMAIN,accounts.spacex.ai
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,xai.com

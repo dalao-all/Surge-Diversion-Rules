@@ -1,0 +1,14 @@
+# NAME: BitgetWallet — Bitget Wallet
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 台湾
+# SOURCES: custom
+# COUNT: DOMAIN-SUFFIX=8 TOTAL=8
+DOMAIN-SUFFIX,bgportable.com
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitkeep.com
+DOMAIN-SUFFIX,bknft.com
+DOMAIN-SUFFIX,bitkeep.io
+DOMAIN-SUFFIX,bitkeep.org
+DOMAIN-SUFFIX,bitget.site

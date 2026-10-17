@@ -1,0 +1,8 @@
+# NAME: Threads — Threads
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: v2:threads | bm:Threads | custom
+# COUNT: DOMAIN-SUFFIX=2 TOTAL=2
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net

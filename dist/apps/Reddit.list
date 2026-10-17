@@ -1,0 +1,19 @@
+# NAME: Reddit — Reddit
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: v2:reddit | bm:Reddit | acl:Reddit.list | sukka-gl:Reddit | custom
+# COUNT: DOMAIN-SUFFIX=13 TOTAL=13
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditblog.com
+DOMAIN-SUFFIX,reddithelp.com
+DOMAIN-SUFFIX,redditinc.com
+DOMAIN-SUFFIX,redditmail.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditspace.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redditstatus.com
+DOMAIN-SUFFIX,reddituploads.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.app.link
+DOMAIN-SUFFIX,reddit.map.fastly.net

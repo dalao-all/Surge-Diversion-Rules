@@ -1,0 +1,20 @@
+# Bybit 人工补充（来源：1.3.6/V3.5.x 内联规则、仓库 v4 抓包/审核条目）
+DOMAIN-SUFFIX,bybick.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybitapi.com
+DOMAIN-SUFFIX,bybitcdn.com
+DOMAIN-SUFFIX,bybitsignup.com
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bybit.com.hk
+DOMAIN-SUFFIX,byhkbit.com
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,bybit-exchange.org
+DOMAIN-SUFFIX,bynbc.com
+DOMAIN,api.wsot2022.com
+DOMAIN,20007249l4s.my-imcloud.com
+DOMAIN-SUFFIX,turingfraud.net
+DOMAIN-KEYWORD,sc-datasink
+DOMAIN-KEYWORD,sc-abtest
+DOMAIN,bybit-exchange.github.io

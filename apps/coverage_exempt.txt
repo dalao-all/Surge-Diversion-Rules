@@ -1,0 +1,8 @@
+# 已知豁免（有意不归属任何 App）
+tiktok	DOMAIN-SUFFIX,bytedapm.com
+paypal	DOMAIN-SUFFIX,anfutong.com.cn
+paypal	DOMAIN-SUFFIX,beibao.com.cn
+paypal	DOMAIN-SUFFIX,xoom.net.cn
+binance	DOMAIN-SUFFIX,appsflayer.com
+okx	DOMAIN,dkapi.geetest.com
+protect-okx	DOMAIN,dkapi.geetest.com

@@ -1,0 +1,7 @@
+# NAME: UUWallet — UU Wallet
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 台湾
+# SOURCES: custom
+# COUNT: DOMAIN-SUFFIX=1 TOTAL=1
+DOMAIN-SUFFIX,uuwallet.com

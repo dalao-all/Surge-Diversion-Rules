@@ -1,0 +1,20 @@
+# AI-Common 人工补充（来源：1.3.6/V3.5.x 内联规则、仓库 v4 抓包/审核条目）
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,hcaptcha.net
+DOMAIN-SUFFIX,sift.com
+DOMAIN-SUFFIX,statsigproxy.net
+DOMAIN-SUFFIX,statsigcdn.com
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,link.com
+DOMAIN-KEYWORD,aidente
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN-SUFFIX,prodregistryv2.org

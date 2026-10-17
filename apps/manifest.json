@@ -1,0 +1,1265 @@
+{
+ "schema_version": 1,
+ "note": "每个 App 一个输出文件 dist/apps/<id>.list；数组顺序即优先级。来源格式见 build_apps.py 顶部注释。",
+ "apps": [
+  {
+   "id": "OKX",
+   "name": "OKX",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "v2:okx",
+    "bm:OKX",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🪙 OKX 台湾"
+  },
+  {
+   "id": "Binance",
+   "name": "Binance",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "v2:binance",
+    "bm:Binance",
+    "acl:Binance.list",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "appsflayer.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🪙 Binance 台湾"
+  },
+  {
+   "id": "Bybit",
+   "name": "Bybit",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "v2:bybit",
+    "repo-patch:finance-bybit-global",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "💳 Bybit 全球"
+  },
+  {
+   "id": "BybitEU",
+   "name": "Bybit EU",
+   "category": "intl",
+   "suggested_policy": "德国",
+   "sources": [
+    "repo-patch:finance-bybit-eu",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🇩🇪 Bybit 欧洲"
+  },
+  {
+   "id": "BitgetWallet",
+   "name": "Bitget Wallet",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🪙 数字资产"
+  },
+  {
+   "id": "UUWallet",
+   "name": "UU Wallet",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🪙 数字资产"
+  },
+  {
+   "id": "PlasmaOne",
+   "name": "Plasma One",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🪙 数字资产"
+  },
+  {
+   "id": "Crypto-Common",
+   "name": "其他交易所/钱包/链上工具 + WalletConnect/Reown",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "bm:Crypto",
+    "bm:Cryptocurrency",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "okx",
+    "binance",
+    "crunchbase.com",
+    "fragment.com"
+   ],
+   "note": "其他交易所/钱包/链上工具（blackmatrix7 Crypto+Cryptocurrency 与人工补充），统一走数字资产",
+   "surge_policy_in_V3.5.5": "🪙 数字资产"
+  },
+  {
+   "id": "PayPal",
+   "name": "PayPal",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:paypal",
+    "bm:PayPal",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "💳 PayPal 美国"
+  },
+  {
+   "id": "Wise",
+   "name": "Wise",
+   "category": "intl",
+   "suggested_policy": "台湾",
+   "sources": [
+    "v2:wise",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "💸 Wise 台湾"
+  },
+  {
+   "id": "AI-Common",
+   "name": "AI 通用依赖（验证码/风控/特性开关/登录）",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "repo-custom:reviewed-ai-auth",
+    "repo-custom:ai-login-endpoints",
+    "repo-custom:ai-challenge",
+    "repo-custom:ai-featureflags",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "Arkose/hCaptcha/Sift/Statsig/WorkOS/Stripe 等，被多个 AI App 共用，必须与 AI 同出口",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "Claude",
+   "name": "Claude",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:anthropic",
+    "bm:Claude",
+    "acl:Claude.list",
+    "acl:ClaudeAI.list",
+    "vpsd:anthropic",
+    "xiaolai:anthropic",
+    "sukka-ai:Anthropic / Claude",
+    "bm:Anthropic",
+    "custom"
+   ],
+   "ip_sources": [
+    "custom"
+   ],
+   "exclude": [
+    "browser-intake-us5-datadoghq.com",
+    "intercom.io",
+    "intercomcdn.com",
+    "sentry.io",
+    "storage.googleapis.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "ChatGPT",
+   "name": "ChatGPT / OpenAI",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:openai",
+    "bm:OpenAI",
+    "acl:OpenAi.list",
+    "vpsd:openai",
+    "sukka-ai:OpenAI / ChatGPT",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:OpenAI"
+   ],
+   "exclude": [
+    "algolia.net",
+    "auth0.com",
+    "browser-intake-datadoghq.com",
+    "client-api.arkoselabs.com",
+    "identrust.com",
+    "launchdarkly.com",
+    "observeit.net",
+    "segment.io",
+    "static.cloudflareinsights.com",
+    "stripe.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "Gemini",
+   "name": "Gemini / Google AI",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:google-gemini",
+    "v2:google-deepmind",
+    "bm:Gemini",
+    "acl:Gemini.list",
+    "vpsd:google-ai",
+    "sukka-ai:Google",
+    "bm:BardAI",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "apis.google.com",
+    "google",
+    "google.com",
+    "googleapis.com",
+    "googleusercontent.com",
+    "gstatic.com",
+    "www.google.com"
+   ],
+   "note": "只收 Gemini/AI Studio/DeepMind 专属主机；google.com 等通用后缀归 Google",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "Grok",
+   "name": "Grok / xAI",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:xai",
+    "vpsd:x-ai",
+    "sukka-ai:Grok",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "Cursor",
+   "name": "Cursor",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:cursor",
+    "vpsd:cursor",
+    "sukka-ai:Cursor",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "AI-Other",
+   "name": "其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…）",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "vpsd:perplexity",
+    "vpsd:copilot",
+    "vpsd:huggingface",
+    "vpsd:mistral-ai",
+    "vpsd:openrouter",
+    "vpsd:windsurf",
+    "vpsd:poe",
+    "vpsd:groq",
+    "vpsd:cohere",
+    "vpsd:midjourney",
+    "vpsd:replit",
+    "vpsd:sourcegraph",
+    "vpsd:zed",
+    "vpsd:augment-code",
+    "vpsd:meta-ai",
+    "v2:perplexity",
+    "v2:github-copilot",
+    "v2:huggingface",
+    "v2:poe",
+    "v2:windsurf",
+    "v2:groq",
+    "sukka-ai:Perplexity",
+    "sukka-ai:POE",
+    "sukka-ai:GitHub Copilot",
+    "sukka-ai:groq",
+    "sukka-ai:OpenRouter AI - Unified Relay",
+    "sukka-ai:Windsurf (formerly Codeium)",
+    "sukka-ai:Meta AI",
+    "bm:Copilot",
+    "sukka-ai:Cloudflare AI Gateway",
+    "sukka-ai:Dify.AI",
+    "sukka-ai:Jasper",
+    "sukka-ai:OpenArt",
+    "sukka-ai:JetBrains AI",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "api.github.com",
+    "api.msn.com",
+    "assets.msn.com",
+    "bing.com",
+    "edgeservices.bing.com",
+    "facebook.com",
+    "fbcdn.net",
+    "github.com",
+    "githubusercontent.com",
+    "in.appcenter.ms",
+    "location.microsoft.com",
+    "meta.com",
+    "microsoft.com",
+    "odc.officeapps.live.com",
+    "ppl-ai-file-upload.s3.amazonaws.com",
+    "self.events.data.microsoft.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "Notion",
+   "name": "Notion",
+   "category": "intl",
+   "suggested_policy": "美国家宽（同 AI）",
+   "sources": [
+    "v2:notion",
+    "bm:Notion",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "IPCheck",
+   "name": "IP 检测站点",
+   "category": "intl",
+   "suggested_policy": "美国家宽（用于核对 AI 出口）",
+   "sources": [
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "YouTube",
+   "name": "YouTube",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "v2:youtube",
+    "bm:YouTube",
+    "bm:YouTubeMusic",
+    "acl:YouTube.list",
+    "acl:YouTubeMusic.list",
+    "sukka-stream:YouTube",
+    "sukka-stream:YouTube Music",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "gvt1.com",
+    "gvt2.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "📺 YouTube"
+  },
+  {
+   "id": "Google",
+   "name": "Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator）",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:google",
+    "bm:Google",
+    "bm:GoogleDrive",
+    "bm:GoogleEarth",
+    "bm:GoogleFCM",
+    "acl:Google.list",
+    "acl:GoogleFCM.list",
+    "acl:GoogleEarth.list",
+    "sukka-global:GOOGLE",
+    "sukka-gl:Google",
+    "bm:GoogleSearch",
+    "bm:GoogleVoice",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Google",
+    "bm:GoogleFCM"
+   ],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🤖 AI住宅"
+  },
+  {
+   "id": "TikTok",
+   "name": "TikTok（国际版）",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:tiktok",
+    "bm:TikTok",
+    "acl:TikTok.list",
+    "sukka-stream:TikTok",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "与抖音共用的 ByteDance 国内基础设施（snssdk/bytedapm 等）自动剔除",
+   "surge_policy_in_V3.5.5": "🎵 TikTok"
+  },
+  {
+   "id": "WhatsApp",
+   "name": "WhatsApp",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "v2:whatsapp",
+    "bm:Whatsapp",
+    "acl:Whatsapp.list",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "graph.facebook.com",
+    "bintray.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "💬 WhatsApp"
+  },
+  {
+   "id": "Instagram",
+   "name": "Instagram",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:instagram",
+    "bm:Instagram",
+    "acl:Instagram.list",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "📘 Meta"
+  },
+  {
+   "id": "Threads",
+   "name": "Threads",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:threads",
+    "bm:Threads",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "📘 Meta"
+  },
+  {
+   "id": "Facebook",
+   "name": "Facebook / Messenger",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:facebook",
+    "v2:messenger",
+    "v2:facebook-dev",
+    "bm:Facebook",
+    "acl:Facebook.list",
+    "sukka-gl:Facebook",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Facebook"
+   ],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "📘 Meta"
+  },
+  {
+   "id": "Reddit",
+   "name": "Reddit",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:reddit",
+    "bm:Reddit",
+    "acl:Reddit.list",
+    "sukka-gl:Reddit",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "reddituploads.com.cdn-cf.behance.net",
+    "reddituploads.com.cdn-cf.dropbox.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "👽 Reddit"
+  },
+  {
+   "id": "Netflix",
+   "name": "Netflix",
+   "category": "intl",
+   "suggested_policy": "美国家宽",
+   "sources": [
+    "v2:netflix",
+    "bm:Netflix",
+    "acl:Netflix.list",
+    "acl:NetflixIP.list",
+    "sukka-stream:Netflix",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Netflix",
+    "acl:NetflixIP.list",
+    "sukka-stream:Netflix"
+   ],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🎬 Netflix"
+  },
+  {
+   "id": "Telegram",
+   "name": "Telegram",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "v2:telegram",
+    "bm:Telegram",
+    "acl:Telegram.list",
+    "bm:TelegramNL",
+    "bm:TelegramSG",
+    "bm:TelegramUS",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Telegram",
+    "acl:Telegram.list",
+    "sukka-ip:telegram_asn",
+    "official:telegram",
+    "bm:TelegramNL",
+    "bm:TelegramSG",
+    "bm:TelegramUS"
+   ],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "✈️ Telegram"
+  },
+  {
+   "id": "X",
+   "name": "X / Twitter",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "v2:twitter",
+    "bm:Twitter",
+    "acl:Twitter.list",
+    "sukka-gl:Twitter",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Twitter"
+   ],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🐦 X"
+  },
+  {
+   "id": "Discord",
+   "name": "Discord",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "v2:discord",
+    "bm:Discord",
+    "acl:Discord.list",
+    "sukka-gl:Discord",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🎮 Discord"
+  },
+  {
+   "id": "Viki",
+   "name": "Viki",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "bm:Viki",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "twemoji.maxcdn.com"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🎬 流媒体"
+  },
+  {
+   "id": "BilibiliIntl",
+   "name": "Bilibili 国际版",
+   "category": "intl",
+   "suggested_policy": "流媒体",
+   "sources": [
+    "sukka-stream:Bilibili International",
+    "bm:BiliBiliIntl",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "apm-misaka.biliapi.net"
+   ],
+   "note": "仓库 v4 protect-cn 误收该 App 域名 → 配置中此列表须放在 protect-cn 之前",
+   "override_protect_cn": true,
+   "surge_policy_in_V3.5.5": "🎬 流媒体"
+  },
+  {
+   "id": "GitHub",
+   "name": "GitHub",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "v2:github",
+    "bm:GitHub",
+    "acl:Github.list",
+    "sukka-gl:GitHub",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "github-copilot"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "Obsidian",
+   "name": "Obsidian",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "repo-custom:app-INT022",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "DejaVocab",
+   "name": "DejaVocab",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "repo-custom:app-INT023",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "Sanas",
+   "name": "Sanas",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "repo-custom:app-INT025",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "Tableau",
+   "name": "Tableau",
+   "category": "intl",
+   "suggested_policy": "亚洲快速",
+   "sources": [
+    "repo-custom:app-INT024",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "仓库 v4 protect-cn 误收该 App 域名 → 配置中此列表须放在 protect-cn 之前",
+   "override_protect_cn": true,
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "Surge",
+   "name": "Surge / Shadowrocket（代理工具自身）",
+   "category": "intl",
+   "suggested_policy": "DIRECT",
+   "sources": [
+    "repo-custom:app-INT028",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "Speedtest",
+   "name": "Speedtest",
+   "category": "intl",
+   "suggested_policy": "DIRECT",
+   "sources": [
+    "v2:ookla-speedtest",
+    "bm:Speedtest",
+    "sukka-gl:Speedtest",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [
+    "speed.dler.io"
+   ],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "giffgaff",
+   "name": "giffgaff",
+   "category": "intl",
+   "suggested_policy": "英国",
+   "sources": [
+    "v2:giffgaff",
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "",
+   "surge_policy_in_V3.5.5": "🇬🇧 英国专属"
+  },
+  {
+   "id": "Global-Misc",
+   "name": "通用海外服务（非单一 App）",
+   "category": "intl",
+   "suggested_policy": "国际网络",
+   "sources": [
+    "custom"
+   ],
+   "ip_sources": [],
+   "exclude": [],
+   "note": "短链/邮件追踪/OCSP/CDN 等多 App 共用的海外服务",
+   "surge_policy_in_V3.5.5": "🌍 国际网络"
+  },
+  {
+   "id": "CN-AliPay",
+   "name": "AliPay（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:AliPay",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:AliPay"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-UnionPay",
+   "name": "UnionPay（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:UnionPay",
+    "v2:unionpay",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:UnionPay"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-ICBC",
+   "name": "ICBC（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:ICBC",
+    "v2:icbc",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:ICBC"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-CCB",
+   "name": "CCB（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:CCB",
+    "v2:ccb",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:CCB"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-CMB",
+   "name": "CMB（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:CMB",
+    "v2:cmb",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:CMB"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-JingDong",
+   "name": "JingDong（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:JingDong",
+    "v2:jd",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:JingDong"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-WeChat",
+   "name": "WeChat（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:WeChat",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:WeChat"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-DingTalk",
+   "name": "DingTalk（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:DingTalk",
+    "v2:dingtalk",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:DingTalk"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-TencentVideo",
+   "name": "TencentVideo（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:TencentVideo",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:TencentVideo"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Tencent",
+   "name": "Tencent（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:Tencent",
+    "v2:tencent",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Tencent"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-DouYin",
+   "name": "DouYin（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:DouYin",
+    "v2:douyin",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:DouYin"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-KuaiShou",
+   "name": "KuaiShou（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:KuaiShou",
+    "v2:kuaishou",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:KuaiShou"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-XiaoHongShu",
+   "name": "XiaoHongShu（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:XiaoHongShu",
+    "v2:xiaohongshu",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:XiaoHongShu"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-BiliBili",
+   "name": "BiliBili（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:BiliBili",
+    "v2:bilibili",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:BiliBili"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Weibo",
+   "name": "Weibo（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:Weibo",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Weibo"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-NetEaseMusic",
+   "name": "NetEaseMusic（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:NetEaseMusic",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:NetEaseMusic"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-iQIYI",
+   "name": "iQIYI（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:iQIYI",
+    "v2:iqiyi",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:iQIYI"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-ByteDance",
+   "name": "ByteDance（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:ByteDance",
+    "v2:bytedance",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:ByteDance"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Coolapk",
+   "name": "Coolapk（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:Coolapk",
+    "v2:coolapk",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Coolapk"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-GaoDe",
+   "name": "GaoDe（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:GaoDe",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:GaoDe"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Alibaba",
+   "name": "Alibaba（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:Alibaba",
+    "v2:alibaba",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Alibaba"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-Pinduoduo",
+   "name": "Pinduoduo（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:Pinduoduo",
+    "v2:pinduoduo",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:Pinduoduo"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-MeiTuan",
+   "name": "MeiTuan（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:MeiTuan",
+    "v2:meituan",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:MeiTuan"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-ZhuanZhuan",
+   "name": "ZhuanZhuan（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:ZhuanZhuan",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:ZhuanZhuan"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-12306",
+   "name": "12306（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:12306",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:12306"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-XieCheng",
+   "name": "XieCheng（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:XieCheng",
+    "v2:ctrip",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:XieCheng"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  },
+  {
+   "id": "CN-ChinaMobile",
+   "name": "ChinaMobile（国内）",
+   "category": "cn",
+   "suggested_policy": "DIRECT",
+   "surge_policy_in_V3.5.5": "DIRECT",
+   "sources": [
+    "bm:ChinaMobile",
+    "v2:chinamobile",
+    "custom"
+   ],
+   "ip_sources": [
+    "bm:ChinaMobile"
+   ],
+   "exclude": [],
+   "note": "国内 App：v2fly 仅取非 @!cn 条目"
+  }
+ ],
+ "keyword_denylist": [
+  "datadog",
+  "sentry",
+  "sift",
+  "colab",
+  "developerprofiles",
+  "analytics",
+  "cdn",
+  "api",
+  "static",
+  "apple",
+  "amazon",
+  "microsoft",
+  "cloudfront",
+  "akamai"
+ ]
+}

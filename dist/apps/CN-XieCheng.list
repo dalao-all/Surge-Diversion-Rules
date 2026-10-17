@@ -1,0 +1,44 @@
+# NAME: CN-XieCheng — XieCheng（国内）
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: DIRECT
+# SOURCES: bm:XieCheng | v2:ctrip | custom
+# COUNT: DOMAIN-SUFFIX=37 TOTAL=37
+# NOTE: 国内 App：v2fly 仅取非 @!cn 条目
+DOMAIN-SUFFIX,ctripgslb.com.cn
+DOMAIN-SUFFIX,ctrip.cn
+DOMAIN-SUFFIX,ctripgslb.cn
+DOMAIN-SUFFIX,shuntu.cn
+DOMAIN-SUFFIX,suanya.cn
+DOMAIN-SUFFIX,toptown.cn
+DOMAIN-SUFFIX,tripcdn.cn
+DOMAIN-SUFFIX,c-ctrip.com
+DOMAIN-SUFFIX,colinker.com
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,ctripbiz.com
+DOMAIN-SUFFIX,ctripgslb.com
+DOMAIN-SUFFIX,ctripteam.com
+DOMAIN-SUFFIX,doticloud.com
+DOMAIN-SUFFIX,easytrip.com
+DOMAIN-SUFFIX,hhtravel.com
+DOMAIN-SUFFIX,izuchebao.com
+DOMAIN-SUFFIX,lvtds.com
+DOMAIN-SUFFIX,qunar.com
+DOMAIN-SUFFIX,qunarcdn.com
+DOMAIN-SUFFIX,qunarzz.com
+DOMAIN-SUFFIX,skysea.com
+DOMAIN-SUFFIX,suanya.com
+DOMAIN-SUFFIX,tieyou.com
+DOMAIN-SUFFIX,toursbms.com
+DOMAIN-SUFFIX,trip.com
+DOMAIN-SUFFIX,tripcdn.com
+DOMAIN-SUFFIX,vipdlt.com
+DOMAIN-SUFFIX,ctrip.com.hk
+DOMAIN-SUFFIX,ctripbuy.hk
+DOMAIN-SUFFIX,ctrip.co.id
+DOMAIN-SUFFIX,ctrip.co.kr
+DOMAIN-SUFFIX,ctrip.my
+DOMAIN-SUFFIX,ctripgslb.net
+DOMAIN-SUFFIX,ctrip.sg
+DOMAIN-SUFFIX,ctrip.co.th
+DOMAIN-SUFFIX,hhtravel.com.tw

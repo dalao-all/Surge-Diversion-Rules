@@ -1,0 +1,45 @@
+# NAME: Claude — Claude
+# REPO: https://github.com/dalao-all/Surge-Diversion-Rules
+# BUILT: 2026-10-17
+# SUGGESTED POLICY: 美国家宽
+# SOURCES: v2:anthropic | bm:Claude | acl:Claude.list | acl:ClaudeAI.list | vpsd:anthropic | xiaolai:anthropic | sukka-ai:Anthropic / Claude | bm:Anthropic | custom
+# COUNT: DOMAIN=6 DOMAIN-SUFFIX=28 DOMAIN-KEYWORD=2 IP-CIDR=1 IP-CIDR6=1 IP-ASN=1 TOTAL=39
+DOMAIN,anthropic.auth0.com
+DOMAIN,cdn.usefathom.com
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,cdn.growthbook.io
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,anthropic.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,anthropic.com.cn
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudestudio.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,modelcontextprotocol.com
+DOMAIN-SUFFIX,muthos.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,interface.feedback
+DOMAIN-SUFFIX,modelcontextprotocol.io
+DOMAIN-SUFFIX,modelcontextprotocol.net
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,mcpservertest.online
+DOMAIN-SUFFIX,lcicat.org
+DOMAIN-SUFFIX,lcicollections.org
+DOMAIN-SUFFIX,modelcontextprotocol.org
+DOMAIN-SUFFIX,sillylittleguy.org
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+IP-ASN,399358,no-resolve
