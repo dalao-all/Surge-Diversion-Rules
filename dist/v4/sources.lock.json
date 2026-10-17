@@ -1,5 +1,5 @@
 {
-  "compiler_version": "4.2.0",
+  "compiler_version": "4.3.0",
   "includes": {
     "https://raw.githubusercontent.com/v2fly/domain-list-community/dd4e3c080cee602512768e8109f89fafaa94b8ca/data/qixin": {
       "path": "data/qixin",
@@ -1221,11 +1221,45 @@
         "url": "https://raw.githubusercontent.com/SukkaW/Surge/master/LICENSE",
         "verified_url": "https://raw.githubusercontent.com/SukkaW/Surge/8a4972eb334f3fd9d0c813577d47d04c4c442bf9/LICENSE"
       },
-      "rules": 140818,
-      "semantic_sha256": "7c322772a2ce2f0013d7d2181e04e17fedbf6c53e52262435b0115a3b9e2b20c",
-      "sha256": "9f9c74585f8903c4842dc79a917a74435c519dd3dcbcfc9a7f94309b898d3e3e",
-      "upstream_commit": "85076a0449e90119da824b79f9f1b611921726af",
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/85076a0449e90119da824b79f9f1b611921726af/List/domainset/reject.conf"
+      "rules": 140759,
+      "semantic_sha256": "b31b0264c871fc60fda6672707ffd71f7457137724939ce59d7f4505aa5e0c39",
+      "sha256": "ef71bd3b0d1225b1fb31e9e670ff128eff22226ccd7bc90b985caead2d9f3d8a",
+      "upstream_commit": "bb9dc2db0ceed3621de6f6edac456aa743321a57",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb9dc2db0ceed3621de6f6edac456aa743321a57/List/domainset/reject.conf"
+    },
+    "skk:List/non_ip/direct.conf": {
+      "license": {
+        "local_file": "licenses/SukkaW__Surge.LICENSE",
+        "redistribution_allowed": true,
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+        "source_repo": "SukkaW/Surge",
+        "spdx": "AGPL-3.0-only",
+        "url": "https://raw.githubusercontent.com/SukkaW/Surge/master/LICENSE",
+        "verified_url": "https://raw.githubusercontent.com/SukkaW/Surge/8a4972eb334f3fd9d0c813577d47d04c4c442bf9/LICENSE"
+      },
+      "rules": 183,
+      "semantic_sha256": "879a4e6db9513c415e5aefa6d741fa53dd3126f41f1a0092f07be8b25ae31f65",
+      "sha256": "46c65d1a59289d07f52f7652f9d1695d2996f65c125a14593b3eb7322086f8ec",
+      "upstream_commit": "bb9dc2db0ceed3621de6f6edac456aa743321a57",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb9dc2db0ceed3621de6f6edac456aa743321a57/List/non_ip/direct.conf"
+    },
+    "skk:List/non_ip/domestic.conf": {
+      "license": {
+        "local_file": "licenses/SukkaW__Surge.LICENSE",
+        "redistribution_allowed": true,
+        "redistribution_note": "保留原作者和完整许可证；规则转换注明修改日期，公开提供源清单、原始快照及转换源码。不同源按来源记录许可，不把全部产物宣称为MIT。",
+        "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+        "source_repo": "SukkaW/Surge",
+        "spdx": "AGPL-3.0-only",
+        "url": "https://raw.githubusercontent.com/SukkaW/Surge/master/LICENSE",
+        "verified_url": "https://raw.githubusercontent.com/SukkaW/Surge/8a4972eb334f3fd9d0c813577d47d04c4c442bf9/LICENSE"
+      },
+      "rules": 869,
+      "semantic_sha256": "e46549ef29e2d6ae0fc4271062d3238cfdb94aae9bf6d0456f9a47850a4e6484",
+      "sha256": "b939098609fd21d1e7e1efed05947fc7f55856d12e016944635bc64d2d8470c2",
+      "upstream_commit": "bb9dc2db0ceed3621de6f6edac456aa743321a57",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb9dc2db0ceed3621de6f6edac456aa743321a57/List/non_ip/domestic.conf"
     },
     "user-telemetry-reject": {
       "rules": 6,
