@@ -7,8 +7,8 @@
   "source_count": 126,
   "dependency_count": 28,
   "counts": {
-    "ads": 140815,
-    "ai": 101,
+    "ads": 140970,
+    "ai": 102,
     "binance": 14,
     "cn": 7916,
     "global": 739,
@@ -73,7 +73,7 @@
     {
       "id": "ai",
       "policy": "🤖 AI住宅",
-      "rule_count": 101,
+      "rule_count": 102,
       "protected_rule_count": 80
     },
     {
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "3eb84273bffa161e62051001138959fc1b505dbe62873d26e65c59bd87351295"
+  "semantic_sha256": "58b91f74537f9d23c70147b3e835d74ec9ea574519d301a2d11e8b97f23b70a7"
 }
