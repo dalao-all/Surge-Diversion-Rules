@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-10-17。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-10-18。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 

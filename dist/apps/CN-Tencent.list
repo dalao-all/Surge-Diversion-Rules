@@ -1,6 +1,6 @@
 # NAME: CN-Tencent — 腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-17
+# BUILT: 2026-10-18
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:Tencent | v2:tencent | v4dep:tencent-shared | custom
 # COUNT: DOMAIN-SUFFIX=2558 IP-CIDR=20 TOTAL=2578

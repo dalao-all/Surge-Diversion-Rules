@@ -1,6 +1,6 @@
 # NAME: CN-MeiTuan — 美团
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-17
+# BUILT: 2026-10-18
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:MeiTuan | v2:meituan | v4dep:meituan-shared | v4own | custom
 # COUNT: DOMAIN-SUFFIX=19 TOTAL=19

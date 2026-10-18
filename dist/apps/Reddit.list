@@ -1,6 +1,6 @@
 # NAME: Reddit — Reddit
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-17
+# BUILT: 2026-10-18
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:reddit | bm:Reddit | acl:Reddit.list | sukka-gl:Reddit | custom
 # COUNT: DOMAIN-SUFFIX=13 TOTAL=13
