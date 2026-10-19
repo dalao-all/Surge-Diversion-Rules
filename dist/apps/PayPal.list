@@ -1,6 +1,6 @@
 # NAME: PayPal — PayPal
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-18
+# BUILT: 2026-10-19
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:paypal | bm:PayPal | custom
 # COUNT: DOMAIN-SUFFIX=240 DOMAIN-KEYWORD=1 TOTAL=241

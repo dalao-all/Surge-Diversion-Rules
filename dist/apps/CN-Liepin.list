@@ -1,6 +1,6 @@
 # NAME: CN-Liepin — 猎聘
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-18
+# BUILT: 2026-10-19
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v2:liepin | v4own | custom
 # COUNT: DOMAIN-SUFFIX=4 TOTAL=4

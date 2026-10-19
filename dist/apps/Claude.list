@@ -1,6 +1,6 @@
 # NAME: Claude — Claude
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-18
+# BUILT: 2026-10-19
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:anthropic | bm:Claude | acl:Claude.list | acl:ClaudeAI.list | vpsd:anthropic | xiaolai:anthropic | sukka-ai:Anthropic / Claude | bm:Anthropic | custom
 # COUNT: DOMAIN=6 DOMAIN-SUFFIX=28 DOMAIN-KEYWORD=2 IP-CIDR=1 IP-CIDR6=1 IP-ASN=1 TOTAL=39

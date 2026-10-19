@@ -1,5 +1,5 @@
 {
- "built": "2026-10-18",
+ "built": "2026-10-19",
  "order": [
   "OKX",
   "Binance",
@@ -391,7 +391,7 @@
     "v2:openai": 20,
     "bm:OpenAI": 25,
     "acl:OpenAi.list": 13,
-    "vpsd:openai": 30,
+    "vpsd:openai": 31,
     "sukka-ai:OpenAI / ChatGPT": 8,
     "custom": 3
    },
