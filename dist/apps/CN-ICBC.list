@@ -1,6 +1,6 @@
 # NAME: CN-ICBC — 中国工商银行
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-19
+# BUILT: 2026-10-20
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:ICBC | v2:icbc | v4own | custom
 # COUNT: DOMAIN-SUFFIX=59 TOTAL=59

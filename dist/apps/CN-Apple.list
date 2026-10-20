@@ -1,6 +1,6 @@
 # NAME: CN-Apple — Apple 系统 App 与基础服务（地图/电话/信息/照片/日历/邮件/备忘录/提醒/天气/健康/钱包/文件/设置/App Store/Watch/家庭/Numbers/翻译/语音备忘录/密码/图书/快捷指令/股市/FaceTime/支持/反馈/Apple Store/提示/无边记/手记/预览/相机/计算器/指南针/测距仪/放大器）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-19
+# BUILT: 2026-10-20
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v4dep:apple-account | v4dep:apple-apns | v4dep:apple-feedback | v4dep:apple-icloud | v4dep:apple-maps | v4dep:apple-pki | v4dep:apple-search | v4dep:apple-store | v4dep:apple-update | v4own | custom
 # COUNT: DOMAIN=6 DOMAIN-SUFFIX=13 TOTAL=19

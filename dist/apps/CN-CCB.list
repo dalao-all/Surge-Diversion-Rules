@@ -1,6 +1,6 @@
 # NAME: CN-CCB — 中国建设银行
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-19
+# BUILT: 2026-10-20
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:CCB | v2:ccb | v4own | custom
 # COUNT: DOMAIN-SUFFIX=18 TOTAL=18

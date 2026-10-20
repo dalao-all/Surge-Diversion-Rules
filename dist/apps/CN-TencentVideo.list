@@ -1,6 +1,6 @@
 # NAME: CN-TencentVideo — 腾讯视频
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-19
+# BUILT: 2026-10-20
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:TencentVideo | v4own | custom
 # COUNT: DOMAIN=10 DOMAIN-SUFFIX=9 IP-CIDR=3 IP-CIDR6=29 TOTAL=51
