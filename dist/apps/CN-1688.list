@@ -1,6 +1,6 @@
 # NAME: CN-1688 — 阿里巴巴（1688）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-20
+# BUILT: 2026-10-21
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v4own | custom
 # COUNT: DOMAIN=1 DOMAIN-SUFFIX=5 TOTAL=6

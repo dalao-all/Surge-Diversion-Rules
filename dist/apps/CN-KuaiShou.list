@@ -1,6 +1,6 @@
 # NAME: CN-KuaiShou — 快手 / 快手极速版
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-20
+# BUILT: 2026-10-21
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:KuaiShou | v2:kuaishou | v4own | custom
 # COUNT: DOMAIN-SUFFIX=689 TOTAL=689

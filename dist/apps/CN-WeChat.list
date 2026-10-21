@@ -1,6 +1,6 @@
 # NAME: CN-WeChat — 微信
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-20
+# BUILT: 2026-10-21
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:WeChat | v4own | custom
 # COUNT: DOMAIN=5 DOMAIN-SUFFIX=27 IP-CIDR=218 IP-CIDR6=64 IP-ASN=1 TOTAL=315
