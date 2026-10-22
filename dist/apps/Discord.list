@@ -1,6 +1,6 @@
 # NAME: Discord — Discord
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-21
+# BUILT: 2026-10-22
 # SUGGESTED POLICY: 亚洲快速
 # SOURCES: v2:discord | bm:Discord | acl:Discord.list | sukka-gl:Discord | custom
 # COUNT: DOMAIN-SUFFIX=28 DOMAIN-KEYWORD=1 TOTAL=29

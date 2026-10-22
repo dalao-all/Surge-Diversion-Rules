@@ -1,6 +1,6 @@
 # NAME: CN-Guard — 国内条目防误吸（被海外 App 的 DOMAIN-KEYWORD 命中的国内域名）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-21
+# BUILT: 2026-10-22
 # SUGGESTED POLICY: DIRECT（必须放在海外 App 规则之前）
 # 自动生成：每条注明所属国内 App 与会误吸它的海外 App 关键词
 # COUNT: TOTAL=5

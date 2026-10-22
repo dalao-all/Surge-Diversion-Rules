@@ -1,6 +1,6 @@
 # NAME: CN-Intsig — 合合信息集团共享
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-21
+# BUILT: 2026-10-22
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v2:intsig | v4dep:intsig-shared | custom
 # COUNT: DOMAIN-SUFFIX=1 TOTAL=1

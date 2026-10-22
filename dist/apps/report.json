@@ -1,5 +1,5 @@
 {
- "built": "2026-10-21",
+ "built": "2026-10-22",
  "order": [
   "OKX",
   "Binance",
@@ -352,9 +352,9 @@
   },
   "Claude": {
    "name": "Claude",
-   "total": 39,
+   "total": 41,
    "per_source_raw": {
-    "v2:anthropic": 9,
+    "v2:anthropic": 19,
     "bm:Claude": 3,
     "acl:Claude.list": 2,
     "acl:ClaudeAI.list": 2,
@@ -377,7 +377,7 @@
    ],
    "count": {
     "DOMAIN": 6,
-    "DOMAIN-SUFFIX": 28,
+    "DOMAIN-SUFFIX": 30,
     "DOMAIN-KEYWORD": 2,
     "IP-CIDR": 1,
     "IP-CIDR6": 1,
