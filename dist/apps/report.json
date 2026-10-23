@@ -1,5 +1,5 @@
 {
- "built": "2026-10-22",
+ "built": "2026-10-23",
  "order": [
   "OKX",
   "Binance",
@@ -358,14 +358,14 @@
     "bm:Claude": 3,
     "acl:Claude.list": 2,
     "acl:ClaudeAI.list": 2,
-    "vpsd:anthropic": 34,
+    "vpsd:anthropic": 36,
     "xiaolai:anthropic": 9,
     "sukka-ai:Anthropic / Claude": 4,
     "bm:Anthropic": 3,
     "custom": 7
    },
    "dropped": {
-    "不支持的类型/非法": 5,
+    "不支持的类型/非法": 6,
     "IP(来源未列入 ip_sources)": 6,
     "exclude": 6,
     "泛关键词(keyword_denylist)": 3

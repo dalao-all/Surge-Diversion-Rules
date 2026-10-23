@@ -1,6 +1,6 @@
 # NAME: CN-NetEase — 网易集团共享
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-22
+# BUILT: 2026-10-23
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:NetEase | v2:netease | v4dep:netease-shared | custom
 # COUNT: DOMAIN-SUFFIX=119 IP-CIDR=13 TOTAL=132

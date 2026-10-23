@@ -1,6 +1,6 @@
 # NAME: CN-Sina — 新浪集团共享
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-22
+# BUILT: 2026-10-23
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:Sina | v2:sina | v4dep:sina-shared | custom
 # COUNT: DOMAIN-SUFFIX=99 TOTAL=99

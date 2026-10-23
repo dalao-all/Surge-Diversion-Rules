@@ -1,6 +1,6 @@
 # NAME: CN-JingDong — 京东
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-22
+# BUILT: 2026-10-23
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:JingDong | v2:jd | v4dep:jd-shared | v4own | custom
 # COUNT: DOMAIN-SUFFIX=261 TOTAL=261

@@ -1,6 +1,6 @@
 # NAME: Surge — Surge / Shadowrocket（代理工具自身）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-22
+# BUILT: 2026-10-23
 # SUGGESTED POLICY: DIRECT
 # SOURCES: repo-custom:app-INT028 | custom
 # COUNT: DOMAIN-SUFFIX=5 TOTAL=5

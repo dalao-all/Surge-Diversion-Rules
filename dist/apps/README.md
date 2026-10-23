@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-10-22。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-10-23。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 
@@ -21,7 +21,7 @@
 | 9 | PayPal | [PayPal.list](PayPal.list) | 241 | 247 | 💳 PayPal 美国 |  | v2:paypal, bm:PayPal, custom |
 | 10 | Wise | [Wise.list](Wise.list) | 2 | 2 | 💸 Wise 台湾 |  | v2:wise, custom |
 | 11 | AI 通用依赖（验证码/风控/特性开关/登录） | [AI-Common.list](AI-Common.list) | 28 | 7 | 🤖 AI住宅 |  | repo-custom:reviewed-ai-auth, repo-custom:ai-login-endpoints, repo-custom:ai-challenge, repo-custom:ai-featureflags, custom |
-| 12 | Claude | [Claude.list](Claude.list) | 41 | 34 | 🤖 AI住宅 |  | v2:anthropic, bm:Claude, acl:Claude.list, acl:ClaudeAI.list, vpsd:anthropic, xiaolai:anthropic, sukka-ai:Anthropic / Claude, bm:Anthropic, custom |
+| 12 | Claude | [Claude.list](Claude.list) | 41 | 36 | 🤖 AI住宅 |  | v2:anthropic, bm:Claude, acl:Claude.list, acl:ClaudeAI.list, vpsd:anthropic, xiaolai:anthropic, sukka-ai:Anthropic / Claude, bm:Anthropic, custom |
 | 13 | ChatGPT / OpenAI | [ChatGPT.list](ChatGPT.list) | 31 | 31 | 🤖 AI住宅 |  | v2:openai, bm:OpenAI, acl:OpenAi.list, vpsd:openai, sukka-ai:OpenAI / ChatGPT, custom |
 | 14 | Gemini / Google AI | [Gemini.list](Gemini.list) | 50 | 47 | 🤖 AI住宅 |  | v2:google-gemini, v2:google-deepmind, bm:Gemini, acl:Gemini.list, vpsd:google-ai, sukka-ai:Google, bm:BardAI, custom |
 | 15 | Grok / xAI | [Grok.list](Grok.list) | 6 | 4 | 🤖 AI住宅 |  | v2:xai, vpsd:x-ai, sukka-ai:Grok, custom |

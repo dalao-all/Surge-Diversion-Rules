@@ -1,6 +1,6 @@
 # NAME: AI-Common — AI 通用依赖（验证码/风控/特性开关/登录）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-22
+# BUILT: 2026-10-23
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: repo-custom:reviewed-ai-auth | repo-custom:ai-login-endpoints | repo-custom:ai-challenge | repo-custom:ai-featureflags | custom
 # COUNT: DOMAIN=9 DOMAIN-SUFFIX=18 DOMAIN-KEYWORD=1 TOTAL=28
