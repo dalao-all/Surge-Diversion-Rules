@@ -4,11 +4,11 @@
   "ipv6": false,
   "proxy_empty": true,
   "app_count": 164,
-  "source_count": 126,
+  "source_count": 127,
   "dependency_count": 28,
   "counts": {
-    "ads": 144651,
-    "ai": 102,
+    "ads": 144573,
+    "ai": 116,
     "binance": 14,
     "cn": 7916,
     "global": 739,
@@ -73,7 +73,7 @@
     {
       "id": "ai",
       "policy": "🤖 AI住宅",
-      "rule_count": 102,
+      "rule_count": 116,
       "protected_rule_count": 80
     },
     {
@@ -1183,7 +1183,7 @@
       "name": "Claude",
       "category": "ai",
       "coverage": "independent-candidate",
-      "source_count": 2,
+      "source_count": 3,
       "enabled": true
     },
     {
@@ -1427,5 +1427,5 @@
       "enabled": true
     }
   ],
-  "semantic_sha256": "f10a0737f6ed59f75f57beac107040d24228e4ff2d31b244fbf6ff36012676d2"
+  "semantic_sha256": "08774c7426d35458d115952b7f73331e67afdd2b5205769ddd139b0300e09c50"
 }

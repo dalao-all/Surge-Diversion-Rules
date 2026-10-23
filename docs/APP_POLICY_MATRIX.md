@@ -143,7 +143,7 @@
 | CN131 | Speedtest | cn | 独立来源候选 | 1 | 0 | 1 |
 | CN132 | 彩云天气PRO | cn | 独立来源候选 | 1 | 0 | 1 |
 | INT001 | ChatGPT | ai | 独立来源候选 | 4 | 2 | 6 |
-| INT002 | Claude | ai | 独立来源候选 | 2 | 1 | 3 |
+| INT002 | Claude | ai | 独立来源候选 | 3 | 1 | 4 |
 | INT003 | Gemini | ai | 独立来源候选 | 2 | 1 | 3 |
 | INT004 | Cursor | ai | 独立来源候选 | 1 | 1 | 2 |
 | INT005 | Grok | ai | 独立来源候选 | 1 | 1 | 2 |
