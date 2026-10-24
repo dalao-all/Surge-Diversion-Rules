@@ -3,12 +3,13 @@
 # BUILT: 2026-10-24
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: vpsd:perplexity | vpsd:copilot | vpsd:huggingface | vpsd:mistral-ai | vpsd:openrouter | vpsd:windsurf | vpsd:poe | vpsd:groq | vpsd:cohere | vpsd:midjourney | vpsd:replit | vpsd:sourcegraph | vpsd:zed | vpsd:augment-code | vpsd:meta-ai | v2:perplexity | v2:github-copilot | v2:huggingface | v2:poe | v2:windsurf | v2:groq | sukka-ai:Perplexity | sukka-ai:POE | sukka-ai:GitHub Copilot | sukka-ai:groq | sukka-ai:OpenRouter AI - Unified Relay | sukka-ai:Windsurf (formerly Codeium) | sukka-ai:Meta AI | bm:Copilot | sukka-ai:Cloudflare AI Gateway | sukka-ai:Dify.AI | sukka-ai:Jasper | sukka-ai:OpenArt | sukka-ai:JetBrains AI | custom
-# COUNT: DOMAIN=20 DOMAIN-SUFFIX=54 DOMAIN-KEYWORD=1 TOTAL=75
+# COUNT: DOMAIN=21 DOMAIN-SUFFIX=54 DOMAIN-KEYWORD=1 TOTAL=76
 DOMAIN,api.jetbrains.ai
 DOMAIN,r.bing.com
 DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
 DOMAIN,services.bingapis.com
+DOMAIN,browser-intake-datadoghq.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,pplx-res.cloudinary.com

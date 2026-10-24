@@ -332,13 +332,13 @@
   },
   "AI-Common": {
    "name": "AI 通用依赖（验证码/风控/特性开关/登录）",
-   "total": 33,
+   "total": 28,
    "per_source_raw": {
     "repo-custom:reviewed-ai-auth": 7,
     "repo-custom:ai-login-endpoints": 3,
     "repo-custom:ai-challenge": 2,
     "repo-custom:ai-featureflags": 3,
-    "custom": 24
+    "custom": 19
    },
    "dropped": {},
    "dead_by_protect_cn": [],
@@ -346,13 +346,13 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 9,
-    "DOMAIN-SUFFIX": 22,
-    "DOMAIN-KEYWORD": 2
+    "DOMAIN-SUFFIX": 18,
+    "DOMAIN-KEYWORD": 1
    }
   },
   "Claude": {
    "name": "Claude",
-   "total": 39,
+   "total": 41,
    "per_source_raw": {
     "v2:anthropic": 19,
     "bm:Claude": 3,
@@ -376,7 +376,7 @@
     "DOMAIN-SUFFIX,anthropic.com.cn"
    ],
    "count": {
-    "DOMAIN": 4,
+    "DOMAIN": 6,
     "DOMAIN-SUFFIX": 30,
     "DOMAIN-KEYWORD": 2,
     "IP-CIDR": 1,
@@ -478,7 +478,7 @@
   },
   "AI-Other": {
    "name": "其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…）",
-   "total": 75,
+   "total": 76,
    "per_source_raw": {
     "vpsd:perplexity": 4,
     "vpsd:copilot": 27,
@@ -525,7 +525,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN": 20,
+    "DOMAIN": 21,
     "DOMAIN-SUFFIX": 54,
     "DOMAIN-KEYWORD": 1
    }
@@ -6601,18 +6601,6 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
-   "rule": "DOMAIN,cdn.usefathom.com",
-   "kept_in": "AI-Common",
-   "removed_from": "Claude",
-   "reason": "被前序 usefathom.com 后缀覆盖（死规则）"
-  },
-  {
-   "rule": "DOMAIN,cdn.growthbook.io",
-   "kept_in": "AI-Common",
-   "removed_from": "Claude",
-   "reason": "被前序 growthbook.io 后缀覆盖（死规则）"
-  },
-  {
    "rule": "DOMAIN,openai-api.arkoselabs.com",
    "kept_in": "AI-Common",
    "removed_from": "ChatGPT",
@@ -6629,12 +6617,6 @@
    "kept_in": "AI-Common",
    "removed_from": "AI-Other",
    "reason": "被前序 statsig.com 后缀覆盖（死规则）"
-  },
-  {
-   "rule": "DOMAIN,browser-intake-datadoghq.com",
-   "kept_in": "AI-Common",
-   "removed_from": "AI-Other",
-   "reason": "含前序 App 关键词 browser-intake → 移入该 App"
   },
   {
    "rule": "DOMAIN-SUFFIX,client-api.arkoselabs.com",

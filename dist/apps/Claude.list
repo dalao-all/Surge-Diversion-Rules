@@ -3,9 +3,11 @@
 # BUILT: 2026-10-24
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:anthropic | bm:Claude | acl:Claude.list | acl:ClaudeAI.list | vpsd:anthropic | xiaolai:anthropic | sukka-ai:Anthropic / Claude | bm:Anthropic | custom
-# COUNT: DOMAIN=4 DOMAIN-SUFFIX=30 DOMAIN-KEYWORD=2 IP-CIDR=1 IP-CIDR6=1 IP-ASN=1 TOTAL=39
+# COUNT: DOMAIN=6 DOMAIN-SUFFIX=30 DOMAIN-KEYWORD=2 IP-CIDR=1 IP-CIDR6=1 IP-ASN=1 TOTAL=41
 DOMAIN,anthropic.auth0.com
+DOMAIN,cdn.usefathom.com
 DOMAIN,anthropic-com.ghost.io
+DOMAIN,cdn.growthbook.io
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,anthropic.ai
