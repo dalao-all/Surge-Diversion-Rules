@@ -10,8 +10,8 @@ DOMAIN-KEYWORD,claude
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,growthbook.io
-DOMAIN-SUFFIX,usefathom.com
+DOMAIN,cdn.growthbook.io
+DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
