@@ -2,7 +2,7 @@
   "compiler_version": "4.3.0",
   "counts": {
     "ads": 144730,
-    "ai": 116,
+    "ai": 115,
     "binance": 14,
     "cn": 7916,
     "global": 739,
@@ -2840,7 +2840,7 @@
       "raw": "regexp:^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$",
       "reason": "v2 regexp has no equivalent supported Surge domain rule; explicit coverage gap",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2854,7 +2854,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,chatgpt.site",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2868,7 +2868,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,crixet.com",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2882,7 +2882,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,openai.org",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2896,7 +2896,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,sora.com",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2910,7 +2910,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2924,7 +2924,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,openaiapi-site.azureedge.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2938,7 +2938,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,openaiassets.blob.core.windows.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2952,7 +2952,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2966,7 +2966,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,openaicom.imgix.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2980,7 +2980,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,openaicomproductionae4b.blob.core.windows.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -2994,7 +2994,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,production-openaicom-storage.azureedge.net",
       "source": "v2:data/openai",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/openai"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/openai"
     },
     {
       "app_ids": [
@@ -3008,7 +3008,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,ant.dev",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3022,7 +3022,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,anthropic.team",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3036,7 +3036,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,antspace.dev",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3050,7 +3050,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,chatbotclaude.com",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3064,7 +3064,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,clau.de",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3078,7 +3078,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claude.app",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3092,7 +3092,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claude.dev",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3106,7 +3106,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claude.new",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3120,7 +3120,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claude.site",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3134,7 +3134,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claudeacademy.com",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3148,7 +3148,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claudemcpclient.com",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3162,7 +3162,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claudepages.dev",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3176,7 +3176,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN-SUFFIX,claudestudio.com",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "app_ids": [
@@ -3190,7 +3190,7 @@
       "reason": "Supplement outside independently reviewed scope; retained as candidate, not auto-published",
       "rule": "DOMAIN,servd-anthropic-website.b-cdn.net",
       "source": "v2:data/anthropic",
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/anthropic"
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/3119c9698e93ecf05b388a69b031beb2d2364a53/data/anthropic"
     },
     {
       "line": 883,

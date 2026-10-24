@@ -4,10 +4,11 @@
     "DOMAIN,openai-api.arkoselabs.com"
   ],
   "ai-claude-identity": [
+    "DOMAIN,browser-intake-datadoghq.com",
+    "DOMAIN,browser-intake-us5-datadoghq.com",
+    "DOMAIN,http-intake.logs.us5.datadoghq.com",
     "DOMAIN-KEYWORD,anthropic",
-    "DOMAIN-KEYWORD,browser-intake",
     "DOMAIN-KEYWORD,claude",
-    "DOMAIN-SUFFIX,datadoghq.com",
     "DOMAIN-SUFFIX,growthbook.io",
     "DOMAIN-SUFFIX,hcaptcha.com",
     "DOMAIN-SUFFIX,modelcontextprotocol.io",
@@ -15,7 +16,6 @@
     "DOMAIN-SUFFIX,stripe.network",
     "DOMAIN-SUFFIX,stripecdn.com",
     "DOMAIN-SUFFIX,usefathom.com",
-    "DOMAIN-SUFFIX,withpersona.com",
     "IP-ASN,399358,no-resolve",
     "IP-CIDR,160.79.104.0/21,no-resolve"
   ],
