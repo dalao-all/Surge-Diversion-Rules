@@ -1,16 +1,23 @@
 # NAME: Speedtest — Speedtest
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-23
+# BUILT: 2026-10-24
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v2:ookla-speedtest | bm:Speedtest | sukka-gl:Speedtest | custom
-# COUNT: DOMAIN=1 DOMAIN-SUFFIX=8 DOMAIN-KEYWORD=1 TOTAL=10
+# COUNT: DOMAIN=1 DOMAIN-SUFFIX=15 DOMAIN-KEYWORD=1 TOTAL=17
 DOMAIN,www.speedtest.net.cdn.cloudflare.net
+DOMAIN-SUFFIX,speedtest.app
+DOMAIN-SUFFIX,speedtest.cc
 DOMAIN-SUFFIX,ekahau.cloud
 DOMAIN-SUFFIX,cellmaps.com
 DOMAIN-SUFFIX,ekahau.com
 DOMAIN-SUFFIX,ookla.com
+DOMAIN-SUFFIX,speedtest.ee
 DOMAIN-SUFFIX,ookla-speedtest-central.hgconair.hgc.com.hk
+DOMAIN-SUFFIX,speedtest.in
+DOMAIN-SUFFIX,speedtest.me
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,pingtest.net
 DOMAIN-SUFFIX,webtest.net
+DOMAIN-SUFFIX,speedtest.ng
+DOMAIN-SUFFIX,speedtest.tv
 DOMAIN-KEYWORD,speedtest

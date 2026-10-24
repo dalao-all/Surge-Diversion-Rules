@@ -1,6 +1,6 @@
 # NAME: X — X / Twitter
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-23
+# BUILT: 2026-10-24
 # SUGGESTED POLICY: 亚洲快速
 # SOURCES: v2:twitter | bm:Twitter | acl:Twitter.list | sukka-gl:Twitter | custom
 # COUNT: DOMAIN-SUFFIX=32 DOMAIN-KEYWORD=1 IP-CIDR=6 TOTAL=39

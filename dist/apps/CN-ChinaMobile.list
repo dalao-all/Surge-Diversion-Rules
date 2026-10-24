@@ -1,6 +1,6 @@
 # NAME: CN-ChinaMobile — 中国移动
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-23
+# BUILT: 2026-10-24
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:ChinaMobile | v2:chinamobile | v4own | custom
 # COUNT: DOMAIN-SUFFIX=49 IP-CIDR=1 TOTAL=50

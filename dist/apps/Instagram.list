@@ -1,6 +1,6 @@
 # NAME: Instagram — Instagram
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-23
+# BUILT: 2026-10-24
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:instagram | bm:Instagram | acl:Instagram.list | custom
 # COUNT: DOMAIN-SUFFIX=73 DOMAIN-KEYWORD=1 TOTAL=74
