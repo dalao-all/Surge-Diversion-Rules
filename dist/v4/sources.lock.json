@@ -16,8 +16,8 @@
     },
     "ai-claude-identity": {
       "rules": 14,
-      "semantic_sha256": "c013217228828a600716875ea07427c429114753aabc9372201cd65ef5443e1d",
-      "sha256": "571a6db8df4eae2ae3d7ea1536dd839547f1812fea498c82bca752ee06a526a9",
+      "semantic_sha256": "f994b48d3c10bac691eb80945daff4ebcc871fe6c59398cbd45c7de5da4cfc89",
+      "sha256": "c01b205cf9f4c2dd9a2973b877208a2455260566e5093e1068295ddcbc3b4f63",
       "url": "local:custom/ai-claude-identity.list"
     },
     "ai-featureflags": {
