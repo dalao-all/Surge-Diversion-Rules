@@ -3,7 +3,7 @@
 # BUILT: 2026-10-24
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: repo-custom:reviewed-ai-auth | repo-custom:ai-login-endpoints | repo-custom:ai-challenge | repo-custom:ai-featureflags | custom
-# COUNT: DOMAIN=9 DOMAIN-SUFFIX=18 DOMAIN-KEYWORD=1 TOTAL=28
+# COUNT: DOMAIN=9 DOMAIN-SUFFIX=20 DOMAIN-KEYWORD=1 TOTAL=30
 # NOTE: Arkose/hCaptcha/Sift/Statsig/WorkOS/Stripe 等，被多个 AI App 共用，必须与 AI 同出口
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,challenges.cloudflare.com
@@ -23,8 +23,10 @@ DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,statsigcdn.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,withpersona.com
 DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,workoscdn.com
+DOMAIN-SUFFIX,growthbook.io
 DOMAIN-SUFFIX,hcaptcha.net
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,statsigproxy.net

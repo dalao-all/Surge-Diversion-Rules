@@ -332,13 +332,13 @@
   },
   "AI-Common": {
    "name": "AI 通用依赖（验证码/风控/特性开关/登录）",
-   "total": 28,
+   "total": 30,
    "per_source_raw": {
     "repo-custom:reviewed-ai-auth": 7,
     "repo-custom:ai-login-endpoints": 3,
     "repo-custom:ai-challenge": 2,
     "repo-custom:ai-featureflags": 3,
-    "custom": 19
+    "custom": 21
    },
    "dropped": {},
    "dead_by_protect_cn": [],
@@ -346,13 +346,13 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 9,
-    "DOMAIN-SUFFIX": 18,
+    "DOMAIN-SUFFIX": 20,
     "DOMAIN-KEYWORD": 1
    }
   },
   "Claude": {
    "name": "Claude",
-   "total": 41,
+   "total": 40,
    "per_source_raw": {
     "v2:anthropic": 19,
     "bm:Claude": 3,
@@ -376,7 +376,7 @@
     "DOMAIN-SUFFIX,anthropic.com.cn"
    ],
    "count": {
-    "DOMAIN": 6,
+    "DOMAIN": 5,
     "DOMAIN-SUFFIX": 30,
     "DOMAIN-KEYWORD": 2,
     "IP-CIDR": 1,
@@ -6599,6 +6599,12 @@
    "kept_in": "CN-Tencent",
    "removed_from": "CN-Common",
    "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,cdn.growthbook.io",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "被前序 growthbook.io 后缀覆盖（死规则）"
   },
   {
    "rule": "DOMAIN,openai-api.arkoselabs.com",
