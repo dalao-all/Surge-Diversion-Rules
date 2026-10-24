@@ -12,7 +12,6 @@ DOMAIN,assets.grok.com
 DOMAIN,auth.openai.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN,cdn.growthbook.io
 DOMAIN,cdn.openaimerge.com
 DOMAIN,cdn.usefathom.com
 DOMAIN,cdn.workos.com
@@ -81,6 +80,7 @@ DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,growthbook.io
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,identrust.com
@@ -106,6 +106,7 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,withpersona.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude

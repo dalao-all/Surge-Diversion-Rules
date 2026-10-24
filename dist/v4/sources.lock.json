@@ -15,9 +15,9 @@
       "url": "local:custom/ai-challenge.list"
     },
     "ai-claude-identity": {
-      "rules": 14,
-      "semantic_sha256": "f994b48d3c10bac691eb80945daff4ebcc871fe6c59398cbd45c7de5da4cfc89",
-      "sha256": "c01b205cf9f4c2dd9a2973b877208a2455260566e5093e1068295ddcbc3b4f63",
+      "rules": 15,
+      "semantic_sha256": "b19d370ee93506e8a05fbc16bdfa5032863136784a3f716b3e4716a26e8e9655",
+      "sha256": "ca37744b1b0343dcb6a4a3f32f362a236b558a7f2f099e9b684c3f14f3de3e0b",
       "url": "local:custom/ai-claude-identity.list"
     },
     "ai-featureflags": {
