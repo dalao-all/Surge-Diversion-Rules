@@ -1,7 +1,7 @@
 {
  "v2fly": {
   "url": "https://github.com/v2fly/domain-list-community.git",
-  "commit": "3119c9698e93ecf05b388a69b031beb2d2364a53",
+  "commit": "44e37212c1154407744543bd1ea5e5750fd44902",
   "date": "2026-10-24"
  },
  "bm": {
@@ -26,8 +26,8 @@
  },
  "sukka": {
   "url": "https://github.com/SukkaW/Surge.git",
-  "commit": "3602ce516b866ff9b56d4e4dd1dca62b0ca90c33",
-  "date": "2026-10-23"
+  "commit": "3428c6911565e29e6cebea6241e85acda1218a02",
+  "date": "2026-10-24"
  },
  "official:telegram": {
   "url": "https://core.telegram.org/resources/cidr.txt",
