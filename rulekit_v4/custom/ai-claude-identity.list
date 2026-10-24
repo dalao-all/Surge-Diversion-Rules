@@ -5,14 +5,17 @@
 DOMAIN-SUFFIX,modelcontextprotocol.io
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,browser-intake
-DOMAIN-SUFFIX,datadoghq.com
+# 遥测/特性开关只收 Claude 实际使用的主机（2026-10-24 收窄：原 datadoghq.com/growthbook.io/usefathom.com 后缀与 KEYWORD browser-intake
+# 会把所有 App 的 Datadog/GrowthBook/Fathom 流量拉进 AI 出口）。证据：patches/manifest.json ai-dd-*、xiaolai anthropic.list
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,growthbook.io
 DOMAIN-SUFFIX,usefathom.com
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,siftscience.com
-DOMAIN-SUFFIX,withpersona.com
+# withpersona.com 已移除：Persona 是多家 App 共用的 KYC/年龄验证服务，域名无法区分 Claude，且无 Claude 使用证据
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-ASN,399358,no-resolve
