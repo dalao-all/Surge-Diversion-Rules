@@ -18,3 +18,6 @@ DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN-SUFFIX,assetsconfigcdn.org
 DOMAIN-SUFFIX,beyondwickedmapping.org
 DOMAIN-SUFFIX,prodregistryv2.org
+# Claude 身份出口一致性（与 rulekit_v4/custom/ai-claude-identity.list 同步，one-exit b9d9f8a）
+DOMAIN-SUFFIX,growthbook.io
+DOMAIN-SUFFIX,withpersona.com
