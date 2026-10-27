@@ -1,6 +1,6 @@
 # NAME: WhatsApp — WhatsApp
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-25
+# BUILT: 2026-10-27
 # SUGGESTED POLICY: 亚洲快速
 # SOURCES: v2:whatsapp | bm:Whatsapp | acl:Whatsapp.list | custom
 # COUNT: DOMAIN-SUFFIX=12 DOMAIN-KEYWORD=1 TOTAL=13

@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-10-25。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-10-27。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 
@@ -23,14 +23,14 @@
 | 11 | AI 通用依赖（验证码/风控/特性开关/登录） | [AI-Common.list](AI-Common.list) | 30 | 7 | 🤖 AI住宅 |  | repo-custom:reviewed-ai-auth, repo-custom:ai-login-endpoints, repo-custom:ai-challenge, repo-custom:ai-featureflags, custom |
 | 12 | Claude | [Claude.list](Claude.list) | 40 | 36 | 🤖 AI住宅 |  | v2:anthropic, bm:Claude, acl:Claude.list, acl:ClaudeAI.list, vpsd:anthropic, xiaolai:anthropic, sukka-ai:Anthropic / Claude, bm:Anthropic, custom |
 | 13 | ChatGPT / OpenAI | [ChatGPT.list](ChatGPT.list) | 31 | 31 | 🤖 AI住宅 |  | v2:openai, bm:OpenAI, acl:OpenAi.list, vpsd:openai, sukka-ai:OpenAI / ChatGPT, custom |
-| 14 | Gemini / Google AI | [Gemini.list](Gemini.list) | 50 | 47 | 🤖 AI住宅 |  | v2:google-gemini, v2:google-deepmind, bm:Gemini, acl:Gemini.list, vpsd:google-ai, sukka-ai:Google, bm:BardAI, custom |
+| 14 | Gemini / Google AI | [Gemini.list](Gemini.list) | 53 | 49 | 🤖 AI住宅 |  | v2:google-gemini, v2:google-deepmind, bm:Gemini, acl:Gemini.list, vpsd:google-ai, sukka-ai:Google, bm:BardAI, custom |
 | 15 | Grok / xAI | [Grok.list](Grok.list) | 6 | 4 | 🤖 AI住宅 |  | v2:xai, vpsd:x-ai, sukka-ai:Grok, custom |
 | 16 | Cursor | [Cursor.list](Cursor.list) | 8 | 5 | 🤖 AI住宅 |  | v2:cursor, vpsd:cursor, sukka-ai:Cursor, custom |
 | 17 | 其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…） | [AI-Other.list](AI-Other.list) | 76 | 40 | 🤖 AI住宅 |  | vpsd:perplexity, vpsd:copilot, vpsd:huggingface, vpsd:mistral-ai, vpsd:openrouter, vpsd:windsurf, vpsd:poe, vpsd:groq, vpsd:cohere, vpsd:midjourney, vpsd:replit, vpsd:sourcegraph, vpsd:zed, vpsd:augment-code, vpsd:meta-ai, v2:perplexity, v2:github-copilot, v2:huggingface, v2:poe, v2:windsurf, v2:groq, sukka-ai:Perplexity, sukka-ai:POE, sukka-ai:GitHub Copilot, sukka-ai:groq, sukka-ai:OpenRouter AI - Unified Relay, sukka-ai:Windsurf (formerly Codeium), sukka-ai:Meta AI, bm:Copilot, sukka-ai:Cloudflare AI Gateway, sukka-ai:Dify.AI, sukka-ai:Jasper, sukka-ai:OpenArt, sukka-ai:JetBrains AI, custom |
 | 18 | Notion | [Notion.list](Notion.list) | 9 | 7 | 🤖 AI住宅 |  | v2:notion, bm:Notion, custom |
 | 19 | IP 检测站点 | [IPCheck.list](IPCheck.list) | 9 | 0 | 🤖 AI住宅 |  | custom |
 | 20 | YouTube | [YouTube.list](YouTube.list) | 179 | 178 | 📺 YouTube |  | v2:youtube, bm:YouTube, bm:YouTubeMusic, acl:YouTube.list, acl:YouTubeMusic.list, sukka-stream:YouTube, sukka-stream:YouTube Music, custom |
-| 21 | Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator） | [Google.list](Google.list) | 735 | 942 | 🤖 AI住宅 |  | v2:google, bm:Google, bm:GoogleDrive, bm:GoogleEarth, bm:GoogleFCM, acl:Google.list, acl:GoogleFCM.list, acl:GoogleEarth.list, sukka-global:GOOGLE, sukka-gl:Google, bm:GoogleSearch, bm:GoogleVoice, custom |
+| 21 | Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator） | [Google.list](Google.list) | 735 | 945 | 🤖 AI住宅 |  | v2:google, bm:Google, bm:GoogleDrive, bm:GoogleEarth, bm:GoogleFCM, acl:Google.list, acl:GoogleFCM.list, acl:GoogleEarth.list, sukka-global:GOOGLE, sukka-gl:Google, bm:GoogleSearch, bm:GoogleVoice, custom |
 | 22 | TikTok（国际版） | [TikTok.list](TikTok.list) | 67 | 36 | 🎵 TikTok |  | v2:tiktok, bm:TikTok, acl:TikTok.list, sukka-stream:TikTok, custom |
 | 23 | WhatsApp | [WhatsApp.list](WhatsApp.list) | 13 | 11 | 💬 WhatsApp |  | v2:whatsapp, bm:Whatsapp, acl:Whatsapp.list, custom |
 | 24 | Instagram | [Instagram.list](Instagram.list) | 74 | 72 | 📘 Meta |  | v2:instagram, bm:Instagram, acl:Instagram.list, custom |

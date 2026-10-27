@@ -1,17 +1,20 @@
 # NAME: Gemini — Gemini / Google AI
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-25
+# BUILT: 2026-10-27
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:google-gemini | v2:google-deepmind | bm:Gemini | acl:Gemini.list | vpsd:google-ai | sukka-ai:Google | bm:BardAI | custom
-# COUNT: DOMAIN=11 DOMAIN-SUFFIX=37 DOMAIN-KEYWORD=2 TOTAL=50
+# COUNT: DOMAIN=14 DOMAIN-SUFFIX=37 DOMAIN-KEYWORD=2 TOTAL=53
 # NOTE: 只收 Gemini/AI Studio/DeepMind 专属主机；google.com 等通用后缀归 Google
+DOMAIN,appsgenaiserver-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN,antigravity.googleapis.com
 DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
 DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com

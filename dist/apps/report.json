@@ -1,5 +1,5 @@
 {
- "built": "2026-10-25",
+ "built": "2026-10-27",
  "order": [
   "OKX",
   "Binance",
@@ -413,10 +413,10 @@
   },
   "Gemini": {
    "name": "Gemini / Google AI",
-   "total": 50,
+   "total": 53,
    "per_source_raw": {
-    "v2:google-gemini": 46,
-    "v2:google-deepmind": 46,
+    "v2:google-gemini": 49,
+    "v2:google-deepmind": 49,
     "bm:Gemini": 10,
     "acl:Gemini.list": 10,
     "vpsd:google-ai": 47,
@@ -433,7 +433,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN": 11,
+    "DOMAIN": 14,
     "DOMAIN-SUFFIX": 37,
     "DOMAIN-KEYWORD": 2
    }
@@ -592,7 +592,7 @@
    "name": "Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator）",
    "total": 735,
    "per_source_raw": {
-    "v2:google": 942,
+    "v2:google": 945,
     "bm:Google": 695,
     "bm:GoogleDrive": 5,
     "bm:GoogleEarth": 16,
