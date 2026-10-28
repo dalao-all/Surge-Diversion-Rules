@@ -8,7 +8,8 @@
       "DOMAIN-SUFFIX,tiktokpangle-b.us — 交广告集拒绝，不放入任何放行 list",
       "DOMAIN-SUFFIX,tiktokpangle-cdn-us.com — 同上"
     ],
-    "v6": "RULE-SET raw URL → dalao-all/Surge-Diversion-Rules；财务第2页写入 app_catalog；正式 interest_seed.json。"
+    "v6": "RULE-SET raw URL → dalao-all/Surge-Diversion-Rules；财务第2页写入 app_catalog；正式 interest_seed.json。",
+    "splash-ads": "2026-10-28：splash-ads.list 为国内 App 开屏广告精确 REJECT 集，主配置须放在 protect-cn 与 CN-* 直连表之前（V3.6.7 起）。证据=2026-10-28 抓包（无 MITM）+ sukka/RuCu6/zirawell/v2fly @ads 交叉验证；不得收录 protection.json 保护主机（bootpreload/datacollection/sdkapp.uve.weibo.com、cm.bilibili.com、api.m.jd.com 等）。"
   },
   "rules": [
     {

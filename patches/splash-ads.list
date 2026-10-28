@@ -1,0 +1,57 @@
+# splash-ads.list ｜ 国内 App 开屏广告精确拦截（REJECT，非 DROP：广告素材立即失败，App 不会等待超时）
+# 用法：RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/splash-ads.list,REJECT,update-interval=86400
+# 位置：必须放在 dist/v4/protect-cn.list 与 CN-* 直连表之前。ads-patch.domainset 已收录其中大部分主机，
+#       但它排在 protect-cn（DOMAIN-SUFFIX weibo.com / bilivideo.com / gtimg.cn / dcarvod.com …）和 CN-Tencent / CN-Alibaba 之后，永远命中不到。
+# 证据：2026-10-28 Surge 抓包（V3.6.6，无 MITM，2638 条连接）逐 App 定位 + 社区规则交叉验证（sukka reject、RuCu6、zirawell、v2fly @ads、bilibili-API-collect）。
+# 刻意不收（protection.json「2026-10-15 误杀排查修复」，拦了会启动卡死/加载超时）：
+#   bootpreload / datacollection / sdkapp.uve.weibo.com、cm.bilibili.com、api.m.jd.com、app.bilibili.com、api.bilibili.com
+# 刻意不收（与正文内容同域，规则层拦不了，需 MITM）：京东 api.m.jd.com、B 站 app.bilibili.com/i0.hdslb.com 图片开屏、懂车帝 api5-normal-sinfonlineb.dcarapi.com、腾讯视频 vv.video.qq.com
+
+# ---------- 腾讯广点通 GDT 素材（酷安 / 腾讯视频 / 各类接入 GDT 的 App）----------
+DOMAIN-SUFFIX,ugdtimg.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,qzs.gdtimg.com
+DOMAIN,union.gdtimg.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,ugd.gtimg.com
+DOMAIN,wa.gtimg.com
+DOMAIN,ra.gtimg.com
+DOMAIN,splashqqlive.gtimg.com
+
+# ---------- 腾讯视频 开屏 ----------
+DOMAIN,c2.l.qq.com
+DOMAIN,p2.l.qq.com
+DOMAIN,livep2.l.qq.com
+DOMAIN,info4.video.qq.com
+DOMAIN,info6.video.qq.com
+DOMAIN,ugchsy.gtimg.com
+DOMAIN,ugccsy.qq.com
+URL-REGEX,^http://ugc[a-z]+\.(gtimg|qq)\.com/gzc_1000127_
+
+# ---------- 微博 开屏 ----------
+DOMAIN,bootrealtime.uve.weibo.com
+DOMAIN,wbapp.uve.weibo.com
+DOMAIN,adimg.uve.weibo.com
+DOMAIN,fastimage.uve.weibo.com
+DOMAIN-SUFFIX,biz.weibo.com
+DOMAIN,nb-ssp.oss-cn-beijing.aliyuncs.com
+
+# ---------- 哔哩哔哩 开屏视频（ssaxcode/*-SPLASH.mp4）----------
+DOMAIN,upos-sz-static.bilivideo.com
+DOMAIN,upos-sz-staticcos.bilivideo.com
+
+# ---------- 懂车帝 开屏视频 ----------
+DOMAIN-WILDCARD,*-dcar-ad.dcarvod.com
+
+# ---------- 阿里妈妈 Tanx（闲鱼 / 淘宝 / B 站 / 微博 / 爱奇艺 的第三方开屏竞价与曝光）----------
+DOMAIN,df.tanx.com
+DOMAIN,ef-dongfeng.tanx.com
+DOMAIN,bdlog.tanx.com
+DOMAIN,ifs.tanx.com
+DOMAIN,kgb-ifs.tanx.com
+DOMAIN,click.tanx.com
+DOMAIN,rdstat.tanx.com
+DOMAIN-SUFFIX,advertisement.tanx.com
+
+# ---------- 快手联盟素材 ----------
+DOMAIN-SUFFIX,adkwai.com
