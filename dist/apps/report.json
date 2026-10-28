@@ -1,5 +1,5 @@
 {
- "built": "2026-10-27",
+ "built": "2026-10-28",
  "order": [
   "OKX",
   "Binance",
@@ -365,7 +365,7 @@
     "custom": 7
    },
    "dropped": {
-    "不支持的类型/非法": 6,
+    "不支持的类型/非法": 5,
     "IP(来源未列入 ip_sources)": 6,
     "exclude": 6,
     "泛关键词(keyword_denylist)": 3

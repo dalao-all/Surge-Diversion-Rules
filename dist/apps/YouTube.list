@@ -1,6 +1,6 @@
 # NAME: YouTube — YouTube
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-27
+# BUILT: 2026-10-28
 # SUGGESTED POLICY: 亚洲快速
 # SOURCES: v2:youtube | bm:YouTube | bm:YouTubeMusic | acl:YouTube.list | acl:YouTubeMusic.list | sukka-stream:YouTube | sukka-stream:YouTube Music | custom
 # COUNT: DOMAIN=1 DOMAIN-SUFFIX=177 DOMAIN-KEYWORD=1 TOTAL=179
