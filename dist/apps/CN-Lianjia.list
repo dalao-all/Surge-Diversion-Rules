@@ -1,6 +1,6 @@
 # NAME: CN-Lianjia — 链家/贝壳集团共享
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-28
+# BUILT: 2026-10-29
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v2:lianjia | v4dep:lianjia-shared | custom
 # COUNT:  TOTAL=0

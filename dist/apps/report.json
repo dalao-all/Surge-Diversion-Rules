@@ -1,5 +1,5 @@
 {
- "built": "2026-10-28",
+ "built": "2026-10-29",
  "order": [
   "OKX",
   "Binance",
@@ -419,7 +419,7 @@
     "v2:google-deepmind": 49,
     "bm:Gemini": 10,
     "acl:Gemini.list": 10,
-    "vpsd:google-ai": 47,
+    "vpsd:google-ai": 50,
     "sukka-ai:Google": 25,
     "bm:BardAI": 10,
     "custom": 0
@@ -478,7 +478,7 @@
   },
   "AI-Other": {
    "name": "其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…）",
-   "total": 76,
+   "total": 77,
    "per_source_raw": {
     "vpsd:perplexity": 4,
     "vpsd:copilot": 27,
@@ -494,7 +494,7 @@
     "vpsd:sourcegraph": 4,
     "vpsd:zed": 1,
     "vpsd:augment-code": 1,
-    "vpsd:meta-ai": 11,
+    "vpsd:meta-ai": 12,
     "v2:perplexity": 4,
     "v2:github-copilot": 6,
     "v2:huggingface": 3,
@@ -526,7 +526,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 21,
-    "DOMAIN-SUFFIX": 54,
+    "DOMAIN-SUFFIX": 55,
     "DOMAIN-KEYWORD": 1
    }
   },

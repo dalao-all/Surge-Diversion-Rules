@@ -1,6 +1,6 @@
 # NAME: CN-Reject — 国内单表新增后缀下的广告/追踪域名（保持广告层原有拦截）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-28
+# BUILT: 2026-10-29
 # SUGGESTED POLICY: REJECT（必须放在国内 App 单表之前）
 # COUNT: TOTAL=1
 # CN-XiaoMi 的 airstar.com 会罩住它

@@ -1,6 +1,6 @@
 # NAME: CN-iQIYI — 爱奇艺
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-28
+# BUILT: 2026-10-29
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:iQIYI | v2:iqiyi | v4own | custom
 # COUNT: DOMAIN-SUFFIX=35 DOMAIN-KEYWORD=1 IP-CIDR=21 TOTAL=57

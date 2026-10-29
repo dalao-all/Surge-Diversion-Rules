@@ -1,6 +1,6 @@
 # NAME: TikTok — TikTok（国际版）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-28
+# BUILT: 2026-10-29
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:tiktok | bm:TikTok | acl:TikTok.list | sukka-stream:TikTok | custom
 # COUNT: DOMAIN=8 DOMAIN-SUFFIX=55 DOMAIN-KEYWORD=4 TOTAL=67

@@ -1,6 +1,6 @@
 # NAME: Telegram — Telegram
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-28
+# BUILT: 2026-10-29
 # SUGGESTED POLICY: 亚洲快速
 # SOURCES: v2:telegram | bm:Telegram | acl:Telegram.list | bm:TelegramNL | bm:TelegramSG | bm:TelegramUS | custom
 # COUNT: DOMAIN=2 DOMAIN-SUFFIX=25 DOMAIN-KEYWORD=2 IP-CIDR=9 IP-CIDR6=4 IP-ASN=5 TOTAL=47
