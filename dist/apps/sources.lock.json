@@ -16,8 +16,8 @@
  },
  "vpsd": {
   "url": "https://github.com/VPSDance/ai-proxy-rules.git",
-  "commit": "b27e34740f0b2f6d1e3f5565af1458028082c0a9",
-  "date": "2026-10-28"
+  "commit": "51be2cf82f0f9ddd9089cd8e6e4a26a839defda9",
+  "date": "2026-10-29"
  },
  "xiaolai": {
   "url": "https://github.com/xiaolai/anthropic-claude-surge-rules-set.git",
@@ -31,6 +31,6 @@
  },
  "official:telegram": {
   "url": "https://core.telegram.org/resources/cidr.txt",
-  "fetched": "2026-10-29"
+  "fetched": "2026-10-30"
  }
 }

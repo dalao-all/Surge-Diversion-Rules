@@ -1,6 +1,6 @@
 # NAME: CN-DingTalk — 钉钉
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-29
+# BUILT: 2026-10-30
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:DingTalk | v2:dingtalk | v4own | custom
 # COUNT: DOMAIN-SUFFIX=14 TOTAL=14
