@@ -1,6 +1,6 @@
 # NAME: CN-NetEaseMusic — 网易云音乐
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-30
+# BUILT: 2026-10-31
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:NetEaseMusic | v4own | custom
 # COUNT: DOMAIN=1 DOMAIN-SUFFIX=12 IP-CIDR=18 TOTAL=31

@@ -1,6 +1,6 @@
 # NAME: Netflix — Netflix
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-30
+# BUILT: 2026-10-31
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:netflix | bm:Netflix | acl:Netflix.list | acl:NetflixIP.list | sukka-stream:Netflix | custom
 # COUNT: DOMAIN=1 DOMAIN-SUFFIX=30 DOMAIN-KEYWORD=4 IP-CIDR=1115 IP-CIDR6=4 TOTAL=1154

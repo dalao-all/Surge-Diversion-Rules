@@ -1,6 +1,6 @@
 # NAME: CN-Alibaba — 阿里集团共享（淘宝/淘票票/1688/一淘/千问等共用）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-30
+# BUILT: 2026-10-31
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:Alibaba | v2:alibaba | v4dep:alibaba-shared | custom
 # COUNT: DOMAIN-SUFFIX=1284 IP-CIDR=53 IP-CIDR6=1 TOTAL=1338

@@ -1,5 +1,5 @@
 {
- "built": "2026-10-30",
+ "built": "2026-10-31",
  "order": [
   "OKX",
   "Binance",
@@ -623,9 +623,9 @@
   },
   "TikTok": {
    "name": "TikTok（国际版）",
-   "total": 67,
+   "total": 69,
    "per_source_raw": {
-    "v2:tiktok": 36,
+    "v2:tiktok": 39,
     "bm:TikTok": 34,
     "acl:TikTok.list": 10,
     "sukka-stream:TikTok": 13,
@@ -647,7 +647,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 8,
-    "DOMAIN-SUFFIX": 55,
+    "DOMAIN-SUFFIX": 57,
     "DOMAIN-KEYWORD": 4
    }
   },

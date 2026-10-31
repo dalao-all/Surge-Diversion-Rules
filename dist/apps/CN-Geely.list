@@ -1,6 +1,6 @@
 # NAME: CN-Geely — 吉利汽车
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-30
+# BUILT: 2026-10-31
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:Geely | v4own | custom
 # COUNT: DOMAIN-SUFFIX=50 TOTAL=50

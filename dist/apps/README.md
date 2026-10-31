@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-10-30。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-10-31。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 
@@ -31,7 +31,7 @@
 | 19 | IP 检测站点 | [IPCheck.list](IPCheck.list) | 9 | 0 | 🤖 AI住宅 |  | custom |
 | 20 | YouTube | [YouTube.list](YouTube.list) | 179 | 178 | 📺 YouTube |  | v2:youtube, bm:YouTube, bm:YouTubeMusic, acl:YouTube.list, acl:YouTubeMusic.list, sukka-stream:YouTube, sukka-stream:YouTube Music, custom |
 | 21 | Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator） | [Google.list](Google.list) | 735 | 945 | 🤖 AI住宅 |  | v2:google, bm:Google, bm:GoogleDrive, bm:GoogleEarth, bm:GoogleFCM, acl:Google.list, acl:GoogleFCM.list, acl:GoogleEarth.list, sukka-global:GOOGLE, sukka-gl:Google, bm:GoogleSearch, bm:GoogleVoice, custom |
-| 22 | TikTok（国际版） | [TikTok.list](TikTok.list) | 67 | 36 | 🎵 TikTok |  | v2:tiktok, bm:TikTok, acl:TikTok.list, sukka-stream:TikTok, custom |
+| 22 | TikTok（国际版） | [TikTok.list](TikTok.list) | 69 | 39 | 🎵 TikTok |  | v2:tiktok, bm:TikTok, acl:TikTok.list, sukka-stream:TikTok, custom |
 | 23 | WhatsApp | [WhatsApp.list](WhatsApp.list) | 13 | 11 | 💬 WhatsApp |  | v2:whatsapp, bm:Whatsapp, acl:Whatsapp.list, custom |
 | 24 | Instagram | [Instagram.list](Instagram.list) | 74 | 72 | 📘 Meta |  | v2:instagram, bm:Instagram, acl:Instagram.list, custom |
 | 25 | Threads | [Threads.list](Threads.list) | 2 | 2 | 📘 Meta |  | v2:threads, bm:Threads, custom |

@@ -1,9 +1,9 @@
 # NAME: TikTok — TikTok（国际版）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-10-30
+# BUILT: 2026-10-31
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:tiktok | bm:TikTok | acl:TikTok.list | sukka-stream:TikTok | custom
-# COUNT: DOMAIN=8 DOMAIN-SUFFIX=55 DOMAIN-KEYWORD=4 TOTAL=67
+# COUNT: DOMAIN=8 DOMAIN-SUFFIX=57 DOMAIN-KEYWORD=4 TOTAL=69
 # NOTE: 与抖音共用的 ByteDance 国内基础设施（snssdk/bytedapm 等）自动剔除
 DOMAIN,roovza.cdn-settings.appsflyersdk.com
 DOMAIN,roovza.inapps.appsflyersdk.com
@@ -44,7 +44,9 @@ DOMAIN-SUFFIX,tiktokpangle-cdn-us.com
 DOMAIN-SUFFIX,tiktokrow-cdn.com
 DOMAIN-SUFFIX,tiktokseller.com
 DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokstaticb.com
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokvapp.com
 DOMAIN-SUFFIX,tiktokvod.com
 DOMAIN-SUFFIX,tiktokw.com
 DOMAIN-SUFFIX,ttcdn-us.com
