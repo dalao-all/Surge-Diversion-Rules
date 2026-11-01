@@ -1,0 +1,58 @@
+# splash-ads-ext.list ｜ 开屏/贴片广告扩展拦截（REJECT），从 Thelongdarkorg/ad-rules-merged 精选 + 社区规则交叉验证
+# 用法：RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/patches/splash-ads-ext.list,REJECT,update-interval=86400
+# 位置：紧跟 splash-ads.list，必须早于 dist/v4/protect-cn.list 与 CN-* 直连表。出问题可单独注释这一行回退。
+# 交叉验证：l.qq.com 与京东条目只保留 sukka reject.conf 同时收录的（merged 自带 @@||l.qq.com^ / @@||vd.l.qq.com^ 放行，二者冲突处从严不收）。
+# 选取原则：merged.txt（2026-11-01，33539 条）里 B 站 / 腾讯 / 京东 相关 719 个纯域名，先剔除它自己的 @@ 白名单（162 个），
+#   再只保留「名字和用途都只有广告」的主机；以下一律不收（会伤正常功能，merged 原样照收是错的）：
+#   moviets.tc.qq.com / variety.tc.qq.com（正片视频 CDN）、vi.l.qq.com / fairplay.l.qq.com（播放鉴权）、vv6.video.qq.com、tab.video.qq.com、
+#   wxs.qq.com / wxsmw / wximg / wxsnsdy*（微信图片与朋友圈）、finderydy.video.qq.com（视频号）、cgi.connect.qq.com / log.wtlogin.qq.com（QQ 登录）、
+#   dns.qq.com / dns.jd.com / httpdns.bilivideo.com（HTTPDNS）、mapi.m.jd.com / chat1.jd.com / im-x.jd.com / blackhole.m.jd.com（京东主接口/客服/风控）、
+#   biliapi.com / biliapi.net / broadcast.chat.bilibili.com（B 站主接口/弹幕）、kepler.jd.com（京东联盟跳转）
+# 说明：B 站、京东的开屏素材与正文同域（app.bilibili.com / i0.hdslb.com / api.m.jd.com / m.360buyimg.com），规则层拦不了，需 MITM。
+
+# ---------- 腾讯视频：广告接口（只收 sukka reject 也收录的 l.qq.com 子域；vi / fairplay 播放鉴权、vd / vd6 被 merged 明确放行，均不收）----------
+DOMAIN,c.l.qq.com
+DOMAIN,p.l.qq.com
+DOMAIN,w.l.qq.com
+DOMAIN,us.l.qq.com
+DOMAIN,ls.l.qq.com
+DOMAIN,livep.l.qq.com
+DOMAIN,livem.l.qq.com
+DOMAIN,livec.l.qq.com
+DOMAIN,lb.l.qq.com
+DOMAIN,l2.l.qq.com
+DOMAIN,hm.l.qq.com
+DOMAIN,cm.l.qq.com
+DOMAIN,cb.l.qq.com
+DOMAIN,bs.l.qq.com
+DOMAIN,news.l.qq.com
+DOMAIN,livep.l.ott.video.qq.com
+DOMAIN,lives.l.ott.video.qq.com
+DOMAIN,news-l.play.ott.video.qq.com
+
+# ---------- 腾讯视频：广告 SDK 配置与素材 ----------
+DOMAIN,sdkconfig.video.qq.com
+DOMAIN,btrace.video.qq.com
+DOMAIN,sdksp.video.qq.com
+DOMAIN,sdksp6.video.qq.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,vmindhls.tc.qq.com
+DOMAIN,vlive.qqvideo.tc.qq.com
+DOMAIN,pgdt.gtimg.com
+DOMAIN,tui.gtimg.com
+DOMAIN-KEYWORD,1258344696.file.myqcloud.com
+# 明文 HTTP 的贴片/开屏广告视频（RuCu6 腾讯视频模块同款；HTTP 无需 MITM 即可按 URL 匹配）
+URL-REGEX,^http://[\d.:]*/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com/\w+
+URL-REGEX,^http://apd-vlive\.apdcdn\.tc\.qq\.com/vmind\.qqvideo\.tc\.qq\.com/\w+
+URL-REGEX,^http://apd-\w+\.v\.smtcdns\.com/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com/\w+
+
+# ---------- 京东：京准通 / 京东联盟广告网络（App 内外的京东广告位）----------
+# 不收 ccc-x / uranus / knicks / kepler：2026-10-15 误杀排查已确认承载京东正常业务（protection.json 保护名单）
+DOMAIN,wn.x.jd.com
+DOMAIN,dsp-x.jd.com
+DOMAIN,img-x.jd.com
+DOMAIN,addata.jd.com
+DOMAIN,jrad.jd.com
+DOMAIN,jzt.jd.com
+DOMAIN,skdisplay.jd.com
