@@ -8,7 +8,12 @@
 #   wxs.qq.com / wxsmw / wximg / wxsnsdy*（微信图片与朋友圈）、finderydy.video.qq.com（视频号）、cgi.connect.qq.com / log.wtlogin.qq.com（QQ 登录）、
 #   dns.qq.com / dns.jd.com / httpdns.bilivideo.com（HTTPDNS）、mapi.m.jd.com / chat1.jd.com / im-x.jd.com / blackhole.m.jd.com（京东主接口/客服/风控）、
 #   biliapi.com / biliapi.net / broadcast.chat.bilibili.com（B 站主接口/弹幕）、kepler.jd.com（京东联盟跳转）
-# 说明：B 站、京东的开屏素材与正文同域（app.bilibili.com / i0.hdslb.com / api.m.jd.com / m.360buyimg.com），规则层拦不了，需 MITM。
+# 说明：B 站、京东的开屏「下发接口」与正文同域（app.bilibili.com / api.m.jd.com），规则层拦不了，需 MITM；本表只拦素材下载链路。
+# 2026-11-01 第二轮（按 2026-11-01-223446 抓包）：
+#   B 站：upos-sz-static 域名虽已被 splash-ads.list 拒绝，App 随即走自家 HTTPDNS（httpdns.bilivideo.com 的 IP，明文 /resolve?host=）
+#   拿到 CDN IP 117.172.50.150，直接按 IP 下载了 13 个 *-SPLASH.mp4（约 12MB，IP 连接只匹配 china_ip → DIRECT）。
+#   → 只拒绝「解析 upos-sz-static」这一条 HTTPDNS 查询（其余主机的 HTTPDNS 不受影响，httpdns.bilivideo.com 仍在保护名单）+ 明文 IP 直连的 SPLASH.mp4。
+#   京东：启动 2 秒内从 nakedeye.360buyimg.com（按名称与启动时序判断为裸眼 3D 开屏素材）单连接下载 3.6MB；历史所有抓包仅此一次出现，商品图/页面均不走该主机。
 
 # ---------- 腾讯视频：广告接口（只收 sukka reject 也收录的 l.qq.com 子域；vi / fairplay 播放鉴权、vd / vd6 被 merged 明确放行，均不收）----------
 DOMAIN,c.l.qq.com
@@ -46,6 +51,13 @@ DOMAIN-KEYWORD,1258344696.file.myqcloud.com
 URL-REGEX,^http://[\d.:]*/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com/\w+
 URL-REGEX,^http://apd-vlive\.apdcdn\.tc\.qq\.com/vmind\.qqvideo\.tc\.qq\.com/\w+
 URL-REGEX,^http://apd-\w+\.v\.smtcdns\.com/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com/\w+
+
+# ---------- 哔哩哔哩：开屏视频的 HTTPDNS 绕行（明文 HTTP，无需 MITM）----------
+URL-REGEX,^http://[^/]+/resolve\?host=upos-sz-static(cos)?\.bilivideo\.com
+URL-REGEX,^http://[^/]+/ssaxcode/[^?]+-SPLASH\.mp4
+
+# ---------- 京东：裸眼 3D 开屏素材 ----------
+DOMAIN,nakedeye.360buyimg.com
 
 # ---------- 京东：京准通 / 京东联盟广告网络（App 内外的京东广告位）----------
 # 不收 ccc-x / uranus / knicks / kepler：2026-10-15 误杀排查已确认承载京东正常业务（protection.json 保护名单）
