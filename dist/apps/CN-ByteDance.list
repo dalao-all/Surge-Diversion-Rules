@@ -1,9 +1,9 @@
 # NAME: CN-ByteDance — 字节跳动集团共享（剪映等共用）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-11-01
+# BUILT: 2026-11-02
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:ByteDance | v2:bytedance | v4dep:bytedance-cn-shared | custom
-# COUNT: DOMAIN-SUFFIX=840 IP-CIDR=1 TOTAL=841
+# COUNT: DOMAIN-SUFFIX=842 IP-CIDR=1 TOTAL=843
 # NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,jiyi.biz
 DOMAIN-SUFFIX,ugurl.cc
@@ -337,6 +337,7 @@ DOMAIN-SUFFIX,ecombdapi.com
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,ecombdstatic.com
 DOMAIN-SUFFIX,ecombdvod.com
+DOMAIN-SUFFIX,edge-byted.com
 DOMAIN-SUFFIX,edgeceler.com
 DOMAIN-SUFFIX,emr-volces.com
 DOMAIN-SUFFIX,falconsending.com
@@ -381,6 +382,7 @@ DOMAIN-SUFFIX,getsays.com
 DOMAIN-SUFFIX,gogokid.com
 DOMAIN-SUFFIX,goodluckcalendar.com
 DOMAIN-SUFFIX,gslbdns.com
+DOMAIN-SUFFIX,haimian.com
 DOMAIN-SUFFIX,hapierxia.com
 DOMAIN-SUFFIX,hapipixia.com
 DOMAIN-SUFFIX,hapiyixia.com

@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-11-01。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-11-02。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 
@@ -100,7 +100,7 @@
 | 88 | 省钱快报 | [CN-ShengQian.list](CN-ShengQian.list) | 5 | 5 | DIRECT | CN048 省钱快报 | v4own, custom |
 | 89 | 高德地图 | [CN-GaoDe.list](CN-GaoDe.list) | 9 | 11 | DIRECT | CN049 高德地图 | bm:GaoDe, v4own, custom |
 | 90 | DeepSeek | [CN-DeepSeek.list](CN-DeepSeek.list) | 2 | 6 | DIRECT | CN051 DeepSeek | v2:deepseek, v4own, custom |
-| 91 | 豆包 | [CN-Doubao.list](CN-Doubao.list) | 35 | 37 | DIRECT | CN052 豆包 | v2:doubao, v4own, custom |
+| 91 | 豆包 | [CN-Doubao.list](CN-Doubao.list) | 36 | 38 | DIRECT | CN052 豆包 | v2:doubao, v4own, custom |
 | 92 | 千问 | [CN-Qwen.list](CN-Qwen.list) | 9 | 9 | DIRECT | CN053 千问 | v4own, custom |
 | 93 | ima | [CN-ima.list](CN-ima.list) | 3 | 4 | DIRECT | CN054 ima | v4own, custom |
 | 94 | TRAE | [CN-TRAE.list](CN-TRAE.list) | 16 | 19 | DIRECT | CN055 TRAE | v2:trae, v4own, custom |
@@ -126,7 +126,7 @@
 | 114 | 国家网络身份认证 | [CN-CTID.list](CN-CTID.list) | 3 | 5 | DIRECT | CN098 国家网络身份认证 | v4own, custom |
 | 115 | 悦通行 | [CN-YueTongXing.list](CN-YueTongXing.list) | 3 | 4 | DIRECT | CN099 悦通行 | v4own, custom |
 | 116 | 去上网（去哒） | [CN-QuShangWang.list](CN-QuShangWang.list) | 5 | 5 | DIRECT | CN100 去上网（去哒） | v4own, custom |
-| 117 | 中国移动 | [CN-ChinaMobile.list](CN-ChinaMobile.list) | 50 | 38 | DIRECT | CN101 中国移动 | bm:ChinaMobile, v2:chinamobile, v4own, custom |
+| 117 | 中国移动 | [CN-ChinaMobile.list](CN-ChinaMobile.list) | 54 | 38 | DIRECT | CN101 中国移动 | bm:ChinaMobile, v2:chinamobile, v4own, custom |
 | 118 | UU远程 | [CN-UUYC.list](CN-UUYC.list) | 6 | 6 | DIRECT | CN102 UU远程 | v4own, custom |
 | 119 | 交管12123 | [CN-Traffic12123.list](CN-Traffic12123.list) | 4 | 4 | DIRECT | CN103 交管12123 | v4own, custom |
 | 120 | 个人所得税 | [CN-IncomeTax.list](CN-IncomeTax.list) | 4 | 5 | DIRECT | CN104 个人所得税 | v4own, custom |
@@ -146,13 +146,13 @@
 | 134 | Apple 健身 | [CN-FitnessPlus.list](CN-FitnessPlus.list) | 3 | 3 | DIRECT | CN085 健身 | v4own, custom |
 | 135 | iTunes Store | [CN-iTunesStore.list](CN-iTunesStore.list) | 46 | 46 | DIRECT | CN128 iTunes Store | v4own, custom |
 | 136 | Apple 系统 App 与基础服务（地图/电话/信息/照片/日历/邮件/备忘录/提醒/天气/健康/钱包/文件/设置/App Store/Watch/家庭/Numbers/翻译/语音备忘录/密码/图书/快捷指令/股市/FaceTime/支持/反馈/Apple Store/提示/无边记/手记/预览/相机/计算器/指南针/测距仪/放大器） | [CN-Apple.list](CN-Apple.list) | 19 | 155 | DIRECT | CN050 地图、CN067 电话、CN068 信息、CN069 Safari浏览器、CN070 照片、CN071 相机、CN072 日历、CN073 邮件、CN074 备忘录、CN075 提醒事项、CN076 天气、CN077 健康、CN078 钱包、CN079 计算器、CN080 文件、CN081 设置、CN082 App Store、CN083 Watch、CN089 家庭、CN090 Numbers表格、CN092 翻译、CN112 语音备忘录、CN113 指南针、CN114 测距仪、CN115 放大器、CN116 密码、CN117 图书、CN118 快捷指令、CN119 股市、CN120 FaceTime通话、CN121 支持、CN122 反馈、CN123 Apple Store、CN125 提示、CN126 无边记、CN127 手记、CN129 预览 | v4dep:apple-account, v4dep:apple-apns, v4dep:apple-feedback, v4dep:apple-icloud, v4dep:apple-maps, v4dep:apple-pki, v4dep:apple-search, v4dep:apple-store, v4dep:apple-update, v4own, custom |
-| 137 | 腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用） | [CN-Tencent.list](CN-Tencent.list) | 2578 | 2498 | DIRECT |  | bm:Tencent, v2:tencent, v4dep:tencent-shared, custom |
-| 138 | 字节跳动集团共享（剪映等共用） | [CN-ByteDance.list](CN-ByteDance.list) | 841 | 862 | DIRECT |  | bm:ByteDance, v2:bytedance, v4dep:bytedance-cn-shared, custom |
-| 139 | 阿里集团共享（淘宝/淘票票/1688/一淘/千问等共用） | [CN-Alibaba.list](CN-Alibaba.list) | 1338 | 1263 | DIRECT |  | bm:Alibaba, v2:alibaba, v4dep:alibaba-shared, custom |
+| 137 | 腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用） | [CN-Tencent.list](CN-Tencent.list) | 2581 | 2498 | DIRECT |  | bm:Tencent, v2:tencent, v4dep:tencent-shared, custom |
+| 138 | 字节跳动集团共享（剪映等共用） | [CN-ByteDance.list](CN-ByteDance.list) | 843 | 865 | DIRECT |  | bm:ByteDance, v2:bytedance, v4dep:bytedance-cn-shared, custom |
+| 139 | 阿里集团共享（淘宝/淘票票/1688/一淘/千问等共用） | [CN-Alibaba.list](CN-Alibaba.list) | 1340 | 1263 | DIRECT |  | bm:Alibaba, v2:alibaba, v4dep:alibaba-shared, custom |
 | 140 | 网易集团共享 | [CN-NetEase.list](CN-NetEase.list) | 132 | 146 | DIRECT |  | bm:NetEase, v2:netease, v4dep:netease-shared, custom |
 | 141 | 新浪集团共享 | [CN-Sina.list](CN-Sina.list) | 99 | 108 | DIRECT |  | bm:Sina, v2:sina, v4dep:sina-shared, custom |
 | 142 | 华为集团共享 | [CN-Huawei.list](CN-Huawei.list) | 349 | 299 | DIRECT |  | bm:Huawei, v2:huawei, v4dep:huawei-shared, custom |
 | 143 | 小米集团共享 | [CN-XiaoMi.list](CN-XiaoMi.list) | 151 | 157 | DIRECT |  | bm:XiaoMi, v2:xiaomi, v4dep:xiaomi-iot-shared, custom |
 | 144 | 链家/贝壳集团共享 | [CN-Lianjia.list](CN-Lianjia.list) | 0 | 5 | DIRECT |  | v2:lianjia, v4dep:lianjia-shared, custom |
 | 145 | 合合信息集团共享 | [CN-Intsig.list](CN-Intsig.list) | 1 | 5 | DIRECT |  | v2:intsig, v4dep:intsig-shared, custom |
-| 146 | 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等） | [CN-Common.list](CN-Common.list) | 674 | 803 | DIRECT |  | v4common, custom |
+| 146 | 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等） | [CN-Common.list](CN-Common.list) | 673 | 803 | DIRECT |  | v4common, custom |

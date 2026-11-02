@@ -1,9 +1,9 @@
 # NAME: CN-Tencent — 腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-11-01
+# BUILT: 2026-11-02
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:Tencent | v2:tencent | v4dep:tencent-shared | custom
-# COUNT: DOMAIN-SUFFIX=2558 IP-CIDR=20 TOTAL=2578
+# COUNT: DOMAIN-SUFFIX=2561 IP-CIDR=20 TOTAL=2581
 # NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,fsight.ai
 DOMAIN-SUFFIX,animate.art
@@ -767,6 +767,7 @@ DOMAIN-SUFFIX,we-park.cn
 DOMAIN-SUFFIX,wechatlegal.cn
 DOMAIN-SUFFIX,weparks.cn
 DOMAIN-SUFFIX,wesingapp.cn
+DOMAIN-SUFFIX,wesure.cn
 DOMAIN-SUFFIX,wetest.cn
 DOMAIN-SUFFIX,wetestlab.cn
 DOMAIN-SUFFIX,wisefx.cn
@@ -1740,6 +1741,7 @@ DOMAIN-SUFFIX,tendbcluster.com
 DOMAIN-SUFFIX,tengmed.com
 DOMAIN-SUFFIX,tengyunqq.com
 DOMAIN-SUFFIX,tenovatech.com
+DOMAIN-SUFFIX,tenpayglobal.com
 DOMAIN-SUFFIX,tensure.com
 DOMAIN-SUFFIX,tenwukong.com
 DOMAIN-SUFFIX,teo-rum.com
@@ -1978,6 +1980,7 @@ DOMAIN-SUFFIX,weiyun.com
 DOMAIN-SUFFIX,wesimiot.com
 DOMAIN-SUFFIX,wesing-game.com
 DOMAIN-SUFFIX,wesingapp.com
+DOMAIN-SUFFIX,wesure100.com
 DOMAIN-SUFFIX,wetvinfo.com
 DOMAIN-SUFFIX,wework-pro.com
 DOMAIN-SUFFIX,wework-studio.com

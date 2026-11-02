@@ -1,9 +1,9 @@
 # NAME: CN-Common — 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等）
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-11-01
+# BUILT: 2026-11-02
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v4common | custom
-# COUNT: DOMAIN=37 DOMAIN-SUFFIX=627 DOMAIN-KEYWORD=9 DOMAIN-WILDCARD=1 TOTAL=674
+# COUNT: DOMAIN=37 DOMAIN-SUFFIX=626 DOMAIN-KEYWORD=9 DOMAIN-WILDCARD=1 TOTAL=673
 # NOTE: 国内 App；cn.list 中没有任何 App 归属的条目；v2fly 仅取非 @!cn 条目
 DOMAIN,www.intel.cn
 DOMAIN,lv.queniujq.cn
@@ -280,7 +280,6 @@ DOMAIN-SUFFIX,dxycdn.com
 DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,eatuo.com
 DOMAIN-SUFFIX,dl.eccdnx.com
-DOMAIN-SUFFIX,edge-byted.com
 DOMAIN-SUFFIX,fang.com
 DOMAIN-SUFFIX,feng.com
 DOMAIN-SUFFIX,flyme.com

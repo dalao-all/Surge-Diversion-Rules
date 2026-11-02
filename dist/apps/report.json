@@ -1,5 +1,5 @@
 {
- "built": "2026-11-01",
+ "built": "2026-11-02",
  "order": [
   "OKX",
   "Binance",
@@ -1844,10 +1844,10 @@
   },
   "CN-Doubao": {
    "name": "豆包",
-   "total": 35,
+   "total": 36,
    "per_source_raw": {
-    "v2:doubao": 32,
-    "v4own": 37,
+    "v2:doubao": 33,
+    "v4own": 38,
     "custom": 0
    },
    "dropped": {},
@@ -1855,7 +1855,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 35
+    "DOMAIN-SUFFIX": 36
    }
   },
   "CN-Qwen": {
@@ -2245,10 +2245,10 @@
   },
   "CN-ChinaMobile": {
    "name": "中国移动",
-   "total": 50,
+   "total": 54,
    "per_source_raw": {
     "bm:ChinaMobile": 38,
-    "v2:chinamobile": 33,
+    "v2:chinamobile": 37,
     "v4own": 38,
     "custom": 0
    },
@@ -2257,7 +2257,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 49,
+    "DOMAIN-SUFFIX": 53,
     "IP-CIDR": 1
    }
   },
@@ -2561,10 +2561,10 @@
   },
   "CN-Tencent": {
    "name": "腾讯集团共享（QQ/王者/掌盟/ima/Marvis 等共用）",
-   "total": 2578,
+   "total": 2581,
    "per_source_raw": {
     "bm:Tencent": 20,
-    "v2:tencent": 559,
+    "v2:tencent": 562,
     "v4dep:tencent-shared": 2498,
     "custom": 0
    },
@@ -2575,16 +2575,16 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 2558,
+    "DOMAIN-SUFFIX": 2561,
     "IP-CIDR": 20
    }
   },
   "CN-ByteDance": {
    "name": "字节跳动集团共享（剪映等共用）",
-   "total": 841,
+   "total": 843,
    "per_source_raw": {
     "bm:ByteDance": 371,
-    "v2:bytedance": 862,
+    "v2:bytedance": 865,
     "v4dep:bytedance-cn-shared": 371,
     "custom": 0
    },
@@ -2595,16 +2595,16 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 840,
+    "DOMAIN-SUFFIX": 842,
     "IP-CIDR": 1
    }
   },
   "CN-Alibaba": {
    "name": "阿里集团共享（淘宝/淘票票/1688/一淘/千问等共用）",
-   "total": 1338,
+   "total": 1340,
    "per_source_raw": {
     "bm:Alibaba": 57,
-    "v2:alibaba": 339,
+    "v2:alibaba": 342,
     "v4dep:alibaba-shared": 1263,
     "custom": 0
    },
@@ -2615,7 +2615,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 1284,
+    "DOMAIN-SUFFIX": 1286,
     "IP-CIDR": 53,
     "IP-CIDR6": 1
    }
@@ -2724,7 +2724,7 @@
   },
   "CN-Common": {
    "name": "国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等）",
-   "total": 674,
+   "total": 673,
    "per_source_raw": {
     "v4common": 803,
     "custom": 0
@@ -2735,7 +2735,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 37,
-    "DOMAIN-SUFFIX": 627,
+    "DOMAIN-SUFFIX": 626,
     "DOMAIN-KEYWORD": 9,
     "DOMAIN-WILDCARD": 1
    }
@@ -5353,6 +5353,12 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,doubaoapps.com",
+   "kept_in": "CN-Doubao",
+   "removed_from": "CN-ByteDance",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,doubaocdn.com",
    "kept_in": "CN-Doubao",
    "removed_from": "CN-ByteDance",
@@ -6387,6 +6393,12 @@
   {
    "rule": "DOMAIN-SUFFIX,duokanbox.com",
    "kept_in": "CN-XiaoMi",
+   "removed_from": "CN-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,edge-byted.com",
+   "kept_in": "CN-ByteDance",
    "removed_from": "CN-Common",
    "reason": "完全重复，归优先级更高的 App"
   },
