@@ -31,3 +31,14 @@ DOMAIN-SUFFIX,umdc.aliapp.org
 # 注：两域均不在 ads-patch 拦截表中（xhslink.com 还是上游白名单）；加白为兜底，保证快捷指令直连可用。
 DOMAIN-SUFFIX,icost.vip
 DOMAIN-SUFFIX,xhslink.com
+
+# 2026-11-04 抓包补齐：高德地图语音/AI助手（atap.aimap.com）、滴滴出行（xiaojukeji/apptaxi/udache）、微信小游戏云（mouweicloud）及 Apple 智能识别国行合作端
+DOMAIN-SUFFIX,aimap.com
+DOMAIN-SUFFIX,xiaojukeji.com
+DOMAIN-SUFFIX,apptaxi.net
+DOMAIN-SUFFIX,udache.com
+DOMAIN-SUFFIX,mouweicloud.com
+DOMAIN,prod-yabuli.qianwen.com
+DOMAIN,qianfan.baidubce.com
+DOMAIN,guzzoni.smoot.apple.com
+DOMAIN,seed.siri.apple.com

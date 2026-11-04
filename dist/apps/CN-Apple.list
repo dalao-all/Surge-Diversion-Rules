@@ -3,9 +3,11 @@
 # BUILT: 2026-11-04
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v4dep:apple-account | v4dep:apple-apns | v4dep:apple-feedback | v4dep:apple-icloud | v4dep:apple-maps | v4dep:apple-pki | v4dep:apple-search | v4dep:apple-store | v4dep:apple-update | v4own | custom
-# COUNT: DOMAIN=6 DOMAIN-SUFFIX=13 TOTAL=19
+# COUNT: DOMAIN=8 DOMAIN-SUFFIX=15 TOTAL=23
 # V4 APPS: CN050 地图、CN067 电话、CN068 信息、CN069 Safari浏览器、CN070 照片、CN071 相机、CN072 日历、CN073 邮件、CN074 备忘录、CN075 提醒事项、CN076 天气、CN077 健康、CN078 钱包、CN079 计算器、CN080 文件、CN081 设置、CN082 App Store、CN083 Watch、CN089 家庭、CN090 Numbers表格、CN092 翻译、CN112 语音备忘录、CN113 指南针、CN114 测距仪、CN115 放大器、CN116 密码、CN117 图书、CN118 快捷指令、CN119 股市、CN120 FaceTime通话、CN121 支持、CN122 反馈、CN123 Apple Store、CN125 提示、CN126 无边记、CN127 手记、CN129 预览
 # NOTE: 国内 App；iOS 系统 App 共用 Apple 基础服务，无法再按单 App 区分；同上；v2fly 仅取非 @!cn 条目
+DOMAIN,guzzoni.smoot.apple.com
+DOMAIN,seed.siri.apple.com
 DOMAIN,ocsp.digicert.cn
 DOMAIN,appleid.cdn-apple.com
 DOMAIN,updates.cdn-apple.com
@@ -15,6 +17,8 @@ DOMAIN,crl4.digicert.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple-search.com

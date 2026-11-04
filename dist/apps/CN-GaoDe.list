@@ -3,12 +3,13 @@
 # BUILT: 2026-11-04
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:GaoDe | v4own | custom
-# COUNT: DOMAIN-SUFFIX=9 TOTAL=9
+# COUNT: DOMAIN-SUFFIX=10 TOTAL=10
 # V4 APPS: CN049 高德地图
 # FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
 # NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,a-map.cn
 DOMAIN-SUFFIX,a-map.co
+DOMAIN-SUFFIX,aimap.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,amapauto.com
 DOMAIN-SUFFIX,anav.com

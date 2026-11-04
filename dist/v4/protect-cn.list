@@ -252,7 +252,6 @@ DOMAIN,share.icloud.com
 DOMAIN,smtp.mail.me.com
 DOMAIN,snowflake.qq.com
 DOMAIN,sofire.bdstatic.com
-DOMAIN,soup.v.qq.com
 DOMAIN,statici.icloud.com
 DOMAIN,sylvan-ssl.ls.apple.com
 DOMAIN,sylvan.apple.com
@@ -1027,3 +1026,8 @@ DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,zjcarnet.com
 DOMAIN-SUFFIX,ztna-dingtalk.com
 DOMAIN-SUFFIX,zz.com
+DOMAIN-SUFFIX,aimap.com
+DOMAIN-SUFFIX,xiaojukeji.com
+DOMAIN-SUFFIX,apptaxi.net
+DOMAIN-SUFFIX,udache.com
+DOMAIN-SUFFIX,mouweicloud.com

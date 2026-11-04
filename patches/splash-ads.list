@@ -13,6 +13,8 @@ DOMAIN,adsmind.gdtimg.com
 DOMAIN,qzs.gdtimg.com
 DOMAIN,union.gdtimg.com
 DOMAIN,pgdt.gtimg.cn
+DOMAIN,vgdt.gtimg.cn
+DOMAIN,vgdt.gtimg.com
 DOMAIN,ugd.gtimg.com
 DOMAIN,wa.gtimg.com
 DOMAIN,ra.gtimg.com
@@ -22,11 +24,24 @@ DOMAIN,splashqqlive.gtimg.com
 DOMAIN,c2.l.qq.com
 DOMAIN,p2.l.qq.com
 DOMAIN,livep2.l.qq.com
+DOMAIN,monitor.l.qq.com
+DOMAIN,t.l.qq.com
+DOMAIN,dp3.qq.com
+DOMAIN,soup.v.qq.com
 DOMAIN,info4.video.qq.com
 DOMAIN,info6.video.qq.com
 DOMAIN,ugchsy.gtimg.com
 DOMAIN,ugccsy.qq.com
-URL-REGEX,^http://ugc[a-z]+\.(gtimg|qq)\.com/gzc_1000127_
+URL-REGEX,^https?://ugc[a-z]+\.(gtimg|qq)\.com/gzc_10001(27|73)_
+URL-REGEX,^https?://dldir1\.qq\.com/qqmi/video_ad/
+
+# ---------- 高德地图 开屏与广告（optimus-ads / optimus-ads-ykx 实测单次下发 7.57MB 开屏素材）----------
+DOMAIN,optimus-ads.amap.com
+DOMAIN,optimus-ads-ykx.amap.com
+DOMAIN-KEYWORD,optimus-ads
+DOMAIN,adashx.ut.amap.com
+DOMAIN,adtrack.qianwen.com
+DOMAIN,adtrack.xiaojukeji.com
 
 # ---------- 微博 开屏 ----------
 DOMAIN,bootrealtime.uve.weibo.com
