@@ -11,13 +11,13 @@
  },
  "acl": {
   "url": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "c15bf546085b825afd238e211f750bb7868c7132",
-  "date": "2026-11-01"
+  "commit": "6e075448a60bbc13071977b5fd409f568c3b3eae",
+  "date": "2026-11-04"
  },
  "vpsd": {
   "url": "https://github.com/VPSDance/ai-proxy-rules.git",
-  "commit": "11eabe29c7a1fcad6887c70875ff852995862061",
-  "date": "2026-11-03"
+  "commit": "0b60dbc7d378d6e9b976579603a6b3b3bbae0044",
+  "date": "2026-11-04"
  },
  "xiaolai": {
   "url": "https://github.com/xiaolai/anthropic-claude-surge-rules-set.git",

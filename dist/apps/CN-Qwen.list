@@ -3,11 +3,10 @@
 # BUILT: 2026-11-04
 # SUGGESTED POLICY: DIRECT
 # SOURCES: v4own | custom
-# COUNT: DOMAIN=6 DOMAIN-SUFFIX=4 TOTAL=10
+# COUNT: DOMAIN=5 DOMAIN-SUFFIX=4 TOTAL=9
 # V4 APPS: CN053 千问
 # FAMILY: 与同集团其它 App 共用的域名在 CN-Alibaba
 # NOTE: 国内 App；阿里集团共享域名归 CN-Alibaba；v2fly 仅取非 @!cn 条目
-DOMAIN,prod-yabuli.qianwen.com
 DOMAIN,qianwen.aliyun.com
 DOMAIN,tongyi.aliyun.com
 DOMAIN,dashscope.cn-beijing.aliyuncs.com
