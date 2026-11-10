@@ -1,9 +1,9 @@
 # NAME: CN-NetEase — 网易集团共享
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-11-04
+# BUILT: 2026-11-10
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:NetEase | v2:netease | v4dep:netease-shared | custom
-# COUNT: DOMAIN-SUFFIX=119 IP-CIDR=13 TOTAL=132
+# COUNT: DOMAIN-SUFFIX=120 IP-CIDR=13 TOTAL=133
 # NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,126.am
 DOMAIN-SUFFIX,163cms.cn
@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,playdisorder.com
 DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,tx163.com
 DOMAIN-SUFFIX,yaoluu.com
+DOMAIN-SUFFIX,ydshengxue.com
 DOMAIN-SUFFIX,yodao.com
 DOMAIN-SUFFIX,yunxin163.com
 DOMAIN-SUFFIX,yunxinapi.com

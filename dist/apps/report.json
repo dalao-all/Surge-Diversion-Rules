@@ -1,5 +1,5 @@
 {
- "built": "2026-11-04",
+ "built": "2026-11-10",
  "order": [
   "OKX",
   "Binance",
@@ -352,9 +352,9 @@
   },
   "Claude": {
    "name": "Claude",
-   "total": 40,
+   "total": 41,
    "per_source_raw": {
-    "v2:anthropic": 19,
+    "v2:anthropic": 21,
     "bm:Claude": 3,
     "acl:Claude.list": 2,
     "acl:ClaudeAI.list": 2,
@@ -376,7 +376,7 @@
     "DOMAIN-SUFFIX,anthropic.com.cn"
    ],
    "count": {
-    "DOMAIN": 5,
+    "DOMAIN": 6,
     "DOMAIN-SUFFIX": 30,
     "DOMAIN-KEYWORD": 2,
     "IP-CIDR": 1,
@@ -440,10 +440,10 @@
   },
   "Grok": {
    "name": "Grok / xAI",
-   "total": 6,
+   "total": 7,
    "per_source_raw": {
-    "v2:xai": 4,
-    "vpsd:x-ai": 4,
+    "v2:xai": 5,
+    "vpsd:x-ai": 5,
     "sukka-ai:Grok": 2,
     "custom": 4
    },
@@ -453,7 +453,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 1,
-    "DOMAIN-SUFFIX": 5
+    "DOMAIN-SUFFIX": 6
    }
   },
   "Cursor": {
@@ -478,10 +478,10 @@
   },
   "AI-Other": {
    "name": "其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…）",
-   "total": 77,
+   "total": 78,
    "per_source_raw": {
     "vpsd:perplexity": 4,
-    "vpsd:copilot": 27,
+    "vpsd:copilot": 28,
     "vpsd:huggingface": 3,
     "vpsd:mistral-ai": 1,
     "vpsd:openrouter": 1,
@@ -496,7 +496,7 @@
     "vpsd:augment-code": 1,
     "vpsd:meta-ai": 12,
     "v2:perplexity": 4,
-    "v2:github-copilot": 6,
+    "v2:github-copilot": 7,
     "v2:huggingface": 3,
     "v2:poe": 2,
     "v2:windsurf": 4,
@@ -525,7 +525,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN": 21,
+    "DOMAIN": 22,
     "DOMAIN-SUFFIX": 55,
     "DOMAIN-KEYWORD": 1
    }
@@ -888,7 +888,7 @@
    "name": "GitHub",
    "total": 61,
    "per_source_raw": {
-    "v2:github": 65,
+    "v2:github": 66,
     "bm:GitHub": 31,
     "acl:Github.list": 6,
     "sukka-gl:GitHub": 14,
@@ -1939,10 +1939,10 @@
   },
   "CN-XieCheng": {
    "name": "携程旅行",
-   "total": 37,
+   "total": 39,
    "per_source_raw": {
     "bm:XieCheng": 29,
-    "v2:ctrip": 28,
+    "v2:ctrip": 30,
     "v4own": 31,
     "custom": 0
    },
@@ -1951,7 +1951,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 37
+    "DOMAIN-SUFFIX": 39
    }
   },
   "CN-Umetrip": {
@@ -2564,7 +2564,7 @@
    "total": 2581,
    "per_source_raw": {
     "bm:Tencent": 20,
-    "v2:tencent": 562,
+    "v2:tencent": 561,
     "v4dep:tencent-shared": 2498,
     "custom": 0
    },
@@ -2622,10 +2622,10 @@
   },
   "CN-NetEase": {
    "name": "网易集团共享",
-   "total": 132,
+   "total": 133,
    "per_source_raw": {
     "bm:NetEase": 146,
-    "v2:netease": 40,
+    "v2:netease": 41,
     "v4dep:netease-shared": 146,
     "custom": 0
    },
@@ -2634,7 +2634,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 119,
+    "DOMAIN-SUFFIX": 120,
     "IP-CIDR": 13
    }
   },
@@ -2812,6 +2812,12 @@
    "rule": "DOMAIN-SUFFIX,okx.com",
    "kept_in": "OKX",
    "removed_from": "Crypto-Common",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,http-intake.logs.us5.datadoghq.com",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
    "reason": "完全重复，归优先级更高的 App"
   },
   {
@@ -4490,6 +4496,12 @@
   },
   {
    "rule": "DOMAIN-SUFFIX,githubcopilot.com",
+   "kept_in": "AI-Other",
+   "removed_from": "GitHub",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN,production-copilot-host-westus.webpubsub.azure.com",
    "kept_in": "AI-Other",
    "removed_from": "GitHub",
    "reason": "完全重复，归优先级更高的 App"
