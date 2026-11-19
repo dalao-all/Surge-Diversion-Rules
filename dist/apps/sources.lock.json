@@ -11,8 +11,8 @@
  },
  "acl": {
   "url": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "e2f257307bf0ee31921ac948036e942a29a35b35",
-  "date": "2026-11-14"
+  "commit": "818b587aa7df167b177a209dfa7d7fe6fba3764f",
+  "date": "2026-11-19"
  },
  "vpsd": {
   "url": "https://github.com/VPSDance/ai-proxy-rules.git",
@@ -26,8 +26,8 @@
  },
  "sukka": {
   "url": "https://github.com/SukkaW/Surge.git",
-  "commit": "a8727444cd47a35464a7f4b74ac669c51e68c2d3",
-  "date": "2026-11-16"
+  "commit": "32f900e8759db8276cf6c9dcd0cc81f19c61c58f",
+  "date": "2026-11-19"
  },
  "official:telegram": {
   "url": "https://core.telegram.org/resources/cidr.txt",

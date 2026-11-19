@@ -352,7 +352,7 @@
   },
   "Claude": {
    "name": "Claude",
-   "total": 43,
+   "total": 44,
    "per_source_raw": {
     "v2:anthropic": 21,
     "bm:Claude": 3,
@@ -360,15 +360,15 @@
     "acl:ClaudeAI.list": 2,
     "vpsd:anthropic": 36,
     "xiaolai:anthropic": 9,
-    "sukka-ai:Anthropic / Claude": 4,
+    "sukka-ai:Anthropic / Claude": 6,
     "bm:Anthropic": 3,
-    "custom": 16
+    "custom": 17
    },
    "dropped": {
     "不支持的类型/非法": 5,
     "IP(来源未列入 ip_sources)": 6,
     "exclude": 6,
-    "泛关键词(keyword_denylist)": 3
+    "泛关键词(keyword_denylist)": 4
    },
    "dead_by_protect_cn": [],
    "removed_overlap_cn": [],
@@ -377,7 +377,7 @@
    ],
    "count": {
     "DOMAIN": 5,
-    "DOMAIN-SUFFIX": 33,
+    "DOMAIN-SUFFIX": 34,
     "DOMAIN-KEYWORD": 3,
     "IP-CIDR": 1,
     "IP-ASN": 1
@@ -7318,6 +7318,7 @@
   "Claude: 丢弃泛关键词 datadog (来自 vpsd:anthropic)",
   "Claude: 丢弃泛关键词 sentry (来自 vpsd:anthropic)",
   "Claude: 丢弃泛关键词 sift (来自 vpsd:anthropic)",
+  "Claude: 丢弃泛关键词 datadog (来自 custom)",
   "v2fly openai regexp 跳过: ^chatgpt-async-webps-prod-\\s+-\\d+\\.webpubsub\\.azure\\.com$",
   "Gemini: 丢弃泛关键词 colab (来自 bm:Gemini)",
   "Gemini: 丢弃泛关键词 developerprofiles (来自 bm:Gemini)",
