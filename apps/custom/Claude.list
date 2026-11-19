@@ -17,3 +17,6 @@ DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,segment.io
+# ip.net.coffee Claude 规则核对（2026-11-19）：KYC 邮件 + Datadog 区域端点兜底
+DOMAIN-SUFFIX,frompersona.com
+DOMAIN-KEYWORD,datadog
