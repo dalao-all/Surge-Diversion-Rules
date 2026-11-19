@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-11-17。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-11-19。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 
@@ -21,12 +21,12 @@
 | 9 | PayPal | [PayPal.list](PayPal.list) | 241 | 247 | 💳 PayPal 美国 |  | v2:paypal, bm:PayPal, custom |
 | 10 | Wise | [Wise.list](Wise.list) | 2 | 2 | 💸 Wise 台湾 |  | v2:wise, custom |
 | 11 | AI 通用依赖（验证码/风控/特性开关/登录） | [AI-Common.list](AI-Common.list) | 30 | 7 | 🤖 AI住宅 |  | repo-custom:reviewed-ai-auth, repo-custom:ai-login-endpoints, repo-custom:ai-challenge, repo-custom:ai-featureflags, custom |
-| 12 | Claude | [Claude.list](Claude.list) | 41 | 36 | 🤖 AI住宅 |  | v2:anthropic, bm:Claude, acl:Claude.list, acl:ClaudeAI.list, vpsd:anthropic, xiaolai:anthropic, sukka-ai:Anthropic / Claude, bm:Anthropic, custom |
-| 13 | ChatGPT / OpenAI | [ChatGPT.list](ChatGPT.list) | 31 | 31 | 🤖 AI住宅 |  | v2:openai, bm:OpenAI, acl:OpenAi.list, vpsd:openai, sukka-ai:OpenAI / ChatGPT, custom |
+| 12 | Claude | [Claude.list](Claude.list) | 44 | 36 | 🤖 AI住宅 |  | v2:anthropic, bm:Claude, acl:Claude.list, acl:ClaudeAI.list, vpsd:anthropic, xiaolai:anthropic, sukka-ai:Anthropic / Claude, bm:Anthropic, custom |
+| 13 | ChatGPT / OpenAI | [ChatGPT.list](ChatGPT.list) | 30 | 31 | 🤖 AI住宅 |  | v2:openai, bm:OpenAI, acl:OpenAi.list, vpsd:openai, sukka-ai:OpenAI / ChatGPT, custom |
 | 14 | Gemini / Google AI | [Gemini.list](Gemini.list) | 54 | 50 | 🤖 AI住宅 |  | v2:google-gemini, v2:google-deepmind, bm:Gemini, acl:Gemini.list, vpsd:google-ai, sukka-ai:Google, bm:BardAI, custom |
 | 15 | Grok / xAI | [Grok.list](Grok.list) | 7 | 5 | 🤖 AI住宅 |  | v2:xai, vpsd:x-ai, sukka-ai:Grok, custom |
 | 16 | Cursor | [Cursor.list](Cursor.list) | 8 | 5 | 🤖 AI住宅 |  | v2:cursor, vpsd:cursor, sukka-ai:Cursor, custom |
-| 17 | 其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…） | [AI-Other.list](AI-Other.list) | 78 | 40 | 🤖 AI住宅 |  | vpsd:perplexity, vpsd:copilot, vpsd:huggingface, vpsd:mistral-ai, vpsd:openrouter, vpsd:windsurf, vpsd:poe, vpsd:groq, vpsd:cohere, vpsd:midjourney, vpsd:replit, vpsd:sourcegraph, vpsd:zed, vpsd:augment-code, vpsd:meta-ai, v2:perplexity, v2:github-copilot, v2:huggingface, v2:poe, v2:windsurf, v2:groq, sukka-ai:Perplexity, sukka-ai:POE, sukka-ai:GitHub Copilot, sukka-ai:groq, sukka-ai:OpenRouter AI - Unified Relay, sukka-ai:Windsurf (formerly Codeium), sukka-ai:Meta AI, bm:Copilot, sukka-ai:Cloudflare AI Gateway, sukka-ai:Dify.AI, sukka-ai:Jasper, sukka-ai:OpenArt, sukka-ai:JetBrains AI, custom |
+| 17 | 其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…） | [AI-Other.list](AI-Other.list) | 77 | 40 | 🤖 AI住宅 |  | vpsd:perplexity, vpsd:copilot, vpsd:huggingface, vpsd:mistral-ai, vpsd:openrouter, vpsd:windsurf, vpsd:poe, vpsd:groq, vpsd:cohere, vpsd:midjourney, vpsd:replit, vpsd:sourcegraph, vpsd:zed, vpsd:augment-code, vpsd:meta-ai, v2:perplexity, v2:github-copilot, v2:huggingface, v2:poe, v2:windsurf, v2:groq, sukka-ai:Perplexity, sukka-ai:POE, sukka-ai:GitHub Copilot, sukka-ai:groq, sukka-ai:OpenRouter AI - Unified Relay, sukka-ai:Windsurf (formerly Codeium), sukka-ai:Meta AI, bm:Copilot, sukka-ai:Cloudflare AI Gateway, sukka-ai:Dify.AI, sukka-ai:Jasper, sukka-ai:OpenArt, sukka-ai:JetBrains AI, custom |
 | 18 | Notion | [Notion.list](Notion.list) | 9 | 7 | 🤖 AI住宅 |  | v2:notion, bm:Notion, custom |
 | 19 | IP 检测站点 | [IPCheck.list](IPCheck.list) | 9 | 0 | 🤖 AI住宅 |  | custom |
 | 20 | YouTube | [YouTube.list](YouTube.list) | 179 | 178 | 📺 YouTube |  | v2:youtube, bm:YouTube, bm:YouTubeMusic, acl:YouTube.list, acl:YouTubeMusic.list, sukka-stream:YouTube, sukka-stream:YouTube Music, custom |
@@ -152,7 +152,7 @@
 | 140 | 网易集团共享 | [CN-NetEase.list](CN-NetEase.list) | 133 | 146 | DIRECT |  | bm:NetEase, v2:netease, v4dep:netease-shared, custom |
 | 141 | 新浪集团共享 | [CN-Sina.list](CN-Sina.list) | 99 | 108 | DIRECT |  | bm:Sina, v2:sina, v4dep:sina-shared, custom |
 | 142 | 华为集团共享 | [CN-Huawei.list](CN-Huawei.list) | 349 | 299 | DIRECT |  | bm:Huawei, v2:huawei, v4dep:huawei-shared, custom |
-| 143 | 小米集团共享 | [CN-XiaoMi.list](CN-XiaoMi.list) | 151 | 157 | DIRECT |  | bm:XiaoMi, v2:xiaomi, v4dep:xiaomi-iot-shared, custom |
+| 143 | 小米集团共享 | [CN-XiaoMi.list](CN-XiaoMi.list) | 150 | 157 | DIRECT |  | bm:XiaoMi, v2:xiaomi, v4dep:xiaomi-iot-shared, custom |
 | 144 | 链家/贝壳集团共享 | [CN-Lianjia.list](CN-Lianjia.list) | 0 | 5 | DIRECT |  | v2:lianjia, v4dep:lianjia-shared, custom |
 | 145 | 合合信息集团共享 | [CN-Intsig.list](CN-Intsig.list) | 1 | 5 | DIRECT |  | v2:intsig, v4dep:intsig-shared, custom |
-| 146 | 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等） | [CN-Common.list](CN-Common.list) | 673 | 803 | DIRECT |  | v4common, custom |
+| 146 | 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等） | [CN-Common.list](CN-Common.list) | 674 | 803 | DIRECT |  | v4common, custom |

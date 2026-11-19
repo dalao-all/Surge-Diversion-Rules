@@ -1,5 +1,5 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-19",
  "order": [
   "OKX",
   "Binance",
@@ -352,7 +352,7 @@
   },
   "Claude": {
    "name": "Claude",
-   "total": 41,
+   "total": 44,
    "per_source_raw": {
     "v2:anthropic": 21,
     "bm:Claude": 3,
@@ -362,7 +362,7 @@
     "xiaolai:anthropic": 9,
     "sukka-ai:Anthropic / Claude": 4,
     "bm:Anthropic": 3,
-    "custom": 7
+    "custom": 17
    },
    "dropped": {
     "不支持的类型/非法": 5,
@@ -376,9 +376,9 @@
     "DOMAIN-SUFFIX,anthropic.com.cn"
    ],
    "count": {
-    "DOMAIN": 6,
-    "DOMAIN-SUFFIX": 30,
-    "DOMAIN-KEYWORD": 2,
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 33,
+    "DOMAIN-KEYWORD": 3,
     "IP-CIDR": 1,
     "IP-CIDR6": 1,
     "IP-ASN": 1
@@ -386,7 +386,7 @@
   },
   "ChatGPT": {
    "name": "ChatGPT / OpenAI",
-   "total": 31,
+   "total": 30,
    "per_source_raw": {
     "v2:openai": 20,
     "bm:OpenAI": 25,
@@ -405,7 +405,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 4,
-    "DOMAIN-SUFFIX": 21,
+    "DOMAIN-SUFFIX": 20,
     "DOMAIN-KEYWORD": 3,
     "IP-CIDR": 2,
     "IP-ASN": 1
@@ -478,7 +478,7 @@
   },
   "AI-Other": {
    "name": "其他 AI（Perplexity/Copilot/HuggingFace/Mistral/OpenRouter/Windsurf/Poe/Groq/…）",
-   "total": 78,
+   "total": 77,
    "per_source_raw": {
     "vpsd:perplexity": 4,
     "vpsd:copilot": 28,
@@ -526,7 +526,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 22,
-    "DOMAIN-SUFFIX": 55,
+    "DOMAIN-SUFFIX": 54,
     "DOMAIN-KEYWORD": 1
    }
   },
@@ -2604,7 +2604,7 @@
    "total": 1340,
    "per_source_raw": {
     "bm:Alibaba": 57,
-    "v2:alibaba": 342,
+    "v2:alibaba": 343,
     "v4dep:alibaba-shared": 1263,
     "custom": 0
    },
@@ -2674,10 +2674,10 @@
   },
   "CN-XiaoMi": {
    "name": "小米集团共享",
-   "total": 151,
+   "total": 150,
    "per_source_raw": {
     "bm:XiaoMi": 157,
-    "v2:xiaomi": 53,
+    "v2:xiaomi": 52,
     "v4dep:xiaomi-iot-shared": 4,
     "custom": 0
    },
@@ -2688,7 +2688,7 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN-SUFFIX": 142,
+    "DOMAIN-SUFFIX": 141,
     "IP-CIDR": 9
    }
   },
@@ -2724,7 +2724,7 @@
   },
   "CN-Common": {
    "name": "国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等）",
-   "total": 673,
+   "total": 674,
    "per_source_raw": {
     "v4common": 803,
     "custom": 0
@@ -2735,7 +2735,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 37,
-    "DOMAIN-SUFFIX": 626,
+    "DOMAIN-SUFFIX": 627,
     "DOMAIN-KEYWORD": 9,
     "DOMAIN-WILDCARD": 1
    }
@@ -2827,6 +2827,48 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
+   "rule": "DOMAIN-SUFFIX,growthbook.io",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,hcaptcha.com",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,stripe.com",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,stripe.network",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,stripecdn.com",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,siftscience.com",
+   "kept_in": "AI-Common",
+   "removed_from": "Claude",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,challenges.cloudflare.com",
+   "kept_in": "Claude",
+   "removed_from": "ChatGPT",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
    "rule": "DOMAIN-SUFFIX,statsigapi.net",
    "kept_in": "AI-Common",
    "removed_from": "ChatGPT",
@@ -2834,7 +2876,7 @@
   },
   {
    "rule": "DOMAIN-SUFFIX,challenges.cloudflare.com",
-   "kept_in": "ChatGPT",
+   "kept_in": "Claude",
    "removed_from": "AI-Other",
    "reason": "完全重复，归优先级更高的 App"
   },
@@ -2853,6 +2895,12 @@
   {
    "rule": "DOMAIN-SUFFIX,intercomcdn.com",
    "kept_in": "ChatGPT",
+   "removed_from": "AI-Other",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,segment.io",
+   "kept_in": "Claude",
    "removed_from": "AI-Other",
    "reason": "完全重复，归优先级更高的 App"
   },
@@ -6535,12 +6583,6 @@
    "reason": "完全重复，归优先级更高的 App"
   },
   {
-   "rule": "DOMAIN-SUFFIX,saxyit.com",
-   "kept_in": "CN-XiaoMi",
-   "removed_from": "CN-Common",
-   "reason": "完全重复，归优先级更高的 App"
-  },
-  {
    "rule": "DOMAIN-SUFFIX,sogo.com",
    "kept_in": "CN-Tencent",
    "removed_from": "CN-Common",
@@ -6623,12 +6665,6 @@
    "kept_in": "CN-Tencent",
    "removed_from": "CN-Common",
    "reason": "完全重复，归优先级更高的 App"
-  },
-  {
-   "rule": "DOMAIN,cdn.growthbook.io",
-   "kept_in": "AI-Common",
-   "removed_from": "Claude",
-   "reason": "被前序 growthbook.io 后缀覆盖（死规则）"
   },
   {
    "rule": "DOMAIN,openai-api.arkoselabs.com",

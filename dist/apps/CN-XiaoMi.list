@@ -1,9 +1,9 @@
 # NAME: CN-XiaoMi — 小米集团共享
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-11-17
+# BUILT: 2026-11-19
 # SUGGESTED POLICY: DIRECT
 # SOURCES: bm:XiaoMi | v2:xiaomi | v4dep:xiaomi-iot-shared | custom
-# COUNT: DOMAIN-SUFFIX=142 IP-CIDR=9 TOTAL=151
+# COUNT: DOMAIN-SUFFIX=141 IP-CIDR=9 TOTAL=150
 # NOTE: 国内 App；v2fly 仅取非 @!cn 条目
 DOMAIN-SUFFIX,mi0.cc
 DOMAIN-SUFFIX,mi1.cc
@@ -102,7 +102,6 @@ DOMAIN-SUFFIX,miyun.com
 DOMAIN-SUFFIX,openvela.com
 DOMAIN-SUFFIX,peijian.com
 DOMAIN-SUFFIX,qinghedaxue.com
-DOMAIN-SUFFIX,saxyit.com
 DOMAIN-SUFFIX,timipc.com
 DOMAIN-SUFFIX,wali.com
 DOMAIN-SUFFIX,xiaoaiassist.com

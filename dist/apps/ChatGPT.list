@@ -1,9 +1,9 @@
 # NAME: ChatGPT — ChatGPT / OpenAI
 # REPO: https://github.com/dalao-all/Surge-Diversion-Rules
-# BUILT: 2026-11-17
+# BUILT: 2026-11-19
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:openai | bm:OpenAI | acl:OpenAi.list | vpsd:openai | sukka-ai:OpenAI / ChatGPT | custom
-# COUNT: DOMAIN=4 DOMAIN-SUFFIX=21 DOMAIN-KEYWORD=3 IP-CIDR=2 IP-ASN=1 TOTAL=31
+# COUNT: DOMAIN=4 DOMAIN-SUFFIX=20 DOMAIN-KEYWORD=3 IP-CIDR=2 IP-ASN=1 TOTAL=30
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaiassets.blob.core.windows.net
@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,oaistatic.com
