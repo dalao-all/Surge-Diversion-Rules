@@ -352,7 +352,7 @@
   },
   "Claude": {
    "name": "Claude",
-   "total": 44,
+   "total": 43,
    "per_source_raw": {
     "v2:anthropic": 21,
     "bm:Claude": 3,
@@ -362,7 +362,7 @@
     "xiaolai:anthropic": 9,
     "sukka-ai:Anthropic / Claude": 4,
     "bm:Anthropic": 3,
-    "custom": 17
+    "custom": 16
    },
    "dropped": {
     "不支持的类型/非法": 5,
@@ -380,7 +380,6 @@
     "DOMAIN-SUFFIX": 33,
     "DOMAIN-KEYWORD": 3,
     "IP-CIDR": 1,
-    "IP-CIDR6": 1,
     "IP-ASN": 1
    }
   },

@@ -3,7 +3,7 @@
 # BUILT: 2026-11-19
 # SUGGESTED POLICY: 美国家宽
 # SOURCES: v2:anthropic | bm:Claude | acl:Claude.list | acl:ClaudeAI.list | vpsd:anthropic | xiaolai:anthropic | sukka-ai:Anthropic / Claude | bm:Anthropic | custom
-# COUNT: DOMAIN=5 DOMAIN-SUFFIX=33 DOMAIN-KEYWORD=3 IP-CIDR=1 IP-CIDR6=1 IP-ASN=1 TOTAL=44
+# COUNT: DOMAIN=5 DOMAIN-SUFFIX=33 DOMAIN-KEYWORD=3 IP-CIDR=1 IP-ASN=1 TOTAL=43
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 DOMAIN,o1158394.ingest.us.sentry.io
@@ -46,5 +46,4 @@ DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,modelcontextprotocol
 IP-CIDR,160.79.104.0/21,no-resolve
-IP-CIDR6,2607:6bc0::/48,no-resolve
 IP-ASN,399358,no-resolve

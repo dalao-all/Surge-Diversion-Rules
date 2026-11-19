@@ -16,8 +16,8 @@
  },
  "vpsd": {
   "url": "https://github.com/VPSDance/ai-proxy-rules.git",
-  "commit": "d8e216c8349a2de02d6322d99fa7d20f8cb4bd9d",
-  "date": "2026-11-18"
+  "commit": "6b36d2320dac6668b589e62f96a9c7fdaae622c0",
+  "date": "2026-11-19"
  },
  "xiaolai": {
   "url": "https://github.com/xiaolai/anthropic-claude-surge-rules-set.git",
