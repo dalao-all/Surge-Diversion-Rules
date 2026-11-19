@@ -7,3 +7,14 @@ IP-ASN,399358
 IP-CIDR,160.79.104.0/21
 IP-CIDR6,2607:6bc0::/48
 DOMAIN-SUFFIX,anthropic.com.cn
+# one-exit (wquguru) Claude 关联服务：遥测/风控/支付/验证（2026-11-19）
+DOMAIN-KEYWORD,modelcontextprotocol
+DOMAIN-SUFFIX,growthbook.io
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN-SUFFIX,segment.io
