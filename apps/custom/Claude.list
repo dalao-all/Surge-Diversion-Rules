@@ -2,10 +2,9 @@
 DOMAIN-SUFFIX,anthropic.ai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
-# Anthropic 官方 IP（AS399358）
+# Anthropic 官方 IP（AS399358，IPv4 only；用户已关闭 IPv6，IPv6 一律拒绝）
 IP-ASN,399358
 IP-CIDR,160.79.104.0/21
-IP-CIDR6,2607:6bc0::/48
 DOMAIN-SUFFIX,anthropic.com.cn
 # one-exit (wquguru) Claude 关联服务：遥测/风控/支付/验证（2026-11-19）
 DOMAIN-KEYWORD,modelcontextprotocol
