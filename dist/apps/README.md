@@ -1,6 +1,6 @@
 # 按 App 规则集（dist/apps）
 
-构建日期：2026-11-19。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
+构建日期：2026-11-23。每个 App 一个文件，内容为多个上游同名规则的并集（去重、剔除国内共用域名、跨 App 冲突按优先级归属）。
 
 引用格式：`RULE-SET,https://raw.githubusercontent.com/dalao-all/Surge-Diversion-Rules/main/dist/apps/<App>.list,<策略>`
 
@@ -155,4 +155,4 @@
 | 143 | 小米集团共享 | [CN-XiaoMi.list](CN-XiaoMi.list) | 150 | 157 | DIRECT |  | bm:XiaoMi, v2:xiaomi, v4dep:xiaomi-iot-shared, custom |
 | 144 | 链家/贝壳集团共享 | [CN-Lianjia.list](CN-Lianjia.list) | 0 | 5 | DIRECT |  | v2:lianjia, v4dep:lianjia-shared, custom |
 | 145 | 合合信息集团共享 | [CN-Intsig.list](CN-Intsig.list) | 1 | 5 | DIRECT |  | v2:intsig, v4dep:intsig-shared, custom |
-| 146 | 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等） | [CN-Common.list](CN-Common.list) | 674 | 803 | DIRECT |  | v4common, custom |
+| 146 | 国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等） | [CN-Common.list](CN-Common.list) | 677 | 806 | DIRECT |  | v4common, custom |

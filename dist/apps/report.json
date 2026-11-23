@@ -1,5 +1,5 @@
 {
- "built": "2026-11-19",
+ "built": "2026-11-23",
  "order": [
   "OKX",
   "Binance",
@@ -2723,9 +2723,9 @@
   },
   "CN-Common": {
    "name": "国内通用基础设施（无法归属单一 App：Sukka domestic/direct、企业内网等）",
-   "total": 674,
+   "total": 677,
    "per_source_raw": {
-    "v4common": 803,
+    "v4common": 806,
     "custom": 0
    },
    "dropped": {},
@@ -2733,8 +2733,8 @@
    "removed_overlap_cn": [],
    "kept_overlap_cn_custom": [],
    "count": {
-    "DOMAIN": 37,
-    "DOMAIN-SUFFIX": 627,
+    "DOMAIN": 39,
+    "DOMAIN-SUFFIX": 628,
     "DOMAIN-KEYWORD": 9,
     "DOMAIN-WILDCARD": 1
    }
