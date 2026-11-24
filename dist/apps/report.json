@@ -1,5 +1,5 @@
 {
- "built": "2026-11-23",
+ "built": "2026-11-24",
  "order": [
   "OKX",
   "Binance",
@@ -412,10 +412,10 @@
   },
   "Gemini": {
    "name": "Gemini / Google AI",
-   "total": 54,
+   "total": 55,
    "per_source_raw": {
-    "v2:google-gemini": 49,
-    "v2:google-deepmind": 49,
+    "v2:google-gemini": 50,
+    "v2:google-deepmind": 50,
     "bm:Gemini": 10,
     "acl:Gemini.list": 10,
     "vpsd:google-ai": 50,
@@ -433,7 +433,7 @@
    "kept_overlap_cn_custom": [],
    "count": {
     "DOMAIN": 15,
-    "DOMAIN-SUFFIX": 37,
+    "DOMAIN-SUFFIX": 38,
     "DOMAIN-KEYWORD": 2
    }
   },
@@ -591,7 +591,7 @@
    "name": "Google（搜索/Chrome/Gmail/地图/云端硬盘/Play/FCM/Authenticator）",
    "total": 735,
    "per_source_raw": {
-    "v2:google": 945,
+    "v2:google": 946,
     "bm:Google": 695,
     "bm:GoogleDrive": 5,
     "bm:GoogleEarth": 16,
@@ -2977,6 +2977,12 @@
   },
   {
    "rule": "DOMAIN-SUFFIX,ai.studio",
+   "kept_in": "Gemini",
+   "removed_from": "Google",
+   "reason": "完全重复，归优先级更高的 App"
+  },
+  {
+   "rule": "DOMAIN-SUFFIX,gemma.ai",
    "kept_in": "Gemini",
    "removed_from": "Google",
    "reason": "完全重复，归优先级更高的 App"
