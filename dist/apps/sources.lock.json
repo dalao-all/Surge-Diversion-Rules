@@ -1,8 +1,8 @@
 {
  "v2fly": {
   "url": "https://github.com/v2fly/domain-list-community.git",
-  "commit": "e5f669692b33c189efc96cb1a972c69b390bbbc8",
-  "date": "2026-11-25"
+  "commit": "99b3169c537639873b56499d3412232b52b6b59b",
+  "date": "2026-11-27"
  },
  "bm": {
   "url": "https://github.com/blackmatrix7/ios_rule_script.git",
@@ -16,8 +16,8 @@
  },
  "vpsd": {
   "url": "https://github.com/VPSDance/ai-proxy-rules.git",
-  "commit": "1fe3a3db476eaae38837a3690daf57838faf6ca0",
-  "date": "2026-11-25"
+  "commit": "90a2e0b38aae31065c5c48ca2c90502176473ec2",
+  "date": "2026-11-26"
  },
  "xiaolai": {
   "url": "https://github.com/xiaolai/anthropic-claude-surge-rules-set.git",
@@ -26,11 +26,11 @@
  },
  "sukka": {
   "url": "https://github.com/SukkaW/Surge.git",
-  "commit": "cb2876a055ed622e97eb17cd0fcd6f74cb0b5ebb",
-  "date": "2026-11-23"
+  "commit": "03e8353579dee3d9dd47c3e253db7b81ccad6f3b",
+  "date": "2026-11-26"
  },
  "official:telegram": {
   "url": "https://core.telegram.org/resources/cidr.txt",
-  "fetched": "2026-11-26"
+  "fetched": "2026-11-27"
  }
 }
