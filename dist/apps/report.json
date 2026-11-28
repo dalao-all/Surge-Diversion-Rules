@@ -1,5 +1,5 @@
 {
- "built": "2026-11-27",
+ "built": "2026-11-28",
  "order": [
   "OKX",
   "Binance",
@@ -505,7 +505,7 @@
     "sukka-ai:GitHub Copilot": 0,
     "sukka-ai:groq": 1,
     "sukka-ai:OpenRouter AI - Unified Relay": 1,
-    "sukka-ai:Windsurf (formerly Codeium)": 3,
+    "sukka-ai:Windsurf (formerly Codeium)": 2,
     "sukka-ai:Meta AI": 1,
     "bm:Copilot": 40,
     "sukka-ai:Cloudflare AI Gateway": 1,
